@@ -1,0 +1,10 @@
+﻿source_id,path,exists,rows_or_items,required,freshness,status,warning_reason
+latest_manifest,fixture\latest_manifest.json,True,1,True,available,available,
+mt5_account_snapshot,fixture\mt5_read_only,True,1,False,available,available,
+mt5_positions_snapshot,fixture\mt5_read_only,True,1,False,available,available,
+mt5_shadow_decisions,fixture\mt5_shadow,True,2,False,available,available,
+riskguard_decisions,fixture\riskguard,True,1,False,available,available,
+demo_order_sender,fixture\sender,True,2,False,available,available,
+demo_position_manager,fixture\manager,True,1,False,available,available,
+ai_analyst_reports,fixture\ai,True,1,False,available,available,
+

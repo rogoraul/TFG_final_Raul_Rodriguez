@@ -1,0 +1,4 @@
+risk,where_seen,impact,market_group_bias_risk,mitigation
+sql_groups_not_represented_in_wavecount_candidates,"Commodities, Crypto, Forex Exotic",WaveCount 2.5.6 evidence only covers a subset of available SQL market groups.,medium,Do not generalize 2.5.6 policy to unrepresented groups without separate audit.
+bucket_distribution_differs_by_market_group,phase256_policy_bucket by resolved_market_group,Exclusion percentage spread across represented groups is 5.42 percentage points.,low,Keep group-stratified reporting in 2.5.7; avoid treating score distribution as fully cross-market normalized.
+prominence_distribution_differs_by_market_group,prominence_vs_window median by group,Median prominence spread across represented groups is 0.1517.,medium,Consider future group/symbol-timeframe percentile diagnostics before hardening thresholds.

@@ -1,0 +1,6 @@
+flag,expected,any_true,status
+is_signal,False,False,passed
+can_execute_order,False,False,passed
+would_send_to_mt5,False,False,passed
+would_send_telegram_order,False,False,passed
+wavecount_used_as_filter,False,False,passed

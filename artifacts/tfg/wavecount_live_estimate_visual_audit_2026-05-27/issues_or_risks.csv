@@ -1,0 +1,6 @@
+severity,risk,description,recommendation
+info,contract_or_security_failure,0 blocking contract/security checks failed.,Block any integration if this is non-zero.
+high,late_context_can_be_misread_as_current,"US500 and XAUUSD.r remain derived from late confirmed context, even with latest-close estimate.","Use study-panel wording, not main-dashboard current-wave wording."
+medium,unclear_label_plausibility,1 labels are visually unclear or borderline.,Require broader real-OHLC review before SQL/dashboard.
+medium,invalidated_old_context_wording,Invalidated rows may be read as fresh bearish context if wording is too terse.,Consider future label invalidated_old_context/no_current_wave_context.
+info,non_operational_guard,Decision is live_estimate_study_panel_only; Telegram and bot remain forbidden.,Keep can_generate_signal/can_filter_trade/can_execute_order false.

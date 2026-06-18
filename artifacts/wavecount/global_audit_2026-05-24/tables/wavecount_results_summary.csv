@@ -1,0 +1,17 @@
+component,metric,value,interpretation
+H4/D1 profile,yes,3,base principal
+H4/D1 profile,near_miss,9,revision/control
+H4/D1 profile,no,42,negativos/no usar
+H1/H4 auxiliary,yes_aux,4,auxiliar/zoom
+H1/H4 auxiliary,near_miss_aux,8,auxiliar/zoom
+H1/H4 auxiliary,no,42,negativos/no usar
+Prominence,scale_problem_cases,20,regla blanda candidata
+H4/D1 intermediate profile,ready_for_soft_rule,,formalize as primary descriptive profile with no execution output
+H1/H4 auxiliary profile,auxiliary_only,,keep as auxiliary zoom and comparison layer
+prominence/size penalty,ready_for_soft_rule,,"add soft penalty, especially for too_small_for_timeframe and short duration"
+EWO role support,ready_as_context_only,,keep relative wave-role context; leave EWO+SVM as future experimental work
+EMA/HTF context,ready_as_context_only,,"use as soft regime/ambiguity filter, not hard validation"
+ABC contextual,experimental,,keep out of impulse profile; use only contextual corrections with parent
+partial 1-2-3,ready_as_context_only,,"allow only provisional context, not profile seeds"
+major context,ready_as_context_only,,use to frame H4/D1 intermediate structures
+minor substructure,auxiliary_only,,keep as substructure or negative/near-miss evidence

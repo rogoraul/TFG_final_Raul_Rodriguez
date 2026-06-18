@@ -1,0 +1,7 @@
+check_id,check,status,evidence,value,timeframe,symbols,return_rows
+CORR_SRC_01,source_ohlc_artifact_exists,passed,artifacts\tfg\trading_center_sql_market_data_readonly_v1_2026-05-31\ohlc_mtf.csv,nan,nan,nan,nan
+CORR_SRC_02,source_rows,passed,nan,442597.0,nan,nan,nan
+CORR_TF_M15,timeframe_returns_available,passed,nan,nan,M15,60.0,4087.0
+CORR_TF_H1,timeframe_returns_available,passed,nan,nan,H1,60.0,3829.0
+CORR_TF_H4,timeframe_returns_available,passed,nan,nan,H4,60.0,3121.0
+CORR_TF_D1,timeframe_returns_available,passed,nan,nan,D1,60.0,2097.0

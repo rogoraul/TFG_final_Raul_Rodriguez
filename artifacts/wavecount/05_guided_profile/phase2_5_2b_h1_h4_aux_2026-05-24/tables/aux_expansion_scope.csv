@@ -1,0 +1,2 @@
+expansion_scope,symbols,timeframe,htf_timeframe,ltf_rows_per_symbol,htf_rows,rules_changed,signals_generated,notes
+h1_h4_auxiliary_windows,EURUSD.r|GBPUSD.r|USDJPY.r|AUDJPY.r|EURJPY.r|GBPJPY.r|XAUUSD.r|XAGUSD.r|XPTUSD|XPDUSD|AUS200|HK50|US500|US30,H1,H4,1100,520,False,False,Auxiliary diagnostic only; H4/D1 remains primary.

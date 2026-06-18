@@ -1,0 +1,189 @@
+enrichment_id,symbol,timeframe,side,last_macd_cross_time,bars_since_macd_cross,macd_cross_state,reconstruction_status
+macd_breakout_enrichment_v1|AUS200|H1|BUY|1422,AUS200,H1,BUY,2026-06-08 14:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|AUS200|H1|SELL|1423,AUS200,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|CHINA50|H1|BUY|646,CHINA50,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|CHINA50|H1|SELL|646,CHINA50,H1,SELL,2026-06-08 08:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURO50|H1|BUY|657,EURO50,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURO50|H1|SELL|658,EURO50,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|FRA40|H1|BUY|601,FRA40,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|FRA40|H1|SELL|602,FRA40,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GER40|H1|BUY|528,GER40,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|GER40|H1|SELL|528,GER40,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|HK50|H1|BUY|675,HK50,H1,BUY,,,,watchlist_pending
+macd_breakout_enrichment_v1|HK50|H1|SELL|676,HK50,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|ITA40|H1|BUY|244,ITA40,H1,BUY,2026-04-30 15:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|ITA40|H1|SELL|245,ITA40,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|JP225|H1|BUY|842,JP225,H1,BUY,2026-06-08 09:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|JP225|H1|SELL|843,JP225,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|SPA35|H1|BUY|357,SPA35,H1,BUY,,,,missing_context
+macd_breakout_enrichment_v1|SPA35|H1|SELL|358,SPA35,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|UK100|H1|BUY|581,UK100,H1,BUY,2026-06-08 12:00:00,2.0,recent,reconstructed
+macd_breakout_enrichment_v1|UK100|H1|SELL|582,UK100,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|US100|H1|BUY|718,US100,H1,BUY,2026-06-08 07:00:00,7.0,stale,reconstructed
+macd_breakout_enrichment_v1|US100|H1|SELL|720,US100,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|US30|H1|BUY|687,US30,H1,BUY,2026-06-08 12:00:00,2.0,recent,reconstructed
+macd_breakout_enrichment_v1|US30|H1|SELL|689,US30,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|US500|H1|BUY|714,US500,H1,BUY,2026-06-08 09:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|US500|H1|SELL|716,US500,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|AUDCAD.r|H1|BUY|559,AUDCAD.r,H1,BUY,2026-06-08 04:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDCAD.r|H1|SELL|560,AUDCAD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|AUDJPY.r|H1|BUY|638,AUDJPY.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDJPY.r|H1|SELL|637,AUDJPY.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|AUDNZD.r|H1|BUY|297,AUDNZD.r,H1,BUY,2026-06-08 03:00:00,11.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDNZD.r|H1|SELL|299,AUDNZD.r,H1,SELL,2026-06-08 06:00:00,8.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDUSD.r|H1|BUY|641,AUDUSD.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDUSD.r|H1|SELL|640,AUDUSD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|CADCHF.r|H1|BUY|563,CADCHF.r,H1,BUY,2026-06-05 02:00:00,36.0,stale,reconstructed
+macd_breakout_enrichment_v1|CADCHF.r|H1|SELL|562,CADCHF.r,H1,SELL,2026-06-08 13:00:00,1.0,recent,reconstructed
+macd_breakout_enrichment_v1|CADJPY.r|H1|BUY|597,CADJPY.r,H1,BUY,2026-06-08 06:00:00,8.0,stale,reconstructed
+macd_breakout_enrichment_v1|CADJPY.r|H1|SELL|595,CADJPY.r,H1,SELL,2026-06-08 08:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|CHFJPY.r|H1|BUY|574,CHFJPY.r,H1,BUY,2026-06-08 14:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|CHFJPY.r|H1|SELL|572,CHFJPY.r,H1,SELL,2026-06-08 10:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURAUD.r|H1|BUY|1814,EURAUD.r,H1,BUY,2026-06-05 16:00:00,22.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURAUD.r|H1|SELL|1813,EURAUD.r,H1,SELL,2026-06-08 04:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURCAD.r|H1|BUY|460,EURCAD.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURCAD.r|H1|SELL|461,EURCAD.r,H1,SELL,2026-06-04 18:00:00,44.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURCHF.r|H1|BUY|359,EURCHF.r,H1,BUY,2026-06-08 02:00:00,12.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURCHF.r|H1|SELL|358,EURCHF.r,H1,SELL,2026-06-05 23:00:00,15.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURGBP.r|H1|BUY|348,EURGBP.r,H1,BUY,2026-06-08 02:00:00,12.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURGBP.r|H1|SELL|349,EURGBP.r,H1,SELL,2026-06-08 14:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURJPY.r|H1|BUY|1664,EURJPY.r,H1,BUY,2026-06-08 14:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURJPY.r|H1|SELL|1664,EURJPY.r,H1,SELL,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURNZD.r|H1|BUY|533,EURNZD.r,H1,BUY,,,,missing_context
+macd_breakout_enrichment_v1|EURNZD.r|H1|SELL|534,EURNZD.r,H1,SELL,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURUSD.r|H1|BUY|1689,EURUSD.r,H1,BUY,2026-06-08 06:00:00,8.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURUSD.r|H1|SELL|1690,EURUSD.r,H1,SELL,2026-06-05 15:00:00,23.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPAUD.r|H1|BUY|547,GBPAUD.r,H1,BUY,2026-06-05 04:00:00,34.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPAUD.r|H1|SELL|546,GBPAUD.r,H1,SELL,2026-06-08 04:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPCAD.r|H1|BUY|465,GBPCAD.r,H1,BUY,2026-06-08 06:00:00,8.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPCAD.r|H1|SELL|464,GBPCAD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GBPCHF.r|H1|BUY|512,GBPCHF.r,H1,BUY,2026-06-08 03:00:00,11.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPCHF.r|H1|SELL|511,GBPCHF.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GBPJPY.r|H1|BUY|635,GBPJPY.r,H1,BUY,2026-06-08 14:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|GBPJPY.r|H1|SELL|633,GBPJPY.r,H1,SELL,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|GBPNZD.r|H1|BUY|529,GBPNZD.r,H1,BUY,,,,missing_context
+macd_breakout_enrichment_v1|GBPNZD.r|H1|SELL|530,GBPNZD.r,H1,SELL,2026-06-08 04:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPUSD.r|H1|BUY|615,GBPUSD.r,H1,BUY,2026-06-08 07:00:00,7.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPUSD.r|H1|SELL|613,GBPUSD.r,H1,SELL,2026-06-05 16:00:00,22.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDCAD.r|H1|BUY|558,NZDCAD.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDCAD.r|H1|SELL|557,NZDCAD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|NZDCHF.r|H1|BUY|559,NZDCHF.r,H1,BUY,2026-06-08 04:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDCHF.r|H1|SELL|559,NZDCHF.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|NZDJPY.r|H1|BUY|588,NZDJPY.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDJPY.r|H1|SELL|587,NZDJPY.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|NZDUSD.r|H1|BUY|603,NZDUSD.r,H1,BUY,2026-06-08 05:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDUSD.r|H1|SELL|602,NZDUSD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|USDCAD.r|H1|BUY|423,USDCAD.r,H1,BUY,2026-06-05 17:00:00,21.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDCAD.r|H1|SELL|423,USDCAD.r,H1,SELL,2026-06-08 09:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|USDCHF.r|H1|BUY|607,USDCHF.r,H1,BUY,,,,watchlist_pending
+macd_breakout_enrichment_v1|USDCHF.r|H1|SELL|606,USDCHF.r,H1,SELL,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|USDJPY|H1|BUY|1871,USDJPY,H1,BUY,2026-03-17 03:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDJPY|H1|SELL|1871,USDJPY,H1,SELL,2026-03-16 02:00:00,31.0,stale,reconstructed
+macd_breakout_enrichment_v1|XAGEUR.r|H1|BUY|649,XAGEUR.r,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|XAGEUR.r|H1|SELL|651,XAGEUR.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|XAGUSD.r|H1|BUY|926,XAGUSD.r,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|XAGUSD.r|H1|SELL|928,XAGUSD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|XAUEUR.r|H1|BUY|623,XAUEUR.r,H1,BUY,2026-06-08 12:00:00,2.0,recent,reconstructed
+macd_breakout_enrichment_v1|XAUEUR.r|H1|SELL|625,XAUEUR.r,H1,SELL,2026-06-05 15:00:00,22.0,stale,reconstructed
+macd_breakout_enrichment_v1|XAUUSD.r|H1|BUY|757,XAUUSD.r,H1,BUY,2026-06-08 12:00:00,2.0,recent,reconstructed
+macd_breakout_enrichment_v1|XAUUSD.r|H1|SELL|758,XAUUSD.r,H1,SELL,2026-06-05 15:00:00,22.0,stale,reconstructed
+macd_breakout_enrichment_v1|XCUUSD.r|H1|BUY|305,XCUUSD.r,H1,BUY,2026-06-08 09:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|XCUUSD.r|H1|SELL|307,XCUUSD.r,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|XPDUSD|H1|BUY|1737,XPDUSD,H1,BUY,2026-06-08 10:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|XPDUSD|H1|SELL|1736,XPDUSD,H1,SELL,,,,watchlist_pending
+macd_breakout_enrichment_v1|XPTUSD|H1|BUY|1199,XPTUSD,H1,BUY,2026-06-08 11:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|XPTUSD|H1|SELL|1199,XPTUSD,H1,SELL,,,,missing_context
+macd_breakout_enrichment_v1|AUS200|H4|BUY|408,AUS200,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|AUS200|H4|SELL|408,AUS200,H4,SELL,2026-06-03 20:00:00,13.0,stale,reconstructed
+macd_breakout_enrichment_v1|CHINA50|H4|BUY|198,CHINA50,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|CHINA50|H4|SELL|198,CHINA50,H4,SELL,2026-06-04 04:00:00,13.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURO50|H4|BUY|222,EURO50,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|EURO50|H4|SELL|222,EURO50,H4,SELL,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|FRA40|H4|BUY|200,FRA40,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|FRA40|H4|SELL|200,FRA40,H4,SELL,2026-06-05 20:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|GER40|H4|BUY|159,GER40,H4,BUY,2026-06-05 08:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|GER40|H4|SELL|157,GER40,H4,SELL,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|HK50|H4|BUY|225,HK50,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|HK50|H4|SELL|225,HK50,H4,SELL,2026-06-03 16:00:00,16.0,stale,reconstructed
+macd_breakout_enrichment_v1|ITA40|H4|BUY|94,ITA40,H4,BUY,2026-04-30 16:00:00,1.0,recent,reconstructed
+macd_breakout_enrichment_v1|ITA40|H4|SELL|95,ITA40,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|JP225|H4|BUY|262,JP225,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|JP225|H4|SELL|262,JP225,H4,SELL,2026-06-04 00:00:00,14.0,stale,reconstructed
+macd_breakout_enrichment_v1|SPA35|H4|BUY|132,SPA35,H4,BUY,2026-06-05 08:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|SPA35|H4|SELL|134,SPA35,H4,SELL,2026-06-08 08:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|UK100|H4|BUY|176,UK100,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|UK100|H4|SELL|177,UK100,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|US100|H4|BUY|225,US100,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|US100|H4|SELL|225,US100,H4,SELL,2026-06-03 12:00:00,17.0,stale,reconstructed
+macd_breakout_enrichment_v1|US30|H4|BUY|212,US30,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|US30|H4|SELL|212,US30,H4,SELL,2026-06-05 20:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|US500|H4|BUY|220,US500,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|US500|H4|SELL|220,US500,H4,SELL,2026-06-01 20:00:00,27.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDCAD.r|H4|BUY|160,AUDCAD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|AUDCAD.r|H4|SELL|159,AUDCAD.r,H4,SELL,2026-06-03 08:00:00,18.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDJPY.r|H4|BUY|171,AUDJPY.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|AUDJPY.r|H4|SELL|170,AUDJPY.r,H4,SELL,2026-06-03 08:00:00,18.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDNZD.r|H4|BUY|117,AUDNZD.r,H4,BUY,2026-06-01 08:00:00,30.0,stale,reconstructed
+macd_breakout_enrichment_v1|AUDNZD.r|H4|SELL|118,AUDNZD.r,H4,SELL,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|AUDUSD.r|H4|BUY|165,AUDUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|AUDUSD.r|H4|SELL|164,AUDUSD.r,H4,SELL,2026-06-03 04:00:00,19.0,stale,reconstructed
+macd_breakout_enrichment_v1|CADCHF.r|H4|BUY|133,CADCHF.r,H4,BUY,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|CADCHF.r|H4|SELL|132,CADCHF.r,H4,SELL,2026-06-04 12:00:00,11.0,stale,reconstructed
+macd_breakout_enrichment_v1|CADJPY.r|H4|BUY|174,CADJPY.r,H4,BUY,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|CADJPY.r|H4|SELL|172,CADJPY.r,H4,SELL,2026-06-05 20:00:00,3.0,recent,reconstructed
+macd_breakout_enrichment_v1|CHFJPY.r|H4|BUY|160,CHFJPY.r,H4,BUY,2026-06-04 20:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|CHFJPY.r|H4|SELL|158,CHFJPY.r,H4,SELL,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURAUD.r|H4|BUY|668,EURAUD.r,H4,BUY,2026-06-03 16:00:00,16.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURAUD.r|H4|SELL|669,EURAUD.r,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|EURCAD.r|H4|BUY|147,EURCAD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|EURCAD.r|H4|SELL|148,EURCAD.r,H4,SELL,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURCHF.r|H4|BUY|151,EURCHF.r,H4,BUY,2026-06-01 12:00:00,29.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURCHF.r|H4|SELL|150,EURCHF.r,H4,SELL,2026-06-04 20:00:00,9.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURGBP.r|H4|BUY|133,EURGBP.r,H4,BUY,2026-06-04 00:00:00,14.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURGBP.r|H4|SELL|133,EURGBP.r,H4,SELL,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURJPY.r|H4|BUY|743,EURJPY.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|EURJPY.r|H4|SELL|742,EURJPY.r,H4,SELL,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|EURNZD.r|H4|BUY|141,EURNZD.r,H4,BUY,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURNZD.r|H4|SELL|142,EURNZD.r,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|EURUSD.r|H4|BUY|670,EURUSD.r,H4,BUY,2026-06-04 12:00:00,11.0,stale,reconstructed
+macd_breakout_enrichment_v1|EURUSD.r|H4|SELL|670,EURUSD.r,H4,SELL,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|GBPAUD.r|H4|BUY|140,GBPAUD.r,H4,BUY,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPAUD.r|H4|SELL|139,GBPAUD.r,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GBPCAD.r|H4|BUY|142,GBPCAD.r,H4,BUY,,,,watchlist_pending
+macd_breakout_enrichment_v1|GBPCAD.r|H4|SELL|142,GBPCAD.r,H4,SELL,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|GBPCHF.r|H4|BUY|150,GBPCHF.r,H4,BUY,2026-06-08 08:00:00,0.0,recent,reconstructed
+macd_breakout_enrichment_v1|GBPCHF.r|H4|SELL|149,GBPCHF.r,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GBPJPY.r|H4|BUY|167,GBPJPY.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|GBPJPY.r|H4|SELL|166,GBPJPY.r,H4,SELL,2026-06-03 12:00:00,17.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPNZD.r|H4|BUY|139,GBPNZD.r,H4,BUY,2026-06-01 12:00:00,29.0,stale,reconstructed
+macd_breakout_enrichment_v1|GBPNZD.r|H4|SELL|140,GBPNZD.r,H4,SELL,,,,missing_context
+macd_breakout_enrichment_v1|GBPUSD.r|H4|BUY|170,GBPUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|GBPUSD.r|H4|SELL|168,GBPUSD.r,H4,SELL,2026-06-05 12:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|NZDCAD.r|H4|BUY|137,NZDCAD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|NZDCAD.r|H4|SELL|136,NZDCAD.r,H4,SELL,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDCHF.r|H4|BUY|140,NZDCHF.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|NZDCHF.r|H4|SELL|139,NZDCHF.r,H4,SELL,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDJPY.r|H4|BUY|165,NZDJPY.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|NZDJPY.r|H4|SELL|164,NZDJPY.r,H4,SELL,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|NZDUSD.r|H4|BUY|169,NZDUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|NZDUSD.r|H4|SELL|168,NZDUSD.r,H4,SELL,2026-06-01 16:00:00,28.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDCAD.r|H4|BUY|141,USDCAD.r,H4,BUY,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|USDCAD.r|H4|SELL|141,USDCAD.r,H4,SELL,2026-06-05 08:00:00,6.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDCHF.r|H4|BUY|176,USDCHF.r,H4,BUY,2026-06-05 16:00:00,4.0,recent,reconstructed
+macd_breakout_enrichment_v1|USDCHF.r|H4|SELL|175,USDCHF.r,H4,SELL,2026-06-04 16:00:00,10.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDJPY|H4|BUY|746,USDJPY,H4,BUY,2026-03-11 12:00:00,22.0,stale,reconstructed
+macd_breakout_enrichment_v1|USDJPY|H4|SELL|747,USDJPY,H4,SELL,2026-03-16 08:00:00,5.0,recent,reconstructed
+macd_breakout_enrichment_v1|XAGEUR.r|H4|BUY|371,XAGEUR.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XAGEUR.r|H4|SELL|371,XAGEUR.r,H4,SELL,,,,watchlist_pending
+macd_breakout_enrichment_v1|XAGUSD.r|H4|BUY|537,XAGUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XAGUSD.r|H4|SELL|537,XAGUSD.r,H4,SELL,,,,watchlist_pending
+macd_breakout_enrichment_v1|XAUEUR.r|H4|BUY|198,XAUEUR.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XAUEUR.r|H4|SELL|199,XAUEUR.r,H4,SELL,2026-06-05 04:00:00,7.0,stale,reconstructed
+macd_breakout_enrichment_v1|XAUUSD.r|H4|BUY|242,XAUUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XAUUSD.r|H4|SELL|242,XAUUSD.r,H4,SELL,2026-06-05 04:00:00,7.0,stale,reconstructed
+macd_breakout_enrichment_v1|XCUUSD.r|H4|BUY|138,XCUUSD.r,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XCUUSD.r|H4|SELL|139,XCUUSD.r,H4,SELL,2026-06-03 16:00:00,16.0,stale,reconstructed
+macd_breakout_enrichment_v1|XPDUSD|H4|BUY|1079,XPDUSD,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XPDUSD|H4|SELL|1078,XPDUSD,H4,SELL,,,,watchlist_pending
+macd_breakout_enrichment_v1|XPTUSD|H4|BUY|793,XPTUSD,H4,BUY,,,,missing_context
+macd_breakout_enrichment_v1|XPTUSD|H4|SELL|792,XPTUSD,H4,SELL,,,,watchlist_pending

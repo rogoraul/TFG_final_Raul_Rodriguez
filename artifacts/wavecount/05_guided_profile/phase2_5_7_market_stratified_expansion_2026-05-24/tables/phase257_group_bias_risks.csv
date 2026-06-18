@@ -1,0 +1,4 @@
+risk,where_seen,impact,market_group_bias_risk,mitigation
+sql_group_unrepresented_in_wavecount_phase257,"Commodities, Crypto, Forex Exotic",No extrapolar conclusiones de WaveCount a estos grupos.,medium,Mantener fuera de 2.5.7 y abrir auditoria separada si se usan.
+phase257_exclusion_distribution_differs_by_group,phase257_policy_bucket by resolved_market_group,Spread de exclusiones entre grupos: 5.56 puntos porcentuales.,low,Reportar estratificado; no comparar scores brutos como normalizados.
+prominence_distribution_differs_by_group,phase257_prominence_percentiles_by_group,Spread de mediana de prominencia entre grupos: 0.2353.,medium,Abrir percentiles por grupo/simbolo si se endurece la politica.

@@ -1,0 +1,96 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\geometry{margin=2cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\sloppy
+\definecolor{tcTeal}{HTML}{0E7C74}
+\definecolor{tcDark}{HTML}{101817}
+\definecolor{tcMuted}{HTML}{526A65}
+\definecolor{tcWarnBg}{HTML}{FFF7E5}
+\definecolor{tcWarnBorder}{HTML}{C99123}
+\hypersetup{colorlinks=true, urlcolor=tcTeal, linkcolor=tcTeal}
+\begin{document}
+
+\begin{center}
+{\huge\bfseries Informe AI Analyst: EURJPY.r H4 weavecount case}\\[0.25em]
+{\large Reporte read-only para revision humana}
+\end{center}
+
+\vspace{0.2em}
+\hrule height 0.7pt
+\vspace{0.9em}
+
+\begin{tabularx}{\textwidth}{>{\bfseries}p{3.2cm}X}
+Paquete & EURJPY.r H4 W2 c965cce3 \\
+Setup & EURJPY.r H4 weavecount case \\
+Modelo & gpt-5.5 \\
+Thinking & medium \\
+Macro & not requested \\
+Estado & reviewed \\
+\end{tabularx}
+
+\vspace{0.75em}
+\fcolorbox{tcWarnBorder}{tcWarnBg}{%
+\begin{minipage}{0.94\textwidth}
+\textbf{Limite de uso.} Este informe no es una senal, no autoriza MT5 y no ejecuta ordenes. Sirve para priorizar revision humana y documentar el contexto.
+\end{minipage}}
+
+\vspace{0.4em}
+
+\section*{Resumen}
+Revisión estructural de EURJPY.r en H4: el caso aparece como W2? bajista candidata, de calidad media y exclusivamente de estudio. La lectura principal es que el precio ha roto por debajo de la zona de invalidación marcada en 185.183 y cerró en 184.835, lo que debilita de forma material la hipótesis visual original del recuento.
+
+\section*{Lectura tecnica}
+El tramo señalado parte de 185.183 el 2026-05-29 08:00, alcanza W1 en 186.2 el 2026-06-02 12:00 y marca W2? en 185.328 el 2026-06-04 04:00. La activación estructural queda en 186.2 y la invalidación en 185.183. En la última vela enviada, 2026-06-05 16:00, el precio abre en 185.631, marca mínimo en 184.715 y cierra en 184.835, por debajo del nivel de invalidación. Por tanto, la estructura debe tratarse como revisión visual de un caso deteriorado, no como contexto operativo.
+
+\section*{Grafico de referencia}
+\begin{center}
+\includegraphics[width=0.96\textwidth]{\detokenize{ai_analyst_report_chart.png}}
+\end{center}
+
+
+\section*{Lectura de confluencias}
+La caída reciente es coherente con la dirección bajista indicada para el tramo actual; M15 y H1 figuran bajistas, lo que acompaña el movimiento descendente de corto plazo observado en la última parte de la ventana; La última vela H4 muestra expansión clara de rango y volumen de ticks elevado frente a las velas previas, reforzando que la pérdida de nivel no es un cierre menor dentro del ruido inmediato; y El RSI en H1 y M15 aparece en zona muy presionada a la baja, consistente con el impulso vendedor reciente.
+
+\section*{Contradicciones y cautelas}
+La hipótesis W2? queda tensionada porque el cierre más reciente está por debajo de la invalidación estructural de 185.183; H4 y D1 aparecen alcistas en el radar, mientras M15 y H1 son bajistas; no hay alineación entre marcos temporales; El precio llegó a tantear de nuevo la zona alta cerca de 186.2 el 2026-06-05 12:00 antes de caer con fuerza, lo que introduce ruido estructural en la lectura del tramo; y El estado de sobreventa en H1/M15 puede hacer que una lectura bajista tardía sea vulnerable a rebotes técnicos, aunque no repara la invalidación del recuento.
+
+\section*{Riesgos principales}
+Caso de estudio solamente: no es señal, no filtra operaciones y no es ejecutable; La invalidación estructural ya ha sido perforada en la ventana enviada; mantener la etiqueta sin revisión podría inducir una lectura desactualizada del recuento; El mercado está desalineado entre marcos temporales, con presión bajista intradía frente a sesgo H4/D1 alcista; La volatilidad H1 está por encima de su mediana, mientras H4 está por debajo de su mediana; esta mezcla puede producir movimientos bruscos dentro de una estructura mayor aún no resuelta; y El último cierre disponible es de 2026-06-05 16:00 y el radar se generó con datos hasta 2026-06-06; conviene revisar frescura antes de cualquier interpretación posterior.
+
+\section*{Contexto macro y noticias}
+No se solicito lectura macro para este paquete. El informe se limita al contexto tecnico y a los datos estructurados del Trading Center.
+
+\section*{Conclusion operativa y financiera}
+Conclusion operativa y financiera: EURJPY.r queda como weavecount case de revision, no como instruccion de mercado. La prioridad de revision indicada por el analisis es 3/5 y el riesgo macro figura como no solicitado. La interpretacion conjunta debe apoyarse en tres filtros humanos: que el precio confirme el comportamiento descrito en el grafico, que las contradicciones de tendencia o estructura no invaliden el caso, y que no exista un evento macro cercano capaz de distorsionar el movimiento. Sin esas comprobaciones, el informe solo justifica seguimiento y documentacion, no ejecucion.
+
+\section*{Comprobaciones humanas}
+\begin{itemize}
+  \item Verificar manualmente si la pérdida de 185.183 invalida formalmente el W2? o exige reetiquetar el conteo.
+  \item Revisar las velas H4 posteriores a 2026-06-05 16:00 antes de mantener el caso en pantalla.
+  \item Contrastar si la ruptura bajo 185.183 fue cierre efectivo, barrida temporal o dato dependiente del feed.
+  \item Comprobar en H1 si la caída final tiene continuidad estructural o solo movimiento extremo dentro de rango.
+  \item Confirmar que el panel muestra este caso como estudio visual y no como candidato operativo.
+\end{itemize}
+
+\section*{Fuentes}
+\textbf{Fuentes locales}\par
+\begin{tabularx}{\textwidth}{p{4.2cm}X}
+setup\_context.json & Datos estructurados del setup \\
+market\_context.json & Contexto agregado de mercado \\
+ohlc\_window.csv & Ventana de velas OHLC \\
+chart\_layers.csv & Capas dibujadas en el grafico \\
+source\_manifest.json & Trazabilidad del paquete \\
+chart.png & Imagen renderizada del grafico \\
+\end{tabularx}
+
+\end{document}

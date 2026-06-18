@@ -1,0 +1,7 @@
+Periodo,Trades,WR%,AvgWin%,AvgLoss%,R:R,PF,Return%,Sharpe,Sortino,MaxDD%,Calmar,NetProfit,Expectancy,AvgR,ExpectancyR,Exposure%,ReturnOverDrawdown,Variant
+2009-2012,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,experimental_composite_x
+2013-2015,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,experimental_composite_x
+2016-2018,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,experimental_composite_x
+2019-2021,4,50.0,1.06,-0.99,1.07,1.06,0.11,0.06,58.18,1.98,0.05,11.24,2.81,0.033,0.033,0.63,0.06,experimental_composite_x
+2022-2024,4,0.0,0.0,-1.06,0.0,0.0,-4.16,-30.72,-30.72,3.22,-0.96,-416.17,-104.04,-1.056,-1.056,4.27,-1.29,experimental_composite_x
+2025-2026,2,0.0,0.0,-1.04,0.0,0.0,-1.98,-97.88,-97.88,0.98,-2.06,-197.97,-98.99,-1.037,-1.037,0.35,-2.02,experimental_composite_x

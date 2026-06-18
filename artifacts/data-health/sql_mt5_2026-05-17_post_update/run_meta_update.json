@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-05-17T12:00:21",
+  "groups": [
+    "Forex Majors",
+    "Metals",
+    "Index"
+  ],
+  "symbols_total": 47,
+  "timeframes": [
+    "M15",
+    "M30",
+    "H1",
+    "H4",
+    "D1"
+  ],
+  "pairs_total": 235,
+  "market_context": "Sunday 2026-05-17; no weekend candles expected for closed markets",
+  "status": "mt5_connection_failed"
+}

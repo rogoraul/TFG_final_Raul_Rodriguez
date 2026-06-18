@@ -1,0 +1,237 @@
+{
+  "root": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount",
+  "generated_at": "2026-05-22T09:22:18",
+  "indexes_created": 38,
+  "image_links": 1223,
+  "unresolved": 0,
+  "outputs": [
+    {
+      "csv": "artifacts\\wavecount\\phase1_pivots_2026-05-17\\tables\\example_windows.csv",
+      "markdown": "artifacts\\wavecount\\phase1_pivots_2026-05-17\\tables\\example_windows.md",
+      "image_links": 4,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\manual_cases_wave5_review.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\manual_cases_wave5_review.md",
+      "image_links": 6,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_cases_reclassified.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_cases_reclassified.md",
+      "image_links": 32,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_diagnostic_charts.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_diagnostic_charts.md",
+      "image_links": 64,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_endpoint_diagnostics.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_endpoint_diagnostics.md",
+      "image_links": 42,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_manual_interpretation_update.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21\\tables\\wave5_manual_interpretation_update.md",
+      "image_links": 6,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\best_h4_examples.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\best_h4_examples.md",
+      "image_links": 22,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\phase2_3_h4_visual_audit.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\phase2_3_h4_visual_audit.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\phase2_4_h4_d1_context_audit.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\phase2_4_h4_d1_context_audit.md",
+      "image_links": 108,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\user_must_review_h4_d1.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20\\tables\\user_must_review_h4_d1.md",
+      "image_links": 119,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\best_examples_compressed.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\best_examples_compressed.md",
+      "image_links": 11,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\phase2_3_visual_reaudit.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\phase2_3_visual_reaudit.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\phase2_4_context_reaudit.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\phase2_4_context_reaudit.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\user_must_review_compressed.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19\\tables\\user_must_review_compressed.md",
+      "image_links": 57,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_cases_reclassified.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_cases_reclassified.md",
+      "image_links": 17,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_diagnostic_charts.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_diagnostic_charts.md",
+      "image_links": 34,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_diagnostics.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_diagnostics.md",
+      "image_links": 24,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_latest_manual_update_2026-05-22.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_latest_manual_update_2026-05-22.md",
+      "image_links": 3,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_manual_cases_review.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_manual_cases_review.md",
+      "image_links": 3,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\cases_to_downgrade.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\cases_to_downgrade.md",
+      "image_links": 9,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\cases_to_keep.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\cases_to_keep.md",
+      "image_links": 3,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\degree_calibration_issues.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\degree_calibration_issues.md",
+      "image_links": 2,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\manual_feedback_cases.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\manual_feedback_cases.md",
+      "image_links": 12,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\partial_123_issues.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\partial_123_issues.md",
+      "image_links": 3,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\wave5_endpoint_issues.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21\\tables\\wave5_endpoint_issues.md",
+      "image_links": 4,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\tables\\manual_review_template.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\tables\\manual_review_template.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\tables\\visual_review_candidates.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\tables\\visual_review_candidates.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1\\tables\\manual_review_template.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1\\tables\\manual_review_template.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1\\tables\\visual_review_candidates.csv",
+      "markdown": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1\\tables\\visual_review_candidates.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\conflict_cases_review.csv",
+      "markdown": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\conflict_cases_review.md",
+      "image_links": 7,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\user_must_review.csv",
+      "markdown": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\user_must_review.md",
+      "image_links": 26,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\visual_case_reviews.csv",
+      "markdown": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19\\tables\\visual_case_reviews.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h1_m30\\tables\\candidate_context.csv",
+      "markdown": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h1_m30\\tables\\candidate_context.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1\\tables\\candidate_context.csv",
+      "markdown": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1\\tables\\candidate_context.md",
+      "image_links": 54,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\abc_diagnostics_before.csv",
+      "markdown": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\abc_diagnostics_before.md",
+      "image_links": 24,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\abc_focus_cases.csv",
+      "markdown": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\abc_focus_cases.md",
+      "image_links": 5,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\phase2_3_abc_fixed_candidates.csv",
+      "markdown": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\phase2_3_abc_fixed_candidates.md",
+      "image_links": 24,
+      "unresolved": 0
+    },
+    {
+      "csv": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\phase2_4_abc_fixed_context.csv",
+      "markdown": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20\\tables\\phase2_4_abc_fixed_context.md",
+      "image_links": 12,
+      "unresolved": 0
+    }
+  ]
+}

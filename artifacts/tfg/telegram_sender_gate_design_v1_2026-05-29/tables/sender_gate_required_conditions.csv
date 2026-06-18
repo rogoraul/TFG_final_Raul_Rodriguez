@@ -1,0 +1,19 @@
+condition_id,category,required_value,reason,fail_behavior
+telegram_enabled,config,equals true,Global manual switch must be explicit.,block_message
+telegram_mode,config,informational_only,No operational mode exists in v1.,block_message
+requires_manual_enable,config,equals true,Human-controlled activation required.,block_message
+token_source,secret,environment_only and present,"Token may be read only from external environment, never repo.",block_message
+chat_id_source,secret,environment_only and present,"Chat id may be read only from external environment, never repo.",block_message
+send_real_flag,cli,explicit future --send-real,Real sending requires CLI intent.,block_message
+safe_to_send,message,true,Message passed wording safety.,block_message
+pre_gate_send_real,message,false,Message remains non-sent before final sender call.,block_message
+delivery_status,message,preview_allowed,Omitted/manual-only messages cannot be sent automatically.,block_message
+condition_status,message,not no_condition,Must have digest allowance or real event.,block_message
+message_type,message,in allowed_message_types,Unknown message types fail closed.,block_message
+severity,message,in allowed_severities,Severity must be configured.,block_message
+cooldown,delivery,pass,Dedup/cooldown must allow send.,block_message
+max_daily,delivery,pass,Daily cap must allow send.,block_message
+no_action_audit,audit,pass,No operative wording.,block_message
+wavecount,message,study_only/manual if present,WaveCount requires explicit study/manual mode.,block_message
+bot_mt5_flags,system,all false,Bot and MT5 must remain disabled.,block_message
+audit_artifacts,audit,present,"Source, delivery, no-action and run_meta artifacts required.",block_message

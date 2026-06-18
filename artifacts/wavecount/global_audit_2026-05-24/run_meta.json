@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-24T15:41:36",
+  "script": "backtests\\wavecount\\build_wavecount_global_audit.py",
+  "output_dir": "artifacts\\wavecount\\global_audit_2026-05-24",
+  "tables": {
+    "tfg_status_audit": 5,
+    "wavecount_phase_audit": 21,
+    "wavecount_results_summary": 16,
+    "wavecount_open_risks": 7,
+    "wavecount_next_steps": 7,
+    "docs_consistency_audit": 28,
+    "artifacts_consistency_audit": 18,
+    "anti_lookahead_audit": 5,
+    "roadmap_alignment": 6
+  },
+  "h4_yes": 3,
+  "h4_near": 9,
+  "h4_no": 42,
+  "h1_yes": 4,
+  "h1_near": 8,
+  "h1_no": 42,
+  "prominence_problem_cases": 20,
+  "missing_artifact_dirs": 0,
+  "current_table_missing_image_refs": 384,
+  "nested_missing_image_refs": 0,
+  "no_strategy_changes": true,
+  "no_signals_generated": true,
+  "no_backtests_executed": true,
+  "elapsed_seconds": 0.898
+}

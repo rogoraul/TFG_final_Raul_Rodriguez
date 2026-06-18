@@ -1,0 +1,4 @@
+check,status,rows,artifact_rows,chart_layer_rows,policy
+enrichment_integrated,passed,90,150,1363,
+macd_breakout_timing_source,passed,90,,,macd_breakout_setups_only_from_enrichment
+snapshot_not_used_to_fabricate_macd_setup,passed,90,,,missing_enrichment_means_no_macd_breakout_setup

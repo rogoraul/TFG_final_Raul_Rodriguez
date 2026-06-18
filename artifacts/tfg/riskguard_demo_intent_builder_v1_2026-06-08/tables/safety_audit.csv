@@ -1,0 +1,8 @@
+check,observed,expected,status
+can_send_order_any_true,False,False,pass
+order_sent_any_true,False,False,pass
+mt5_connected,False,False,pass
+telegram_connected,False,False,pass
+sql_real_written,False,False,pass
+backtests_executed,False,False,pass
+demo_sender_available,False,False,pass

@@ -1,0 +1,4 @@
+item,status,notes
+is_context,required,Zona visual calculada desde OHLC read-only.
+is_signal,blocked,No genera compra/venta ni recomendacion.
+is_filter,blocked,No filtra ejecucion ni ENBOLSA.

@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\hline
+Estrategia & Bloques & Oper. & \shortstack{Ret. med.\\bloque (\%)} & Bloques + (\%) & PF mediana & MaxDD mediana (\%) \\
+\hline
+macd\_breakout & 9 & 28\,056 & 46,73 & 66,7 & 1,06 & 44,58 \\
+fib\_limit & 9 & 39\,910 & -33,36 & 44,4 & 0,96 & 52,94 \\
+RSI 3TF mean reversion & 9 & 5\,012 & -26,75 & 0,0 & 0,86 & 47,09 \\
+RSI 3TF momentum reentry & 9 & 12\,976 & -77,80 & 11,1 & 0,84 & 85,46 \\
+MA cross 3TF trend & 9 & 13\,588 & -73,74 & 22,2 & 0,90 & 85,65 \\
+BB 3TF pullback reentry & 9 & 22\,302 & -58,88 & 11,1 & 0,90 & 72,36 \\
+\hline
+\end{tabular}
+\caption[Resumen por estrategia del benchmark final]{Resumen por estrategia del benchmark final de comparaci\'on. La etiqueta W2 identifica la versi\'on de cierre del experimento, porque incorpora la correcci\'on aplicada a la directriz W2 de \texttt{macd\_breakout}; no significa que todas las estrategias usen esa directriz. Los valores se agregan sobre nueve bloques independientes, no sobre una cartera \'unica. PF corresponde al factor de beneficio, MaxDD al drawdown m\'aximo, 3TF a la lectura de tres timeframes, MA a medias m\'oviles y BB a bandas de Bollinger. La fuente completa queda registrada en el \'indice de tablas curadas.}
+\label{tab:benchmarks-w2-resumen-estrategia}
+\end{table}

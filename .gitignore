@@ -1,0 +1,154 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Numba artifacts
+*.nbc
+*.nbi
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.fdb_latexmk
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# LaTeX local review builds and template leftovers
+docs/Memoria TFG/memoria_tfg_check.*
+docs/Memoria TFG/memoria_tfg_prism_check.*
+docs/Memoria TFG/ejemplo-memoria.*
+docs/Memoria TFG/README.txt
+docs/Memoria TFG/PLAN_FIGURAS_CAPITULO_4.md
+docs/Memoria TFG/entrega/
+docs/Memoria TFG/artifacts/
+docs/Memoria TFG/anexos/*
+!docs/Memoria TFG/anexos/paquete_entrega/
+!docs/Memoria TFG/anexos/paquete_entrega/**
+docs/Memoria TFG/figs/ETSE.jpg
+docs/Memoria TFG/figs/escudo_logo_UV.jpg
+docs/Memoria TFG/figs/diagrama.*
+docs/Memoria TFG/figs/telegram/
+docs/Memoria TFG/figs/canonicas/README_FIGURAS.md
+docs/Memoria TFG/tex/tables/README_TABLAS.md
+docs/Memoria TFG/bib/README_BIBLIOGRAFIA.md
+docs/Memoria TFG/bib/PLAN_CITAS_POR_CAPITULO.md
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local backtest caches
+backtests/.cache/
+artifacts/benchmark-significance/enbolsa/manual-run/
+artifacts/benchmark-significance/enbolsa/partial-*/
+
+# Generated artifacts and local runtime outputs
+# Keep historical tracked artifacts untouched, but avoid adding new multi-GB
+# validation runs, screenshots, data dumps, and live dashboard logs by default.
+artifacts/**
+!artifacts/.gitkeep
+*.log
+*.pid
+
+# Local temporary work dirs
+.tmp/
+.tmp_*/
+tmp/
+
+# Local Codex/Playwright runtime state
+.codex/
+.claude/
+.playwright-cli/
+
+# Local agent coordination memory
+.github/copilot-instructions.md
+ia-communication/
+copia/
+orchestrator-work/
+
+# Local/private TFG drafting notes and review material
+AGENTS.md
+documentacion/
+docs/revision_tutores/
+docs/memoria_preparacion_spark/
+docs/REVISION_PRISM_MEMORIA_*.md
+docs/TELEGRAM_REAL_MESSAGES_EVIDENCE_2026-06-11.md
+docs/ARCHIVO_HISTORICO_COPIA.md
+docs/AUDITORIA_*.md
+docs/*AUDITORIA*.md
+docs/*AUDIT*.md
+docs/*REVIEW*.md
+docs/*REVISION*.md
+docs/*CHECKPOINT*.md
+docs/*PROMPT*.md
+docs/CODE_CLEANUP_*.md
+docs/CODE_STRUCTURE_*.md
+docs/CIERRE_*.md
+docs/CONTRADICCIONES_CIERRE_TFG.md
+docs/DOCUMENTACION_PROYECTO.md
+docs/DOCUMENTACION_BACKTEST_ENBOLSA.md
+docs/ESTADO_TFG_ACTUAL.md
+docs/NOMENCLATURA_TFG_CIERRE.md
+docs/PLATFORM_PHASE_PROMPT_PACK*.md
+docs/PLATFORM_V2_REVIEW_REFINEMENT.md
+docs/POST_PUSH_*.md
+docs/REPO_*.md
+docs/ROADMAP_TFG_PLATAFORMA.md
+docs/TFG_PLATFORM_MASTER_PLAN_V1.md
+docs/TFG_ROADMAP_POST_WAVECOUNT_2026-05-25.md
+docs/BENCHMARKS_ENBOLSA_WORKSTREAM_LOG.md
+docs/*_DESIGN*.md
+docs/BOT_*.md
+docs/ENBOLSA_*.md
+docs/FIB_*.md
+docs/LIVE_*.md
+docs/MACD_*.md
+docs/SCHEDULER_*.md
+docs/SQL_OPERATIONAL_*.md
+docs/SQL_RUNTIME_*.md
+docs/TELEGRAM_INFORMATIONAL*.md
+docs/TFG_*.md
+docs/TRADING_CENTER_*_DESIGN*.md
+docs/TRADING_CENTER_MARKET_*.md
+docs/TRADING_CENTER_FIBONACCI_*.md
+docs/TRADING_CENTER_READONLY*.md
+docs/TRADING_CENTER_SETUP_*.md
+docs/TRADING_CENTER_VISUAL_*.md
+docs/WAVECOUNT_*.md
+docs/WEAVECOUNT_*.md
+docs/Memoria TFG/guia_estilo_memoria_global.md
+docs/CHECKLIST_CLAIMS_DATOS_MEMORIA.md
+docs/EVIDENCIAS_CANONICAS_MEMORIA_TFG.md
+docs/INDICE_MEMORIA_FINAL_5_CAPITULOS.md
+docs/MARCO_METODOLOGICO_PRE_REDACCION.md
+docs/MEMORIA_SPARK_PREPARATION_GUIDE.md
+docs/TFG_MEMORY_*.md
+
+# Local databases and generated data
+*.db
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

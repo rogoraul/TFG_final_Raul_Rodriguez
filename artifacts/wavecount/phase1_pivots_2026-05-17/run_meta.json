@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-05-17T13:55:49",
+  "finished_at": "2026-05-17T13:56:02",
+  "elapsed_seconds": 13.564224000030663,
+  "config": {
+    "left_bars": 3,
+    "confirmation_bars": 3,
+    "atr_period": 14,
+    "min_atr_multiplier": 0.75,
+    "min_relative_move_pct": 0.001,
+    "min_bars_between_pivots": 2,
+    "candidate_lookback_bars": 4
+  },
+  "examples": [
+    {
+      "example_id": "forex_clean_eurusd_h1",
+      "group": "Forex Majors",
+      "symbol": "EURUSD.r",
+      "timeframe": "H1",
+      "example_type": "clean",
+      "rows": 240
+    },
+    {
+      "example_id": "metals_noisy_xauusd_m30",
+      "group": "Metals",
+      "symbol": "XAUUSD.r",
+      "timeframe": "M30",
+      "example_type": "noisy",
+      "rows": 240
+    },
+    {
+      "example_id": "index_gap_aus200_m30",
+      "group": "Index",
+      "symbol": "AUS200",
+      "timeframe": "M30",
+      "example_type": "gap",
+      "rows": 240
+    },
+    {
+      "example_id": "metals_ambiguous_xptusd_h1",
+      "group": "Metals",
+      "symbol": "XPTUSD",
+      "timeframe": "H1",
+      "example_type": "ambiguous",
+      "rows": 220
+    }
+  ],
+  "outputs": {
+    "pivots_examples": "tables\\pivots_examples.csv",
+    "example_windows": "tables\\example_windows.csv",
+    "charts_dir": "charts",
+    "report": "WAVECOUNT_PHASE1_REPORT.md"
+  },
+  "notes": [
+    "No MT5 update was executed.",
+    "No strategy/backtest/riskguard/live watcher files are modified by the gallery.",
+    "Confirmed pivots must be consumed from pivot_detected_at, not pivot_extreme_time."
+  ]
+}

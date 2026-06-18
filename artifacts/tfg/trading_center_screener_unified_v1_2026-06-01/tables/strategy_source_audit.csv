@@ -1,0 +1,5 @@
+strategy,rows,status
+context_level,12,context_only
+fib_limit,3,context_only
+fibonacci_zone_context,5,context_only
+macd_breakout,94,context_only

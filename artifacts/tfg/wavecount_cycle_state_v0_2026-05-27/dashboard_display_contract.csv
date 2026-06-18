@@ -1,0 +1,5 @@
+display_policy,meaning,bot_allowed
+displayable_in_dashboard,Cycle state is stable and read-only.,False
+show_with_warning,Cycle state is provisional/reset-derived.,False
+manual_review_only,Cycle state is ambiguous or inconsistent.,False
+not_displayable,No useful cycle context.,False

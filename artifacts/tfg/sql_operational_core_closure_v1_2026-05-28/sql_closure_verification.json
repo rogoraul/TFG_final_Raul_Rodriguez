@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-05-28T18:27:46+02:00",
+  "decision": "sql_operational_closure_ready_for_dashboard_design",
+  "schema_name": "trading_ops",
+  "sql_real_consulted": true,
+  "ddl_executed": false,
+  "data_loaded": false,
+  "historical_backfill_loaded": false,
+  "connection_audit": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "database": "trading_data",
+    "has_password": true,
+    "config_source": "host:.env; port:.env; user:.env; password:.env; database:.env",
+    "is_local": true,
+    "secret_values_printed": false
+  },
+  "table_counts": {
+    "snapshot_runs": 1,
+    "live_context_snapshot_rows": 54,
+    "snapshot_source_inventory": 10,
+    "signal_events": 54,
+    "data_health_snapshot": 27
+  },
+  "view_counts": {
+    "v_live_context_latest": 54,
+    "v_dashboard_trading_center": 54,
+    "v_dashboard_watchlist": 54,
+    "v_signal_events_latest": 54,
+    "v_data_health_latest": 27
+  },
+  "run_kind_distribution": {
+    "bootstrap_current": 1
+  },
+  "is_operational_distribution": {
+    "1": 1
+  },
+  "hard_flag_counts": {
+    "can_execute_order_true": 0,
+    "wavecount_should_filter_trade_true": 0,
+    "non_read_only_rows": 0,
+    "visible_backfill_or_test_rows": 0,
+    "snapshot_runs_historical_or_test_operational": 0
+  },
+  "migrations": [
+    {
+      "migration_id": "001_create_operational_core",
+      "checksum": "30a6876dea16855d51ba53393459288ec05a4fa9887edd5ce2c3c4f509b4e091",
+      "description": "Create SQL operational core tables."
+    },
+    {
+      "migration_id": "002_create_operational_core_views",
+      "checksum": "296d8f6eb0887daed7cf51f0796215ee470bc91bea91214a5d94c50655981cfe",
+      "description": "Create SQL operational core views."
+    }
+  ],
+  "export": {
+    "generated": true,
+    "source": "trading_ops.v_live_context_latest",
+    "rows": 54,
+    "csv_path": "artifacts/tfg/sql_operational_core_closure_v1_2026-05-28/export_from_sql/live_context_snapshot_from_sql.csv",
+    "json_path": "artifacts/tfg/sql_operational_core_closure_v1_2026-05-28/export_from_sql/live_context_snapshot_from_sql.json"
+  },
+  "section_results": {
+    "S01_context_audit": "passed",
+    "S02_scope_safety": "passed",
+    "S03_contract_inputs": "passed",
+    "S04_main_tasks": "passed",
+    "S05_outputs_docs": "completed",
+    "S06_validation_closure": "passed"
+  }
+}

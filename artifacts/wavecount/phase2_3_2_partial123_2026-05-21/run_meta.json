@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-05-21T21:36:05",
+  "finished_at": "2026-05-21T21:36:37",
+  "elapsed_seconds": 31.51429249998182,
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21",
+  "inputs": {
+    "h1_m30_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30",
+    "h4_d1_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+    "manual_feedback_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21"
+  },
+  "config": {
+    "post_3_pivots": 3,
+    "min_wave3_extension_of_wave1": 0.8,
+    "min_wave3_breakout_vs_wave1": 0.15,
+    "max_wave2_retrace_warning": 0.95
+  },
+  "rows": {
+    "diagnostics": 24,
+    "reclassified": 17,
+    "manual_cases": 3,
+    "rule_candidates": 4,
+    "diagnostic_charts": 17
+  },
+  "notes": [
+    "Diagnostic only; no strategies, signals, backtests, ABC rules or swing degree calibration changed.",
+    "Post-3 pivots are used only as retrospective diagnostics unless a future live state machine confirms them after latency."
+  ],
+  "outputs": {
+    "partial123_diagnostics": "tables/partial123_diagnostics.csv",
+    "partial123_cases_reclassified": "tables/partial123_cases_reclassified.csv",
+    "partial123_manual_cases_review": "tables/partial123_manual_cases_review.csv",
+    "partial123_rule_candidates": "tables/partial123_rule_candidates.csv",
+    "partial123_interpretation_rules": "tables/partial123_interpretation_rules.csv",
+    "report": "WAVECOUNT_PHASE2_3_2_PARTIAL123_REPORT.md"
+  }
+}

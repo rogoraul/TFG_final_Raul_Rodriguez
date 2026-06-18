@@ -1,0 +1,2 @@
+expansion_scope,symbols,timeframe,htf_timeframe,ltf_rows_per_symbol,htf_rows,source,rules_changed,signals_generated,notes
+controlled_h4_d1_windows,EURUSD.r|GBPUSD.r|USDJPY.r|AUDJPY.r|EURJPY.r|GBPJPY.r|XAUUSD.r|XAGUSD.r|XPTUSD|XPDUSD|AUS200|HK50|US500|US30,H4,D1,900,520,existing SQL OHLCV via WaveCount gallery helpers,False,False,Controlled diagnostic regeneration in a new artifact folder; prior artifacts are not overwritten.

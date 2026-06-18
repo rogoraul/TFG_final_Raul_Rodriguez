@@ -1,0 +1,1 @@
+event_key,symbol,timestamp,side,order_type,entry,sl,tp,tp1,tp2,risk_pct,risk_amount,strategy,source,riskguard_accepted,riskguard_reason,riskguard_detail,riskguard_message

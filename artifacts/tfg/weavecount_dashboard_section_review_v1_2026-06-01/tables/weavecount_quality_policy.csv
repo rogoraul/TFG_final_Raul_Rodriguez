@@ -1,0 +1,4 @@
+quality_status,meaning,rule,allowed_claim,blocked_claim
+fuerte,Mayor soporte visual dentro del screener; no implica senal.,"score >= 5 usando puntos, tramo actual, niveles y confianza.",candidato con estructura visual mas completa,senal fuerte o trade ejecutable
+media,Hipotesis candidata revisable con soporte suficiente.,score >= 3 y < 5.,candidato util para revision grafica,setup operativo
+debil,Soporte limitado o estructura no clara.,score < 3 o no_clear_count.,contexto de baja prioridad,conteo fiable

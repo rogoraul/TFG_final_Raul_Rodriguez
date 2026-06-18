@@ -1,0 +1,7 @@
+{
+  "panel_text": "AI Analyst\nREAD-ONLY\nCerrar\nPrepara paquetes reproducibles y valida una salida fixture. No llama modelos ni envia nada a MT5/Telegram.\nContexto\nScreener / setup\nEstado\nRevisables\nSetup\nCADCHF.r H4 · fib_limit_live_candidate · 2/5\nPreparar revision\nSin modelo real",
+  "has_context": true,
+  "has_setup_state": true,
+  "has_setup_select": true,
+  "screenshot": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\screenshots\\ai_analyst_context_state_controls_8050.png"
+}

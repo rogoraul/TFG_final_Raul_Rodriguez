@@ -1,0 +1,9 @@
+panel,tables_consumed,key_fields,filters_or_states,must_not_allow,implementation_closure_criteria
+system_status,live_context_snapshot + run_meta,"generated_at, freshness, counts by state",status cards; green/amber/red,No strategy recalculation,All freshness and counts visible.
+enbolsa_watchlist,live_context_snapshot,"symbol, side, setup_id, signal_state, missing_confirmation",filter by group/timeframe/state,No buy/sell buttons,Matches watcher watchlist semantics.
+fresh_stale_seen,live_context_snapshot,"entry_ready_new, ready_stale, already_seen",separate tabs/badges,No hidden stale signals,Stale/seen/new impossible to confuse.
+riskguard_exposure,live_context_snapshot,"riskguard_status, projected risk fields",risk bars by total/symbol/currency,No manual override,Accepted/rejected reasons visible.
+wavecount_context,live_context_snapshot,"bucket, degree, wave role, context_status, chart link",badges and chart links,No filter toggles that alter intents,WaveCount shown as context only.
+data_health,live_context_snapshot,"last_closed_bar_time, data_freshness_status",table and alerts,No MT5 execution,Fresh/stale visible per symbol.
+snapshot_history,snapshot archive,"snapshot_id, generated_at, counts",timeline/table,No backtest,User can audit changes over time.
+audit_table,live_context_snapshot,"source_files, notes, can_execute_order",downloadable table,No order execution,Read-only flags visible.

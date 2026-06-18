@@ -1,0 +1,7 @@
+check,observed,expected,status
+order_sent_any_true,False,False,pass
+can_send_order_any_true,False,False,pass
+can_execute_order_any_true,False,False,pass
+would_modify_position_any_true,False,False,pass
+telegram_connected,False,False,pass
+sql_real_written,False,False,pass

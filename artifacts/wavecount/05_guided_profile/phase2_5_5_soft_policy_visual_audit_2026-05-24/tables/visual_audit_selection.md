@@ -1,0 +1,334 @@
+# visual_audit_selection
+
+## 1. impulse_aux252b_forex_audjpy_h1_intermediate_impulse_016
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 69
+
+![005_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_matches/005_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_016.png)
+
+![001_005_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/001_005_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_016.png)
+
+## 2. impulse_aux252b_index_aus200_h1_intermediate_impulse_007
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 58
+
+![007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_matches/007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png)
+
+![002_007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/002_007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png)
+
+## 3. impulse_aux252b_metals_xagusd_h1_major_impulse_025
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 56
+
+![010_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_near_misses/010_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png)
+
+![003_010_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/003_010_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png)
+
+## 4. impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 55
+
+![008_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_matches/008_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png)
+
+![004_008_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/004_008_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png)
+
+## 5. impulse_aux252b_forex_audjpy_h1_major_impulse_006
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 55
+
+![009_impulse_aux252b_forex_audjpy_h1_major_impulse_006.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_near_misses/009_impulse_aux252b_forex_audjpy_h1_major_impulse_006.png)
+
+![005_009_impulse_aux252b_forex_audjpy_h1_major_impulse_006.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/005_009_impulse_aux252b_forex_audjpy_h1_major_impulse_006.png)
+
+## 6. impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 51
+
+![006_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_matches/006_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png)
+
+![006_006_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/006_006_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png)
+
+## 7. impulse_aux252b_index_aus200_h1_major_impulse_028
+- selection_reasons: all_auxiliary_substructure
+- final_soft_quality_bucket: auxiliary_substructure
+- final_soft_quality_score: 45
+
+![011_impulse_aux252b_index_aus200_h1_major_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_near_misses/011_impulse_aux252b_index_aus200_h1_major_impulse_028.png)
+
+![007_011_impulse_aux252b_index_aus200_h1_major_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/007_011_impulse_aux252b_index_aus200_h1_major_impulse_028.png)
+
+## 8. impulse_exp252_forex_eurusd_h4_major_impulse_029
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_low_prominence_vs_window; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 51
+
+![012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png)
+
+![008_012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/008_012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png)
+
+## 9. impulse_exp252_metals_xagusd_h4_minor_impulse_004
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_low_prominence_vs_window; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 50
+
+![002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png)
+
+![009_002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/009_002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png)
+
+## 10. impulse_exp252_forex_audjpy_h4_minor_impulse_022
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_low_prominence_vs_window; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 47
+
+![004_impulse_exp252_forex_audjpy_h4_minor_impulse_022.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/004_impulse_exp252_forex_audjpy_h4_minor_impulse_022.png)
+
+![010_004_impulse_exp252_forex_audjpy_h4_minor_impulse_022.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/010_004_impulse_exp252_forex_audjpy_h4_minor_impulse_022.png)
+
+## 11. impulse_exp252_index_aus200_h4_minor_impulse_028
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_low_prominence_vs_window; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 44
+
+![003_impulse_exp252_index_aus200_h4_minor_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/003_impulse_exp252_index_aus200_h4_minor_impulse_028.png)
+
+![011_003_impulse_exp252_index_aus200_h4_minor_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/011_003_impulse_exp252_index_aus200_h4_minor_impulse_028.png)
+
+## 12. impulse_aux252b_forex_audjpy_h1_minor_impulse_007
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 27
+
+![001_impulse_aux252b_forex_audjpy_h1_minor_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_near_misses/001_impulse_aux252b_forex_audjpy_h1_minor_impulse_007.png)
+
+![012_001_impulse_aux252b_forex_audjpy_h1_minor_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/012_001_impulse_aux252b_forex_audjpy_h1_minor_impulse_007.png)
+
+## 13. impulse_exp252_index_aus200_h4_intermediate_impulse_020
+- selection_reasons: required_aus200_h4_low_prominence_case; top_scoring_excluded_near_threshold; excluded_low_prominence_vs_window; excluded_context_must_not_rescue_bad_count; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 24
+
+![007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png)
+
+![013_007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/013_007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png)
+
+## 14. hard_invalid_aux252b_index_aus200_h1_intermediate_impulse_001
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 9
+
+![048_hard_invalid_aux252b_index_aus200_h1_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_negatives/048_hard_invalid_aux252b_index_aus200_h1_intermediate_impulse_001.png)
+
+![014_048_hard_invalid_aux252b_index_aus200_h1_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/014_048_hard_invalid_aux252b_index_aus200_h1_intermediate_impulse_001.png)
+
+## 15. hard_invalid_aux252b_metals_xagusd_h1_intermediate_impulse_001
+- selection_reasons: top_scoring_excluded_near_threshold; excluded_even_though_ewo_supports_or_partially_supports
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 9
+
+![047_hard_invalid_aux252b_metals_xagusd_h1_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_negatives/047_hard_invalid_aux252b_metals_xagusd_h1_intermediate_impulse_001.png)
+
+![015_047_hard_invalid_aux252b_metals_xagusd_h1_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/015_047_hard_invalid_aux252b_metals_xagusd_h1_intermediate_impulse_001.png)
+
+## 16. hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png)
+
+![016_046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/016_046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png)
+
+## 17. hard_invalid_exp252_forex_audjpy_h4_minor_impulse_001
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![049_hard_invalid_exp252_forex_audjpy_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/049_hard_invalid_exp252_forex_audjpy_h4_minor_impulse_001.png)
+
+![017_049_hard_invalid_exp252_forex_audjpy_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/017_049_hard_invalid_exp252_forex_audjpy_h4_minor_impulse_001.png)
+
+## 18. hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png)
+
+![018_047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/018_047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png)
+
+## 19. hard_invalid_exp252_metals_xagusd_h4_major_impulse_001
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![053_hard_invalid_exp252_metals_xagusd_h4_major_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/053_hard_invalid_exp252_metals_xagusd_h4_major_impulse_001.png)
+
+![019_053_hard_invalid_exp252_metals_xagusd_h4_major_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/019_053_hard_invalid_exp252_metals_xagusd_h4_major_impulse_001.png)
+
+## 20. hard_invalid_exp252_metals_xagusd_h4_minor_impulse_001
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![050_hard_invalid_exp252_metals_xagusd_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/050_hard_invalid_exp252_metals_xagusd_h4_minor_impulse_001.png)
+
+![020_050_hard_invalid_exp252_metals_xagusd_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/020_050_hard_invalid_exp252_metals_xagusd_h4_minor_impulse_001.png)
+
+## 21. near_miss_aux252b_forex_audjpy_h1_intermediate_impulse_005
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![037_near_miss_aux252b_forex_audjpy_h1_intermediate_impulse_005.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_negatives/037_near_miss_aux252b_forex_audjpy_h1_intermediate_impulse_005.png)
+
+![021_037_near_miss_aux252b_forex_audjpy_h1_intermediate_impulse_005.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/021_037_near_miss_aux252b_forex_audjpy_h1_intermediate_impulse_005.png)
+
+## 22. near_miss_aux252b_metals_xagusd_h1_major_impulse_002
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![044_near_miss_aux252b_metals_xagusd_h1_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_negatives/044_near_miss_aux252b_metals_xagusd_h1_major_impulse_002.png)
+
+![022_044_near_miss_aux252b_metals_xagusd_h1_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/022_044_near_miss_aux252b_metals_xagusd_h1_major_impulse_002.png)
+
+## 23. near_miss_aux252b_metals_xagusd_h1_minor_impulse_012
+- selection_reasons: excluded_ema_htf_misleading_warning
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![041_near_miss_aux252b_metals_xagusd_h1_minor_impulse_012.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24/charts/h1_h4_negatives/041_near_miss_aux252b_metals_xagusd_h1_minor_impulse_012.png)
+
+![023_041_near_miss_aux252b_metals_xagusd_h1_minor_impulse_012.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/023_041_near_miss_aux252b_metals_xagusd_h1_minor_impulse_012.png)
+
+## 24. partial_123_exp252_forex_audjpy_h4_intermediate_partial123_002
+- selection_reasons: excluded_context_must_not_rescue_bad_count; clear_negative_low_score_control
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![013_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/013_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_002.png)
+
+![024_013_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/024_013_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_002.png)
+
+## 25. partial_123_exp252_forex_audjpy_h4_intermediate_partial123_004
+- selection_reasons: excluded_context_must_not_rescue_bad_count
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![016_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/016_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_004.png)
+
+![025_016_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/025_016_partial_123_exp252_forex_audjpy_h4_intermediate_partial123_004.png)
+
+## 26. partial_123_exp252_forex_audjpy_h4_minor_partial123_002
+- selection_reasons: excluded_context_must_not_rescue_bad_count
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![017_partial_123_exp252_forex_audjpy_h4_minor_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/017_partial_123_exp252_forex_audjpy_h4_minor_partial123_002.png)
+
+![026_017_partial_123_exp252_forex_audjpy_h4_minor_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/026_017_partial_123_exp252_forex_audjpy_h4_minor_partial123_002.png)
+
+## 27. partial_123_exp252_forex_audjpy_h4_minor_partial123_004
+- selection_reasons: clear_negative_low_score_control
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![020_partial_123_exp252_forex_audjpy_h4_minor_partial123_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/020_partial_123_exp252_forex_audjpy_h4_minor_partial123_004.png)
+
+![027_020_partial_123_exp252_forex_audjpy_h4_minor_partial123_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/027_020_partial_123_exp252_forex_audjpy_h4_minor_partial123_004.png)
+
+## 28. partial_123_exp252_index_aus200_h4_intermediate_partial123_001
+- selection_reasons: excluded_context_must_not_rescue_bad_count; clear_negative_low_score_control
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![015_partial_123_exp252_index_aus200_h4_intermediate_partial123_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/015_partial_123_exp252_index_aus200_h4_intermediate_partial123_001.png)
+
+![028_015_partial_123_exp252_index_aus200_h4_intermediate_partial123_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/028_015_partial_123_exp252_index_aus200_h4_intermediate_partial123_001.png)
+
+## 29. partial_123_exp252_index_aus200_h4_minor_partial123_001
+- selection_reasons: excluded_context_must_not_rescue_bad_count; clear_negative_low_score_control
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![019_partial_123_exp252_index_aus200_h4_minor_partial123_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/019_partial_123_exp252_index_aus200_h4_minor_partial123_001.png)
+
+![029_019_partial_123_exp252_index_aus200_h4_minor_partial123_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/029_019_partial_123_exp252_index_aus200_h4_minor_partial123_001.png)
+
+## 30. partial_123_exp252_metals_xagusd_h4_intermediate_partial123_002
+- selection_reasons: excluded_context_must_not_rescue_bad_count; clear_negative_low_score_control
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![014_partial_123_exp252_metals_xagusd_h4_intermediate_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/014_partial_123_exp252_metals_xagusd_h4_intermediate_partial123_002.png)
+
+![030_014_partial_123_exp252_metals_xagusd_h4_intermediate_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/030_014_partial_123_exp252_metals_xagusd_h4_intermediate_partial123_002.png)
+
+## 31. partial_123_exp252_metals_xagusd_h4_minor_partial123_002
+- selection_reasons: excluded_context_must_not_rescue_bad_count
+- final_soft_quality_bucket: exclude_from_guided_search
+- final_soft_quality_score: 0
+
+![018_partial_123_exp252_metals_xagusd_h4_minor_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/negatives/018_partial_123_exp252_metals_xagusd_h4_minor_partial123_002.png)
+
+![031_018_partial_123_exp252_metals_xagusd_h4_minor_partial123_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/031_018_partial_123_exp252_metals_xagusd_h4_minor_partial123_002.png)
+
+## 32. impulse_exp252_forex_audjpy_h4_intermediate_impulse_002
+- selection_reasons: all_high_quality_structure
+- final_soft_quality_bucket: high_quality_structure
+- final_soft_quality_score: 100
+
+![005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/matches/005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png)
+
+![032_005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/032_005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png)
+
+## 33. impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007
+- selection_reasons: all_usable_provisional_structure
+- final_soft_quality_bucket: usable_provisional_structure
+- final_soft_quality_score: 100
+
+![008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/matches/008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png)
+
+![033_008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/033_008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png)
+
+## 34. impulse_exp252_forex_eurusd_h4_major_impulse_016
+- selection_reasons: all_usable_provisional_structure
+- final_soft_quality_bucket: usable_provisional_structure
+- final_soft_quality_score: 85
+
+![009_impulse_exp252_forex_eurusd_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/009_impulse_exp252_forex_eurusd_h4_major_impulse_016.png)
+
+![034_009_impulse_exp252_forex_eurusd_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/034_009_impulse_exp252_forex_eurusd_h4_major_impulse_016.png)
+
+## 35. impulse_exp252_metals_xagusd_h4_intermediate_impulse_002
+- selection_reasons: all_usable_provisional_structure
+- final_soft_quality_bucket: usable_provisional_structure
+- final_soft_quality_score: 84
+
+![006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/matches/006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png)
+
+![035_006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/035_006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png)
+
+## 36. impulse_exp252_index_aus200_h4_major_impulse_016
+- selection_reasons: all_usable_provisional_structure
+- final_soft_quality_bucket: usable_provisional_structure
+- final_soft_quality_score: 75
+
+![011_impulse_exp252_index_aus200_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/011_impulse_exp252_index_aus200_h4_major_impulse_016.png)
+
+![036_011_impulse_exp252_index_aus200_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/036_011_impulse_exp252_index_aus200_h4_major_impulse_016.png)
+
+## 37. impulse_exp252_metals_xagusd_h4_major_impulse_002
+- selection_reasons: all_usable_provisional_structure
+- final_soft_quality_bucket: usable_provisional_structure
+- final_soft_quality_score: 70
+
+![010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24/charts/near_misses/010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png)
+
+![037_010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/037_010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png)

@@ -1,0 +1,3 @@
+scenario,readiness,recommended_primary_degree,use_in_phase_2_5,main_risk,issue_count
+h1_m30,auxiliary_only,intermediate_auxiliary,case_bank_and_substructure_checks,"degree overlap, microstructure, lateral/corrective ranges",14
+h4_d1,preferred_base_with_manual_review,intermediate,primary visual basis for guided search prototype,major can still be context-only; intermediate must remain provisional,10

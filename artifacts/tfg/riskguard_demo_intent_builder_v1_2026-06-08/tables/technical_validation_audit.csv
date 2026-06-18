@@ -1,0 +1,5 @@
+check,observed,expected,status
+intent_rows_generated,0,>=0,pass
+decision_rows_generated,5,>=0,pass
+can_send_order_any_true,False,False,pass
+order_sent_any_true,False,False,pass

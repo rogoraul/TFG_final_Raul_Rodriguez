@@ -1,0 +1,41 @@
+{
+  "phase": "operational_integration_design_v1",
+  "generated_at": "2026-05-25T09:15:29",
+  "output_dir": "artifacts\\tfg\\operational_integration_design_2026-05-25",
+  "reference_docs": [
+    "docs/TFG_ROADMAP_POST_WAVECOUNT_2026-05-25.md",
+    "docs/ROADMAP_TFG_PLATAFORMA.md",
+    "docs/ESTADO_TFG_ACTUAL.md",
+    "docs/LIVE_SIGNAL_WATCHER_ENBOLSA.md",
+    "docs/RISKGUARD_OPERATIVO.md",
+    "docs/RISKGUARD_ENBOLSA_2026-05-15.md",
+    "docs/REVISION_RIESGO_ENBOLSA_2026-05-15.md",
+    "docs/WAVECOUNT_FASE2_5_10_CIERRE_PERFIL_GUIADO.md",
+    "docs/WAVECOUNT_ARTIFACTS_MANIFEST.md",
+    "docs/CIERRE_EMPIRICO_MENENDEZ_2026-05-14.md",
+    "docs/AUDITORIA_MENENDEZ_2026-05-14.md"
+  ],
+  "reference_artifacts": [
+    "artifacts/tfg/post_wavecount_roadmap_audit_2026-05-25",
+    "artifacts/live-signal-watcher/enbolsa_macd_breakout_v0",
+    "artifacts/benchmark-significance/enbolsa/final",
+    "artifacts/benchmark-significance/enbolsa/risk_sensitivity_2026-05-15",
+    "artifacts/benchmark-significance/enbolsa/riskguard_audit_2026-05-15",
+    "artifacts/wavecount/05_guided_profile/phase2_5_10_guided_profile_closure_2026-05-24"
+  ],
+  "missing_docs": [],
+  "missing_artifacts": [],
+  "new_functionality_implemented": false,
+  "dashboard_created": false,
+  "telegram_created": false,
+  "bot_created": false,
+  "signals_generated": false,
+  "mt5_connected": false,
+  "backtests_executed": false,
+  "strategies_changed": false,
+  "wavecount_changed": false,
+  "wavecount_can_filter_trade_v1": false,
+  "source_of_truth": "live_context_snapshot",
+  "first_implementation_phase": "1_live_context_snapshot_v0",
+  "runtime_seconds": 1.64
+}

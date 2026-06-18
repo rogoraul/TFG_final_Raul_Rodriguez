@@ -1,0 +1,2 @@
+check,expected,observed,status
+account_is_demo,True,True,pass

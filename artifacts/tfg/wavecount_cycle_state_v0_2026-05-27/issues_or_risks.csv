@@ -1,0 +1,5 @@
+severity,risk,description,recommendation
+info,lookahead_guard,Anti look-ahead checks passed.,Keep as hard guardrail.
+info,cycle_resets,4 cycle reset candidates generated.,Review visually before dashboard.
+low,remaining_wave5,0 latest rows remain wave5/completed-style states.,Do not advance if wave5 dominance remains.
+low,ambiguous_cycle_state,0 latest rows are ambiguous.,"If dominant, design deeper state machine."

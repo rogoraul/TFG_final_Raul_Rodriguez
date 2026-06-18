@@ -1,0 +1,9 @@
+rule_candidate,rule_type,strength,use_in_phase25,reason,must_not_do
+h4_d1_intermediate_primary,structure_selection,soft_default,yes,H4/D1 intermediate has the clearest visual balance.,Do not treat as trading signal.
+htf_alignment_soft_filter,context_score,soft,yes,D1 helps regime reading but can lag.,Do not reject all counter-HTF corrections.
+ema_band_ambiguity_penalty,context_score,soft,yes,Inside EMA 50/150 band often marks transition or unclear structure.,Do not invalidate solely because price is in the band.
+ewo_wave3_momentum_support,momentum_context,soft,yes,EWO can support wave 3 expansion interpretation.,Do not label waves from EWO alone.
+ewo_wave5_divergence_warning,momentum_context,soft,yes,Momentum loss can explain wave 5 or truncation risk.,Do not force a top/bottom from divergence.
+abc_requires_parent_context,correction_policy,soft_gate,yes,ABC without parent/context is not a strong correction.,Do not accept isolated 0-A-B-C as clean Elliott correction.
+partial123_provisional_only,state_policy,soft_gate,yes,Partial 1-2-3 can describe current structure but is incomplete.,Do not turn partials into signals.
+wave5_endpoint_uncertainty,state_policy,soft,yes,Endpoint uncertainty should preserve provisionality.,Do not degrade good local counts automatically.

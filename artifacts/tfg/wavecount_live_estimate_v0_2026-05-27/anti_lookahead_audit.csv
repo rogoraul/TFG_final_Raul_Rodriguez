@@ -1,0 +1,5 @@
+symbol,timeframe,as_of_bar_time,latest_close_time,last_persistent_pivot_time,lookahead_safe,source,method_version,latest_close_not_after_as_of
+EURUSD.r,H4,2026-03-17T04:00:00,2026-03-17T04:00:00,2026-01-27T20:00:00,True,wavecount_live_estimate_v0,wavecount_live_estimate_v0,True
+GBPUSD.r,H4,2026-03-17T04:00:00,2026-03-17T04:00:00,2026-01-27T20:00:00,True,wavecount_live_estimate_v0,wavecount_live_estimate_v0,True
+US500,H4,2026-03-17T04:00:00,2026-03-17T04:00:00,2026-02-11T16:00:00,True,wavecount_live_estimate_v0,wavecount_live_estimate_v0,True
+XAUUSD.r,H4,2026-03-17T04:00:00,2026-03-17T04:00:00,2026-02-17T16:00:00,True,wavecount_live_estimate_v0,wavecount_live_estimate_v0,True

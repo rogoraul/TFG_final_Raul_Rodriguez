@@ -1,0 +1,5 @@
+display_policy,meaning,bot_allowed
+displayable_in_dashboard,Persistent wave context is stable enough to show as read-only context.,False
+show_with_warning,"Useful but provisional, late or candidate-driven.",False
+manual_review_only,Ambiguous or unstable; only manual study views.,False
+not_displayable,Insufficient context.,False

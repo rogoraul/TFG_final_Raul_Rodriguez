@@ -1,0 +1,2 @@
+policy_recommendation,percentile_recommendation,can_phase257_advance,must_normalize_before_phase257,sql_groups_available,wavecount_groups_represented,sql_groups_not_represented,exclusion_pct_spread,notes
+keep_global_policy_with_group_warning,use_group_percentile_diagnostics,True,False,"Commodities, Crypto, Forex Exotic, Forex Majors, Index, Metals","Forex Majors, Index, Metals","Commodities, Crypto, Forex Exotic",5.42,2.5.7 can advance only with market-group stratified reporting; do not compare raw scores across groups as fully normalized.

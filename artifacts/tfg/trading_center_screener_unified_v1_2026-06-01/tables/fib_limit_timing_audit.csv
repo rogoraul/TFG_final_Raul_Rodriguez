@@ -1,0 +1,4 @@
+setup_id,symbol,timeframe,direction,timing_state,timing_priority,timing_reason,trigger_level,distance_to_trigger_pct,last_touch_time,bars_since_touch,reaction_detected,reaction_direction,is_late,is_invalidated,entry_review_status
+trading_center_screener_unified_v1|US100|H4|fib_limit_live_candidate|H4,US100,H4,short,entry_review,1,hubo toque OHLC reciente de Fib 61.8; revisar el grafico ahora,24695.419,0.2406,2026-03-16 20:00:00,2,True,down,False,False,review_now
+trading_center_screener_unified_v1|EURNZD.r|H1|fib_limit_live_candidate|H1,EURNZD.r,H1,short,entry_review,1,hubo toque OHLC reciente de Fib 61.8; revisar el grafico ahora,1.9717033,0.0210,2026-03-17 09:00:00,0,False,,False,False,review_now
+trading_center_screener_unified_v1|XCUUSD.r|H1|fib_limit_live_candidate|H1,XCUUSD.r,H1,long,entry_review,1,hubo toque OHLC reciente de Fib 61.8; revisar el grafico ahora,12787.772,0.1247,2026-03-17 09:00:00,0,False,,False,False,review_now

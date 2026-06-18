@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-29T09:33:49",
+  "phase": "bot_dry_run_v1_review",
+  "decision": "bot_dry_run_v1_review_passed",
+  "reviewed_artifact": "artifacts/tfg/bot_dry_run_v1_2026-05-29",
+  "default_ledger_rows": 54,
+  "default_decision_distribution": {
+    "dry_run_blocked_by_config": 54
+  },
+  "enabled_real_snapshot_rows": 54,
+  "enabled_real_snapshot_distribution": {
+    "dry_run_no_action": 54
+  },
+  "enabled_real_snapshot_simulated_intents": 0,
+  "contract_audit_passed": true,
+  "fail_closed_audit_passed": true,
+  "wavecount_audit_passed": true,
+  "boundary_audit_passed": true,
+  "technical_validation_passed": true,
+  "fixes_applied": false,
+  "mt5_connected": false,
+  "mt5_orders_sent": 0,
+  "telegram_connected": false,
+  "telegram_orders_sent": 0,
+  "telegram_command_bot_implemented": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "wavecount_used_as_filter": false,
+  "sql_runtime_ledger_approved": false,
+  "mt5_approved": false,
+  "telegram_command_bot_approved": false
+}

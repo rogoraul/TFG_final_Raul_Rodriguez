@@ -1,0 +1,4 @@
+Benchmark,Group,Activo,LTF,HTF,Inicio,Fin,StartClose,EndClose,Return%,Nota,partial_source
+sp500_buy_hold,Index,US500,H1,H4,2020-04-03 08:00:00,2026-03-17 09:00:00,2498.72,6671.18,166.98,Contextual; no mezclado en tabla principal operativa,partial-index-h1-h4
+sp500_buy_hold,Index,US500,H4,D1,2020-09-28,2026-03-17 04:00:00,3304.64,6691.47,102.49,Contextual; no mezclado en tabla principal operativa,partial-index-h4-d1
+sp500_buy_hold,Index,US500,M30,H1,2020-03-09 16:30:00,2026-03-17 09:30:00,2794.45,6671.18,138.73,Contextual; no mezclado en tabla principal operativa,partial-index-m30-h1

@@ -1,0 +1,2 @@
+issue_id,severity,status,description,mitigation
+CORR_R01,low,closed,Correlations can be misread as trading signals.,Dash labels this section as risk/context only; no orders or signals are generated.

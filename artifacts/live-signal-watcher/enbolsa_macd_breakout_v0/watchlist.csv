@@ -1,0 +1,11 @@
+Group,strategy,symbol,side,setup_id,timestamp,timeframe_ltf,timeframe_htf,watch_state,missing_confirmation,w2_swing,target_1_0,target_1_618,setup_age,event_key
+Forex Majors,enbolsa:macd_breakout,AUDJPY.r,BUY,614,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,111.477,115.167,117.456072,79,
+Forex Majors,enbolsa:macd_breakout,AUDNZD.r,BUY,286,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,1.20628,1.2298,1.24486066,40,
+Forex Majors,enbolsa:macd_breakout,CADJPY.r,SELL,585,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,117.083,115.871,115.103444,114,
+Forex Majors,enbolsa:macd_breakout,EURAUD.r,SELL,1792,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,1.63497,1.5932100000000002,1.5672292800000003,85,
+Forex Majors,enbolsa:macd_breakout,EURCAD.r,BUY,448,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,1.56532,1.57422,1.5797202,34,
+Forex Majors,enbolsa:macd_breakout,GBPCAD.r,BUY,445,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,1.81131,1.8369900000000001,1.8534597000000002,114,
+Forex Majors,enbolsa:macd_breakout,GBPCHF.r,BUY,497,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,1.04324,1.05468,1.0619106,46,
+Forex Majors,enbolsa:macd_breakout,GBPJPY.r,BUY,620,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,210.954,214.799,217.26791,66,
+Forex Majors,enbolsa:macd_breakout,NZDCHF.r,SELL,538,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,0.46154,0.45571000000000006,0.4519587400000001,28,
+Forex Majors,enbolsa:macd_breakout,NZDJPY.r,SELL,569,2026-03-17 09:00:00,H1,H4,watching_confirmation,trendline_break_or_macd_cross_within_memory,93.267,91.352,90.141338,28,

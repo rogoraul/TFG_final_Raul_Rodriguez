@@ -1,0 +1,1 @@
+result_id,request_id,intent_id,symbol,result_status,mt5_retcode,mt5_order_id_hash,mt5_deal_id_hash,error_message,order_sent,created_at_utc

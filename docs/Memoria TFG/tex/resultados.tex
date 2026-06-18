@@ -1,0 +1,744 @@
+% El diseno fino del capitulo se decide durante la redaccion.
+% Antes de introducir cifras, comprobar:
+
+\raggedbottom
+
+\section{Resultados}
+\label{sec:resultados-principales}
+
+\subsection{Estrategias formalizadas y benchmarks}
+\label{subsec:resultados-estrategias-benchmarks}
+
+El primer bloque de resultados corresponde a la evaluaci\'on hist\'orica de las
+estrategias formalizadas y a su comparaci\'on frente a estrategias de
+referencia. La fuente principal para esta parte es el benchmark final de
+comparaci\'on, donde se eval\'uan \texttt{macd\_breakout} y \texttt{fib\_limit}
+junto con reglas cl\'asicas basadas en RSI, cruces de medias y bandas de
+Bollinger. Esta comparaci\'on no se interpreta como una cartera \'unica, sino
+como un conjunto de bloques independientes definidos por grupo de activos y
+timeframe.
+
+Antes de presentar los resultados, conviene recordar una decisi\'on
+metodol\'ogica relevante. En la versi\'on final del benchmark, la directriz W2 de
+\texttt{macd\_breakout} se calcula usando m\'aximos en posiciones largas y
+m\'inimos en posiciones cortas, mientras que la confirmaci\'on de ruptura se
+mantiene por cierre. Esta decisi\'on hace que la directriz sea m\'as coherente con
+la lectura t\'ecnica del tramo correctivo y evita que una ruptura por mecha
+aislada tenga el mismo peso que una ruptura confirmada por cierre. La versi\'on
+final es, por tanto, la referencia principal usada en la memoria. La etiqueta
+W2 identifica esta versi\'on de cierre por la correcci\'on aplicada a
+\texttt{macd\_breakout}; no significa que todas las estrategias de la
+comparaci\'on usen esa directriz.
+
+En las tablas de esta secci\'on, PF corresponde al factor de beneficio, MaxDD al
+drawdown m\'aximo y 3TF a las reglas de referencia que combinan tres timeframes.
+Cuando se habla de relacionar rendimiento y riesgo, el riesgo se aproxima desde
+la propia curva de cada bloque: variabilidad de los retornos, volatilidad
+desfavorable y ca\'ida m\'axima observada. El ajuste consiste en dividir o
+comparar el rendimiento con esas magnitudes, no en aplicar una correcci\'on
+externa al resultado. Aunque el backtest incorpora \textit{spread} y
+comisiones, esta lectura no cubre todos los riesgos de una operativa real, como
+deslizamiento adicional, liquidez o correlaci\'on entre posiciones.
+En este trabajo se considera que una regla funciona mejor cuando combina retorno
+positivo, mayor proporci\'on de bloques favorables, factor de beneficio cercano o
+superior a 1 y ca\'idas m\'aximas m\'as contenidas. Esta lectura evita reducir la
+comparaci\'on a una sola cifra y permite valorar tanto rendimiento como riesgo.
+
+\input{tex/tables/tabla_benchmarks_w2_resumen_estrategia}
+
+\input{tex/tables/tabla_benchmarks_w2_metricas_riesgo}
+
+\input{tex/tables/tabla_benchmark_w2_costes_bruto_neto}
+
+La Tabla~\ref{tab:benchmarks-w2-resumen-estrategia} resume el resultado por
+estrategia sobre nueve bloques independientes: tres grupos de activos
+combinados con tres configuraciones temporales, tal como se define en la
+metodolog\'ia. En esta lectura agregada, \texttt{macd\_breakout} es la regla con
+mejor comportamiento relativo: registra 28.056 operaciones, un retorno mediano
+por bloque del 46,73\%, un 66,7\% de bloques positivos y un factor de beneficio
+mediano de 1,06. Tambi\'en presenta un MaxDD mediano del 44,58\%, inferior al de
+varias reglas de referencia. Estos valores no deben leerse como una promesa de
+rentabilidad futura, pero s\'i muestran que esta formalizaci\'on produce la lectura
+m\'as defendible dentro del escenario estudiado.
+
+El comportamiento de \texttt{fib\_limit} es m\'as irregular. Aunque registra
+39.910 operaciones, su retorno mediano por bloque es negativo, -33,36\%, y su
+factor de beneficio mediano queda en 0,96. Adem\'as, solo el 44,4\% de sus bloques
+terminan en positivo. El detalle por bloques, recogido en la
+\hyperref[sec:anexos-tabla-extendida-benchmark]{tabla extendida del Anexo A},
+muestra
+algunos escenarios favorables, especialmente en \'indices y metales, pero el
+resumen agregado no permite presentarla como una regla estable. Esta diferencia
+es relevante para el TFG: formalizar una idea t\'ecnica no garantiza un resultado
+robusto, pero permite medirla, compararla y detectar d\'onde pierde consistencia.
+
+Las estrategias de referencia muestran, en general, medianas de retorno
+negativas y factores de beneficio medianos inferiores a 1. Esto no significa que
+queden descartadas en cualquier contexto, sino que en esta configuraci\'on
+concreta no ofrecen una lectura m\'as s\'olida que \texttt{macd\_breakout}. La
+comparaci\'on cumple as\'i una funci\'on metodol\'ogica: situar las estrategias
+formalizadas frente a reglas alternativas sencillas y evitar que su evaluaci\'on
+dependa solo de una impresi\'on visual o de casos aislados.
+
+La Tabla~\ref{tab:benchmarks-w2-metricas-riesgo} complementa el resumen anterior
+con m\'etricas que relacionan rendimiento y riesgo. En esa tabla, Exp. R
+corresponde al resultado medio por operaci\'on dividido por el riesgo monetario
+inicial de esa operaci\'on. Expos. med. resume el tiempo agregado en posici\'on
+dentro del bloque. Un valor del 200\% no significa que la muestra dure el doble,
+sino que, al sumar la duraci\'on de todas las posiciones abiertas, la exposici\'on
+equivale aproximadamente a dos veces la ventana temporal observada. Esto puede
+ocurrir cuando varias operaciones permanecen abiertas en paralelo. En esta
+lectura, \texttt{macd\_breakout} mantiene valores positivos en Sharpe, Sortino,
+Calmar y Recovery Factor, mientras que \texttt{fib\_limit} y las estrategias de
+referencia quedan por debajo de cero en estas razones medianas.
+
+La Tabla~\ref{tab:benchmark-w2-costes-bruto-neto} separa el resultado bruto
+antes de comisiones del resultado neto final. La comisi\'on no se aplica como una
+cantidad fija por operaci\'on, sino como un coste asociado al volumen operado y al
+tipo de activo. Por este motivo, dos reglas con distinto n\'umero de operaciones
+pueden presentar un impacto distinto si cambian el tama\~no efectivo de las
+operaciones, la distancia entre entrada y stop o la mezcla de activos. En
+\texttt{macd\_breakout}, las comisiones reducen el resultado bruto positivo
+aproximadamente un 30\%, pero el resultado neto sigue siendo positivo. En
+\texttt{fib\_limit}, el resultado bruto ya es negativo y las comisiones ampl\'ian
+la p\'erdida neta, por lo que su lectura debe ser m\'as prudente. Esta tabla no
+reconstruye una simulaci\'on sin \textit{spread}; solo a\'isla el efecto de las
+comisiones registradas en el \textit{trade log}. Una sensibilidad completa a
+\textit{spread} din\'amico, deslizamiento adicional y liquidez requerir\'ia una
+nueva ejecuci\'on controlada del benchmark.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/canonicas/benchmarks/benchmark_w2_riesgo_retorno_canonico.png}
+\caption[Retorno y drawdown medianos por estrategia]{Relaci\'on entre retorno mediano por bloque y MaxDD mediano por estrategia en el
+benchmark final de comparaci\'on. El panel lateral identifica las estrategias de
+referencia y el n\'umero de operaciones registradas; cada punto resume medianas
+de nueve bloques independientes, por lo que la figura sirve como lectura
+sint\'etica y no como curva de capital conjunta.}
+\label{fig:benchmark-w2-riesgo-retorno}
+\end{figure}
+
+La Figura~\ref{fig:benchmark-w2-riesgo-retorno} permite observar la comparaci\'on
+desde una perspectiva de retorno y ca\'ida m\'axima. En este corte,
+\texttt{macd\_breakout} queda separado del resto al combinar una mediana de
+retorno positiva con un MaxDD mediano inferior al de varias estrategias de
+referencia. \texttt{fib\_limit}, en cambio, aparece en una zona m\'as ambigua:
+mejora a algunas referencias en ca\'ida m\'axima, pero mantiene una mediana de
+retorno negativa. Esta lectura refuerza la necesidad de interpretar los
+resultados con varias m\'etricas y no solo por retorno agregado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figs/canonicas/benchmarks/benchmark_w2_resultado_acumulado_trade_canonico.png}
+\caption[Resultado acumulado por operaci\'on en el benchmark final]{Resultado acumulado por operaci\'on en el benchmark final de comparaci\'on. La figura
+agrupa las operaciones cerradas por estrategia y las expresa en una unidad
+comparable: el resultado de cada operaci\'on dividido por el riesgo inicial
+asumido en esa misma operaci\'on. A continuaci\'on, esos valores se acumulan seg\'un
+el orden de cierre registrado. La l\'inea resultante es una suma acumulada de
+observaciones normalizadas; no reinvierte resultados, no actualiza el capital
+disponible entre operaciones y no representa una cartera temporal conjunta.
+Sirve como lectura complementaria de la estabilidad y direcci\'on del resultado.}
+\label{fig:benchmark-w2-resultado-acumulado-trade}
+\end{figure}
+
+La Figura~\ref{fig:benchmark-w2-resultado-acumulado-trade} refuerza la misma
+idea desde una perspectiva secuencial. \texttt{macd\_breakout} mantiene una
+trayectoria acumulada positiva en relaci\'on con el riesgo asumido en cada
+operaci\'on, aunque con retrocesos intermedios relevantes. El eje vertical no se
+lee como porcentaje ni como importe monetario. Representa una suma de resultados
+ya expresados respecto al riesgo inicial de cada operaci\'on; por ejemplo, un
+valor de 150 significa que la serie acumula 150 unidades de riesgo, no un 150\%
+de rentabilidad. Desde el punto de vista del tratamiento de datos, cada operaci\'on
+se incorpora como una observaci\'on ya normalizada y la serie se construye por
+suma directa, sin que el resultado anterior modifique el peso de la operaci\'on
+siguiente.
+\texttt{fib\_limit} y las estrategias de referencia quedan por debajo de cero en
+esta lectura. Esta figura ayuda a visualizar por qu\'e el retorno debe
+interpretarse junto con las m\'etricas de riesgo y drawdown, no como una cifra
+aislada.
+
+La exposici\'on temporal a\~nade otra cautela importante. Las dos reglas
+principales presentan una exposici\'on mediana superior al 100\%: 202,58\% en
+\texttt{macd\_breakout} y 286,50\% en \texttt{fib\_limit}. Esto ocurre porque
+dentro de algunos bloques se solapan operaciones de distintos activos, de modo
+que la suma de duraciones abiertas puede ser mayor que la ventana temporal
+observada. Esta magnitud no debe leerse directamente como apalancamiento real,
+pero s\'i indica que la comparaci\'on de riesgo no depende solo del retorno o del
+drawdown. Para una operativa real har\'ia falta controlar tambi\'en concentraci\'on,
+correlaci\'on entre posiciones y exposici\'on agregada.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/canonicas/benchmarks/benchmark_w2_costes_bruto_neto_macd_fib_canonico.png}
+\caption[Comparaci\'on bruto/neto por comisiones en reglas principales]{Comparaci\'on entre resultado acumulado bruto antes de comisiones y resultado neto despu\'es de comisiones para \texttt{macd\_breakout} y \texttt{fib\_limit}. La figura usa operaciones ordenadas por cierre dentro del \textit{trade log} can\'onico. No representa una cartera \'unica ni una simulaci\'on independiente sin \textit{spread}.}
+\label{fig:benchmark-w2-costes-bruto-neto}
+\end{figure}
+
+La Figura~\ref{fig:benchmark-w2-costes-bruto-neto} permite ver el efecto de
+las comisiones sobre las dos reglas principales. En
+\texttt{macd\_breakout}, la distancia entre la curva bruta y la curva neta es
+amplia, pero no cambia el signo del resultado final. En \texttt{fib\_limit},
+la curva neta queda por debajo de la bruta durante casi todo el recorrido y
+refuerza la conclusi\'on de que esta regla no puede defenderse como estable en
+el corte experimental utilizado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figs/canonicas/benchmarks/benchmark_w2_heatmap_returnpct_canonico.png}
+\caption[Retorno por bloque en el benchmark final]{Retorno por bloque en el benchmark final de comparaci\'on. Cada celda representa
+un bloque independiente, por lo que la figura muestra dispersi\'on entre
+configuraciones y no una curva de capital conjunta.}
+\label{fig:benchmark-w2-heatmap-returnpct}
+\end{figure}
+
+La Figura~\ref{fig:benchmark-w2-heatmap-returnpct} matiza la lectura agregada
+porque muestra la dispersi\'on de resultados por bloque. En especial, permite ver
+que \texttt{macd\_breakout} no es uniforme en todos los grupos y timeframes:
+tiene bloques positivos destacados, pero tambi\'en bloques negativos.
+Por este motivo, la conclusi\'on del benchmark debe formularse con prudencia. El
+resultado principal no es que exista una estrategia lista para operar en real.
+La formalizaci\'on y evaluaci\'on por bloques permiten identificar qu\'e regla
+tiene mejor comportamiento relativo. Tambi\'en ayudan a detectar d\'onde aparecen
+debilidades y qu\'e partes requieren validaci\'on adicional.
+
+En algunos bloques concretos aparecen retornos muy elevados, especialmente
+cuando una regla genera miles de operaciones durante toda la ventana de datos.
+Estos valores no deben leerse como rentabilidad anual ni como resultado global
+de una cartera, sino como el resultado acumulado de un bloque experimental bajo
+los supuestos de simulaci\'on definidos. Por ello, la comparaci\'on principal se
+apoya en la mediana entre bloques, el drawdown, el factor de beneficio y las
+m\'etricas ajustadas al riesgo. El detalle por bloque se recoge en la tabla
+extendida del
+\hyperref[sec:anexos-tabla-extendida-benchmark]{Anexo A}.
+
+\subsection{L\'inea Men\'endez}
+\label{subsec:resultados-menendez}
+
+La segunda l\'inea de resultados corresponde a la formalizaci\'on experimental
+del enfoque de Men\'endez aplicado a una lectura de Elliott en varios timeframes.
+A diferencia del bloque anterior, esta parte no se plantea como el
+eje emp\'irico principal del TFG. Se entiende como una prueba metodol\'ogica de una
+idea m\'as compleja: comprobar si una lectura visual basada en impulso,
+correcci\'on, retroceso y confirmaci\'on puede traducirse a reglas calculables y
+evaluarse de forma reproducible.
+
+La ejecuci\'on de cierre se realiz\'o sobre nueve s\'imbolos de divisas
+principales, utilizando M30 como timeframe operativo y H4 como timeframe superior de contexto. Se
+evaluaron tres variantes: una versi\'on principal con filtro SMA200, una variante
+menos restrictiva basada en una condici\'on alternativa de disparo y una variante
+compuesta de car\'acter exploratorio. No se optimizaron reglas para mejorar el
+resultado final, ya que el objetivo de esta fase era cerrar la l\'inea con
+evidencia, no forzar una mejora de rentabilidad.
+
+\input{tex/tables/tabla_menendez_variantes}
+
+Los resultados de la Tabla~\ref{tab:menendez-variantes} muestran que ninguna
+de las variantes obtiene una lectura positiva. La variante principal registra
+45 operaciones, una tasa de acierto del 26,7\%, un retorno del -18,71\% y un
+factor de beneficio de 0,42. La variante \textit{Trigger OR} mejora
+parcialmente el resultado, con 49 operaciones, una tasa de acierto del 32,7\%,
+un retorno del -10,64\% y un factor de beneficio de 0,68, pero sigue sin
+alcanzar una lectura operativa favorable. La variante compuesta reduce la
+p\'erdida agregada hasta el -6,03\%, aunque lo hace con solo 10 operaciones y un
+factor de beneficio de 0,26, por lo que no puede interpretarse como una mejora
+robusta.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\textwidth]{figs/canonicas/menendez/menendez_variantes_riesgo_retorno_canonico.png}
+\caption[Variantes Men\'endez: retorno y drawdown]{Relaci\'on entre retorno observado y MaxDD observado en las variantes
+Men\'endez evaluadas. El tama\~no del punto representa el n\'umero de
+operaciones registradas; la figura resume una validaci\'on acotada, no una
+propuesta operativa.}
+\label{fig:menendez-variantes-riesgo-retorno}
+\end{figure}
+
+La Figura~\ref{fig:menendez-variantes-riesgo-retorno} permite ver la misma
+comparaci\'on desde una lectura de riesgo y retorno. La variante menos
+restrictiva mejora a la principal en ca\'ida m\'axima y retorno observado, pero
+sigue quedando por debajo de cero. La variante compuesta reduce la p\'erdida
+agregada, aunque con muy pocas operaciones. Por ello, la figura ayuda a
+visualizar el resultado sin cambiar su interpretaci\'on: la l\'inea Men\'endez se
+cierra como experimento metodol\'ogico, no como estrategia validada para uso
+operativo.
+
+La lectura del embudo de se\~nales ayuda a interpretar este resultado. La
+formalizaci\'on s\'i genera condiciones intermedias, setups y candidatos, por lo
+que no se trata de una implementaci\'on vac\'ia o incapaz de detectar
+estructuras. Sin embargo, la conversi\'on desde contexto te\'orico hasta entrada
+final es baja. Muchos casos se pierden al exigir que coincidan la correcci\'on,
+la ruptura, las condiciones de momento y una estructura de entrada con stop y
+objetivo suficientemente definida.
+
+Por tanto, la l\'inea Men\'endez queda cerrada como un resultado metodol\'ogico
+acotado. Su aportaci\'on al TFG no es demostrar una estrategia rentable. Permite
+documentar el proceso de formalizaci\'on de una lectura Elliott compleja y
+mostrar sus l\'imites emp\'iricos bajo una prueba controlada. Tambi\'en justifica
+por qu\'e el trabajo mantiene \texttt{macd\_breakout} como bloque cuantitativo m\'as
+defendible. Esta conclusi\'on refuerza adem\'as una idea central del proyecto:
+una teor\'ia t\'ecnica puede ser \'util como marco de interpretaci\'on, pero
+necesita una validaci\'on separada antes de ser tratada como se\~nal operativa.
+
+\subsection{WaveCount y WeaveCount}
+\label{subsec:resultados-wavecount-weavecount}
+
+El tercer bloque de resultados corresponde a WaveCount y WeaveCount, la parte
+del sistema dedicada a representar estructura de precio mediante hip\'otesis de
+ondas. A diferencia de las estrategias evaluadas mediante backtesting, esta capa
+no se dise\~n\'o para generar entradas ni para medir rentabilidad, sino para
+comprobar si una lectura estructural pod\'ia convertirse en informaci\'on
+revisable dentro de la plataforma. Por ello, sus resultados deben interpretarse
+como contexto de estudio y no como se\~nales operativas.
+
+\input{tex/tables/tabla_wavecount_contexto}
+
+La Tabla~\ref{tab:wavecount-contexto} resume la auditor\'ia contextual de
+WaveCount. En los casos revisados no se detectan violaciones de
+\textit{look-ahead}, ni en H4:D1 ni en los casos auxiliares H1:H4 y M30:H1.
+Este resultado respalda el corte auditado, aunque no sustituye una prueba
+exhaustiva sobre todos los activos, periodos y configuraciones posibles. Al
+mismo tiempo, la tabla muestra que el contexto no siempre mejora la
+interpretaci\'on: en muchos
+casos no debe rescatar un conteo d\'ebil, en otros explica ambig\"uedad y solo en
+una parte menor confirma un caso favorable.
+Las filas de esta tabla deben leerse como etiquetas de auditor\'ia y no como
+categor\'ias exhaustivas o mutuamente excluyentes. Un mismo caso puede contribuir
+a m\'as de una lectura, por ejemplo cuando una revisi\'on explica ambig\"uedad y a
+la vez aconseja no usar el contexto como rescate autom\'atico.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\textwidth]{figs/canonicas/wavecount/wavecount_escalas_y_contraste_compacto_canonico.png}
+\caption[Conteos estructurales WaveCount por escala]{Ejemplos de conteos estructurales generados por WaveCount en distintas
+escalas y un caso descartado. Los paneles A, B y C muestran lecturas
+favorables de escala mayor, intermedia y menor; el panel D muestra un conteo
+invalidado. La figura ilustra la lectura estructural de estudio, no se\~nales
+operativas.}
+\label{fig:wavecount-conteos-ejemplos}
+\end{figure}
+
+La Figura~\ref{fig:wavecount-conteos-ejemplos} muestra por qu\'e esta capa
+aporta algo diferente a una tabla de resultados. Los conteos permiten revisar
+visualmente la hip\'otesis estructural y comparar escalas de lectura dentro de
+una misma l\'ogica de revisi\'on. La inclusi\'on de un ejemplo descartado tambi\'en
+es importante: muestra que el sistema no fuerza siempre un conteo favorable,
+sino que conserva casos en los que la estructura debe rechazarse. Esa utilidad
+es compatible con su limitaci\'on principal: una onda identificada no equivale a
+una orden ni a una ventaja estad\'istica por s\'i misma.
+
+La lectura conjunta de la tabla y de la figura refuerza una idea metodol\'ogica
+relevante. El valor de WaveCount no est\'a en producir una etiqueta de onda a
+cualquier precio. Est\'a en mostrar cu\'ando la estructura es clara, cu\'ando es
+ambigua y cu\'ando debe revisarse con cautela. Por ejemplo, en la auditor\'ia H4
+aparecen 24 casos en los que el contexto no debe rescatar el conteo, 13 casos
+en los que ayuda a explicar ambig\"uedad y 5 casos en los que confirma un buen
+caso. Esta distribuci\'on justifica que el resultado se trate como apoyo visual
+y no como filtro autom\'atico de operaciones.
+
+WeaveCount traslada esa idea al Trading Center. En el corte H1/H4 se evaluaron
+94 combinaciones de s\'imbolo/timeframe: 47 en H1 y 47 en H4, distribuidas entre
+divisas principales, \'indices y metales. Todas las etiquetas generadas se mantienen
+como candidatas de estudio: 54 casos \texttt{W3?}, 21 casos \texttt{W2?}, 14
+casos \texttt{W4?} y 5 casos \texttt{W5?}. El signo de interrogaci\'on es
+deliberado y debe leerse como una advertencia metodol\'ogica: el sistema muestra
+una hip\'otesis estructural, no una confirmaci\'on operativa.
+Estas etiquetas pertenecen a la capa visual de WeaveCount y no deben confundirse
+con la W1/W2 operativa usada para construir las reglas del benchmark.
+Los 94 registros y los 54 casos de la Tabla~\ref{tab:wavecount-contexto} no
+miden lo mismo. La tabla resume una auditor\'ia contextual de ejemplos concretos;
+el corte de 94 corresponde al inventario mostrado por WeaveCount en la
+plataforma, con 47 combinaciones s\'imbolo/timeframe en H1 y 47 en H4. Por
+eso ambas cifras no deben sumarse ni compararse directamente.
+
+La calidad visual tambi\'en queda registrada. En el corte revisado aparecen 17
+casos con calidad fuerte, 59 con calidad media y 18 con calidad d\'ebil. Esta
+clasificaci\'on ayuda a priorizar la revisi\'on en el dashboard, pero no
+representa probabilidad de acierto ni ventaja estad\'istica. De hecho, el propio
+registro conserva los l\'imites de seguridad: todos los casos se mantienen
+como registros de estudio, no como se\~nales ni permisos de ejecuci\'on.
+
+En conjunto, WaveCount y WeaveCount aportan un resultado distinto al de los
+backtests. No acreditan rentabilidad, pero s\'i convierten una lectura visual
+de ondas en una capa trazable, filtrable y revisable. Esto encaja con el
+objetivo general del TFG: organizar la revisi\'on del mercado y hacer m\'as
+accesible la informaci\'on disponible sin convertir autom\'aticamente cada
+hip\'otesis t\'ecnica en una decisi\'on de trading.
+
+\subsection{Trading Center Dashboard y Screener}
+\label{subsec:resultados-dashboard-screener}
+
+El cuarto bloque de resultados corresponde a la integraci\'on de evidencias
+generadas en el Trading Center Dashboard. En este caso el resultado no se mide
+por retorno o factor de beneficio, sino por la capacidad de reunir informaci\'on
+dispersa en una interfaz coherente de trabajo. La
+versi\'on final del panel mantiene visibles las secciones de mercado,
+correlaci\'on, WeaveCount, Screener y MT5 Bot, mientras que las secciones
+antiguas quedan absorbidas o retiradas. El AI Analyst forma parte del sistema
+final, pero se analiza en un apartado propio para no mezclar la superficie de
+revisi\'on del dashboard con la capa de asistencia anal\'itica.
+
+La Figura~\ref{fig:dashboard-vistas-completas} muestra capturas completas de las
+secciones principales. Esta composici\'on no busca que cada cifra se lea con el
+mismo detalle que en la aplicaci\'on, sino evidenciar la organizaci\'on del panel.
+Mercado resume estado y volatilidad, correlaci\'on permite analizar dependencias
+entre activos, WeaveCount presenta hip\'otesis estructurales y el Screener ordena
+candidatos de estudio. De este modo, la plataforma se presenta como una
+herramienta de exploraci\'on y s\'intesis de datos, no solo como una colecci\'on de
+resultados aislados. Las vistas de detalle y los modales se conservan como
+evidencia complementaria, pero el cuerpo principal prioriza capturas completas
+de las partes visibles de la plataforma.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\textwidth,height=0.72\textheight,keepaspectratio]{figs/canonicas/plataforma/dashboard_trading_center_vistas_completas_canonico.png}
+\caption[Vistas completas del Trading Center Dashboard]{Vistas completas de las secciones principales del Trading Center
+Dashboard. La figura resume la superficie de trabajo usada para revisar mercado,
+correlaciones, estructura mediante WeaveCount y candidatos del Screener. Las
+capturas se muestran como evidencia de integraci\'on visual y trazabilidad, no
+como consola de ejecuci\'on.}
+\label{fig:dashboard-vistas-completas}
+\end{figure}
+
+\clearpage
+
+La Figura~\ref{fig:dashboard-modales-completos} a\~nade dos vistas completas de
+detalle. El modal de WeaveCount muestra una hip\'otesis estructural con su gr\'afico
+y etiquetas de revisi\'on. El modal del Screener muestra un caso priorizado con
+lectura, tendencia, niveles, timing y gr\'afico en una misma ventana. Estas
+capturas explican c\'omo se pasa de una vista general del panel a una revisi\'on
+supervisada de un candidato concreto.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.99\textwidth,height=0.82\textheight,keepaspectratio]{figs/canonicas/plataforma/dashboard_trading_center_modales_completos_canonico.png}
+\caption[Modales completos de revisi\'on del Trading Center]{Modales completos de revisi\'on del Trading Center. La figura conserva el modal de WeaveCount y el modal del Screener sin recortes, para mostrar c\'omo se revisan hip\'otesis estructurales y setups priorizados dentro de la plataforma.}
+\label{fig:dashboard-modales-completos}
+\end{figure}
+
+El Screener unificado act\'ua como m\'odulo de priorizaci\'on de candidatos de estudio. En el corte
+final revisado aparecen 97 registros: 90 asociados a \texttt{macd\_breakout}, 4
+a una variante candidata basada en \texttt{fib\_limit} y 3 a una regla de
+reversi\'on con RSI. La distribuci\'on temporal se concentra en H1 y H4, con 49 y
+45 casos respectivamente; los 3 casos restantes corresponden a M15. Por grupos de mercado, el corte
+incluye divisas principales, \'indices, metales y algunos pares ex\'oticos. Esta
+distribuci\'on muestra que el Screener no se limita a una \'unica estrategia ni a
+un \'unico tipo de activo.
+
+La lectura m\'as importante de este resultado est\'a en el l\'imite operativo:
+los 97 registros del corte son casos priorizados para revisi\'on, no
+instrucciones operativas. Por tanto, el dashboard no transforma un
+candidato priorizado en una orden. Su funci\'on es presentar setups, contexto, gr\'aficos y
+estado de auditor\'ia para que puedan revisarse de forma supervisada. Esta
+separaci\'on es coherente con el alcance del TFG: filtrar, priorizar y organizar
+informaci\'on \'util para el usuario, sin convertir el panel en un sistema de
+ejecuci\'on autom\'atica.
+
+La auditor\'ia de l\'imites del dashboard confirma esta interpretaci\'on. En la
+revisi\'on final no se enviaron \'ordenes desde el panel, no se enviaron mensajes
+de Telegram, no se realizaron escrituras SQL reales, no se activ\'o operaci\'on real
+y no se ejecutaron backtests desde la interfaz. Por tanto, el resultado de esta
+parte es un entorno interactivo de consulta y revisi\'on, no una consola de
+operaci\'on.
+
+La utilidad de esta organizaci\'on est\'a en que el usuario puede pasar de una
+lista priorizada a una revisi\'on completa del caso sin buscar manualmente
+gr\'aficos, niveles, contexto y auditor\'ias en salidas separadas. Las capturas
+completas permiten comprobar que esa revisi\'on no queda dispersa en scripts o
+tablas aisladas, sino integrada en una superficie de trabajo coherente.
+
+\subsection{MT5 Bot y RiskGuard}
+\label{subsec:resultados-mt5-riskguard}
+
+El quinto bloque de resultados corresponde al cierre del MT5 Bot y de la capa
+RiskGuard. Esta parte se interpreta como una demostraci\'on controlada de ciclo
+demo, no como validaci\'on de operativa real. El objetivo era comprobar que el
+sistema pod\'ia construir una intenci\'on de orden, auditarla, aplicar bloqueos de
+riesgo y, bajo condiciones expl\'icitas, ejecutar y cerrar una orden en cuenta
+demo manteniendo trazabilidad.
+
+La captura del panel MT5 Bot se utiliza como evidencia de seguimiento y
+auditor\'ia. En ella aparecen decisiones \textit{shadow}, entendidas como
+decisiones simuladas y registradas sin ejecuci\'on, estados revisados por
+RiskGuard y referencias al ciclo demo, pero no controles para confirmar una
+operaci\'on real desde el dashboard. Esta diferencia es importante: el panel
+permite revisar qu\'e ha ocurrido y por qu\'e una decisi\'on queda bloqueada o en
+espera, pero no convierte la interfaz en una superficie de ejecuci\'on.
+La Figura~\ref{fig:dashboard-mt5-bot} muestra este panel como evidencia visual
+del estado final de esta capa.
+
+En la fase RiskGuard se registraron nueve decisiones auditadas. Dos quedaron
+aceptadas para construir una intenci\'on demo, y siete fueron bloqueadas por
+razones como setup fuera de alcance, baja calidad, falta de objetivo, espera de
+confirmaci\'on, setup tard\'io o estructura invalidada. Ninguna decisi\'on qued\'o
+habilitada para env\'io directo: todos los registros mantienen
+\texttt{can\_send\_order=false}. Este resultado es relevante porque muestra un
+comportamiento de cierre por defecto. Si la entrada no cumple las condiciones
+necesarias, si falta una confirmaci\'on o si la situaci\'on no es clara, la capa de
+riesgo no convierte la detecci\'on en una orden.
+Esta auditor\'ia corresponde al estado final de revisi\'on de RiskGuard y no
+contradice la prueba demo descrita a continuaci\'on. El ciclo demo se ejecut\'o
+como validaci\'on controlada, con condiciones expl\'icitas y registros propios.
+Una aceptaci\'on para construir una intenci\'on demo no equivale a permiso operativo real ni
+a env\'io autom\'atico de una orden.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth,height=0.54\textheight,keepaspectratio]{figs/canonicas/plataforma/dashboard_mt5_bot_final_review.png}
+\caption[Panel MT5 Bot del Trading Center]{Panel MT5 Bot dentro del Trading Center. La vista resume estados \textit{shadow},
+decisiones revisadas por RiskGuard, bloqueos y evidencias de ciclo demo. El panel
+se presenta como superficie de auditor\'ia y seguimiento, no como consola de
+operaci\'on real.}
+\label{fig:dashboard-mt5-bot}
+\end{figure}
+
+La prueba de ciclo demo complet\'o una secuencia acotada. Incluy\'o preparaci\'on
+de la intenci\'on, env\'io de una orden demo y lectura posterior con una posici\'on
+abierta. Despu\'es se ejecut\'o el cierre mediante el gestor de posiciones y la
+lectura final con cero posiciones abiertas y cero \'ordenes pendientes. Esta secuencia permite afirmar
+que existe un flujo demo funcional y auditable, pero no que el sistema est\'e
+preparado para operar en real sin supervisi\'on.
+
+\input{tex/tables/tabla_mt5_riskguard_telegram_cierre}
+
+La Tabla~\ref{tab:mt5-riskguard-telegram-cierre} resume las evidencias curadas
+para el cierre de esta parte. El l\'imite m\'as importante es que la operaci\'on
+real permanece bloqueada, los controles de entorno siguen siendo obligatorios y
+la confirmaci\'on manual forma parte del dise\~no. Por tanto, MT5 Bot se presenta
+en la memoria como un flujo controlado de lectura, auditor\'ia y ejecuci\'on demo
+limitada, no como un sistema aut\'onomo de operaci\'on real.
+
+\subsection{Telegram informativo}
+\label{subsec:resultados-telegram}
+
+El sexto bloque de resultados corresponde a Telegram como canal informativo de
+observabilidad. La implementaci\'on final no convierte Telegram en una consola
+del sistema. No acepta comandos, no confirma operaciones, no env\'ia \'ordenes y
+no desbloquea operaci\'on real. Su funci\'on es trasladar al usuario mensajes de
+estado y eventos relevantes del MT5 Bot.
+
+La revisi\'on del generador de mensajes informativos distingue entre dise\~no y
+evidencia generada y auditada. El dise\~no contempla hasta diez tipos de aviso
+informativo, incluyendo estado del bot, resumen de cuenta, posiciones abiertas,
+bloqueos de RiskGuard, orden demo, cierre demo, incidencias de actualizaci\'on,
+informe AI Analyst, resumen diario y resumen de estudio WaveCount. En el paquete
+can\'onico de cierre quedan renderizados y auditados ocho tipos, suficientes para
+demostrar el flujo informativo principal. Todos estos mensajes se tratan como
+informaci\'on de seguimiento. La pol\'itica de env\'io conserva adem\'as
+deduplicaci\'on, tiempos de espera, l\'imites y razones auditables de aceptaci\'on
+o bloqueo.
+
+La validaci\'on incluye un env\'io efectivo controlado de
+\texttt{mt5\_bot\_status\_digest}, auditado con respuesta
+\texttt{telegram\_api\_ok}. En ese registro no se imprimen ni persisten el token
+ni el identificador del chat, y el intento queda registrado como mensaje seguro.
+Adem\'as, se conservan tres capturas visuales recibidas en Telegram: estado del
+bot, resumen de cuenta y posiciones abiertas. Esta evidencia complementa la
+auditor\'ia t\'ecnica porque muestra que los mensajes llegaron al canal previsto.
+
+Las capturas tambi\'en muestran el formato final de los mensajes informativos.
+El estado del bot se presenta como una l\'inea por dato relevante, las fechas se
+muestran en formato legible y la tabla de posiciones mantiene columnas
+alineadas para facilitar la lectura. Estos detalles no cambian el alcance del
+sistema, pero s\'i son importantes para que Telegram funcione como canal de
+observabilidad y no como una salida poco estructurada de texto t\'ecnico.
+
+El resultado de Telegram queda, por tanto, cerrado de forma limitada pero
+suficiente para el TFG: existe generaci\'on de mensajes, filtro de seguridad,
+auditor\'ia de env\'io y evidencia visual de recepci\'on. La interpretaci\'on
+acad\'emica debe mantenerse en esos t\'erminos. Telegram mejora la observabilidad
+del bot, pero no cambia el l\'imite operativo del sistema.
+La Figura~\ref{fig:telegram-mt5-bot-triple} conserva la evidencia visual de los
+mensajes recibidos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth,height=0.42\textheight,keepaspectratio]{figs/canonicas/telegram/telegram_mt5_bot_triple_evidencia_horizontal_canonica.png}
+\caption[Mensajes informativos recibidos en Telegram]{Mensajes informativos recibidos en Telegram: estado del MT5 Bot,
+resumen de cuenta y posiciones abiertas. Las capturas evidencian recepci\'on y
+observabilidad, pero no habilitan comandos, confirmaciones ni ejecuci\'on de
+operaciones.}
+\label{fig:telegram-mt5-bot-triple}
+\end{figure}
+
+\subsection{AI Analyst}
+\label{subsec:resultados-ai-analyst}
+
+El s\'eptimo bloque de resultados corresponde al AI Analyst. Su aportaci\'on no
+consiste en aprobar operaciones, sino en preparar revisiones estructuradas a
+partir de la informaci\'on generada por el sistema. El panel puede reunir datos
+del Screener, mercado, correlaci\'on, WeaveCount y capturas de gr\'afico, y
+generar paquetes o informes de revisi\'on. Esta capa se dise\~na como apoyo
+anal\'itico para el usuario, no como decisor del sistema.
+
+La Tabla~\ref{tab:ai-analyst-safety} resume la auditor\'ia de seguridad de esta
+capa. En la revisi\'on final, el AI Analyst no conecta con MT5, no env\'ia
+Telegram, no emite \'ordenes, no realiza escrituras SQL, no ejecuta backtests y
+no puede activar permisos de ejecuci\'on. Tambi\'en se conserva la
+separaci\'on con RiskGuard: el analista puede explicar una situaci\'on o preparar
+un informe, pero no sustituye a la capa de validaci\'on de riesgo.
+
+\input{tex/tables/tabla_ai_analyst_safety}
+
+La Figura~\ref{fig:dashboard-ai-analyst-composite} muestra la integraci\'on del
+AI Analyst en la interfaz y el detalle del panel flotante.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth,height=0.72\textheight,keepaspectratio]{figs/canonicas/plataforma/dashboard_ai_analyst_composite_canonico.png}
+\caption[AI Analyst integrado en el Trading Center]{AI Analyst integrado en el Trading Center y detalle del panel flotante.
+La interacci\'on se plantea como revisi\'on expl\'icita de contexto y no como
+aprobaci\'on operativa.}
+\label{fig:dashboard-ai-analyst-composite}
+\end{figure}
+
+Como evidencia complementaria, se conserva un informe generado por el AI Analyst
+en la
+\hyperref[sec:anexos-informe-ai-analyst]{secci\'on del Anexo A dedicada al informe AI Analyst}.
+Su papel es mostrar el tipo de salida que puede
+producir el asistente: una revisi\'on documentada y reproducible de un caso,
+acompa\~nada por datos y gr\'aficos. La conclusi\'on de esta parte es que el AI
+Analyst aporta capacidad de s\'intesis y apoyo a una revisi\'on m\'as ordenada. No
+modifica el principio general del proyecto: las decisiones operativas quedan
+fuera de la automatizaci\'on aut\'onoma.
+
+\section{Discusi\'on}
+\label{sec:discusion}
+
+\subsection{Lectura conjunta de los resultados emp\'iricos}
+\label{subsec:discusion-lectura-conjunta}
+
+Los resultados emp\'iricos muestran una diferencia apreciable entre la regla que
+puede defenderse como bloque cuantitativo principal y las l\'ineas que quedan
+como experimentaci\'on metodol\'ogica. En el benchmark principal,
+\texttt{macd\_breakout} obtiene la lectura relativa m\'as favorable frente a las
+estrategias de referencia, aunque con variabilidad entre bloques.
+\texttt{fib\_limit}, en cambio, presenta un comportamiento m\'as irregular y no
+alcanza una lectura agregada suficientemente estable. La l\'inea Men\'endez llega
+a una conclusi\'on compatible desde otro punto de vista: una lectura t\'ecnica
+compleja puede formalizarse y evaluarse, pero esa traducci\'on no garantiza por
+s\'i misma un resultado positivo.
+
+Esta interpretaci\'on evita confundir formalizaci\'on con validaci\'on. En el
+trabajo se han convertido criterios t\'ecnicos en reglas medibles, pero la
+evaluaci\'on muestra que no todas las ideas formalizadas tienen el mismo grado de
+madurez. Algunas reglas permiten una lectura comparativa m\'as defendible,
+mientras que otras sirven principalmente para detectar l\'imites, problemas de
+estabilidad o necesidades de validaci\'on adicional. En ese sentido, la
+evaluaci\'on no busca seleccionar una estrategia definitiva para operar, sino
+construir un proceso que permita comparar, descartar, priorizar y revisar.
+
+Las figuras del bloque de resultados refuerzan este matiz. El gr\'afico de
+riesgo-retorno sit\'ua a \texttt{macd\_breakout} en una posici\'on m\'as favorable
+que el resto de reglas evaluadas, pero el mapa de calor muestra que esa lectura
+no es uniforme en todos los grupos y timeframes. Por ello, las tablas y
+figuras deben leerse como evidencias de comportamiento hist\'orico bajo una
+metodolog\'ia concreta. No representan una cartera global ejecutada como un
+\'unico sistema, ni incorporan todos los costes, restricciones y problemas de una
+operativa real continuada.
+
+\subsection{Aportaci\'on de la plataforma al flujo de revisi\'on}
+\label{subsec:discusion-plataforma}
+
+El segundo eje de discusi\'on es la aportaci\'on de la plataforma al flujo de
+trabajo. Desde el punto de vista de la anal\'itica visual, el sistema no solo
+almacena resultados. Los organiza en capas de lectura que permiten comparar el
+estado del proyecto desde distintos niveles. Los backtests miden estrategias,
+WaveCount y WeaveCount contextualizan estructura, el Screener prioriza casos
+revisables, el dashboard re\'une las vistas de trabajo, el AI Analyst prepara
+informes y Telegram permite recibir avisos informativos. La utilidad del sistema
+no depende de que cada
+bloque funcione de forma aislada. Depende de que el usuario pueda recorrer esas
+capas dentro de un proceso de trabajo ordenado.
+
+Esta integraci\'on reduce la carga de la primera revisi\'on de cada activo
+porque evita partir siempre de cero. Aunque no se cuantifica el ahorro de
+tiempo con una medici\'on espec\'ifica, el usuario puede comenzar por un
+conjunto de setups priorizados, examinar su contexto, consultar gr\'aficos, valorar
+correlaciones y generar informes de apoyo. Adem\'as, el uso de archivos y
+registros auditables permite volver a comprobar qu\'e datos se utilizaron, qu\'e
+reglas se aplicaron y qu\'e decisiones de seguridad bloquearon o permitieron
+avanzar en cada fase.
+
+La separaci\'on entre datos, reglas, revisi\'on visual, auditor\'ia de riesgo y
+comunicaci\'on informativa tambi\'en facilita que el sistema pueda ampliarse sin
+rehacer todo el flujo. Esta organizaci\'on permite incorporar nuevas reglas al
+screener o repetir pruebas sobre periodos m\'as amplios manteniendo la
+trazabilidad del proceso.
+
+Las figuras incorporadas en resultados muestran esta aportaci\'on desde la parte
+visible del sistema. La composici\'on del Trading Center resume mercado,
+correlaci\'on, estructura y screener en una misma interfaz de revisi\'on. El
+panel MT5 Bot muestra seguimiento y auditor\'ia del ciclo demo. Las capturas de
+Telegram muestran la recepci\'on de mensajes informativos, y la figura del AI
+Analyst muestra una capa de apoyo que prepara paquetes e informes sin aprobar
+operaciones. En conjunto, estas evidencias visuales ayudan a interpretar la
+plataforma como un sistema de revisi\'on supervisada, no como una consola de
+operaci\'on.
+
+La separaci\'on de responsabilidades es, por tanto, uno de los resultados m\'as
+relevantes del desarrollo. El dashboard observa, el Screener prioriza candidatos,
+RiskGuard audita el riesgo, MT5 se limita a lectura y ciclo demo controlado,
+Telegram informa y el AI Analyst resume. Esta divisi\'on reduce la ambig\"uedad
+entre revisar un candidato, estudiar una se\~nal, preparar una orden demo y
+operar en real. Esa separaci\'on es necesaria para que el TFG sea defendible desde
+un punto de vista acad\'emico y t\'ecnico.
+
+\subsection{Alcance real del sistema y l\'imites de interpretaci\'on}
+\label{subsec:discusion-alcance-limites}
+
+El alcance real del sistema debe formularse con prudencia. A partir de las
+pruebas y salidas reunidas, el trabajo permite defender un prototipo avanzado para
+formalizar estrategias, evaluarlas, ordenar evidencias, consultar informaci\'on de mercado y
+completar un ciclo demo controlado. Sin embargo, no valida un servicio de
+operaci\'on permanente ni un bot preparado para operar en real de forma
+aut\'onoma. Las pruebas realizadas son suficientes para cerrar el TFG como
+plataforma de an\'alisis, revisi\'on y demostraci\'on controlada, pero no para
+presentarlo como servicio operativo permanente.
+
+Los l\'imites principales se concentran en cuatro puntos. Primero, los resultados
+hist\'oricos necesitan validaci\'on adicional antes de cualquier uso operativo.
+Segundo, la arquitectura se ha comprobado en entorno local, pero no mediante una
+operaci\'on prolongada como servicio continuo. Tercero, MT5 y Telegram se han
+cerrado con l\'imites expl\'icitos: MT5 llega a lectura, auditor\'ia y ciclo demo
+controlado, mientras que Telegram se mantiene como canal informativo. Cuarto, el
+AI Analyst no decide ni aprueba operaciones; su funci\'on es ayudar a revisar y
+organizar informaci\'on.
+
+Otro aspecto relevante es la capacidad de generalizar los resultados fuera del
+conjunto de pruebas utilizado. Las estrategias y componentes evaluados se han
+probado bajo una configuraci\'on concreta de activos, timeframes, datos
+disponibles y reglas de ejecuci\'on. En ese contexto, \texttt{macd\_breakout}
+ofrece una lectura m\'as s\'olida que el resto de estrategias evaluadas dentro del
+benchmark principal. Su comportamiento agregado es m\'as favorable en retorno
+mediano, proporci\'on de bloques positivos y relaci\'on entre retorno y ca\'ida
+m\'axima. Sin embargo, esta robustez debe entenderse dentro del escenario
+estudiado. Por tanto, el resultado permite defenderla como la estrategia m\'as
+consistente del bloque experimental, pero no elimina la necesidad de validaci\'on
+adicional antes de extrapolarla a otros mercados, periodos o condiciones
+operativas.
+
+Tambi\'en debe considerarse que el control necesario para una
+operativa real no se limita a bloquear \'ordenes individuales o controlar una
+exposici\'on b\'asica por s\'imbolo. En ese escenario ser\'ia necesario
+incorporar una diversificaci\'on m\'as consciente entre activos, teniendo en
+cuenta correlaciones, concentraci\'on por divisa o sector, cambios de r\'egimen y
+posibles dependencias no lineales entre mercados. M\'etodos estad\'isticos m\'as
+avanzados, como modelos de dependencia o c\'opulas, podr\'ian ayudar a estudiar
+esas relaciones con mayor profundidad. Del mismo modo, la interpretaci\'on
+macroecon\'omica deber\'ia integrarse de forma m\'as sistem\'atica en la gesti\'on
+del riesgo, ya que determinados eventos o contextos pueden afectar
+simult\'aneamente a varios activos aparentemente distintos. En este TFG se han
+incorporado controles de seguridad y observabilidad, pero no una gesti\'on
+integral de cartera al nivel exigible para una operativa real continuada.
+
+Estas limitaciones no invalidan el resultado del TFG, sino que delimitan su
+aportaci\'on. El proyecto no termina en una estrategia lista para uso operativo
+real. Termina en una base t\'ecnica ampliable y trazable. Sobre esa base se pueden
+incorporar nuevas estrategias, reforzar la validaci\'on estad\'istica, endurecer
+la operaci\'on continua y estudiar con m\'as profundidad qu\'e partes del sistema
+aportan valor al proceso de decisi\'on supervisada. Esta delimitaci\'on conecta
+directamente con las conclusiones: el cierre del trabajo debe centrarse en lo
+que puede defenderse con evidencias y en lo que queda abierto como
+proyecci\'on futura.
+
+\flushbottom

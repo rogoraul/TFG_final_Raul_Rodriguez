@@ -1,0 +1,286 @@
+case_id,symbol,market_group,timeframe,segment_order,segment_label,start_label,end_label,start_time,end_time,start_price,end_price,segment_kind
+weavecount_screener_h1_h4_v1|AUDCAD.r|H1|W2?|2026-03-17 09:00:00,AUDCAD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 17:00:00,2026-03-13 23:00:00,0.97591,0.95707,previous
+weavecount_screener_h1_h4_v1|AUDCAD.r|H1|W2?|2026-03-17 09:00:00,AUDCAD.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-13 23:00:00,2026-03-16 22:00:00,0.95707,0.96822,current
+weavecount_screener_h1_h4_v1|AUDCAD.r|H4|W3?|2026-03-17 04:00:00,AUDCAD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 00:00:00,2026-03-11 16:00:00,0.94619,0.97591,previous
+weavecount_screener_h1_h4_v1|AUDCAD.r|H4|W3?|2026-03-17 04:00:00,AUDCAD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 16:00:00,2026-03-13 20:00:00,0.97591,0.95707,previous
+weavecount_screener_h1_h4_v1|AUDCAD.r|H4|W3?|2026-03-17 04:00:00,AUDCAD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 20:00:00,2026-03-17 04:00:00,0.95707,0.96779,current
+weavecount_screener_h1_h4_v1|AUDJPY.r|H1|W2?|2026-03-17 09:00:00,AUDJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 18:00:00,2026-03-16 00:00:00,113.959,111.463,previous
+weavecount_screener_h1_h4_v1|AUDJPY.r|H1|W2?|2026-03-17 09:00:00,AUDJPY.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-16 00:00:00,2026-03-16 22:00:00,111.463,112.583,current
+weavecount_screener_h1_h4_v1|AUDJPY.r|H4|W3?|2026-03-17 04:00:00,AUDJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-05 16:00:00,2026-03-11 16:00:00,110.066,113.959,previous
+weavecount_screener_h1_h4_v1|AUDJPY.r|H4|W3?|2026-03-17 04:00:00,AUDJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 16:00:00,2026-03-16 00:00:00,113.959,111.463,previous
+weavecount_screener_h1_h4_v1|AUDJPY.r|H4|W3?|2026-03-17 04:00:00,AUDJPY.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,111.463,112.622,current
+weavecount_screener_h1_h4_v1|AUDNZD.r|H1|W5?|2026-03-17 09:00:00,AUDNZD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-06 00:00:00,2026-03-06 14:00:00,1.18614,1.19355,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H1|W5?|2026-03-17 09:00:00,AUDNZD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-06 14:00:00,2026-03-09 13:00:00,1.19355,1.18703,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H1|W5?|2026-03-17 09:00:00,AUDNZD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-09 13:00:00,2026-03-13 09:00:00,1.18703,1.21204,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H1|W5?|2026-03-17 09:00:00,AUDNZD.r,Forex Majors,H1,3,W4 previa,W3,W4,2026-03-13 09:00:00,2026-03-16 06:00:00,1.21204,1.20543,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H1|W5?|2026-03-17 09:00:00,AUDNZD.r,Forex Majors,H1,4,W5? actual,W4,W5?,2026-03-16 06:00:00,2026-03-17 09:00:00,1.20543,1.21409,current
+weavecount_screener_h1_h4_v1|AUDNZD.r|H4|W5?|2026-03-17 04:00:00,AUDNZD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-02 00:00:00,2026-03-03 08:00:00,1.18031,1.19803,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H4|W5?|2026-03-17 04:00:00,AUDNZD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-03 08:00:00,2026-03-06 00:00:00,1.19803,1.18614,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H4|W5?|2026-03-17 04:00:00,AUDNZD.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-06 00:00:00,2026-03-13 08:00:00,1.18614,1.21204,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H4|W5?|2026-03-17 04:00:00,AUDNZD.r,Forex Majors,H4,3,W4 previa,W3,W4,2026-03-13 08:00:00,2026-03-16 04:00:00,1.21204,1.20543,previous
+weavecount_screener_h1_h4_v1|AUDNZD.r|H4|W5?|2026-03-17 04:00:00,AUDNZD.r,Forex Majors,H4,4,W5? actual,W4,W5?,2026-03-16 04:00:00,2026-03-17 04:00:00,1.20543,1.21074,current
+weavecount_screener_h1_h4_v1|AUDUSD.r|H1|W3?|2026-03-17 09:00:00,AUDUSD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 07:00:00,2026-03-13 23:00:00,0.71854,0.69787,previous
+weavecount_screener_h1_h4_v1|AUDUSD.r|H1|W3?|2026-03-17 09:00:00,AUDUSD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-13 23:00:00,2026-03-16 22:00:00,0.69787,0.70823,previous
+weavecount_screener_h1_h4_v1|AUDUSD.r|H1|W3?|2026-03-17 09:00:00,AUDUSD.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-16 22:00:00,2026-03-17 09:00:00,0.70823,0.70713,current
+weavecount_screener_h1_h4_v1|AUDUSD.r|H4|W3?|2026-03-17 04:00:00,AUDUSD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-11 16:00:00,0.69562,0.71872,previous
+weavecount_screener_h1_h4_v1|AUDUSD.r|H4|W3?|2026-03-17 04:00:00,AUDUSD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 16:00:00,2026-03-13 20:00:00,0.71872,0.69787,previous
+weavecount_screener_h1_h4_v1|AUDUSD.r|H4|W3?|2026-03-17 04:00:00,AUDUSD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 20:00:00,2026-03-17 04:00:00,0.69787,0.70726,current
+weavecount_screener_h1_h4_v1|CADCHF.r|H1|W3?|2026-03-17 09:00:00,CADCHF.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-10 00:00:00,2026-03-13 11:00:00,0.57084,0.57771,previous
+weavecount_screener_h1_h4_v1|CADCHF.r|H1|W3?|2026-03-17 09:00:00,CADCHF.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-13 11:00:00,2026-03-17 00:00:00,0.57771,0.57439,previous
+weavecount_screener_h1_h4_v1|CADCHF.r|H1|W3?|2026-03-17 09:00:00,CADCHF.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 00:00:00,2026-03-17 09:00:00,0.57439,0.57608,current
+weavecount_screener_h1_h4_v1|CADCHF.r|H4|W4?|2026-03-17 04:00:00,CADCHF.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-02 00:00:00,2026-03-03 12:00:00,0.56124,0.57443,previous
+weavecount_screener_h1_h4_v1|CADCHF.r|H4|W4?|2026-03-17 04:00:00,CADCHF.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-03 12:00:00,2026-03-05 00:00:00,0.57443,0.56999,previous
+weavecount_screener_h1_h4_v1|CADCHF.r|H4|W4?|2026-03-17 04:00:00,CADCHF.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-05 00:00:00,2026-03-13 08:00:00,0.56999,0.57771,previous
+weavecount_screener_h1_h4_v1|CADCHF.r|H4|W4?|2026-03-17 04:00:00,CADCHF.r,Forex Majors,H4,3,W4? actual,W3,W4?,2026-03-13 08:00:00,2026-03-17 04:00:00,0.57771,0.57598,current
+weavecount_screener_h1_h4_v1|CADJPY.r|H1|W3?|2026-03-17 09:00:00,CADJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 10:00:00,2026-03-16 18:00:00,116.041,116.503,previous
+weavecount_screener_h1_h4_v1|CADJPY.r|H1|W3?|2026-03-17 09:00:00,CADJPY.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 18:00:00,2026-03-17 00:00:00,116.503,116.134,previous
+weavecount_screener_h1_h4_v1|CADJPY.r|H1|W3?|2026-03-17 09:00:00,CADJPY.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 00:00:00,2026-03-17 09:00:00,116.134,116.362,current
+weavecount_screener_h1_h4_v1|CADJPY.r|H4|W3?|2026-03-17 04:00:00,CADJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 08:00:00,2026-03-12 04:00:00,115.839,117.113,previous
+weavecount_screener_h1_h4_v1|CADJPY.r|H4|W3?|2026-03-17 04:00:00,CADJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-12 04:00:00,2026-03-16 08:00:00,117.113,116.041,previous
+weavecount_screener_h1_h4_v1|CADJPY.r|H4|W3?|2026-03-17 04:00:00,CADJPY.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 08:00:00,2026-03-17 04:00:00,116.041,116.361,current
+weavecount_screener_h1_h4_v1|CHFJPY.r|H1|W3?|2026-03-17 09:00:00,CHFJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 12:00:00,2026-03-16 10:00:00,204.006,201.103,previous
+weavecount_screener_h1_h4_v1|CHFJPY.r|H1|W3?|2026-03-17 09:00:00,CHFJPY.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 10:00:00,2026-03-16 20:00:00,201.103,202.203,previous
+weavecount_screener_h1_h4_v1|CHFJPY.r|H1|W3?|2026-03-17 09:00:00,CHFJPY.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-16 20:00:00,2026-03-17 09:00:00,202.203,201.982,current
+weavecount_screener_h1_h4_v1|CHFJPY.r|H4|W3?|2026-03-17 04:00:00,CHFJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-04 00:00:00,2026-03-09 08:00:00,200.3,203.716,previous
+weavecount_screener_h1_h4_v1|CHFJPY.r|H4|W3?|2026-03-17 04:00:00,CHFJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-09 08:00:00,2026-03-16 08:00:00,203.716,201.103,previous
+weavecount_screener_h1_h4_v1|CHFJPY.r|H4|W3?|2026-03-17 04:00:00,CHFJPY.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 08:00:00,2026-03-17 04:00:00,201.103,202.015,current
+weavecount_screener_h1_h4_v1|EURAUD.r|H1|W4?|2026-03-17 09:00:00,EURAUD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 18:00:00,2026-03-12 09:00:00,1.6129,1.62361,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H1|W4?|2026-03-17 09:00:00,EURAUD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-12 09:00:00,2026-03-12 15:00:00,1.62361,1.61741,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H1|W4?|2026-03-17 09:00:00,EURAUD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-12 15:00:00,2026-03-13 23:00:00,1.61741,1.63525,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H1|W4?|2026-03-17 09:00:00,EURAUD.r,Forex Majors,H1,3,W4? actual,W3,W4?,2026-03-13 23:00:00,2026-03-17 00:00:00,1.63525,1.6245699999999998,current
+weavecount_screener_h1_h4_v1|EURAUD.r|H4|W5?|2026-03-17 04:00:00,EURAUD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-02-24 16:00:00,2026-02-27 04:00:00,1.67503,1.65601,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H4|W5?|2026-03-17 04:00:00,EURAUD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-02-27 04:00:00,2026-03-02 00:00:00,1.65601,1.67216,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H4|W5?|2026-03-17 04:00:00,EURAUD.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-02 00:00:00,2026-03-11 16:00:00,1.67216,1.6129,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H4|W5?|2026-03-17 04:00:00,EURAUD.r,Forex Majors,H4,3,W4 previa,W3,W4,2026-03-11 16:00:00,2026-03-13 20:00:00,1.6129,1.63525,previous
+weavecount_screener_h1_h4_v1|EURAUD.r|H4|W5?|2026-03-17 04:00:00,EURAUD.r,Forex Majors,H4,4,W5? actual,W4,W5?,2026-03-13 20:00:00,2026-03-17 04:00:00,1.63525,1.62547,current
+weavecount_screener_h1_h4_v1|EURCAD.r|H1|W4?|2026-03-17 09:00:00,EURCAD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 04:00:00,1.56208,1.57025,previous
+weavecount_screener_h1_h4_v1|EURCAD.r|H1|W4?|2026-03-17 09:00:00,EURCAD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 04:00:00,2026-03-16 10:00:00,1.57025,1.5655,previous
+weavecount_screener_h1_h4_v1|EURCAD.r|H1|W4?|2026-03-17 09:00:00,EURCAD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-16 10:00:00,2026-03-16 22:00:00,1.5655,1.57608,previous
+weavecount_screener_h1_h4_v1|EURCAD.r|H1|W4?|2026-03-17 09:00:00,EURCAD.r,Forex Majors,H1,3,W4? actual,W3,W4?,2026-03-16 22:00:00,2026-03-17 09:00:00,1.57608,1.57231,current
+weavecount_screener_h1_h4_v1|EURCAD.r|H4|W3?|2026-03-17 04:00:00,EURCAD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,1.56127,1.58346,previous
+weavecount_screener_h1_h4_v1|EURCAD.r|H4|W3?|2026-03-17 04:00:00,EURCAD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-13 08:00:00,1.58346,1.56208,previous
+weavecount_screener_h1_h4_v1|EURCAD.r|H4|W3?|2026-03-17 04:00:00,EURCAD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 08:00:00,2026-03-17 04:00:00,1.56208,1.57324,current
+weavecount_screener_h1_h4_v1|EURCHF.r|H1|W2?|2026-03-17 09:00:00,EURCHF.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 00:00:00,2026-03-17 05:00:00,0.89905,0.90671,previous
+weavecount_screener_h1_h4_v1|EURCHF.r|H1|W2?|2026-03-17 09:00:00,EURCHF.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-17 05:00:00,2026-03-17 09:00:00,0.90671,0.90578,current
+weavecount_screener_h1_h4_v1|EURCHF.r|H4|W2?|2026-03-17 04:00:00,EURCHF.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-13 04:00:00,2026-03-16 00:00:00,0.90547,0.89905,previous
+weavecount_screener_h1_h4_v1|EURCHF.r|H4|W2?|2026-03-17 04:00:00,EURCHF.r,Forex Majors,H4,1,W2? actual,W1,W2?,2026-03-16 00:00:00,2026-03-17 04:00:00,0.89905,0.90615,current
+weavecount_screener_h1_h4_v1|EURGBP.r|H1|W3?|2026-03-17 09:00:00,EURGBP.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 00:00:00,2026-03-16 13:00:00,0.86175,0.86499,previous
+weavecount_screener_h1_h4_v1|EURGBP.r|H1|W3?|2026-03-17 09:00:00,EURGBP.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 13:00:00,2026-03-17 00:00:00,0.86499,0.86326,previous
+weavecount_screener_h1_h4_v1|EURGBP.r|H1|W3?|2026-03-17 09:00:00,EURGBP.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 00:00:00,2026-03-17 09:00:00,0.86326,0.86389,current
+weavecount_screener_h1_h4_v1|EURGBP.r|H4|W3?|2026-03-17 04:00:00,EURGBP.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-12 16:00:00,2026-03-13 16:00:00,0.86172,0.86542,previous
+weavecount_screener_h1_h4_v1|EURGBP.r|H4|W3?|2026-03-17 04:00:00,EURGBP.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-13 16:00:00,2026-03-16 00:00:00,0.86542,0.86175,previous
+weavecount_screener_h1_h4_v1|EURGBP.r|H4|W3?|2026-03-17 04:00:00,EURGBP.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,0.86175,0.86368,current
+weavecount_screener_h1_h4_v1|EURJPY.r|H1|W3?|2026-03-17 09:00:00,EURJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 22:00:00,2026-03-16 00:00:00,183.973,182.138,previous
+weavecount_screener_h1_h4_v1|EURJPY.r|H1|W3?|2026-03-17 09:00:00,EURJPY.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 00:00:00,2026-03-17 06:00:00,182.138,183.241,previous
+weavecount_screener_h1_h4_v1|EURJPY.r|H1|W3?|2026-03-17 09:00:00,EURJPY.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 06:00:00,2026-03-17 09:00:00,183.241,182.963,current
+weavecount_screener_h1_h4_v1|EURJPY.r|H4|W4?|2026-03-17 04:00:00,EURJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-02-25 20:00:00,2026-03-03 16:00:00,184.772,182.029,previous
+weavecount_screener_h1_h4_v1|EURJPY.r|H4|W4?|2026-03-17 04:00:00,EURJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-03 16:00:00,2026-03-13 04:00:00,182.029,183.649,previous
+weavecount_screener_h1_h4_v1|EURJPY.r|H4|W4?|2026-03-17 04:00:00,EURJPY.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-13 04:00:00,2026-03-16 08:00:00,183.649,181.869,previous
+weavecount_screener_h1_h4_v1|EURJPY.r|H4|W4?|2026-03-17 04:00:00,EURJPY.r,Forex Majors,H4,3,W4? actual,W3,W4?,2026-03-16 08:00:00,2026-03-17 04:00:00,181.869,183.068,current
+weavecount_screener_h1_h4_v1|EURNZD.r|H1|W2?|2026-03-17 09:00:00,EURNZD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 23:00:00,2026-03-17 01:00:00,1.97746,1.96194,previous
+weavecount_screener_h1_h4_v1|EURNZD.r|H1|W2?|2026-03-17 09:00:00,EURNZD.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-17 01:00:00,2026-03-17 09:00:00,1.96194,1.97129,current
+weavecount_screener_h1_h4_v1|EURNZD.r|H4|W3?|2026-03-17 04:00:00,EURNZD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-02-23 20:00:00,2026-03-11 20:00:00,1.98091,1.95073,previous
+weavecount_screener_h1_h4_v1|EURNZD.r|H4|W3?|2026-03-17 04:00:00,EURNZD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 20:00:00,2026-03-13 20:00:00,1.95073,1.97746,previous
+weavecount_screener_h1_h4_v1|EURNZD.r|H4|W3?|2026-03-17 04:00:00,EURNZD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 20:00:00,2026-03-17 04:00:00,1.97746,1.96803,current
+weavecount_screener_h1_h4_v1|EURUSD.r|H1|W4?|2026-03-17 09:00:00,EURUSD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 23:00:00,2026-03-16 04:00:00,1.14107,1.14565,previous
+weavecount_screener_h1_h4_v1|EURUSD.r|H1|W4?|2026-03-17 09:00:00,EURUSD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 04:00:00,2026-03-16 10:00:00,1.14565,1.14142,previous
+weavecount_screener_h1_h4_v1|EURUSD.r|H1|W4?|2026-03-17 09:00:00,EURUSD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-16 10:00:00,2026-03-16 22:00:00,1.14142,1.15249,previous
+weavecount_screener_h1_h4_v1|EURUSD.r|H1|W4?|2026-03-17 09:00:00,EURUSD.r,Forex Majors,H1,3,W4? actual,W3,W4?,2026-03-16 22:00:00,2026-03-17 04:00:00,1.15249,1.14866,current
+weavecount_screener_h1_h4_v1|EURUSD.r|H4|W2?|2026-03-17 04:00:00,EURUSD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 20:00:00,1.16673,1.14107,previous
+weavecount_screener_h1_h4_v1|EURUSD.r|H4|W2?|2026-03-17 04:00:00,EURUSD.r,Forex Majors,H4,1,W2? actual,W1,W2?,2026-03-13 20:00:00,2026-03-17 04:00:00,1.14107,1.1497,current
+weavecount_screener_h1_h4_v1|GBPAUD.r|H1|W2?|2026-03-17 09:00:00,GBPAUD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 15:00:00,2026-03-13 23:00:00,1.87986,1.89421,previous
+weavecount_screener_h1_h4_v1|GBPAUD.r|H1|W2?|2026-03-17 09:00:00,GBPAUD.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-13 23:00:00,2026-03-16 17:00:00,1.89421,1.88073,current
+weavecount_screener_h1_h4_v1|GBPAUD.r|H4|W3?|2026-03-17 04:00:00,GBPAUD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 00:00:00,2026-03-11 16:00:00,1.91164,1.86943,previous
+weavecount_screener_h1_h4_v1|GBPAUD.r|H4|W3?|2026-03-17 04:00:00,GBPAUD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 16:00:00,2026-03-13 20:00:00,1.86943,1.89421,previous
+weavecount_screener_h1_h4_v1|GBPAUD.r|H4|W3?|2026-03-17 04:00:00,GBPAUD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 20:00:00,2026-03-17 04:00:00,1.89421,1.88198,current
+weavecount_screener_h1_h4_v1|GBPCAD.r|H1|W2?|2026-03-17 09:00:00,GBPCAD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 15:00:00,2026-03-16 22:00:00,1.81034,1.82429,previous
+weavecount_screener_h1_h4_v1|GBPCAD.r|H1|W2?|2026-03-17 09:00:00,GBPCAD.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-16 22:00:00,2026-03-17 09:00:00,1.82429,1.81998,current
+weavecount_screener_h1_h4_v1|GBPCAD.r|H4|W4?|2026-03-17 04:00:00,GBPCAD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-02-25 16:00:00,2026-03-03 12:00:00,1.85603,1.81949,previous
+weavecount_screener_h1_h4_v1|GBPCAD.r|H4|W4?|2026-03-17 04:00:00,GBPCAD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-03 12:00:00,2026-03-04 16:00:00,1.81949,1.8313,previous
+weavecount_screener_h1_h4_v1|GBPCAD.r|H4|W4?|2026-03-17 04:00:00,GBPCAD.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-04 16:00:00,2026-03-13 12:00:00,1.8313,1.81034,previous
+weavecount_screener_h1_h4_v1|GBPCAD.r|H4|W4?|2026-03-17 04:00:00,GBPCAD.r,Forex Majors,H4,3,W4? actual,W3,W4?,2026-03-13 12:00:00,2026-03-17 04:00:00,1.81034,1.8215,current
+weavecount_screener_h1_h4_v1|GBPCHF.r|H1|W2?|2026-03-17 09:00:00,GBPCHF.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 00:00:00,2026-03-17 05:00:00,1.04298,1.04988,previous
+weavecount_screener_h1_h4_v1|GBPCHF.r|H1|W2?|2026-03-17 09:00:00,GBPCHF.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-17 05:00:00,2026-03-17 09:00:00,1.04988,1.04848,current
+weavecount_screener_h1_h4_v1|GBPCHF.r|H4|W3?|2026-03-17 04:00:00,GBPCHF.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 08:00:00,2026-03-13 04:00:00,1.03712,1.05001,previous
+weavecount_screener_h1_h4_v1|GBPCHF.r|H4|W3?|2026-03-17 04:00:00,GBPCHF.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-13 04:00:00,2026-03-16 00:00:00,1.05001,1.04298,previous
+weavecount_screener_h1_h4_v1|GBPCHF.r|H4|W3?|2026-03-17 04:00:00,GBPCHF.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,1.04298,1.04918,current
+weavecount_screener_h1_h4_v1|GBPJPY.r|H1|W3?|2026-03-17 09:00:00,GBPJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 22:00:00,2026-03-16 10:00:00,213.302,210.804,previous
+weavecount_screener_h1_h4_v1|GBPJPY.r|H1|W3?|2026-03-17 09:00:00,GBPJPY.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 10:00:00,2026-03-17 05:00:00,210.804,212.139,previous
+weavecount_screener_h1_h4_v1|GBPJPY.r|H1|W3?|2026-03-17 09:00:00,GBPJPY.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 05:00:00,2026-03-17 09:00:00,212.139,211.783,current
+weavecount_screener_h1_h4_v1|GBPJPY.r|H4|W3?|2026-03-17 04:00:00,GBPJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-02 00:00:00,2026-03-11 20:00:00,209.068,213.302,previous
+weavecount_screener_h1_h4_v1|GBPJPY.r|H4|W3?|2026-03-17 04:00:00,GBPJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 20:00:00,2026-03-16 08:00:00,213.302,210.804,previous
+weavecount_screener_h1_h4_v1|GBPJPY.r|H4|W3?|2026-03-17 04:00:00,GBPJPY.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 08:00:00,2026-03-17 04:00:00,210.804,211.959,current
+weavecount_screener_h1_h4_v1|GBPNZD.r|H1|W4?|2026-03-17 09:00:00,GBPNZD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 09:00:00,2026-03-13 15:00:00,2.2911,2.27291,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H1|W4?|2026-03-17 09:00:00,GBPNZD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-13 15:00:00,2026-03-13 23:00:00,2.27291,2.29054,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H1|W4?|2026-03-17 09:00:00,GBPNZD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-13 23:00:00,2026-03-17 01:00:00,2.29054,2.27115,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H1|W4?|2026-03-17 09:00:00,GBPNZD.r,Forex Majors,H1,3,W4? actual,W3,W4?,2026-03-17 01:00:00,2026-03-17 09:00:00,2.27115,2.28182,current
+weavecount_screener_h1_h4_v1|GBPNZD.r|H4|W4?|2026-03-17 04:00:00,GBPNZD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-05 04:00:00,2026-03-06 12:00:00,2.24743,2.27762,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H4|W4?|2026-03-17 04:00:00,GBPNZD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-06 12:00:00,2026-03-09 12:00:00,2.27762,2.25647,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H4|W4?|2026-03-17 04:00:00,GBPNZD.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-09 12:00:00,2026-03-13 08:00:00,2.25647,2.2911,previous
+weavecount_screener_h1_h4_v1|GBPNZD.r|H4|W4?|2026-03-17 04:00:00,GBPNZD.r,Forex Majors,H4,3,W4? actual,W3,W4?,2026-03-13 08:00:00,2026-03-17 04:00:00,2.2911,2.27866,current
+weavecount_screener_h1_h4_v1|GBPUSD.r|H1|W2?|2026-03-17 09:00:00,GBPUSD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 23:00:00,2026-03-16 22:00:00,1.32059,1.33391,previous
+weavecount_screener_h1_h4_v1|GBPUSD.r|H1|W2?|2026-03-17 09:00:00,GBPUSD.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-16 22:00:00,2026-03-17 04:00:00,1.33391,1.32952,current
+weavecount_screener_h1_h4_v1|GBPUSD.r|H4|W2?|2026-03-17 04:00:00,GBPUSD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 08:00:00,2026-03-13 20:00:00,1.3483,1.32059,previous
+weavecount_screener_h1_h4_v1|GBPUSD.r|H4|W2?|2026-03-17 04:00:00,GBPUSD.r,Forex Majors,H4,1,W2? actual,W1,W2?,2026-03-13 20:00:00,2026-03-17 04:00:00,1.32059,1.33114,current
+weavecount_screener_h1_h4_v1|NZDCAD.r|H1|W3?|2026-03-17 09:00:00,NZDCAD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 23:00:00,0.80934,0.7914,previous
+weavecount_screener_h1_h4_v1|NZDCAD.r|H1|W3?|2026-03-17 09:00:00,NZDCAD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-13 23:00:00,2026-03-16 22:00:00,0.7914,0.80234,previous
+weavecount_screener_h1_h4_v1|NZDCAD.r|H1|W3?|2026-03-17 09:00:00,NZDCAD.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-16 22:00:00,2026-03-17 09:00:00,0.80234,0.79758,current
+weavecount_screener_h1_h4_v1|NZDCAD.r|H4|W3?|2026-03-17 04:00:00,NZDCAD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-04 20:00:00,2026-03-09 00:00:00,0.81105,0.79358,previous
+weavecount_screener_h1_h4_v1|NZDCAD.r|H4|W3?|2026-03-17 04:00:00,NZDCAD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-09 00:00:00,2026-03-10 20:00:00,0.79358,0.80934,previous
+weavecount_screener_h1_h4_v1|NZDCAD.r|H4|W3?|2026-03-17 04:00:00,NZDCAD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-10 20:00:00,2026-03-17 04:00:00,0.80934,0.79934,current
+weavecount_screener_h1_h4_v1|NZDCHF.r|H1|W2?|2026-03-17 09:00:00,NZDCHF.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 00:00:00,2026-03-17 05:00:00,0.45582,0.46178,previous
+weavecount_screener_h1_h4_v1|NZDCHF.r|H1|W2?|2026-03-17 09:00:00,NZDCHF.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-17 05:00:00,2026-03-17 09:00:00,0.46178,0.45948,current
+weavecount_screener_h1_h4_v1|NZDCHF.r|H4|W4?|2026-03-17 04:00:00,NZDCHF.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-03 04:00:00,2026-03-09 00:00:00,0.46409,0.45624,previous
+weavecount_screener_h1_h4_v1|NZDCHF.r|H4|W4?|2026-03-17 04:00:00,NZDCHF.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-09 00:00:00,2026-03-10 20:00:00,0.45624,0.46282,previous
+weavecount_screener_h1_h4_v1|NZDCHF.r|H4|W4?|2026-03-17 04:00:00,NZDCHF.r,Forex Majors,H4,2,W3 previa,W2,W3,2026-03-10 20:00:00,2026-03-16 00:00:00,0.46282,0.45582,previous
+weavecount_screener_h1_h4_v1|NZDCHF.r|H4|W4?|2026-03-17 04:00:00,NZDCHF.r,Forex Majors,H4,3,W4? actual,W3,W4?,2026-03-16 00:00:00,2026-03-17 04:00:00,0.45582,0.46042,current
+weavecount_screener_h1_h4_v1|NZDJPY.r|H1|W3?|2026-03-17 09:00:00,NZDJPY.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-11 18:00:00,2026-03-13 23:00:00,94.186,92.146,previous
+weavecount_screener_h1_h4_v1|NZDJPY.r|H1|W3?|2026-03-17 09:00:00,NZDJPY.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-13 23:00:00,2026-03-17 05:00:00,92.146,93.311,previous
+weavecount_screener_h1_h4_v1|NZDJPY.r|H1|W3?|2026-03-17 09:00:00,NZDJPY.r,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 05:00:00,2026-03-17 09:00:00,93.311,92.809,current
+weavecount_screener_h1_h4_v1|NZDJPY.r|H4|W3?|2026-03-17 04:00:00,NZDJPY.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-03 16:00:00,2026-03-11 16:00:00,92.118,94.186,previous
+weavecount_screener_h1_h4_v1|NZDJPY.r|H4|W3?|2026-03-17 04:00:00,NZDJPY.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-11 16:00:00,2026-03-13 20:00:00,94.186,92.146,previous
+weavecount_screener_h1_h4_v1|NZDJPY.r|H4|W3?|2026-03-17 04:00:00,NZDJPY.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-13 20:00:00,2026-03-17 04:00:00,92.146,93.02,current
+weavecount_screener_h1_h4_v1|NZDUSD.r|H1|W5?|2026-03-17 09:00:00,NZDUSD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-12 03:00:00,0.59645,0.58919,previous
+weavecount_screener_h1_h4_v1|NZDUSD.r|H1|W5?|2026-03-17 09:00:00,NZDUSD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-12 03:00:00,2026-03-12 14:00:00,0.58919,0.59116,previous
+weavecount_screener_h1_h4_v1|NZDUSD.r|H1|W5?|2026-03-17 09:00:00,NZDUSD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-12 14:00:00,2026-03-13 23:00:00,0.59116,0.57693,previous
+weavecount_screener_h1_h4_v1|NZDUSD.r|H1|W5?|2026-03-17 09:00:00,NZDUSD.r,Forex Majors,H1,3,W4 previa,W3,W4,2026-03-13 23:00:00,2026-03-16 22:00:00,0.57693,0.58691,previous
+weavecount_screener_h1_h4_v1|NZDUSD.r|H1|W5?|2026-03-17 09:00:00,NZDUSD.r,Forex Majors,H1,4,W5? actual,W4,W5?,2026-03-16 22:00:00,2026-03-17 09:00:00,0.58691,0.58243,current
+weavecount_screener_h1_h4_v1|NZDUSD.r|H4|W2?|2026-03-17 04:00:00,NZDUSD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 20:00:00,0.59645,0.57693,previous
+weavecount_screener_h1_h4_v1|NZDUSD.r|H4|W2?|2026-03-17 04:00:00,NZDUSD.r,Forex Majors,H4,1,W2? actual,W1,W2?,2026-03-13 20:00:00,2026-03-17 04:00:00,0.57693,0.58415,current
+weavecount_screener_h1_h4_v1|USDCAD.r|H1|W5?|2026-03-17 09:00:00,USDCAD.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-09 14:00:00,2026-03-10 04:00:00,1.35252,1.36012,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H1|W5?|2026-03-17 09:00:00,USDCAD.r,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-10 04:00:00,2026-03-10 15:00:00,1.36012,1.35416,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H1|W5?|2026-03-17 09:00:00,USDCAD.r,Forex Majors,H1,2,W3 previa,W2,W3,2026-03-10 15:00:00,2026-03-13 19:00:00,1.35416,1.37413,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H1|W5?|2026-03-17 09:00:00,USDCAD.r,Forex Majors,H1,3,W4 previa,W3,W4,2026-03-13 19:00:00,2026-03-16 17:00:00,1.37413,1.36529,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H1|W5?|2026-03-17 09:00:00,USDCAD.r,Forex Majors,H1,4,W5? actual,W4,W5?,2026-03-16 17:00:00,2026-03-17 09:00:00,1.36529,1.36945,current
+weavecount_screener_h1_h4_v1|USDCAD.r|H4|W3?|2026-03-17 04:00:00,USDCAD.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-09 12:00:00,2026-03-13 16:00:00,1.35252,1.37413,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H4|W3?|2026-03-17 04:00:00,USDCAD.r,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-13 16:00:00,2026-03-16 16:00:00,1.37413,1.36529,previous
+weavecount_screener_h1_h4_v1|USDCAD.r|H4|W3?|2026-03-17 04:00:00,USDCAD.r,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 16:00:00,2026-03-17 04:00:00,1.36529,1.36844,current
+weavecount_screener_h1_h4_v1|USDCHF.r|H1|W2?|2026-03-17 09:00:00,USDCHF.r,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-16 10:00:00,2026-03-17 00:00:00,0.79229,0.78618,previous
+weavecount_screener_h1_h4_v1|USDCHF.r|H1|W2?|2026-03-17 09:00:00,USDCHF.r,Forex Majors,H1,1,W2? actual,W1,W2?,2026-03-17 00:00:00,2026-03-17 09:00:00,0.78618,0.78889,current
+weavecount_screener_h1_h4_v1|USDCHF.r|H4|W2?|2026-03-17 04:00:00,USDCHF.r,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 16:00:00,2026-03-16 08:00:00,0.77479,0.79229,previous
+weavecount_screener_h1_h4_v1|USDCHF.r|H4|W2?|2026-03-17 04:00:00,USDCHF.r,Forex Majors,H4,1,W2? actual,W1,W2?,2026-03-16 08:00:00,2026-03-17 04:00:00,0.79229,0.78816,current
+weavecount_screener_h1_h4_v1|USDJPY|H1|W3?|2026-03-17 09:00:00,USDJPY,Forex Majors,H1,0,W1 previa,origen,W1,2026-03-13 23:00:00,2026-03-16 17:00:00,159.736,158.843,previous
+weavecount_screener_h1_h4_v1|USDJPY|H1|W3?|2026-03-17 09:00:00,USDJPY,Forex Majors,H1,1,W2 previa,W1,W2,2026-03-16 17:00:00,2026-03-17 04:00:00,158.843,159.445,previous
+weavecount_screener_h1_h4_v1|USDJPY|H1|W3?|2026-03-17 09:00:00,USDJPY,Forex Majors,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,159.445,159.344,current
+weavecount_screener_h1_h4_v1|USDJPY|H4|W3?|2026-03-17 04:00:00,USDJPY,Forex Majors,H4,0,W1 previa,origen,W1,2026-03-10 08:00:00,2026-03-13 04:00:00,157.267,159.677,previous
+weavecount_screener_h1_h4_v1|USDJPY|H4|W3?|2026-03-17 04:00:00,USDJPY,Forex Majors,H4,1,W2 previa,W1,W2,2026-03-13 04:00:00,2026-03-16 16:00:00,159.677,158.843,previous
+weavecount_screener_h1_h4_v1|USDJPY|H4|W3?|2026-03-17 04:00:00,USDJPY,Forex Majors,H4,2,W3? actual,W2,W3?,2026-03-16 16:00:00,2026-03-17 04:00:00,158.843,159.226,current
+weavecount_screener_h1_h4_v1|AUS200|H1|W4?|2026-03-17 09:00:00,AUS200,Index,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 03:00:00,8504.6,8620.7,previous
+weavecount_screener_h1_h4_v1|AUS200|H1|W4?|2026-03-17 09:00:00,AUS200,Index,H1,1,W2 previa,W1,W2,2026-03-16 03:00:00,2026-03-16 12:00:00,8620.7,8534.7,previous
+weavecount_screener_h1_h4_v1|AUS200|H1|W4?|2026-03-17 09:00:00,AUS200,Index,H1,2,W3 previa,W2,W3,2026-03-16 12:00:00,2026-03-16 22:00:00,8534.7,8648.7,previous
+weavecount_screener_h1_h4_v1|AUS200|H1|W4?|2026-03-17 09:00:00,AUS200,Index,H1,3,W4? actual,W3,W4?,2026-03-16 22:00:00,2026-03-17 09:00:00,8648.7,8571.2,current
+weavecount_screener_h1_h4_v1|AUS200|H4|W3?|2026-03-17 04:00:00,AUS200,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,8449.8,8791.5,previous
+weavecount_screener_h1_h4_v1|AUS200|H4|W3?|2026-03-17 04:00:00,AUS200,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-13 08:00:00,8791.5,8504.6,previous
+weavecount_screener_h1_h4_v1|AUS200|H4|W3?|2026-03-17 04:00:00,AUS200,Index,H4,2,W3? actual,W2,W3?,2026-03-13 08:00:00,2026-03-17 04:00:00,8504.6,8618.2,current
+weavecount_screener_h1_h4_v1|CHINA50|H1|W3?|2026-03-17 09:00:00,CHINA50,Index,H1,0,W1 previa,origen,W1,2026-03-16 04:00:00,2026-03-16 16:00:00,14661.5,14903.5,previous
+weavecount_screener_h1_h4_v1|CHINA50|H1|W3?|2026-03-17 09:00:00,CHINA50,Index,H1,1,W2 previa,W1,W2,2026-03-16 16:00:00,2026-03-17 03:00:00,14903.5,14838.0,previous
+weavecount_screener_h1_h4_v1|CHINA50|H1|W3?|2026-03-17 09:00:00,CHINA50,Index,H1,2,W3? actual,W2,W3?,2026-03-17 03:00:00,2026-03-17 09:00:00,14838.0,14902.0,current
+weavecount_screener_h1_h4_v1|CHINA50|H4|W3?|2026-03-17 04:00:00,CHINA50,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-13 12:00:00,14166.5,14906.5,previous
+weavecount_screener_h1_h4_v1|CHINA50|H4|W3?|2026-03-17 04:00:00,CHINA50,Index,H4,1,W2 previa,W1,W2,2026-03-13 12:00:00,2026-03-16 04:00:00,14906.5,14661.5,previous
+weavecount_screener_h1_h4_v1|CHINA50|H4|W3?|2026-03-17 04:00:00,CHINA50,Index,H4,2,W3? actual,W2,W3?,2026-03-16 04:00:00,2026-03-17 04:00:00,14661.5,15030.5,current
+weavecount_screener_h1_h4_v1|EURO50|H1|W2?|2026-03-17 09:00:00,EURO50,Index,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 17:00:00,5672.15,5779.65,previous
+weavecount_screener_h1_h4_v1|EURO50|H1|W2?|2026-03-17 09:00:00,EURO50,Index,H1,1,W2? actual,W1,W2?,2026-03-16 17:00:00,2026-03-17 03:00:00,5779.65,5735.65,current
+weavecount_screener_h1_h4_v1|EURO50|H4|W3?|2026-03-17 04:00:00,EURO50,Index,H4,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 08:00:00,5881.05,5672.15,previous
+weavecount_screener_h1_h4_v1|EURO50|H4|W3?|2026-03-17 04:00:00,EURO50,Index,H4,1,W2 previa,W1,W2,2026-03-13 08:00:00,2026-03-16 16:00:00,5672.15,5779.65,previous
+weavecount_screener_h1_h4_v1|EURO50|H4|W3?|2026-03-17 04:00:00,EURO50,Index,H4,2,W3? actual,W2,W3?,2026-03-16 16:00:00,2026-03-17 04:00:00,5779.65,5745.65,current
+weavecount_screener_h1_h4_v1|FRA40|H1|W2?|2026-03-17 09:00:00,FRA40,Index,H1,0,W1 previa,origen,W1,2026-03-16 01:00:00,2026-03-16 18:00:00,7850.2,7967.85,previous
+weavecount_screener_h1_h4_v1|FRA40|H1|W2?|2026-03-17 09:00:00,FRA40,Index,H1,1,W2? actual,W1,W2?,2026-03-16 18:00:00,2026-03-17 03:00:00,7967.85,7908.2,current
+weavecount_screener_h1_h4_v1|FRA40|H4|W3?|2026-03-17 04:00:00,FRA40,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,7736.15,8103.65,previous
+weavecount_screener_h1_h4_v1|FRA40|H4|W3?|2026-03-17 04:00:00,FRA40,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-16 00:00:00,8103.65,7850.2,previous
+weavecount_screener_h1_h4_v1|FRA40|H4|W3?|2026-03-17 04:00:00,FRA40,Index,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,7850.2,7920.7,current
+weavecount_screener_h1_h4_v1|GER40|H1|W2?|2026-03-17 09:00:00,GER40,Index,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 17:00:00,23292.35,23712.55,previous
+weavecount_screener_h1_h4_v1|GER40|H1|W2?|2026-03-17 09:00:00,GER40,Index,H1,1,W2? actual,W1,W2?,2026-03-16 17:00:00,2026-03-17 03:00:00,23712.55,23535.65,current
+weavecount_screener_h1_h4_v1|GER40|H4|W3?|2026-03-17 04:00:00,GER40,Index,H4,0,W1 previa,origen,W1,2026-03-12 04:00:00,2026-03-13 16:00:00,23253.85,23776.25,previous
+weavecount_screener_h1_h4_v1|GER40|H4|W3?|2026-03-17 04:00:00,GER40,Index,H4,1,W2 previa,W1,W2,2026-03-13 16:00:00,2026-03-16 00:00:00,23776.25,23300.75,previous
+weavecount_screener_h1_h4_v1|GER40|H4|W3?|2026-03-17 04:00:00,GER40,Index,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,23300.75,23568.15,current
+weavecount_screener_h1_h4_v1|HK50|H1|W3?|2026-03-17 09:00:00,HK50,Index,H1,0,W1 previa,origen,W1,2026-03-16 04:00:00,2026-03-16 16:00:00,25312.75,25978.75,previous
+weavecount_screener_h1_h4_v1|HK50|H1|W3?|2026-03-17 09:00:00,HK50,Index,H1,1,W2 previa,W1,W2,2026-03-16 16:00:00,2026-03-17 03:00:00,25978.75,25840.0,previous
+weavecount_screener_h1_h4_v1|HK50|H1|W3?|2026-03-17 09:00:00,HK50,Index,H1,2,W3? actual,W2,W3?,2026-03-17 03:00:00,2026-03-17 09:00:00,25840.0,25896.75,current
+weavecount_screener_h1_h4_v1|HK50|H4|W3?|2026-03-17 04:00:00,HK50,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,24771.0,26255.75,previous
+weavecount_screener_h1_h4_v1|HK50|H4|W3?|2026-03-17 04:00:00,HK50,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-16 04:00:00,26255.75,25312.75,previous
+weavecount_screener_h1_h4_v1|HK50|H4|W3?|2026-03-17 04:00:00,HK50,Index,H4,2,W3? actual,W2,W3?,2026-03-16 04:00:00,2026-03-17 04:00:00,25312.75,26096.0,current
+weavecount_screener_h1_h4_v1|ITA40|H1|W3?|2026-03-16 21:00:00,ITA40,Index,H1,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-12 18:00:00,45497.51,43994.99,previous
+weavecount_screener_h1_h4_v1|ITA40|H1|W3?|2026-03-16 21:00:00,ITA40,Index,H1,1,W2 previa,W1,W2,2026-03-12 18:00:00,2026-03-13 16:00:00,43994.99,44912.49,previous
+weavecount_screener_h1_h4_v1|ITA40|H1|W3?|2026-03-16 21:00:00,ITA40,Index,H1,2,W3? actual,W2,W3?,2026-03-13 16:00:00,2026-03-16 21:00:00,44912.49,44484.99,current
+weavecount_screener_h1_h4_v1|ITA40|H4|W3?|2026-03-16 16:00:00,ITA40,Index,H4,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-12 16:00:00,45497.51,43994.99,previous
+weavecount_screener_h1_h4_v1|ITA40|H4|W3?|2026-03-16 16:00:00,ITA40,Index,H4,1,W2 previa,W1,W2,2026-03-12 16:00:00,2026-03-13 16:00:00,43994.99,44912.49,previous
+weavecount_screener_h1_h4_v1|ITA40|H4|W3?|2026-03-16 16:00:00,ITA40,Index,H4,2,W3? actual,W2,W3?,2026-03-13 16:00:00,2026-03-16 16:00:00,44912.49,44357.49,current
+weavecount_screener_h1_h4_v1|JP225|H1|W4?|2026-03-17 09:00:00,JP225,Index,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 03:00:00,52718.25,54008.25,previous
+weavecount_screener_h1_h4_v1|JP225|H1|W4?|2026-03-17 09:00:00,JP225,Index,H1,1,W2 previa,W1,W2,2026-03-16 03:00:00,2026-03-16 12:00:00,54008.25,53413.25,previous
+weavecount_screener_h1_h4_v1|JP225|H1|W4?|2026-03-17 09:00:00,JP225,Index,H1,2,W3 previa,W2,W3,2026-03-16 12:00:00,2026-03-16 22:00:00,53413.25,54626.25,previous
+weavecount_screener_h1_h4_v1|JP225|H1|W4?|2026-03-17 09:00:00,JP225,Index,H1,3,W4? actual,W3,W4?,2026-03-16 22:00:00,2026-03-17 09:00:00,54626.25,53625.25,current
+weavecount_screener_h1_h4_v1|JP225|H4|W3?|2026-03-17 04:00:00,JP225,Index,H4,0,W1 previa,origen,W1,2026-03-09 00:00:00,2026-03-10 20:00:00,51070.25,55794.25,previous
+weavecount_screener_h1_h4_v1|JP225|H4|W3?|2026-03-17 04:00:00,JP225,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-13 08:00:00,55794.25,52718.25,previous
+weavecount_screener_h1_h4_v1|JP225|H4|W3?|2026-03-17 04:00:00,JP225,Index,H4,2,W3? actual,W2,W3?,2026-03-13 08:00:00,2026-03-17 04:00:00,52718.25,53980.25,current
+weavecount_screener_h1_h4_v1|SPA35|H1|W3?|2026-03-16 21:00:00,SPA35,Index,H1,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 11:00:00,17558.4,16857.4,previous
+weavecount_screener_h1_h4_v1|SPA35|H1|W3?|2026-03-16 21:00:00,SPA35,Index,H1,1,W2 previa,W1,W2,2026-03-13 11:00:00,2026-03-16 17:00:00,16857.4,17218.0,previous
+weavecount_screener_h1_h4_v1|SPA35|H1|W3?|2026-03-16 21:00:00,SPA35,Index,H1,2,W3? actual,W2,W3?,2026-03-16 17:00:00,2026-03-16 21:00:00,17218.0,17161.6,current
+weavecount_screener_h1_h4_v1|SPA35|H4|W3?|2026-03-16 20:00:00,SPA35,Index,H4,0,W1 previa,origen,W1,2026-03-09 08:00:00,2026-03-10 20:00:00,16493.6,17558.4,previous
+weavecount_screener_h1_h4_v1|SPA35|H4|W3?|2026-03-16 20:00:00,SPA35,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-13 08:00:00,17558.4,16857.4,previous
+weavecount_screener_h1_h4_v1|SPA35|H4|W3?|2026-03-16 20:00:00,SPA35,Index,H4,2,W3? actual,W2,W3?,2026-03-13 08:00:00,2026-03-16 20:00:00,16857.4,17161.6,current
+weavecount_screener_h1_h4_v1|UK100|H1|W3?|2026-03-17 09:00:00,UK100,Index,H1,0,W1 previa,origen,W1,2026-03-13 11:00:00,2026-03-16 17:00:00,10197.85,10386.35,previous
+weavecount_screener_h1_h4_v1|UK100|H1|W3?|2026-03-17 09:00:00,UK100,Index,H1,1,W2 previa,W1,W2,2026-03-16 17:00:00,2026-03-17 03:00:00,10386.35,10317.2,previous
+weavecount_screener_h1_h4_v1|UK100|H1|W3?|2026-03-17 09:00:00,UK100,Index,H1,2,W3? actual,W2,W3?,2026-03-17 03:00:00,2026-03-17 09:00:00,10317.2,10323.2,current
+weavecount_screener_h1_h4_v1|UK100|H4|W3?|2026-03-17 04:00:00,UK100,Index,H4,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-13 08:00:00,10483.45,10197.85,previous
+weavecount_screener_h1_h4_v1|UK100|H4|W3?|2026-03-17 04:00:00,UK100,Index,H4,1,W2 previa,W1,W2,2026-03-13 08:00:00,2026-03-16 16:00:00,10197.85,10386.35,previous
+weavecount_screener_h1_h4_v1|UK100|H4|W3?|2026-03-17 04:00:00,UK100,Index,H4,2,W3? actual,W2,W3?,2026-03-16 16:00:00,2026-03-17 04:00:00,10386.35,10343.1,current
+weavecount_screener_h1_h4_v1|US100|H1|W3?|2026-03-17 09:00:00,US100,Index,H1,0,W1 previa,origen,W1,2026-03-12 14:00:00,2026-03-16 01:00:00,24927.65,24302.4,previous
+weavecount_screener_h1_h4_v1|US100|H1|W3?|2026-03-17 09:00:00,US100,Index,H1,1,W2 previa,W1,W2,2026-03-16 01:00:00,2026-03-16 22:00:00,24302.4,24828.75,previous
+weavecount_screener_h1_h4_v1|US100|H1|W3?|2026-03-17 09:00:00,US100,Index,H1,2,W3? actual,W2,W3?,2026-03-16 22:00:00,2026-03-17 09:00:00,24828.75,24553.9,current
+weavecount_screener_h1_h4_v1|US100|H4|W3?|2026-03-17 04:00:00,US100,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,23997.45,25213.05,previous
+weavecount_screener_h1_h4_v1|US100|H4|W3?|2026-03-17 04:00:00,US100,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-16 00:00:00,25213.05,24302.4,previous
+weavecount_screener_h1_h4_v1|US100|H4|W3?|2026-03-17 04:00:00,US100,Index,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,24302.4,24636.15,current
+weavecount_screener_h1_h4_v1|US30|H1|W3?|2026-03-17 09:00:00,US30,Index,H1,0,W1 previa,origen,W1,2026-03-11 06:00:00,2026-03-13 11:00:00,47948.55,46432.77,previous
+weavecount_screener_h1_h4_v1|US30|H1|W3?|2026-03-17 09:00:00,US30,Index,H1,1,W2 previa,W1,W2,2026-03-13 11:00:00,2026-03-16 17:00:00,46432.77,47206.03,previous
+weavecount_screener_h1_h4_v1|US30|H1|W3?|2026-03-17 09:00:00,US30,Index,H1,2,W3? actual,W2,W3?,2026-03-16 17:00:00,2026-03-17 09:00:00,47206.03,46734.67,current
+weavecount_screener_h1_h4_v1|US30|H4|W3?|2026-03-17 04:00:00,US30,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-13 16:00:00,46330.9,47133.52,previous
+weavecount_screener_h1_h4_v1|US30|H4|W3?|2026-03-17 04:00:00,US30,Index,H4,1,W2 previa,W1,W2,2026-03-13 16:00:00,2026-03-16 00:00:00,47133.52,46440.78,previous
+weavecount_screener_h1_h4_v1|US30|H4|W3?|2026-03-17 04:00:00,US30,Index,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,46440.78,46881.92,current
+weavecount_screener_h1_h4_v1|US500|H1|W3?|2026-03-17 09:00:00,US500,Index,H1,0,W1 previa,origen,W1,2026-03-12 14:00:00,2026-03-16 01:00:00,6759.0,6611.3,previous
+weavecount_screener_h1_h4_v1|US500|H1|W3?|2026-03-17 09:00:00,US500,Index,H1,1,W2 previa,W1,W2,2026-03-16 01:00:00,2026-03-16 22:00:00,6611.3,6735.0,previous
+weavecount_screener_h1_h4_v1|US500|H1|W3?|2026-03-17 09:00:00,US500,Index,H1,2,W3? actual,W2,W3?,2026-03-16 22:00:00,2026-03-17 09:00:00,6735.0,6671.18,current
+weavecount_screener_h1_h4_v1|US500|H4|W3?|2026-03-17 04:00:00,US500,Index,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,6577.72,6851.05,previous
+weavecount_screener_h1_h4_v1|US500|H4|W3?|2026-03-17 04:00:00,US500,Index,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-16 00:00:00,6851.05,6611.3,previous
+weavecount_screener_h1_h4_v1|US500|H4|W3?|2026-03-17 04:00:00,US500,Index,H4,2,W3? actual,W2,W3?,2026-03-16 00:00:00,2026-03-17 04:00:00,6611.3,6691.47,current
+weavecount_screener_h1_h4_v1|XAGEUR.r|H1|W3?|2026-03-17 09:00:00,XAGEUR.r,Metals,H1,0,W1 previa,origen,W1,2026-03-16 13:00:00,2026-03-16 21:00:00,67.301,70.633,previous
+weavecount_screener_h1_h4_v1|XAGEUR.r|H1|W3?|2026-03-17 09:00:00,XAGEUR.r,Metals,H1,1,W2 previa,W1,W2,2026-03-16 21:00:00,2026-03-17 04:00:00,70.633,69.478,previous
+weavecount_screener_h1_h4_v1|XAGEUR.r|H1|W3?|2026-03-17 09:00:00,XAGEUR.r,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,69.478,70.19,current
+weavecount_screener_h1_h4_v1|XAGEUR.r|H4|W2?|2026-03-17 04:00:00,XAGEUR.r,Metals,H4,0,W1 previa,origen,W1,2026-03-10 04:00:00,2026-03-16 12:00:00,77.441,67.301,previous
+weavecount_screener_h1_h4_v1|XAGEUR.r|H4|W2?|2026-03-17 04:00:00,XAGEUR.r,Metals,H4,1,W2? actual,W1,W2?,2026-03-16 12:00:00,2026-03-17 04:00:00,67.301,71.7,current
+weavecount_screener_h1_h4_v1|XAGUSD.r|H1|W3?|2026-03-17 09:00:00,XAGUSD.r,Metals,H1,0,W1 previa,origen,W1,2026-03-16 13:00:00,2026-03-16 21:00:00,77.055,81.386,previous
+weavecount_screener_h1_h4_v1|XAGUSD.r|H1|W3?|2026-03-17 09:00:00,XAGUSD.r,Metals,H1,1,W2 previa,W1,W2,2026-03-16 21:00:00,2026-03-17 04:00:00,81.386,79.834,previous
+weavecount_screener_h1_h4_v1|XAGUSD.r|H1|W3?|2026-03-17 09:00:00,XAGUSD.r,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,79.834,80.59,current
+weavecount_screener_h1_h4_v1|XAGUSD.r|H4|W2?|2026-03-17 04:00:00,XAGUSD.r,Metals,H4,0,W1 previa,origen,W1,2026-03-10 04:00:00,2026-03-16 12:00:00,89.966,77.055,previous
+weavecount_screener_h1_h4_v1|XAGUSD.r|H4|W2?|2026-03-17 04:00:00,XAGUSD.r,Metals,H4,1,W2? actual,W1,W2?,2026-03-16 12:00:00,2026-03-17 04:00:00,77.055,82.433,current
+weavecount_screener_h1_h4_v1|XAUEUR.r|H1|W4?|2026-03-17 09:00:00,XAUEUR.r,Metals,H1,0,W1 previa,origen,W1,2026-03-13 16:00:00,2026-03-16 02:00:00,4462.3,4345.61,previous
+weavecount_screener_h1_h4_v1|XAUEUR.r|H1|W4?|2026-03-17 09:00:00,XAUEUR.r,Metals,H1,1,W2 previa,W1,W2,2026-03-16 02:00:00,2026-03-16 09:00:00,4345.61,4404.22,previous
+weavecount_screener_h1_h4_v1|XAUEUR.r|H1|W4?|2026-03-17 09:00:00,XAUEUR.r,Metals,H1,2,W3 previa,W2,W3,2026-03-16 09:00:00,2026-03-16 19:00:00,4404.22,4331.98,previous
+weavecount_screener_h1_h4_v1|XAUEUR.r|H1|W4?|2026-03-17 09:00:00,XAUEUR.r,Metals,H1,3,W4? actual,W3,W4?,2026-03-16 19:00:00,2026-03-17 09:00:00,4331.98,4363.21,current
+weavecount_screener_h1_h4_v1|XAUEUR.r|H4|W3?|2026-03-17 04:00:00,XAUEUR.r,Metals,H4,0,W1 previa,origen,W1,2026-03-03 16:00:00,2026-03-11 04:00:00,4329.01,4496.95,previous
+weavecount_screener_h1_h4_v1|XAUEUR.r|H4|W3?|2026-03-17 04:00:00,XAUEUR.r,Metals,H4,1,W2 previa,W1,W2,2026-03-11 04:00:00,2026-03-16 16:00:00,4496.95,4331.98,previous
+weavecount_screener_h1_h4_v1|XAUEUR.r|H4|W3?|2026-03-17 04:00:00,XAUEUR.r,Metals,H4,2,W3? actual,W2,W3?,2026-03-16 16:00:00,2026-03-17 04:00:00,4331.98,4381.77,current
+weavecount_screener_h1_h4_v1|XAUUSD.r|H1|W3?|2026-03-17 09:00:00,XAUUSD.r,Metals,H1,0,W1 previa,origen,W1,2026-03-16 02:00:00,2026-03-16 17:00:00,4967.94,5038.07,previous
+weavecount_screener_h1_h4_v1|XAUUSD.r|H1|W3?|2026-03-17 09:00:00,XAUUSD.r,Metals,H1,1,W2 previa,W1,W2,2026-03-16 17:00:00,2026-03-17 04:00:00,5038.07,4994.92,previous
+weavecount_screener_h1_h4_v1|XAUUSD.r|H1|W3?|2026-03-17 09:00:00,XAUUSD.r,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,4994.92,5010.35,current
+weavecount_screener_h1_h4_v1|XAUUSD.r|H4|W4?|2026-03-17 04:00:00,XAUUSD.r,Metals,H4,0,W1 previa,origen,W1,2026-03-02 08:00:00,2026-03-03 16:00:00,5419.29,4996.59,previous
+weavecount_screener_h1_h4_v1|XAUUSD.r|H4|W4?|2026-03-17 04:00:00,XAUUSD.r,Metals,H4,1,W2 previa,W1,W2,2026-03-03 16:00:00,2026-03-10 16:00:00,4996.59,5238.8,previous
+weavecount_screener_h1_h4_v1|XAUUSD.r|H4|W4?|2026-03-17 04:00:00,XAUUSD.r,Metals,H4,2,W3 previa,W2,W3,2026-03-10 16:00:00,2026-03-16 00:00:00,5238.8,4967.94,previous
+weavecount_screener_h1_h4_v1|XAUUSD.r|H4|W4?|2026-03-17 04:00:00,XAUUSD.r,Metals,H4,3,W4? actual,W3,W4?,2026-03-16 00:00:00,2026-03-17 04:00:00,4967.94,5037.85,current
+weavecount_screener_h1_h4_v1|XCUUSD.r|H1|W3?|2026-03-17 09:00:00,XCUUSD.r,Metals,H1,0,W1 previa,origen,W1,2026-03-10 20:00:00,2026-03-16 04:00:00,13173.55,12661.3,previous
+weavecount_screener_h1_h4_v1|XCUUSD.r|H1|W3?|2026-03-17 09:00:00,XCUUSD.r,Metals,H1,1,W2 previa,W1,W2,2026-03-16 04:00:00,2026-03-17 05:00:00,12661.3,12939.65,previous
+weavecount_screener_h1_h4_v1|XCUUSD.r|H1|W3?|2026-03-17 09:00:00,XCUUSD.r,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 05:00:00,2026-03-17 09:00:00,12939.65,12771.85,current
+weavecount_screener_h1_h4_v1|XCUUSD.r|H4|W3?|2026-03-17 04:00:00,XCUUSD.r,Metals,H4,0,W1 previa,origen,W1,2026-03-09 04:00:00,2026-03-10 20:00:00,12582.6,13173.55,previous
+weavecount_screener_h1_h4_v1|XCUUSD.r|H4|W3?|2026-03-17 04:00:00,XCUUSD.r,Metals,H4,1,W2 previa,W1,W2,2026-03-10 20:00:00,2026-03-16 04:00:00,13173.55,12661.3,previous
+weavecount_screener_h1_h4_v1|XCUUSD.r|H4|W3?|2026-03-17 04:00:00,XCUUSD.r,Metals,H4,2,W3? actual,W2,W3?,2026-03-16 04:00:00,2026-03-17 04:00:00,12661.3,12895.1,current
+weavecount_screener_h1_h4_v1|XPDUSD|H1|W3?|2026-03-17 09:00:00,XPDUSD,Metals,H1,0,W1 previa,origen,W1,2026-03-16 01:00:00,2026-03-16 17:00:00,1491.98,1614.7,previous
+weavecount_screener_h1_h4_v1|XPDUSD|H1|W3?|2026-03-17 09:00:00,XPDUSD,Metals,H1,1,W2 previa,W1,W2,2026-03-16 17:00:00,2026-03-17 04:00:00,1614.7,1584.81,previous
+weavecount_screener_h1_h4_v1|XPDUSD|H1|W3?|2026-03-17 09:00:00,XPDUSD,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,1584.81,1599.49,current
+weavecount_screener_h1_h4_v1|XPDUSD|H4|W4?|2026-03-17 04:00:00,XPDUSD,Metals,H4,0,W1 previa,origen,W1,2026-02-27 08:00:00,2026-03-06 00:00:00,1839.5,1562.99,previous
+weavecount_screener_h1_h4_v1|XPDUSD|H4|W4?|2026-03-17 04:00:00,XPDUSD,Metals,H4,1,W2 previa,W1,W2,2026-03-06 00:00:00,2026-03-10 12:00:00,1562.99,1707.31,previous
+weavecount_screener_h1_h4_v1|XPDUSD|H4|W4?|2026-03-17 04:00:00,XPDUSD,Metals,H4,2,W3 previa,W2,W3,2026-03-10 12:00:00,2026-03-16 00:00:00,1707.31,1491.98,previous
+weavecount_screener_h1_h4_v1|XPDUSD|H4|W4?|2026-03-17 04:00:00,XPDUSD,Metals,H4,3,W4? actual,W3,W4?,2026-03-16 00:00:00,2026-03-17 04:00:00,1491.98,1626.3,current
+weavecount_screener_h1_h4_v1|XPTUSD|H1|W3?|2026-03-17 09:00:00,XPTUSD,Metals,H1,0,W1 previa,origen,W1,2026-03-16 01:00:00,2026-03-16 22:00:00,2004.63,2126.79,previous
+weavecount_screener_h1_h4_v1|XPTUSD|H1|W3?|2026-03-17 09:00:00,XPTUSD,Metals,H1,1,W2 previa,W1,W2,2026-03-16 22:00:00,2026-03-17 04:00:00,2126.79,2082.63,previous
+weavecount_screener_h1_h4_v1|XPTUSD|H1|W3?|2026-03-17 09:00:00,XPTUSD,Metals,H1,2,W3? actual,W2,W3?,2026-03-17 04:00:00,2026-03-17 09:00:00,2082.63,2129.98,current
+weavecount_screener_h1_h4_v1|XPTUSD|H4|W2?|2026-03-17 04:00:00,XPTUSD,Metals,H4,0,W1 previa,origen,W1,2026-03-10 12:00:00,2026-03-16 00:00:00,2245.21,2004.63,previous
+weavecount_screener_h1_h4_v1|XPTUSD|H4|W2?|2026-03-17 04:00:00,XPTUSD,Metals,H4,1,W2? actual,W1,W2?,2026-03-16 00:00:00,2026-03-17 04:00:00,2004.63,2171.11,current

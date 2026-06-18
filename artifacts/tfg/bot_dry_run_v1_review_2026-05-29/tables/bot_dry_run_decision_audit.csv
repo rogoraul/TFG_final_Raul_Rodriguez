@@ -1,0 +1,6 @@
+check_id,scenario,result,evidence,interpretation
+D01,default_real_snapshot,passed,"{""dry_run_blocked_by_config"": 54}",Default bot_enabled=false/mode=off blocks all 54 rows by config.
+D02,enabled_real_snapshot,passed,"{""dry_run_no_action"": 54}","When explicitly enabled, real snapshot remains watch-only and creates zero intents."
+D03,simulated_intents_real_snapshot,passed,0,No simulated intents are created from the current real snapshot.
+D04,fixture_positive_path,passed,test_riskguard_accepted_entry_ready_creates_simulated_intent,Positive path is tested with synthetic entry_ready_new + riskguard_accepted fixture.
+D05,riskguard_rejected_path,passed,test_riskguard_rejected_blocks_simulated_intent,RiskGuard rejection blocks simulated intent.

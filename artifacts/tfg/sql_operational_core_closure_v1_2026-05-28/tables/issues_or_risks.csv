@@ -1,0 +1,4 @@
+issue_id,severity,status,description,action_taken,next_step
+I01,low,resolved,"`export_latest_snapshot` fails when called with a relative output_dir because it computes `relative_to(REPO_ROOT)` against a relative path.","Reran export with an absolute output path; SQL was read-only and export succeeded.","Consider hardening utility later to resolve output_dir before writing metadata."
+R01,medium,open,"Dashboard must not assume SQL freshness beyond the verified bootstrap snapshot.","Closure artifacts mark this as baseline `bootstrap_current`, not live-observed history.","P02 should design stale/freshness states explicitly."
+R02,medium,open,"SQL connection uses local `.env` values; secrets were not printed, but dashboard should not depend on exposing config.","Connection audit stored only non-secret metadata.","P02/P03 should keep config handling server-side/read-only."

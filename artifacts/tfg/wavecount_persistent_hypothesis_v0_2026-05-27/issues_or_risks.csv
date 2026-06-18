@@ -1,0 +1,7 @@
+severity,risk,description,recommendation
+info,lookahead_guard,Anti look-ahead checks passed.,Keep as hard guardrail.
+low,manual_review_latest,0 latest hypotheses remain manual_review_only.,Do not show as clean dashboard context.
+info,warning_display_latest,4 latest hypotheses can be shown only with warning.,Keep warning badges and no bot access.
+info,displayable_latest,0 latest hypotheses are displayable read-only context.,Require visual review before dashboard.
+medium,wave5_dominance,4 latest hypotheses are wave5/completed-style states.,Treat as suspicious until visual review confirms the persistent cycle framing.
+info,persistent_pivots,39 pivots reached persistence.,"If low, adjust persistence/event semantics before dashboard."

@@ -1,0 +1,145 @@
+Los anexos re\'unen material de apoyo utilizado durante el cierre del trabajo.
+Se incluyen para facilitar la trazabilidad de tablas, capturas, informes y
+archivos t\'ecnicos citados en la memoria, sin ampliar el alcance de los
+resultados presentados en el cuerpo principal.
+
+Junto al PDF se entrega la carpeta \url{anexos/paquete_entrega/}, que agrupa una
+copia reducida de las evidencias principales. Esta carpeta evita depender del
+directorio completo de resultados y permite revisar las figuras, tablas,
+capturas e informes citados en los anexos. El manifiesto
+\url{anexos/paquete_entrega/MANIFEST_ARCHIVOS.csv} resume los archivos incluidos
+en el paquete.
+
+\section{Repositorio y paquete de entrega}
+\label{sec:anexos-repositorio-paquete}
+
+El repositorio asociado al proyecto se encuentra en
+\url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}. El repositorio contiene el
+c\'odigo fuente, la estructura documental y los scripts utilizados durante el
+desarrollo. Para revisar la memoria no es necesario mover archivos entre
+carpetas: el paquete \url{anexos/paquete_entrega/} acompa\~na al PDF y contiene
+una selecci\'on reducida de evidencias.
+
+Este paquete no pretende sustituir al repositorio completo ni al directorio
+general de resultados. Cumple una funci\'on pr\'actica: reunir figuras can\'onicas,
+fragmentos de tablas, CSV agregados, capturas y archivos t\'ecnicos ligeros que
+respaldan las afirmaciones principales. Las copias de Telegram incluidas en el
+paquete est\'an sanitizadas para no incorporar tokens ni identificadores
+sensibles.
+
+\section{Inventario de evidencias can\'onicas}
+\label{sec:anexos-inventario-evidencias}
+
+El inventario can\'onico se organiza por bloques para que cada evidencia se lea
+en su contexto. En todos los casos, la interpretaci\'on debe mantenerse dentro
+del alcance definido en el trabajo: backtesting por bloques independientes,
+revisi\'on supervisada, capa demo controlada y ausencia de operaci\'on real
+aut\'onoma.
+
+\begin{itemize}
+  \item \textbf{Benchmark final de comparaci\'on.} Las fuentes principales son
+  las tablas agregadas por estrategia y las m\'etricas por bloque, conservadas en
+  \url{anexos/paquete_entrega/04_fuentes_csv/benchmark_w2/}.
+  Se emplean para comparar las estrategias formalizadas con referencias por
+  bloques independientes. No representan una cartera \'unica ni una promesa de
+  rentabilidad futura.
+
+  \item \textbf{L\'inea Men\'endez/Elliott.} La tabla de referencia es
+  el resumen por variante conservado en
+  \url{anexos/paquete_entrega/04_fuentes_csv/menendez/}. Documenta una
+  validaci\'on local y acotada de variantes experimentales, sin presentarlas como
+  una ventaja operativa cerrada.
+
+  \item \textbf{WaveCount y WeaveCount.} La evidencia procede de
+  la revisi\'on de calidad de contexto conservada en
+  \url{anexos/paquete_entrega/04_fuentes_csv/wavecount/} y de las figuras
+  can\'onicas de \url{anexos/paquete_entrega/02_figuras/wavecount/}. Este bloque
+  aporta apoyo estructural para revisar conteos y contexto, no un filtro
+  autom\'atico de operaciones.
+
+  \item \textbf{Trading Center Dashboard.} Las capturas can\'onicas se conservan
+  en \url{anexos/paquete_entrega/02_figuras/plataforma/}. Sirven para mostrar la
+  integraci\'on de mercado, correlaciones, Screener, WeaveCount, MT5 Bot y AI
+  Analyst. El dashboard observa y organiza, pero no ejecuta \'ordenes.
+
+  \item \textbf{MT5, RiskGuard y Telegram.} La evidencia combina la tabla
+  de cierre t\'ecnico, los archivos t\'ecnicos ligeros de
+  \url{anexos/paquete_entrega/05_artifacts_tecnicos_demo/} y las capturas de
+  \url{anexos/paquete_entrega/02_figuras/telegram/}. Este bloque recoge la parte
+  de seguimiento del bot: MT5 queda limitado a lectura, decisiones
+  \textit{shadow} sin ejecuci\'on y ciclo demo controlado; Telegram queda como
+  canal informativo, no como consola.
+
+  \item \textbf{AI Analyst.} Se conserva el informe
+  PDF de 2026-06-07 en \url{anexos/paquete_entrega/01_informe_ai_analyst/},
+  junto con la auditor\'ia de seguridad en
+  \url{anexos/paquete_entrega/04_fuentes_csv/ai_analyst/}. Debe leerse como una
+  salida documental de un asistente de solo lectura, no como una decisi\'on
+  operativa.
+\end{itemize}
+
+\section{Tabla extendida del benchmark final de comparaci\'on}
+\label{sec:anexos-tabla-extendida-benchmark}
+
+La Tabla \ref{tab:benchmarks-w2-bloques-seleccionados} ampl\'ia el resumen de
+resultados presentado en el cuerpo de la memoria. La tabla permite revisar, para
+las dos estrategias formalizadas principales, el comportamiento por grupo de
+activos y por timeframe. Esta lectura es \'util para detectar dispersi\'on entre
+bloques, pero no debe interpretarse como una curva de capital conjunta ni como
+un resultado agregado de cartera.
+
+\input{tex/tables/tabla_benchmarks_w2_bloques_seleccionados.tex}
+
+\section{Capturas y figuras complementarias}
+\label{sec:anexos-capturas-figuras}
+
+Durante el cierre de la memoria se prepar\'o una carpeta de figuras can\'onicas
+para separar las im\'agenes principales del cuerpo y las capturas
+complementarias. En el paquete de entrega, estas figuras se conservan dentro de
+\url{anexos/paquete_entrega/02_figuras/}. Las capturas individuales de Telegram
+muestran la recepci\'on informativa de mensajes, mientras que la captura del
+panel MT5 Bot sirve como apoyo visual para revisar el estado y la auditor\'ia del
+sistema.
+
+Tambi\'en se conservan conteos WaveCount alternativos. Estas figuras complementan
+la composici\'on incluida en resultados y ayudan a entender la variabilidad de
+los conteos, manteniendo la misma cautela que en el cuerpo de la memoria: son
+hip\'otesis estructurales revisables, no se\~nales autom\'aticas. Por \'ultimo, los
+diagramas de flujo y arquitectura documentan visualmente el paso desde los datos
+hasta la revisi\'on supervisada.
+
+\section{Informe AI Analyst conservado como anexo}
+\label{sec:anexos-informe-ai-analyst}
+
+Como ejemplo de salida de la capa AI Analyst, se conserva el informe
+\url{anexos/paquete_entrega/01_informe_ai_analyst/ai_analyst_review_report_2026-06-07.pdf}.
+El archivo tiene tres p\'aginas y fue generado a partir de un paquete de
+revisi\'on con datos estructurados y gr\'aficos. Su utilidad en la memoria es
+mostrar el tipo de informe que puede producir el asistente cuando el usuario
+lanza una revisi\'on expl\'icita.
+
+El informe no debe leerse como una se\~nal de trading, una aprobaci\'on de orden ni
+una sustituci\'on del criterio humano. Su valor est\'a en mostrar una salida
+documental de apoyo: resume contexto, estructura una revisi\'on y deja constancia
+de la informaci\'on usada por el AI Analyst en modo de solo lectura.
+
+\section{Criterios de lectura de los anexos}
+\label{sec:anexos-criterios-lectura}
+
+Para evitar una interpretaci\'on excesiva del material complementario, los
+anexos deben leerse con los mismos l\'imites que el resto de la memoria:
+
+\begin{itemize}
+  \item los resultados de backtesting se interpretan por bloques independientes,
+  no como una cartera \'unica;
+  \item las figuras de WaveCount y WeaveCount muestran hip\'otesis estructurales
+  revisables, no se\~nales autom\'aticas;
+  \item las capturas del Trading Center prueban integraci\'on visual y
+  trazabilidad, no ejecuci\'on operativa;
+  \item MT5 queda limitado a lectura, decisiones \textit{shadow} sin ejecuci\'on
+  y ciclo demo controlado;
+  \item Telegram queda limitado a mensajes informativos; no acepta comandos
+  ni permisos de orden;
+  \item AI Analyst queda como apoyo anal\'itico de solo lectura y no como decisor
+  del sistema.
+\end{itemize}

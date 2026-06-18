@@ -1,0 +1,3 @@
+issue_id,severity,area,description,recommended_action
+sender_not_implemented_by_design,info,scope,This phase deliberately designs the gate only.,Implement in a separate reviewed phase if desired.
+real_send_requires_external_secrets,blocker_for_send,security,No token/chat id exists and none should be stored in repo.,Future implementation must read external env/secret manager only.

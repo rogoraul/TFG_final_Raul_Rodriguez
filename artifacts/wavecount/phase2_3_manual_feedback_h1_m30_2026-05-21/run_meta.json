@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-05-21T18:03:49",
+  "finished_at": "2026-05-21T18:03:49",
+  "elapsed_seconds": 0.19206,
+  "inputs": {
+    "phase2_3_h1_m30": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30",
+    "phase2_3_2_4_reaudit": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_4_visual_reaudit_2026-05-19",
+    "abc_fix": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_abc_fix_2026-05-20"
+  },
+  "counts": {
+    "manual_feedback_cases": 12,
+    "cases_to_downgrade": 9,
+    "cases_to_keep": 3,
+    "degree_calibration_issues": 2,
+    "partial_123_issues": 3,
+    "wave5_endpoint_issues": 4
+  },
+  "abc_note": {
+    "phase23_h1_m30_index": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\tables\\visual_review_candidates.md",
+    "legacy_abc_links_in_phase23_index": 12,
+    "abc_fix_dir": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20",
+    "abc_fix_report_exists": true,
+    "decision": "Do not use Phase 2.3 H1/M30 ABC links as current ABC evidence; use phase2_abc_fix_2026-05-20 until corrected ABC is integrated."
+  },
+  "outputs": {
+    "manual_feedback_cases": "tables/manual_feedback_cases.csv",
+    "rule_implications": "tables/rule_implications.csv",
+    "cases_to_downgrade": "tables/cases_to_downgrade.csv",
+    "cases_to_keep": "tables/cases_to_keep.csv",
+    "degree_calibration_issues": "tables/degree_calibration_issues.csv",
+    "partial_123_issues": "tables/partial_123_issues.csv",
+    "wave5_endpoint_issues": "tables/wave5_endpoint_issues.csv",
+    "report": "WAVECOUNT_PHASE2_3_MANUAL_FEEDBACK_REPORT.md"
+  }
+}

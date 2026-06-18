@@ -1,0 +1,2 @@
+scope,readiness,primary_degree,higher_degree_context,minor_use,h4_role,abc_role,phase25_note
+phase2_3_h4_d1_count_only,ready_for_phase2_4_review,intermediate,major,substructure_only,preferred_visual_base,experimental_pending_abc_fix_review,Do not use ABC or downgraded partials as Phase 2.5 rules; use H4/D1 intermediate plus major context.

@@ -1,0 +1,4 @@
+source_id,path,exists,rows,required
+snapshot_csv,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\macd_breakout_watcher\snapshot.csv,True,188,True
+watchlist_csv,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\macd_breakout_watcher\watchlist.csv,True,29,True
+ohlc_csv,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\sql_market_data_readonly\ohlc_mtf.csv,True,445664,True

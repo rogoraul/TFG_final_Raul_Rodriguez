@@ -1,0 +1,37 @@
+{
+  "phase": "2.5.10",
+  "generated_at": "2026-05-24T23:50:07",
+  "output_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_10_guided_profile_closure_2026-05-24",
+  "inputs": {
+    "2.5.0": "artifacts\\wavecount\\05_guided_profile\\phase2_5_0_guided_context_score_2026-05-24",
+    "2.5.1": "artifacts\\wavecount\\05_guided_profile\\phase2_5_1_guided_impulse_profile_2026-05-24",
+    "2.5.2": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2_h4_d1_expansion_2026-05-24",
+    "2.5.2b": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2b_h1_h4_aux_2026-05-24",
+    "2.5.3": "artifacts\\wavecount\\05_guided_profile\\phase2_5_3_descriptive_stats_2026-05-24",
+    "2.5.4": "artifacts\\wavecount\\05_guided_profile\\phase2_5_4_soft_quality_policy_2026-05-24",
+    "2.5.5": "artifacts\\wavecount\\05_guided_profile\\phase2_5_5_soft_policy_visual_audit_2026-05-24",
+    "2.5.6": "artifacts\\wavecount\\05_guided_profile\\phase2_5_6_soft_policy_weight_adjustment_2026-05-24",
+    "2.5.6b": "artifacts\\wavecount\\05_guided_profile\\phase2_5_6b_market_group_bias_audit_2026-05-24",
+    "2.5.7": "artifacts\\wavecount\\05_guided_profile\\phase2_5_7_market_stratified_expansion_2026-05-24",
+    "2.5.8": "artifacts\\wavecount\\05_guided_profile\\phase2_5_8_prominence_normalization_audit_2026-05-24",
+    "2.5.9": "artifacts\\wavecount\\05_guided_profile\\phase2_5_9_robust_prominence_policy_trial_2026-05-24"
+  },
+  "input_rows": {
+    "phase256_policy_scores": 108,
+    "phase257_policy_scores": 162,
+    "phase258_metals_h4_d1": 30,
+    "phase259_candidate_policy_scores": 162,
+    "phase259_bucket_changes": 162
+  },
+  "phase256_policy_changed": false,
+  "rules_changed": false,
+  "weights_changed": false,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "base_counts_recomputed": false,
+  "phase259_bucket_change_counts": {
+    "unchanged": 162
+  },
+  "official_policy": "phase2_5_6_soft_policy_weight_adjustment_2026-05-24",
+  "runtime_seconds": 0.108
+}

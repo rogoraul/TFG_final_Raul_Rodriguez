@@ -1,0 +1,307 @@
+severity,area,item,detail,recommendation
+pendiente/no bloqueante,vigencia_live,AUDCAD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDCAD.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDCAD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDCAD.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDCAD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDCAD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDCAD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDCAD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDCAD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,AUDJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDJPY.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDJPY.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDJPY.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDJPY.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,AUDNZD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDNZD.r M15,gaps cortos/anomalos: 11,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDNZD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDNZD.r M30,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDNZD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDNZD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDNZD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDNZD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDNZD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,AUDUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDUSD.r M15,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDUSD.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDUSD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,AUDUSD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,AUDUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,CADCHF.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADCHF.r M15,gaps cortos/anomalos: 15,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADCHF.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADCHF.r M30,gaps cortos/anomalos: 14,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADCHF.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADCHF.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADCHF.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADCHF.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADCHF.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,CADJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADJPY.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADJPY.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADJPY.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CADJPY.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CADJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,CHFJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CHFJPY.r M15,gaps cortos/anomalos: 30,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CHFJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CHFJPY.r M30,gaps cortos/anomalos: 15,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CHFJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CHFJPY.r H1,gaps cortos/anomalos: 6,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CHFJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,CHFJPY.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,CHFJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURAUD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURAUD.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURAUD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURAUD.r M30,gaps cortos/anomalos: 12,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURAUD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURAUD.r H1,gaps cortos/anomalos: 23,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURAUD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURAUD.r H4,gaps cortos/anomalos: 29,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURAUD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURCAD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCAD.r M15,gaps cortos/anomalos: 12,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCAD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCAD.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCAD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCAD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCAD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCAD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCAD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURCHF.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCHF.r M15,gaps cortos/anomalos: 15,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCHF.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCHF.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCHF.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCHF.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCHF.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURCHF.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURCHF.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURGBP.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURGBP.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURGBP.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURGBP.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURGBP.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURGBP.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURGBP.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURGBP.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURGBP.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURJPY.r M15,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURJPY.r M30,gaps cortos/anomalos: 12,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURJPY.r H1,gaps cortos/anomalos: 23,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURJPY.r H4,gaps cortos/anomalos: 19,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURNZD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURNZD.r M15,gaps cortos/anomalos: 11,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURNZD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURNZD.r M30,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURNZD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURNZD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURNZD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURNZD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURNZD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,EURUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURUSD.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURUSD.r M30,gaps cortos/anomalos: 13,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURUSD.r H1,gaps cortos/anomalos: 24,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,EURUSD.r H4,gaps cortos/anomalos: 22,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,EURUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPAUD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPAUD.r M15,gaps cortos/anomalos: 14,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPAUD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPAUD.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPAUD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPAUD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPAUD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPAUD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPAUD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPCAD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCAD.r M15,gaps cortos/anomalos: 17,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCAD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCAD.r M30,gaps cortos/anomalos: 11,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCAD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCAD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCAD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCAD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCAD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPCHF.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCHF.r M15,gaps cortos/anomalos: 14,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCHF.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCHF.r M30,gaps cortos/anomalos: 11,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCHF.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCHF.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCHF.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPCHF.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPCHF.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPJPY.r M15,gaps cortos/anomalos: 14,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPJPY.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPJPY.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPJPY.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPNZD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPNZD.r M15,gaps cortos/anomalos: 21,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPNZD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPNZD.r M30,gaps cortos/anomalos: 12,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPNZD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPNZD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPNZD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPNZD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPNZD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,GBPUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPUSD.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPUSD.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPUSD.r H1,gaps cortos/anomalos: 6,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,GBPUSD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,GBPUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,NZDCAD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCAD.r M15,gaps cortos/anomalos: 14,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCAD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCAD.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCAD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCAD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCAD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCAD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCAD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,NZDCHF.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCHF.r M15,gaps cortos/anomalos: 12,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCHF.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCHF.r M30,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCHF.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCHF.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCHF.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDCHF.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDCHF.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,NZDJPY.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDJPY.r M15,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDJPY.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDJPY.r M30,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDJPY.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDJPY.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDJPY.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDJPY.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDJPY.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,NZDUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDUSD.r M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDUSD.r M30,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDUSD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,NZDUSD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,NZDUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,USDCAD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCAD.r M15,gaps cortos/anomalos: 10,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCAD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCAD.r M30,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCAD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCAD.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCAD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCAD.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCAD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,USDCHF.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCHF.r M15,gaps cortos/anomalos: 17,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCHF.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCHF.r M30,gaps cortos/anomalos: 11,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCHF.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCHF.r H1,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCHF.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDCHF.r H4,gaps cortos/anomalos: 4,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDCHF.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,USDJPY M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDJPY M15,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDJPY M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDJPY M30,gaps cortos/anomalos: 16,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDJPY H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDJPY H1,gaps cortos/anomalos: 41,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDJPY H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,USDJPY H4,gaps cortos/anomalos: 22,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,USDJPY D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XAGEUR.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGEUR.r M15,gaps cortos/anomalos: 910,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGEUR.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGEUR.r M30,gaps cortos/anomalos: 905,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGEUR.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGEUR.r H1,gaps cortos/anomalos: 900,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGEUR.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGEUR.r H4,gaps cortos/anomalos: 5,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGEUR.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XAGUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGUSD.r M15,gaps cortos/anomalos: 904,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGUSD.r M30,gaps cortos/anomalos: 1248,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGUSD.r H1,gaps cortos/anomalos: 1244,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAGUSD.r H4,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAGUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XAUEUR.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUEUR.r M15,gaps cortos/anomalos: 905,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUEUR.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUEUR.r M30,gaps cortos/anomalos: 980,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUEUR.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUEUR.r H1,gaps cortos/anomalos: 976,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUEUR.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUEUR.r H4,gaps cortos/anomalos: 8,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUEUR.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XAUUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUUSD.r M15,gaps cortos/anomalos: 905,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUUSD.r M30,gaps cortos/anomalos: 1249,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUUSD.r H1,gaps cortos/anomalos: 1244,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XAUUSD.r H4,gaps cortos/anomalos: 9,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XAUUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XCUUSD.r M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XCUUSD.r M15,gaps cortos/anomalos: 509,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XCUUSD.r M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XCUUSD.r M30,gaps cortos/anomalos: 506,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XCUUSD.r H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XCUUSD.r H1,gaps cortos/anomalos: 501,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XCUUSD.r H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XCUUSD.r H4,gaps cortos/anomalos: 46,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XCUUSD.r D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XPDUSD M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPDUSD M15,gaps cortos/anomalos: 932,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPDUSD M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPDUSD M30,gaps cortos/anomalos: 4629,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPDUSD H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPDUSD H1,gaps cortos/anomalos: 2691,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPDUSD H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPDUSD H4,gaps cortos/anomalos: 1533,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPDUSD D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+pendiente/no bloqueante,vigencia_live,XPTUSD M15,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPTUSD M15,gaps cortos/anomalos: 914,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPTUSD M30,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPTUSD M30,gaps cortos/anomalos: 4625,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPTUSD H1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPTUSD H1,gaps cortos/anomalos: 2692,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPTUSD H4,datos stale para live,actualizar SQL antes de watcher continuo o Telegram
+menor,gaps,XPTUSD H4,gaps cortos/anomalos: 1537,"revisar ejemplos; pueden ser festivos, cortes de mercado o huecos reales"
+pendiente/no bloqueante,vigencia_live,XPTUSD D1,datos stale para live,actualizar SQL antes de watcher continuo o Telegram

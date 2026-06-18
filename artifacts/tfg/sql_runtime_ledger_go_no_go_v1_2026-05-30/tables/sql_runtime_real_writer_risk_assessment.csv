@@ -1,0 +1,11 @@
+risk,severity,likelihood,impact,why_now,mitigation_if_future,go_no_go_effect
+SQL write accidental,high,medium,high,"A real writer would cross from artifacts to persistent DB state.","Require separate DDL, dry-run writer review, manual confirmation and test DB first.","Supports no-go now."
+Credentials and DB target exposure,high,medium,high,"Real DB target handling is not needed for current TFG deliverables.","Environment-only, boolean audit, no printing, secret scan and review.","Supports no-go now."
+DDL or migration mistakes,high,medium,high,"Runtime tables do not exist and DDL would be a separate schema decision.","Separate DDL design, migration review, rollback/backup plan.","Supports no-go now."
+Preview/runtime confusion,medium,high,medium,"54 preview_would_insert rows can be misread as runtime inserts if a real writer follows too soon.","Keep labels explicit and rows_inserted=0 in memory/roadmap.","Supports no-go now."
+Dashboard appears live,medium,medium,medium,"Runtime SQL rows could appear as active live monitoring rather than simulated ledger.","UI copy and read-only badges before consuming runtime ledger.","Supports no-go now."
+Telegram or AI interprets ledger as signal,high,medium,high,"Future consumers are pending and could overinterpret persisted events.","Keep consumers read-only and block operational wording.","Supports no-go now."
+Ledger growth and retention,medium,medium,medium,"Append-only runtime tables need retention, pruning and query policy.","Define retention and archival before DB writes.","Supports defer."
+Maintenance debt,medium,high,medium,"Writer real adds a new DB state surface to test and support.","Implement only when a consumer requires it.","Supports no-go now."
+Premature MT5 path,high,medium,high,"A persisted order-intent-like ledger can look like an execution queue.","Explicitly state not MT5 input and require MT5 gate later.","Strongly supports no-go now."
+Methodology overclaim,medium,medium,medium,"Real runtime writes might be presented as a live system in the memory.","Frame SQL runtime as future work if not implemented.","Supports no-go now."

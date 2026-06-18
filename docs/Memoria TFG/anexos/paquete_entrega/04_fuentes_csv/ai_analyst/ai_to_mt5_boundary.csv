@@ -1,0 +1,8 @@
+boundary,allowed,description
+analizar_setup_pre_revision_humana,yes_read_only,"Puede resumir setup, contradicciones y riesgos antes de una revision humana."
+analizar_estado_mercado,yes_read_only,"Puede contextualizar tendencia, volatilidad, correlacion y entorno macro."
+analizar_posicion_shadow_demo,future_read_only,"Cuando exista MT5 shadow/demo, podra leer estado/posicion como contexto, sin gestionarla."
+generar_reporte_riesgo,yes_read_only,Puede producir informe de riesgo y puntos de comprobacion.
+aprobar_orden,no,No aprueba ordenes ni desbloquea MT5.
+enviar_orden,no,No ejecuta ni envia ordenes.
+sustituir_riskguard,no,RiskGuard sigue siendo capa separada y obligatoria en fases operativas.

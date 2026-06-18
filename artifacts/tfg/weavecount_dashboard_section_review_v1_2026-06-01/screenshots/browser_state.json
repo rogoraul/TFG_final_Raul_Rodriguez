@@ -1,0 +1,19 @@
+{
+  "modal_initial_visible": 0,
+  "cards_h1": 13,
+  "cards_h4": 8,
+  "cards_wave5_fuerte": 5,
+  "quality_dropdown_style": {
+    "background": "rgb(11, 18, 19)",
+    "borderColor": "rgb(41, 67, 70)",
+    "boxShadow": "none",
+    "color": "rgb(232, 241, 237)"
+  },
+  "cards_w2_h1_bullish": 4,
+  "modal_bullish_title": "",
+  "cards_w2_h1_bearish": 9,
+  "modal_bearish_title": "W2?\nEURCHF.r\nForex Majors / H1",
+  "cards_w2_h4": 8,
+  "modal_h4_title": "W2?\nEURCHF.r\nForex Majors / H4",
+  "lateral_overflow": false
+}

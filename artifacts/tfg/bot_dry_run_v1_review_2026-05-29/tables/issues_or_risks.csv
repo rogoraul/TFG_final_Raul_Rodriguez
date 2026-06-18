@@ -1,0 +1,4 @@
+issue_id,severity,status,description
+no_sql_runtime_ledger_yet,medium,expected_boundary,dry_run_decision_ledger SQL table remains deferred; current implementation is artifact-first only.
+real_snapshot_has_no_intents,info,expected,Current real snapshot has only watching_setup rows; enabled simulation creates dry_run_no_action only.
+telegram_command_bot_pending,low,planned_future,Telegram command bot read-only remains a separate future phase and is not part of bot dry-run.

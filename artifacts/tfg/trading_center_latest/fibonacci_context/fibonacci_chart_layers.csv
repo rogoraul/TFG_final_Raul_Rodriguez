@@ -1,0 +1,847 @@
+symbol,market_group,timeframe,layer_type,label,price,start_time,end_time,color,style,source,is_operational
+AUDCAD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.99074,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.98367,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.98907148,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.98803926,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.987205,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.98637074,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.98518298,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.99266304,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.99510926,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.97723,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.99298,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.980947,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.9832465,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.985105,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.9869635,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.9896095,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.972946,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDCAD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.9674965,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,112.257,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,114.225,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,112.72145,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,113.00878,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,113.241,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,113.47322,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,113.80385,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,111.7217,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,111.04078,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,114.579,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,113.269,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,114.26984,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,114.07858,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,113.924,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,113.76942,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,113.54934,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,114.93532,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,115.38858,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.20801,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.22842,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.2128268,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.2158066,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.218215,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.2206234,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.2240523,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.2024585,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.1953966,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.21664,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.19712,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.2120333,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.2091834,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.20688,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.2045766,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.2012973,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.2219494,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDNZD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.2287034,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.70058,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.71438,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.7038368,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.7058516,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.70748,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.7091084,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.7114268,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.6968264,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.6920516,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.70058,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.71487,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.70395244,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.70603878,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.707725,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.70941122,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.71181194,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.69669312,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUDUSD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.69174878,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_0,Fib 0,8563.45,2026-05-21 03:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_1_0,Fib 100,8741.45,2026-05-21 03:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_236,Fib 23.6,8605.458,2026-05-21 03:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_382,Fib 38.2,8631.446,2026-05-21 03:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_5,Fib 50,8652.45,2026-05-21 03:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_618,Fib 61.8,8673.454,2026-05-21 03:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_0_786,Fib 78.6,8703.358,2026-05-21 03:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_1_272,Fib ext 1.272,8515.034,2026-05-21 03:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUS200,Index,H1,fibonacci_1_618,Fib ext 1.618,8453.446,2026-05-21 03:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_0,Fib 0,8914.15,2026-04-24 20:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_1_0,Fib 100,8602.25,2026-04-24 20:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_236,Fib 23.6,8840.5416,2026-04-24 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_382,Fib 38.2,8795.0042,2026-04-24 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_5,Fib 50,8758.2,2026-04-24 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_618,Fib 61.8,8721.3958,2026-04-24 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_0_786,Fib 78.6,8668.9966,2026-04-24 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_1_272,Fib ext 1.272,8998.9868,2026-04-24 20:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+AUS200,Index,H4,fibonacci_1_618,Fib ext 1.618,9106.9042,2026-04-24 20:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.5714,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.56687,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.57033092,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.56966954,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.569135,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.56860046,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.56783942,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.57263216,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.57419954,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.56547,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.57458,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.56761996,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.56895002,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.570025,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.57109998,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.57263046,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.56299208,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADCHF.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.55984002,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,115.348,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,114.64,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,115.18091,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,115.07754,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,114.994,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,114.91046,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,114.79151,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,115.54058,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,115.78554,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,114.515,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,115.646,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,114.78192,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,114.94704,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,115.0805,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,115.21396,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,115.40397,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,114.20737,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CADJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,113.81604,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,200.814,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,203.129,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,201.36034,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,201.69833,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,201.9715,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,202.24467,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,202.63359,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,200.18432,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,199.38333,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,204.201,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,201.841,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,203.64404,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,203.29948,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,203.021,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,202.74252,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,202.34604,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,204.84292,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHFJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,205.65948,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_0,Fib 0,15317,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_1_0,Fib 100,15872,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_236,Fib 23.6,15447.98,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_382,Fib 38.2,15529.01,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_5,Fib 50,15594.5,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_618,Fib 61.8,15659.99,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_0_786,Fib 78.6,15753.23,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_1_272,Fib ext 1.272,15166.04,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHINA50,Index,H1,fibonacci_1_618,Fib ext 1.618,14974.01,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_0,Fib 0,15829.5,2026-04-27 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_1_0,Fib 100,15242.5,2026-04-27 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_236,Fib 23.6,15690.968,2026-04-27 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_382,Fib 38.2,15605.266,2026-04-27 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_5,Fib 50,15536,2026-04-27 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_618,Fib 61.8,15466.734,2026-04-27 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_0_786,Fib 78.6,15368.118,2026-04-27 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_1_272,Fib ext 1.272,15989.164,2026-04-27 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+CHINA50,Index,H4,fibonacci_1_618,Fib ext 1.618,16192.266,2026-04-27 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.63328,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.61879,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.6298604,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.6277448,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.626035,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.6243252,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.6218909,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.6372213,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.6422348,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.60595,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.62943,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.6114913,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.6149194,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.61769,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.6204606,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.6244053,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.5995634,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURAUD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.5914394,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.61772,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.61018,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.6159406,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.6148397,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.61395,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.6130603,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.6117936,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.6197709,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.6223797,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.60571,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.58742,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.6013936,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.5987232,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.596565,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.5944068,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.5913341,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.6106849,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCAD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.6170132,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.91903,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.91397,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.91783584,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.91709708,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.9165,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.91590292,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.91505284,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.92040632,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.92215708,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.90829,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.91695,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.91033376,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.91159812,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.91262,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.91364188,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.91509676,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.90593448,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURCHF.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.90293812,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.862,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.86609,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.86296524,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.86356238,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.864045,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.86452762,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.86521474,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.86088752,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.85947238,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.862,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.86815,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.8634514,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.8643493,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.865075,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.8658007,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.8668339,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.8603272,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURGBP.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.8581993,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,184.076,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,186.11,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,184.55602,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,184.85299,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,185.093,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,185.33301,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,185.67472,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,183.52275,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,182.81899,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,185.037,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,182.787,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,184.506,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,184.1775,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,183.912,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,183.6465,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,183.2685,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,185.649,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,186.4275,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.94461,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.9766,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.9521596,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.9568302,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.960605,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.9643798,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.9697541,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.9359087,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.9248402,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.94264,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.99331,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.9545981,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.9619959,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.967975,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.9739541,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.9824666,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.9288578,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURNZD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.9113259,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_0,Fib 0,5963.3,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_1_0,Fib 100,6118.3,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_236,Fib 23.6,5999.88,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_382,Fib 38.2,6022.51,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_5,Fib 50,6040.8,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_618,Fib 61.8,6059.09,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_0_786,Fib 78.6,6085.13,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_1_272,Fib ext 1.272,5921.14,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURO50,Index,H1,fibonacci_1_618,Fib ext 1.618,5867.51,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_0,Fib 0,6070.95,2026-04-24 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_1_0,Fib 100,5724.85,2026-04-24 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_236,Fib 23.6,5989.2704,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_382,Fib 38.2,5938.7398,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_5,Fib 50,5897.9,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_618,Fib 61.8,5857.0602,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_0_786,Fib 78.6,5798.9154,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_1_272,Fib ext 1.272,6165.0892,2026-04-24 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURO50,Index,H4,fibonacci_1_618,Fib ext 1.618,6284.8398,2026-04-24 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.15048,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.16443,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.1537722,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.1558089,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.157455,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.1591011,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.1614447,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.1466856,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.1418589,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.1604,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.17214,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.1631706,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.1648847,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.16627,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.1676553,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.1696276,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.1572067,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+EURUSD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.1531447,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_0,Fib 0,8076.75,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_1_0,Fib 100,8284.9,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_236,Fib 23.6,8125.8734,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_382,Fib 38.2,8156.2633,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_5,Fib 50,8180.825,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_618,Fib 61.8,8205.3867,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_0_786,Fib 78.6,8240.3559,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_1_272,Fib ext 1.272,8020.1332,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+FRA40,Index,H1,fibonacci_1_618,Fib ext 1.618,7948.1133,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_0,Fib 0,8366.9,2026-04-23 20:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_1_0,Fib 100,7900.79,2026-04-23 20:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_236,Fib 23.6,8256.898,2026-04-23 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_382,Fib 38.2,8188.846,2026-04-23 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_5,Fib 50,8133.845,2026-04-23 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_618,Fib 61.8,8078.844,2026-04-23 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_0_786,Fib 78.6,8000.5375,2026-04-23 20:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_1_272,Fib ext 1.272,8493.6819,2026-04-23 20:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+FRA40,Index,H4,fibonacci_1_618,Fib ext 1.618,8654.956,2026-04-23 20:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.88577,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.87413,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.883023,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.8813235,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.87995,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.8785765,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.876621,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.8889361,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.8929635,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.89098,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.85541,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.8825855,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.8773923,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.873195,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.8689977,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.863022,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.900655,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPAUD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.9129623,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.85393,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.87035,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.8578051,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.8602024,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.86214,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.8640776,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.8668361,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.8494638,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.8437824,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.86486,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.84603,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.8604161,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.8576669,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.855445,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.8532231,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.8500596,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.8699818,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCAD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.8764969,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.05907,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.04857,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.056592,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.055059,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.05382,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.052581,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.050817,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.061926,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.065559,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.05871,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.04556,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.0556066,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.0536867,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.052135,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.0505833,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.0483741,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.0622868,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPCHF.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.0668367,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,213.198,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,215.605,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,213.76605,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,214.11747,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,214.4015,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,214.68553,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,215.0899,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,212.5433,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,211.71047,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,211.036,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,213.703,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,211.66541,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,212.05479,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,212.3695,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,212.68421,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,213.13226,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,210.31058,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,209.38779,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,2.24428,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,2.28091,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,2.2529247,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,2.2582727,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,2.262595,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,2.2669173,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,2.2730712,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,2.2343166,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,2.2216427,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,2.24148,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,2.30682,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,2.2569002,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,2.2664399,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,2.27415,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,2.2818601,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,2.2928372,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,2.2237075,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPNZD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,2.2010999,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.33076,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.34825,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.3348876,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.3374412,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.339505,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.3415688,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.3445071,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.3260027,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.3199512,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.33018,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.35323,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.3356198,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.3389851,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.341705,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.3444249,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.3482973,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.3239104,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GBPUSD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.3159351,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_0,Fib 0,24356.35,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_1_0,Fib 100,25035.55,2026-05-21 22:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_236,Fib 23.6,24516.641,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_382,Fib 38.2,24615.804,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_5,Fib 50,24695.95,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_618,Fib 61.8,24776.096,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_0_786,Fib 78.6,24890.201,2026-05-21 22:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_1_272,Fib ext 1.272,24171.608,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GER40,Index,H1,fibonacci_1_618,Fib ext 1.618,23936.604,2026-05-21 22:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_0,Fib 0,25146.55,2026-04-24 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_1_0,Fib 100,23823.45,2026-04-24 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_236,Fib 23.6,24834.298,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_382,Fib 38.2,24641.126,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_5,Fib 50,24485,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_618,Fib 61.8,24328.874,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_0_786,Fib 78.6,24106.593,2026-04-24 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_1_272,Fib ext 1.272,25506.433,2026-04-24 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+GER40,Index,H4,fibonacci_1_618,Fib ext 1.618,25964.226,2026-04-24 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_0,Fib 0,24354,2026-05-21 04:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_1_0,Fib 100,25055.25,2026-05-21 04:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_236,Fib 23.6,24519.495,2026-05-21 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_382,Fib 38.2,24621.877,2026-05-21 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_5,Fib 50,24704.625,2026-05-21 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_618,Fib 61.8,24787.373,2026-05-21 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_0_786,Fib 78.6,24905.182,2026-05-21 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_1_272,Fib ext 1.272,24163.26,2026-05-21 04:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+HK50,Index,H1,fibonacci_1_618,Fib ext 1.618,23920.627,2026-05-21 04:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_0,Fib 0,25480.75,2026-04-23 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_1_0,Fib 100,26940.75,2026-04-23 04:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_236,Fib 23.6,25825.31,2026-04-23 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_382,Fib 38.2,26038.47,2026-04-23 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_5,Fib 50,26210.75,2026-04-23 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_618,Fib 61.8,26383.03,2026-04-23 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_0_786,Fib 78.6,26628.31,2026-04-23 04:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_1_272,Fib ext 1.272,25083.63,2026-04-23 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+HK50,Index,H4,fibonacci_1_618,Fib ext 1.618,24578.47,2026-04-23 04:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_0,Fib 0,45202.49,2026-03-26 16:00:00,2026-04-30 21:00:00,#d7a84b,solid,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_1_0,Fib 100,42809.99,2026-03-26 16:00:00,2026-04-30 21:00:00,#d7a84b,solid,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_236,Fib 23.6,44637.86,2026-03-26 16:00:00,2026-04-30 21:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_382,Fib 38.2,44288.555,2026-03-26 16:00:00,2026-04-30 21:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_5,Fib 50,44006.24,2026-03-26 16:00:00,2026-04-30 21:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_618,Fib 61.8,43723.925,2026-03-26 16:00:00,2026-04-30 21:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_0_786,Fib 78.6,43321.985,2026-03-26 16:00:00,2026-04-30 21:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_1_272,Fib ext 1.272,45853.25,2026-03-26 16:00:00,2026-04-30 21:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+ITA40,Index,H1,fibonacci_1_618,Fib ext 1.618,46681.055,2026-03-26 16:00:00,2026-04-30 21:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_0,Fib 0,45202.49,2026-02-19 12:00:00,2026-04-30 20:00:00,#d7a84b,solid,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_1_0,Fib 100,42262.49,2026-02-19 12:00:00,2026-04-30 20:00:00,#d7a84b,solid,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_236,Fib 23.6,44508.65,2026-02-19 12:00:00,2026-04-30 20:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_382,Fib 38.2,44079.41,2026-02-19 12:00:00,2026-04-30 20:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_5,Fib 50,43732.49,2026-02-19 12:00:00,2026-04-30 20:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_618,Fib 61.8,43385.57,2026-02-19 12:00:00,2026-04-30 20:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_0_786,Fib 78.6,42891.65,2026-02-19 12:00:00,2026-04-30 20:00:00,#c793ff,dash,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_1_272,Fib ext 1.272,46002.17,2026-02-19 12:00:00,2026-04-30 20:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+ITA40,Index,H4,fibonacci_1_618,Fib ext 1.618,47019.41,2026-02-19 12:00:00,2026-04-30 20:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_0,Fib 0,63447.25,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_1_0,Fib 100,67215.25,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_236,Fib 23.6,64336.498,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_382,Fib 38.2,64886.626,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_5,Fib 50,65331.25,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_618,Fib 61.8,65775.874,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_0_786,Fib 78.6,66408.898,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_1_272,Fib ext 1.272,62422.354,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+JP225,Index,H1,fibonacci_1_618,Fib ext 1.618,61118.626,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_0,Fib 0,65687.25,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_1_0,Fib 100,61009.25,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_236,Fib 23.6,64583.242,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_382,Fib 38.2,63900.254,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_5,Fib 50,63348.25,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_618,Fib 61.8,62796.246,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_0_786,Fib 78.6,62010.342,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_1_272,Fib ext 1.272,66959.666,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+JP225,Index,H4,fibonacci_1_618,Fib ext 1.618,68578.254,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.804,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.8163,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.8069028,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.8086986,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.81015,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.8116014,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.8136678,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.8006544,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.7963986,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.804,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.8177,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.8072332,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.8092334,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.81085,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.8124666,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.8147682,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.8002736,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCAD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.7955334,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.46441,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.45811,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.4629232,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.4620034,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.46126,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.4605166,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.4594582,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.4661236,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.4683034,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.46562,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.45808,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.46384056,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.46273972,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.46185,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.46096028,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.45969356,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.46767088,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDCHF.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.47027972,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_0,Fib 0,92.46,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_1_0,Fib 100,94.099,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,92.846804,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,93.086098,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_5,Fib 50,93.2795,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,93.472902,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,93.748254,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,92.014192,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,91.447098,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_0,Fib 0,95.415,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_1_0,Fib 100,93.569,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,94.979344,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,94.709828,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_5,Fib 50,94.492,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,94.274172,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,93.964044,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,95.917112,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDJPY.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,96.555828,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.57737,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.58846,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.57998724,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.58160638,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.582915,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.58422362,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.58608674,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.57435352,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.57051638,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.57737,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.5887,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.58004388,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.58169806,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.583035,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.58437194,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.58627538,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.57428824,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+NZDUSD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.57036806,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_0,Fib 0,18500.1,2026-05-07 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_1_0,Fib 100,18130.6,2026-05-07 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_236,Fib 23.6,18412.898,2026-05-07 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_382,Fib 38.2,18358.951,2026-05-07 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_5,Fib 50,18315.35,2026-05-07 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_618,Fib 61.8,18271.749,2026-05-07 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_0_786,Fib 78.6,18209.673,2026-05-07 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_1_272,Fib ext 1.272,18600.604,2026-05-07 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+SPA35,Index,H1,fibonacci_1_618,Fib ext 1.618,18728.451,2026-05-07 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_0,Fib 0,18215.1,2026-04-01 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_1_0,Fib 100,17194.8,2026-04-01 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_236,Fib 23.6,17974.309,2026-04-01 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_382,Fib 38.2,17825.345,2026-04-01 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_5,Fib 50,17704.95,2026-04-01 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_618,Fib 61.8,17584.555,2026-04-01 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_0_786,Fib 78.6,17413.144,2026-04-01 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_1_272,Fib ext 1.272,18492.622,2026-04-01 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+SPA35,Index,H4,fibonacci_1_618,Fib ext 1.618,18845.645,2026-04-01 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_0,Fib 0,10530.44,2026-05-21 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_1_0,Fib 100,10353.5,2026-05-21 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_236,Fib 23.6,10488.682,2026-05-21 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_382,Fib 38.2,10462.849,2026-05-21 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_5,Fib 50,10441.97,2026-05-21 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_618,Fib 61.8,10421.091,2026-05-21 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_0_786,Fib 78.6,10391.365,2026-05-21 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_1_272,Fib ext 1.272,10578.568,2026-05-21 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+UK100,Index,H1,fibonacci_1_618,Fib ext 1.618,10639.789,2026-05-21 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_0,Fib 0,10419,2026-04-23 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_1_0,Fib 100,10115.4,2026-04-23 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_236,Fib 23.6,10347.35,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_382,Fib 38.2,10303.025,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_5,Fib 50,10267.2,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_618,Fib 61.8,10231.375,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_0_786,Fib 78.6,10180.37,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_1_272,Fib ext 1.272,10501.579,2026-04-23 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+UK100,Index,H4,fibonacci_1_618,Fib ext 1.618,10606.625,2026-04-23 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_0,Fib 0,28773.45,2026-05-22 04:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_1_0,Fib 100,30251.7,2026-05-22 04:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_236,Fib 23.6,29122.317,2026-05-22 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_382,Fib 38.2,29338.142,2026-05-22 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_5,Fib 50,29512.575,2026-05-22 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_618,Fib 61.8,29687.008,2026-05-22 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_0_786,Fib 78.6,29935.355,2026-05-22 04:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_1_272,Fib ext 1.272,28371.366,2026-05-22 04:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US100,Index,H1,fibonacci_1_618,Fib ext 1.618,27859.892,2026-05-22 04:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_0,Fib 0,28773.45,2026-04-27 08:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_1_0,Fib 100,30794.65,2026-04-27 08:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_236,Fib 23.6,29250.453,2026-04-27 08:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_382,Fib 38.2,29545.548,2026-04-27 08:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_5,Fib 50,29784.05,2026-04-27 08:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_618,Fib 61.8,30022.552,2026-04-27 08:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_0_786,Fib 78.6,30362.113,2026-04-27 08:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_1_272,Fib ext 1.272,28223.684,2026-04-27 08:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US100,Index,H4,fibonacci_1_618,Fib ext 1.618,27524.348,2026-04-27 08:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_0,Fib 0,51747.45,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_1_0,Fib 100,50727.3,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_236,Fib 23.6,51506.695,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_382,Fib 38.2,51357.753,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_5,Fib 50,51237.375,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_618,Fib 61.8,51116.997,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_0_786,Fib 78.6,50945.612,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_1_272,Fib ext 1.272,52024.931,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US30,Index,H1,fibonacci_1_618,Fib ext 1.618,52377.903,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_0,Fib 0,51188.45,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_1_0,Fib 100,49739.45,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_236,Fib 23.6,50846.486,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_382,Fib 38.2,50634.932,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_5,Fib 50,50463.95,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_618,Fib 61.8,50292.968,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_0_786,Fib 78.6,50049.536,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_1_272,Fib ext 1.272,51582.578,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US30,Index,H4,fibonacci_1_618,Fib ext 1.618,52083.932,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_0,Fib 0,7357.17,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_1_0,Fib 100,7578.45,2026-05-21 18:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_236,Fib 23.6,7409.3921,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_382,Fib 38.2,7441.699,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_5,Fib 50,7467.81,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_618,Fib 61.8,7493.921,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_0_786,Fib 78.6,7531.0961,2026-05-21 18:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_1_272,Fib ext 1.272,7296.9818,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US500,Index,H1,fibonacci_1_618,Fib ext 1.618,7220.419,2026-05-21 18:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_0,Fib 0,7357.17,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_1_0,Fib 100,7610.65,2026-04-27 00:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_236,Fib 23.6,7416.9913,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_382,Fib 38.2,7453.9994,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_5,Fib 50,7483.91,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_618,Fib 61.8,7513.8206,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_0_786,Fib 78.6,7556.4053,2026-04-27 00:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_1_272,Fib ext 1.272,7288.2234,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+US500,Index,H4,fibonacci_1_618,Fib ext 1.618,7200.5194,2026-04-27 00:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_0,Fib 0,1.38993,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_1_0,Fib 100,1.38236,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,1.3881435,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,1.3870383,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_5,Fib 50,1.386145,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,1.3852517,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,1.38398,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,1.391989,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,1.3946083,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_0,Fib 0,1.39249,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_1_0,Fib 100,1.3815,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,1.3898964,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,1.3882918,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_5,Fib 50,1.386995,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,1.3856982,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,1.3838519,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,1.3954793,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCAD.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,1.3992818,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_0,Fib 0,0.79677,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_1_0,Fib 100,0.78719,2026-05-22 19:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_236,Fib 23.6,0.79450912,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_382,Fib 38.2,0.79311044,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_5,Fib 50,0.79198,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_618,Fib 61.8,0.79084956,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_0_786,Fib 78.6,0.78924012,2026-05-22 19:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,0.79937576,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,0.80269044,2026-05-22 19:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_0,Fib 0,0.78775,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_1_0,Fib 100,0.77604,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_236,Fib 23.6,0.78498644,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_382,Fib 38.2,0.78327678,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_5,Fib 50,0.781895,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_618,Fib 61.8,0.78051322,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_0_786,Fib 78.6,0.77854594,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,0.79093512,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDCHF.r,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,0.79498678,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_0,Fib 0,158.892,2026-03-02 14:00:00,2026-03-17 09:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_1_0,Fib 100,157.374,2026-03-02 14:00:00,2026-03-17 09:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_236,Fib 23.6,158.53375,2026-03-02 14:00:00,2026-03-17 09:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_382,Fib 38.2,158.31212,2026-03-02 14:00:00,2026-03-17 09:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_5,Fib 50,158.133,2026-03-02 14:00:00,2026-03-17 09:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_618,Fib 61.8,157.95388,2026-03-02 14:00:00,2026-03-17 09:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_0_786,Fib 78.6,157.69885,2026-03-02 14:00:00,2026-03-17 09:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_1_272,Fib ext 1.272,159.3049,2026-03-02 14:00:00,2026-03-17 09:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDJPY,Forex Majors,H1,fibonacci_1_618,Fib ext 1.618,159.83012,2026-03-02 14:00:00,2026-03-17 09:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_0,Fib 0,152.262,2026-02-03 08:00:00,2026-03-17 04:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_1_0,Fib 100,156.287,2026-02-03 08:00:00,2026-03-17 04:00:00,#d7a84b,solid,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_236,Fib 23.6,153.2119,2026-02-03 08:00:00,2026-03-17 04:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_382,Fib 38.2,153.79955,2026-02-03 08:00:00,2026-03-17 04:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_5,Fib 50,154.2745,2026-02-03 08:00:00,2026-03-17 04:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_618,Fib 61.8,154.74945,2026-02-03 08:00:00,2026-03-17 04:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_0_786,Fib 78.6,155.42565,2026-02-03 08:00:00,2026-03-17 04:00:00,#c793ff,dash,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_1_272,Fib ext 1.272,151.1672,2026-02-03 08:00:00,2026-03-17 04:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+USDJPY,Forex Majors,H4,fibonacci_1_618,Fib ext 1.618,149.77455,2026-02-03 08:00:00,2026-03-17 04:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_0,Fib 0,57.383,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_1_0,Fib 100,63.124,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_236,Fib 23.6,58.737876,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_382,Fib 38.2,59.576062,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_5,Fib 50,60.2535,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_618,Fib 61.8,60.930938,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_0_786,Fib 78.6,61.895426,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_1_272,Fib ext 1.272,55.821448,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGEUR.r,Metals,H1,fibonacci_1_618,Fib ext 1.618,53.835062,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_0,Fib 0,63.602,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_1_0,Fib 100,76.264,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_236,Fib 23.6,66.590232,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_382,Fib 38.2,68.438884,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_5,Fib 50,69.933,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_618,Fib 61.8,71.427116,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_0_786,Fib 78.6,73.554332,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_1_272,Fib ext 1.272,60.157936,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGEUR.r,Metals,H4,fibonacci_1_618,Fib ext 1.618,55.776884,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_0,Fib 0,66.143,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_1_0,Fib 100,73.475,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_236,Fib 23.6,67.873352,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_382,Fib 38.2,68.943824,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_5,Fib 50,69.809,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_618,Fib 61.8,70.674176,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_0_786,Fib 78.6,71.905952,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_1_272,Fib ext 1.272,64.148696,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGUSD.r,Metals,H1,fibonacci_1_618,Fib ext 1.618,61.611824,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_0,Fib 0,73.844,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_1_0,Fib 100,89.353,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_236,Fib 23.6,77.504124,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_382,Fib 38.2,79.768438,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_5,Fib 50,81.5985,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_618,Fib 61.8,83.428562,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_0_786,Fib 78.6,86.034074,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_1_272,Fib ext 1.272,69.625552,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAGUSD.r,Metals,H4,fibonacci_1_618,Fib ext 1.618,64.259438,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_0,Fib 0,3875.25,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_1_0,Fib 100,3767.37,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_236,Fib 23.6,3849.7903,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_382,Fib 38.2,3834.0398,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_5,Fib 50,3821.31,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_618,Fib 61.8,3808.5802,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_0_786,Fib 78.6,3790.4563,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_1_272,Fib ext 1.272,3904.5934,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUEUR.r,Metals,H1,fibonacci_1_618,Fib ext 1.618,3941.9198,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_0,Fib 0,3935.17,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_1_0,Fib 100,3767.37,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_236,Fib 23.6,3895.5692,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_382,Fib 38.2,3871.0704,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_5,Fib 50,3851.27,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_618,Fib 61.8,3831.4696,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_0_786,Fib 78.6,3803.2792,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_1_272,Fib ext 1.272,3980.8116,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUEUR.r,Metals,H4,fibonacci_1_618,Fib ext 1.618,4038.8704,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_0,Fib 0,4268.43,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_1_0,Fib 100,4475.8,2026-05-22 06:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_236,Fib 23.6,4317.3693,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_382,Fib 38.2,4347.6453,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_5,Fib 50,4372.115,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_618,Fib 61.8,4396.5847,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_0_786,Fib 78.6,4431.4228,2026-05-22 06:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_1_272,Fib ext 1.272,4212.0254,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUUSD.r,Metals,H1,fibonacci_1_618,Fib ext 1.618,4140.2753,2026-05-22 06:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_0,Fib 0,4595.32,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_1_0,Fib 100,4366.31,2026-04-27 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_236,Fib 23.6,4541.2736,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_382,Fib 38.2,4507.8382,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_5,Fib 50,4480.815,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_618,Fib 61.8,4453.7918,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_0_786,Fib 78.6,4415.3181,2026-04-27 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_1_272,Fib ext 1.272,4657.6107,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XAUUSD.r,Metals,H4,fibonacci_1_618,Fib ext 1.618,4736.8482,2026-04-27 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_0,Fib 0,13884.5,2026-05-18 07:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_1_0,Fib 100,13572.15,2026-05-18 07:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_236,Fib 23.6,13810.785,2026-05-18 07:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_382,Fib 38.2,13765.182,2026-05-18 07:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_5,Fib 50,13728.325,2026-05-18 07:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_618,Fib 61.8,13691.468,2026-05-18 07:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_0_786,Fib 78.6,13638.993,2026-05-18 07:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_1_272,Fib ext 1.272,13969.459,2026-05-18 07:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XCUUSD.r,Metals,H1,fibonacci_1_618,Fib ext 1.618,14077.532,2026-05-18 07:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_0,Fib 0,13388.9,2026-04-23 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_1_0,Fib 100,14185.05,2026-04-23 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_236,Fib 23.6,13576.791,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_382,Fib 38.2,13693.029,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_5,Fib 50,13786.975,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_618,Fib 61.8,13880.921,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_0_786,Fib 78.6,14014.674,2026-04-23 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_1_272,Fib ext 1.272,13172.347,2026-04-23 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XCUUSD.r,Metals,H4,fibonacci_1_618,Fib ext 1.618,12896.879,2026-04-23 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_0,Fib 0,1296.2,2026-05-21 08:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_1_0,Fib 100,1376.36,2026-05-21 08:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_236,Fib 23.6,1315.1178,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_382,Fib 38.2,1326.8211,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_5,Fib 50,1336.28,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_618,Fib 61.8,1345.7389,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_0_786,Fib 78.6,1359.2058,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_1_272,Fib ext 1.272,1274.3965,2026-05-21 08:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPDUSD,Metals,H1,fibonacci_1_618,Fib ext 1.618,1246.6611,2026-05-21 08:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_0,Fib 0,799.27,2026-04-24 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_1_0,Fib 100,1525,2026-04-24 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_236,Fib 23.6,970.54228,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_382,Fib 38.2,1076.4989,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_5,Fib 50,1162.135,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_618,Fib 61.8,1247.7711,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_0_786,Fib 78.6,1369.6938,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_1_272,Fib ext 1.272,601.87144,2026-04-24 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPDUSD,Metals,H4,fibonacci_1_618,Fib ext 1.618,350.76886,2026-04-24 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_0,Fib 0,1738.16,2026-05-21 08:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_1_0,Fib 100,1903.83,2026-05-21 08:00:00,2026-06-08 14:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_236,Fib 23.6,1777.2581,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_382,Fib 38.2,1801.4459,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_5,Fib 50,1820.995,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_618,Fib 61.8,1840.5441,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_0_786,Fib 78.6,1868.3766,2026-05-21 08:00:00,2026-06-08 14:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_1_272,Fib ext 1.272,1693.0978,2026-05-21 08:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPTUSD,Metals,H1,fibonacci_1_618,Fib ext 1.618,1635.7759,2026-05-21 08:00:00,2026-06-08 14:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_0,Fib 0,2099.6,2026-04-24 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_1_0,Fib 100,1549.66,2026-04-24 12:00:00,2026-06-08 08:00:00,#d7a84b,solid,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_236,Fib 23.6,1969.8142,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_382,Fib 38.2,1889.5229,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_5,Fib 50,1824.63,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_618,Fib 61.8,1759.7371,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_0_786,Fib 78.6,1667.3472,2026-04-24 12:00:00,2026-06-08 08:00:00,#c793ff,dash,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_1_272,Fib ext 1.272,2249.1837,2026-04-24 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False
+XPTUSD,Metals,H4,fibonacci_1_618,Fib ext 1.618,2439.4629,2026-04-24 12:00:00,2026-06-08 08:00:00,#8f6bd1,dot,fibonacci_context_v1,False

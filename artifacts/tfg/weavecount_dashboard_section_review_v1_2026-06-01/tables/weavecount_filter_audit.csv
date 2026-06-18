@@ -1,0 +1,6 @@
+filter_id,status,values
+wave-timeframe,pass,Todos|H1|H4
+wave-group,pass,Todos|Forex Majors|Metals|Index
+wave-quality,pass,Todas|Fuerte|Media|Debil
+wave-direction,pass,Todas|Alcista|Bajista
+wave-count-tabs,pass,Onda 1|Onda 2|Onda 3|Onda 4|Onda 5

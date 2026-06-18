@@ -1,0 +1,11 @@
+config_field,value,fail_closed_default,notes
+bot_enabled,True,True,CLI/in-memory config only; no SQL write and no secret file.
+mode,dry_run,True,CLI/in-memory config only; no SQL write and no secret file.
+max_intents,5,True,CLI/in-memory config only; no SQL write and no secret file.
+allowed_symbols,all,False,CLI/in-memory config only; no SQL write and no secret file.
+allowed_market_groups,all,False,CLI/in-memory config only; no SQL write and no secret file.
+allowed_timeframes,all,False,CLI/in-memory config only; no SQL write and no secret file.
+mt5_enabled,False,True,CLI/in-memory config only; no SQL write and no secret file.
+live_enabled,False,True,CLI/in-memory config only; no SQL write and no secret file.
+telegram_command_bot_enabled,False,False,CLI/in-memory config only; no SQL write and no secret file.
+fixture_mode,False,False,CLI/in-memory config only; no SQL write and no secret file.

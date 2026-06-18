@@ -1,0 +1,3 @@
+source,rows,used_for,can_send_order,can_modify_position
+mt5_account_snapshot,1,read_only_context_only,False,
+mt5_positions_snapshot,0,duplicate_exposure_audit_only,,False

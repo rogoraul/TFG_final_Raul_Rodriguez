@@ -1,0 +1,5 @@
+policy,setup_type,min_auto_quality,rows,description,auto_candidate,below_min_quality,context_only
+auto_eligible_setup_types,"fib_limit_live_candidate,macd_breakout",4,5,Only macd_breakout and fib_limit_live_candidate can enter automatic shadow review.,,,
+setup_type_scope,fib_limit_live_candidate,4,4,Context-only rows can enrich manual review but are not bot automation candidates.,0,4,0
+setup_type_scope,macd_breakout,4,90,Context-only rows can enrich manual review but are not bot automation candidates.,5,85,0
+setup_type_scope,rsi_trend_reversal,4,3,Context-only rows can enrich manual review but are not bot automation candidates.,0,0,3

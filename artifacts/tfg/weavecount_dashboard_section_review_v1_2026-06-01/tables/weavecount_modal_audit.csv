@@ -1,0 +1,7 @@
+check,status,evidence
+opens_on_click_only,pass,modal hidden by default; callback prevent_initial_call
+dark_theme,pass,Plotly dark theme with custom paper/plot background
+market_gaps_compressed,pass,category x-axis over compact OHLC sequence
+previous_waves_visible,pass,structure_points=379
+current_segment_visible,pass,missing_current=0
+activation_invalidation_consistent,pass,"levels come from screener artifact, not legacy enrichment"

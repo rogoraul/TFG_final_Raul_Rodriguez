@@ -1,0 +1,6 @@
+timing_state,rows,highlight_policy
+breakout_recent,6,highlightable
+entry_review,7,highlightable
+invalidated,22,excluded_from_highlights
+late,19,excluded_from_highlights
+missing_context,40,excluded_from_highlights

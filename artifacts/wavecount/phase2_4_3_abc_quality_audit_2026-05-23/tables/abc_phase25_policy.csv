@@ -1,0 +1,6 @@
+phase25_abc_policy,case_count,quality_score_median,recommended_use
+exclude_from_phase25,8,2.0,Do not use for Phase 2.5 rules.
+keep_experimental,13,3.0,Keep as experimental/ambiguous correction bank.
+usable_as_soft_context,8,4.0,Can be shown as soft context candidate after visual review; not a hard filter.
+usable_only_manual_review,12,3.0,Keep available for manual review or methodology examples; do not automate.
+overall_decision,41,3.0,"ABC corrected is geometrically clean, but remains soft/manual/experimental for Phase 2.5; no hard rules or signals."

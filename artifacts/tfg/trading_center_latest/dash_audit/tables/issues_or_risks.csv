@@ -1,0 +1,8 @@
+issue_id,severity,status,description,mitigation
+R01,low,closed,Dash reads the generated market radar artifact instead of opening a live SQL connection.,Regenerate sql_market_data_readonly and market_radar before a review session.
+R02,medium,open,Interactive UI can be mistaken for an operational console.,Keep visible read-only labels and do not add order/approval controls.
+R03,medium,open,Telegram configuration must not be collected through the dashboard.,Show status only; secrets stay environment-only outside UI/artifacts.
+R04,low,closed,Radar now uses dedicated market_radar artifact with M15/H1/H4/D1 trend and RSI readings.,Extend future screeners without converting them into execution signals.
+R05,low,closed,WeaveCount study view now groups cases by Onda 1-5 instead of making the raw table the primary surface.,"Keep the section as study context: horizontal case items open chart evidence, but never filters or execution controls."
+R06,low,closed,Screener now absorbs Estrategias and uses artifact-first setup cards plus compact matrix.,Quality is labelled as visual/contextual and cannot enable execution.
+R07,medium,open,AI Analyst UI can be confused with an autonomous trading assistant if future model calls are enabled without language gates.,Keep package preparation as the default and require the explicit Codex local action for any real model review.

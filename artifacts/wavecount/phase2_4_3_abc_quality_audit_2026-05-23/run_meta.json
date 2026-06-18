@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-05-23T23:39:39",
+  "finished_at": "2026-05-23T23:39:43",
+  "elapsed_seconds": 4.324636499979533,
+  "inputs": {
+    "abc_fix_dir": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20"
+  },
+  "rows": {
+    "abc_quality_audit": 29,
+    "abc_context_audit": 12,
+    "abc_clean_examples": 8,
+    "abc_ambiguous_examples": 21,
+    "abc_not_usable": 13,
+    "abc_phase25_policy": 5,
+    "abc_user_must_review": 26,
+    "abc_quality_summary": 16
+  },
+  "validation": {
+    "plot_ready_false": 0,
+    "bad_label_order_rows": 0,
+    "htf_lookahead_violations": 0
+  },
+  "outputs": {
+    "abc_quality_audit": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_quality_audit.csv",
+    "abc_context_audit": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_context_audit.csv",
+    "abc_clean_examples": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_clean_examples.csv",
+    "abc_ambiguous_examples": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_ambiguous_examples.csv",
+    "abc_not_usable": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_not_usable.csv",
+    "abc_phase25_policy": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_phase25_policy.csv",
+    "abc_user_must_review": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_user_must_review.csv",
+    "abc_quality_summary": "artifacts\\wavecount\\phase2_4_3_abc_quality_audit_2026-05-23\\tables\\abc_quality_summary.csv"
+  },
+  "notes": [
+    "No WaveCount counting rules were changed.",
+    "No strategies, signals, MT5 paths or benchmark artifacts were changed.",
+    "ABC legacy galleries are not used as primary evidence.",
+    "The audit integrates concrete visual reviews of corrected charts."
+  ]
+}

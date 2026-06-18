@@ -1,0 +1,8 @@
+extreme_state,radar_case,dashboard_bucket,rows
+neutral,not_aligned,not_shown_in_summary,19
+neutral,rsi_screener,counter_extreme,4
+neutral,trend_aligned,trend_aligned,23
+overbought,not_aligned,not_shown_in_summary,6
+overbought,rsi_screener,counter_extreme,1
+overbought,trend_aligned,trend_aligned,4
+oversold,not_aligned,not_shown_in_summary,3

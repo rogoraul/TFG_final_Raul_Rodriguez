@@ -1,0 +1,11 @@
+check_id,check,status,evidence
+SAFE_01,read_only,passed,panel/packages/reports do not execute actions
+SAFE_02,no_mt5,passed,no MT5 connection in closeout phase or gateway reports
+SAFE_03,no_telegram,passed,no Telegram connection/send path in AI Analyst
+SAFE_04,no_orders,passed,orders_sent=0 in run_meta policy
+SAFE_05,no_sql_writes,passed,AI Analyst reads artifacts/packages; no SQL writes
+SAFE_06,no_ddl,passed,no DDL/migration in AI Analyst
+SAFE_07,no_backtests,passed,closeout and AI Analyst are reporting/review only
+SAFE_08,no_operational_signals,passed,reports are review-only and cannot set can_execute_order
+SAFE_09,no_riskguard_bypass,passed,AI Analyst is not an approval layer
+SAFE_10,manual_codex_gate,passed,Codex local and macro require explicit buttons

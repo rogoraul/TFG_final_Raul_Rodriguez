@@ -1,0 +1,110 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\geometry{margin=2cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\sloppy
+\definecolor{tcTeal}{HTML}{0E7C74}
+\definecolor{tcDark}{HTML}{101817}
+\definecolor{tcMuted}{HTML}{526A65}
+\definecolor{tcWarnBg}{HTML}{FFF7E5}
+\definecolor{tcWarnBorder}{HTML}{C99123}
+\hypersetup{colorlinks=true, urlcolor=tcTeal, linkcolor=tcTeal}
+\begin{document}
+
+\begin{center}
+{\huge\bfseries Informe AI Analyst: EURO50|FRA40 H1 correlation}\\[0.25em]
+{\large Reporte read-only para revision humana}
+\end{center}
+
+\vspace{0.2em}
+\hrule height 0.7pt
+\vspace{0.9em}
+
+\begin{tabularx}{\textwidth}{>{\bfseries}p{3.2cm}X}
+Paquete & correlation H1 EURO50 FRA40 8a59b672 \\
+Setup & EURO50|FRA40 H1 correlation \\
+Modelo & gpt-5.5 \\
+Thinking & medium \\
+Macro & medium \\
+Estado & reviewed \\
+\end{tabularx}
+
+\vspace{0.75em}
+\fcolorbox{tcWarnBorder}{tcWarnBg}{%
+\begin{minipage}{0.94\textwidth}
+\textbf{Limite de uso.} Este informe no es una senal, no autoriza MT5 y no ejecuta ordenes. Sirve para priorizar revision humana y documentar el contexto.
+\end{minipage}}
+
+\vspace{0.4em}
+
+\section*{Resumen}
+Revision read-only de correlacion H1 entre EURO50 y FRA40. El paquete muestra una relacion positiva muy elevada entre ambos indices: Pearson 0.911, Spearman 0.867, Kendall 0.716 y distancia-correlacion 0.957. La lectura es coherente con dos indices europeos de renta variable con alta superposicion regional y sectorial, pero no constituye una senal operativa ni una autorizacion de ejecucion.
+
+\section*{Lectura tecnica}
+El grafico de dispersion muestra una nube compacta con pendiente positiva clara: cuando EURO50 registra retornos horarios positivos o negativos, FRA40 tiende a moverse en la misma direccion. La correlacion movil de 120 observaciones tambien aparece elevada y ligeramente creciente: Pearson reciente 0.977 frente a 0.967 previo, Spearman 0.958 frente a 0.942 y Kendall 0.864 frente a 0.842. En contexto de mercado, EURO50 aparece alineado al alza en H1-H4-D1, pero con RSI H1 en zona de sobreventa; FRA40 aparece sin alineacion completa, con M15 bajista, H1-H4 alcistas y D1 bajista, tambien con estado de sobreventa en H1.
+
+
+
+\section*{Grafico de referencia}
+\begin{center}
+\includegraphics[width=0.96\textwidth]{\detokenize{ai_analyst_report_chart.png}}
+\end{center}
+
+
+\section*{Lectura de confluencias}
+Los cuatro coeficientes principales coinciden en una relacion positiva fuerte, no solo lineal: Pearson, Spearman, Kendall y distancia-correlacion apuntan en la misma direccion; La correlacion movil reciente se mantiene por encima de la media de su ventana en las metricas enviadas, lo que sugiere persistencia reciente de la relacion entre ambos indices; La dispersion visual respalda los datos estructurados: la mayoria de puntos se agrupa alrededor de una diagonal positiva, con pocos episodios de divergencia marcada; y Ambos activos pertenecen al bloque de indices europeos, por lo que la alta dependencia estadistica es plausible desde un punto de vista de beta regional.
+
+\section*{Contradicciones y cautelas}
+La ventana principal de correlacion termina el 17 de marzo de 2026, mientras que el radar de mercado usado como contexto llega a junio de 2026. Esto introduce una diferencia temporal relevante entre la estadistica de correlacion y el estado tecnico mas reciente; EURO50 muestra alineacion alcista H1-H4-D1, mientras FRA40 no esta alineado y mantiene D1 bajista. Esa diferencia de estructura reduce la lectura de simetria direccional actual pese a la correlacion historica alta; La muestra enviada de retornos contiene solo la cola de 80 filas, aunque el paquete declara 1971 observaciones para la correlacion principal. La conclusion debe apoyarse en los coeficientes agregados, no en una inspeccion manual completa de la serie; y La correlacion alta no equivale a cointegracion, liderazgo, causalidad ni sustitucion perfecta entre instrumentos.
+
+\section*{Riesgos principales}
+Riesgo de concentracion: tratar EURO50 y FRA40 como exposiciones independientes podria subestimar la dependencia comun a renta variable europea; Riesgo de ruptura temporal: la correlacion calculada sobre noviembre de 2025 a marzo de 2026 puede no reflejar completamente el regimen de mercado de junio de 2026; Riesgo de evento macro: inflacion, tipos del BCE, energia y crecimiento europeo pueden mover ambos indices de forma simultanea, amplificando movimientos conjuntos; y Riesgo metodologico: el paquete es de estudio read-only; no genera senales, no permite ejecucion y no valida sizing, liquidez, spread ni impacto operativo.
+
+\section*{Contexto macro y noticias}
+El contexto macro europeo presenta un sesgo de cautela para la revision de EURO50 y FRA40. Eurostat estimo que la inflacion anual de la zona euro subio al 3.2\% en mayo de 2026, desde el 3.0\% de abril, con energia y servicios como componentes relevantes. Para indices de renta variable europeos, esto importa porque aumenta la sensibilidad a tipos, margenes empresariales y valoraciones, especialmente en sectores ciclicos o endeudados. La correlacion alta entre ambos indices puede reforzarse en episodios en los que el mercado opere una narrativa comun de inflacion y politica monetaria.
+
+El BCE mantuvo sin cambios sus tipos el 30 de abril de 2026, pero reconocio mayores riesgos al alza para la inflacion y a la baja para el crecimiento, vinculados al encarecimiento energetico y a la incertidumbre geopolitica. Ademas, Eurostat estimo crecimiento de solo 0.1\% trimestral en la zona euro en el primer trimestre de 2026. Esta combinacion de inflacion mas alta y crecimiento debil crea un entorno en el que las bolsas europeas pueden reaccionar de forma brusca a datos macro y comunicacion del BCE. Para una revision humana, el punto clave no es convertir esa informacion en una direccion operativa, sino tratar la correlacion EURO50-FRA40 como una dependencia regional fuerte que podria amplificar el riesgo comun si aparece un shock de tipos, energia o sentimiento europeo.
+
+Desde una lectura financiera, este contexto no cambia por si solo el setup tecnico, pero si condiciona la prudencia de la revision: aumenta el peso de comprobar calendario, liquidez y confirmacion posterior antes de extraer conclusiones. Con riesgo macro marcado como medio, la lectura debe tratarse como sensible a evento y no como una validacion aislada del grafico.
+
+\section*{Conclusion operativa y financiera}
+Conclusion operativa y financiera: EURO50|FRA40 queda como correlation de revision, no como instruccion de mercado. La prioridad de revision indicada por el analisis es 2/5 y el riesgo macro figura como medio. La interpretacion conjunta debe apoyarse en tres filtros humanos: que el precio confirme el comportamiento descrito en el grafico, que las contradicciones de tendencia o estructura no invaliden el caso, y que no exista un evento macro cercano capaz de distorsionar el movimiento. Sin esas comprobaciones, el informe solo justifica seguimiento y documentacion, no ejecucion.
+
+\section*{Comprobaciones humanas}
+\begin{itemize}
+  \item Recalcular la correlacion con datos actualizados hasta la fecha de revision y comparar con la ventana terminada el 17 de marzo de 2026.
+  \item Revisar correlacion movil por tramos, especialmente durante sesiones de alta volatilidad, para detectar rupturas o asimetrias recientes.
+  \item Contrastar exposicion sectorial y ponderaciones de EURO50 y CAC 40 para explicar si la dependencia proviene de bancos, lujo, industriales u otros bloques dominantes.
+  \item Comprobar calendario de BCE, inflacion eurozona y eventos franceses antes de usar esta relacion como insumo de analisis humano.
+  \item Separar explicitamente cualquier lectura de correlacion de decisiones operativas: este paquete no autoriza MT5, Telegram ni ordenes.
+\end{itemize}
+
+\section*{Fuentes}
+\textbf{Fuentes locales}\par
+\begin{tabularx}{\textwidth}{p{4.2cm}X}
+setup\_context.json & Datos estructurados del setup \\
+market\_context.json & Contexto agregado de mercado \\
+chart\_layers.csv & Capas dibujadas en el grafico \\
+ohlc\_window.csv & Ventana de velas OHLC \\
+source\_manifest.json & Trazabilidad del paquete \\
+chart.png & Imagen renderizada del grafico \\
+\end{tabularx}
+
+\vspace{0.45em}
+\textbf{Enlaces externos}\par
+\begin{itemize}
+\item \href{\detokenize{https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02062026-ap}}{ec.europa.eu}\\[-0.15em] {\footnotesize Fuente externa consultada para contexto macro/noticias.}
+\item \href{\detokenize{https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-13052026-ap}}{ec.europa.eu}\\[-0.15em] {\footnotesize Fuente externa consultada para contexto macro/noticias.}
+\item \href{\detokenize{https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html}}{ecb.europa.eu}\\[-0.15em] {\footnotesize Fuente externa consultada para contexto macro/noticias.}
+\end{itemize}
+
+\end{document}

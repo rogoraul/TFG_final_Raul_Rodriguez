@@ -1,0 +1,12 @@
+study_only
+ready_for_chart_review
+entry_review
+calidad 5/5
+dist. 0.2406%
+revision codex pendiente
+---
+POR QUE APARECE
+CONTEXTO
+NIVELES
+TIMING
+PENDIENTE

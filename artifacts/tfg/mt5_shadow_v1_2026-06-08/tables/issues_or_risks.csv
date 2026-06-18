@@ -1,0 +1,2 @@
+issue_id,severity,description,recommended_action
+no_runtime_issues,info,Shadow artifact generation completed without runtime issues.,Review mt5_shadow_decisions before any future demo-order design.

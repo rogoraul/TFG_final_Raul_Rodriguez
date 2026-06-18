@@ -1,0 +1,6 @@
+intent_id,setup_id,symbol,position_duplicate,pending_duplicate,positions_snapshot_symbols,pending_snapshot_symbols,riskguard_decision
+,trading_center_screener_unified_v1|EURO50|H4|macd_breakout|222,EURO50,False,False,0,0,blocked_by_late_setup
+,trading_center_screener_unified_v1|SPA35|H4|macd_breakout|132,SPA35,False,False,0,0,blocked_by_late_setup
+,trading_center_screener_unified_v1|EURUSD.r|H4|macd_breakout|670,EURUSD.r,False,False,0,0,blocked_by_waiting_confirmation
+,trading_center_screener_unified_v1|GBPCHF.r|H4|macd_breakout|150,GBPCHF.r,False,False,0,0,blocked_by_waiting_confirmation
+,trading_center_screener_unified_v1|XPTUSD|H4|macd_breakout|792,XPTUSD,False,False,0,0,blocked_by_late_setup

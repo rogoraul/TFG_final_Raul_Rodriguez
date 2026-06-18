@@ -1,0 +1,2 @@
+source_id,path,exists,rows,signal_state_distribution,riskguard_distribution,read_mode,sql_real_written
+snapshot_csv,artifacts\tfg\sql_operational_core_closure_v1_2026-05-28\export_from_sql\live_context_snapshot_from_sql.csv,True,54,"{""watching_setup"": 54}","{""not_evaluated"": 54}",artifact_csv_read_only,False

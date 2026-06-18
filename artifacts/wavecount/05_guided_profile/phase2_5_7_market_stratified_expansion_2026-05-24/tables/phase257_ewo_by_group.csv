@@ -1,0 +1,4 @@
+resolved_market_group,candidate_count,ewo_score_delta_mean,ewo_policy_label_ewo_unclear_or_unavailable,ewo_policy_label_relative_wave_role_support,ewo_policy_label_momentum_context_only,ewo_soft_support_unclear,ewo_soft_support_supports,ewo_soft_support_partial,ewo_helpfulness_unclear,ewo_helpfulness_supports_wave_role,ewo_helpfulness_supports_momentum_only
+Forex Majors,72,3.3472,36,28,8,36,28,8,36,28,8
+Index,45,3.5556,24,19,2,24,19,2,24,19,2
+Metals,45,3.2444,24,17,4,24,17,4,24,17,4

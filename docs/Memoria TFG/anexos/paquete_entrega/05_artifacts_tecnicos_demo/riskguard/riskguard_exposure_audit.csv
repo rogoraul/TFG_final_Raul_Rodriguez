@@ -1,0 +1,10 @@
+intent_id,setup_id,symbol,market_group,position_duplicate,pending_duplicate,candidate_duplicate,candidate_risk_amount,symbol_open_risk_amount,total_open_risk_amount,group_open_risk_amount,symbol_limit_amount,total_limit_amount,group_limit_amount,exposure_status,blocking_reason,positions_snapshot_symbols,pending_snapshot_symbols,riskguard_decision
+e62a95b6bb5307eb,fx_macd_ok,EURUSD.r,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,accepted_for_demo_intent
+,fx_macd_late,GBPUSD.r,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,blocked_by_late_setup
+fc5c6986b434e767,fx_fib_ok,XAUUSD.r,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,accepted_for_demo_intent
+47cf186a6136b0ff,fx_fib_missing_tp,US100,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,blocked_by_missing_tp
+,fx_rsi_manual,EURJPY.r,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,blocked_by_setup_scope
+,fx_context,EURO50,Fixture,False,False,False,,,,,,,,blocked,blocked_by_missing_candidate_risk,0,0,blocked_by_setup_scope
+,fx_low_quality,AUDUSD.r,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,blocked_by_low_quality
+,fx_wait,CADJPY.r,Fixture,False,False,False,,,,,,,,blocked,blocked_by_missing_candidate_risk,0,0,blocked_by_waiting_confirmation
+,fx_invalid,SPA35,Fixture,False,False,False,250.0,250.00,250.00,250.00,500.00,1000.00,750.00,pass,,0,0,blocked_by_invalidated_setup

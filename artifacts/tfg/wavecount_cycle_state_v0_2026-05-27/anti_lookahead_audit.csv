@@ -1,0 +1,5 @@
+hypothesis_id,symbol,timeframe,as_of_bar_time,max_pivot_detected_at,pivot_detected_at_lte_as_of,lookahead_safe
+cycle_state_v0_EURUSD_r_H4_20260317T040000,EURUSD.r,H4,2026-03-17T04:00:00,2026-01-28T20:00:00,True,True
+cycle_state_v0_GBPUSD_r_H4_20260317T040000,GBPUSD.r,H4,2026-03-17T04:00:00,2026-01-28T20:00:00,True,True
+cycle_state_v0_US500_H4_20260317T040000,US500,H4,2026-03-17T04:00:00,2026-02-12T16:00:00,True,True
+cycle_state_v0_XAUUSD_r_H4_20260317T040000,XAUUSD.r,H4,2026-03-17T04:00:00,2026-02-18T16:00:00,True,True

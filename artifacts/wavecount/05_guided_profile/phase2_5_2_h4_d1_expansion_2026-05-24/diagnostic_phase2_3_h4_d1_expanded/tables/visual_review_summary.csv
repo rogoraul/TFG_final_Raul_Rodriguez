@@ -1,0 +1,14 @@
+metric,value
+source_windows_ok,13
+source_windows_error,1
+candidates_impulse,12
+candidates_partial_123,12
+candidates_abc,12
+candidates_near_miss,9
+candidates_hard_invalid,9
+degree_minor,18
+degree_intermediate,18
+degree_major,18
+group_Forex Majors,24
+group_Metals,15
+group_Index,15

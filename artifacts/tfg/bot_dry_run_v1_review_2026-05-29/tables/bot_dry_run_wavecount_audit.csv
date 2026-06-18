@@ -1,0 +1,6 @@
+check_id,check,status,evidence
+W01,artifact_wavecount_audit_passes,passed,rows=54
+W02,wavecount_should_filter_false,passed,wavecount_should_filter_trade false in audit
+W03,decision_uses_wavecount_false,passed,decision_uses_wavecount false in audit
+W04,test_mutating_wavecount_does_not_change_decision,passed,tests/test_bot_dry_run.py
+W05,run_meta_wavecount_used_as_filter_false,passed,False

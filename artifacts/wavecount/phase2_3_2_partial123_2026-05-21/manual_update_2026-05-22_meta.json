@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-05-22T09:20:45",
+  "finished_at": "2026-05-22T09:20:46",
+  "elapsed_seconds": 0.4023426999337971,
+  "partial123_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21",
+  "rows": {
+    "latest_manual_update": 3,
+    "latest_manual_rules": 3
+  },
+  "outputs": {
+    "latest_manual_update": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_latest_manual_update_2026-05-22.csv",
+    "latest_manual_rules": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\tables\\partial123_latest_manual_rules_2026-05-22.csv",
+    "report": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21\\WAVECOUNT_PHASE2_3_2_PARTIAL123_MANUAL_UPDATE_2026-05-22.md"
+  },
+  "notes": [
+    "Manual interpretation update only.",
+    "No WaveCount rules, strategies, signals, ABC or degree calibration were changed."
+  ]
+}

@@ -1,0 +1,4 @@
+rule,effect,limit
+near_fibonacci_zone,can_add_visual_quality,context_only_no_signal
+no_clear_swing,does_not_add_quality,no_fabricated_zone
+fib_limit_boundary,kept_separate,fib_limit_implemented_false

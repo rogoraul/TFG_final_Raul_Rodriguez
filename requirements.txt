@@ -1,0 +1,21 @@
+# Core analysis and backtesting
+numpy
+pandas
+numba
+pandas-ta-classic
+scipy
+vectorbt
+
+# Data access
+mysql-connector-python
+MetaTrader5; platform_system == "Windows"
+python-dotenv
+
+# Dashboard and visualisation
+dash
+plotly
+matplotlib
+pillow
+
+# Tests
+pytest

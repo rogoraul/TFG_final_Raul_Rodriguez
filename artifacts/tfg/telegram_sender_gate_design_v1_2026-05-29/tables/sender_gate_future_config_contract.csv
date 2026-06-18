@@ -1,0 +1,15 @@
+field,type,default,meaning,fail_closed_rule
+telegram_enabled,bool,false,Global opt-in; must be manually set outside repo.,false blocks all real sends
+telegram_mode,enum,informational_only,Only informational messages allowed.,any other mode blocks
+telegram_token_source,enum,environment_only,Token read from external env/secret manager only.,repo storage forbidden
+telegram_chat_id_source,enum,environment_only,Chat id read from external env/secret manager only.,repo storage forbidden
+allow_real_send,bool,false,Second kill switch.,false blocks all sends
+requires_cli_send_real_flag,bool,true,CLI explicit --send-real required.,missing flag blocks
+requires_manual_confirmation,bool,true,Operator confirms batch/message.,missing confirmation blocks
+allowed_message_types,list,platform_daily_summary|watchlist_status_digest|system_audit_notice|data_health_alert|pipeline_error_notice,Default excludes WaveCount and manual reminders.,unknown type blocks
+allowed_severities,list,info|warning|error,Allowed severity classes.,manual_review requires explicit override
+allow_wavecount_study,bool,false,Optional study digest.,false blocks WaveCount
+max_messages_per_day,int,8,Daily cap.,exceeding blocks
+cooldown_minutes,int,120,Default cooldown.,inside cooldown blocks
+audit_log_required,bool,true,Every decision logged.,missing log blocks
+dry_run_before_send_required,bool,true,Must have dry-run artifact for same source.,missing dry-run blocks

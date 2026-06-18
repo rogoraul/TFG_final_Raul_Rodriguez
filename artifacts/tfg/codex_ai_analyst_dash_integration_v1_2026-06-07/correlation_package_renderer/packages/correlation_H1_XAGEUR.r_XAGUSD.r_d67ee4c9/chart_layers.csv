@@ -1,0 +1,9 @@
+layer_type,metric,value,timeframe,asset_1,asset_2,is_operational,pair,window,latest_corr,previous_corr,delta_prev,mean_corr,latest_abs,obs,is_read_only,can_execute_order,signals_generated
+correlation_metric,pearson,0.996903,H1,XAGEUR.r,XAGUSD.r,False,,,,,,,,,,,
+correlation_metric,spearman,0.992718,H1,XAGEUR.r,XAGUSD.r,False,,,,,,,,,,,
+correlation_metric,kendall,0.937668,H1,XAGEUR.r,XAGUSD.r,False,,,,,,,,,,,
+correlation_metric,dcor,0.994052,H1,XAGEUR.r,XAGUSD.r,False,,,,,,,,,,,
+rolling_correlation_metric,pearson,,H1,XAGEUR.r,XAGUSD.r,False,XAGEUR.r | XAGUSD.r,120,0.994939,0.992798,0.002141,0.993869,0.994939,120,True,False,False
+rolling_correlation_metric,spearman,,H1,XAGEUR.r,XAGUSD.r,False,XAGEUR.r | XAGUSD.r,120,0.991958,0.987402,0.004556,0.98968,0.991958,120,True,False,False
+rolling_correlation_metric,kendall,,H1,XAGEUR.r,XAGUSD.r,False,XAGEUR.r | XAGUSD.r,120,0.928291,0.913165,0.015126,0.920728,0.928291,120,True,False,False
+rolling_correlation_metric,dcor,,H1,XAGEUR.r,XAGUSD.r,False,XAGEUR.r | XAGUSD.r,120,0.994052,0.977552,0.0165,0.985802,0.994052,80,True,False,False

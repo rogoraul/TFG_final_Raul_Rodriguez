@@ -1,0 +1,4 @@
+issue_id,severity,status,description,mitigation
+FIB01,medium,open,Una zona Fibonacci puede leerse como entrada.,Etiquetar como contexto visual; sin botones ni lenguaje operativo.
+FIB02,low,mitigated,El metodo de swing podia seleccionar tramos demasiado pequenos.,"Exigir rango minimo, velas minimas y multiple de true range antes de dibujar Fibonacci."
+FIB03,medium,open,La estrategia ENBOLSA usa otra logica de pivotes y debe auditarse aparte.,Crear auditoria W1/ATR sin modificar estrategia.

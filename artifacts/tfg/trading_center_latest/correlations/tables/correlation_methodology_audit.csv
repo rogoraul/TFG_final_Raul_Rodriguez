@@ -1,0 +1,4 @@
+check_id,check,status,evidence
+CORR_METH_01,returns_not_prices,passed,"Correlations are computed on close-to-close log returns, not raw prices."
+CORR_METH_02,distance_correlation_scope,passed,dCor is computed on the latest 80 aligned returns per pair to keep the artifact reproducible.
+CORR_METH_03,read_only_boundary,passed,The module only reads OHLC artifacts and writes audit artifacts; it does not connect SQL/MT5/Telegram.

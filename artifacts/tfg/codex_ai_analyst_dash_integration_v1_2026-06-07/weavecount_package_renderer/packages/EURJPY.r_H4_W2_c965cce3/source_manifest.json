@@ -1,0 +1,57 @@
+{
+  "package_id": "EURJPY.r_H4_W2_c965cce3",
+  "package_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\weavecount_package_renderer\\packages\\EURJPY.r_H4_W2_c965cce3",
+  "generated_at": "2026-06-07T16:00:17.122213+00:00",
+  "method_version": "codex_ai_analyst_weavecount_package_from_dash_v1",
+  "analysis_type": "weavecount_case",
+  "case_id": "weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00",
+  "symbol": "EURJPY.r",
+  "timeframe": "H4",
+  "sources": [
+    {
+      "source_id": "latest_manifest_json",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\latest_manifest.json",
+      "exists": true,
+      "sha256": "1d32e3b0d773485d2671ce1b79dd455074e2e5bbfd2421a44c89f1a95bff05c5"
+    },
+    {
+      "source_id": "ohlc_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\ohlc\\ohlc_mtf.csv",
+      "exists": true,
+      "sha256": "04ca90b46e3151b9b1b495388c32c17daa058abcf26ccdc4ff3300862d737e64"
+    },
+    {
+      "source_id": "market_radar_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\market_radar\\market_radar.csv",
+      "exists": true,
+      "sha256": "ace457494205feddef66e1878c9743537aa67160c78e60b90c259a202b141a95"
+    },
+    {
+      "source_id": "weavecount_screener_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\weavecount\\weavecount_screener.csv",
+      "exists": true,
+      "sha256": "31072802bccc1d99f636ed66b327b9211f555c2bf96b5a45d47ab2847731f87c"
+    },
+    {
+      "source_id": "weavecount_structure_points_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\weavecount\\weavecount_structure_points.csv",
+      "exists": true,
+      "sha256": "fe913c4ba5a8913801e12d69d3afaaeb98a19c068f02ea63b35b1d1c49d1cccd"
+    },
+    {
+      "source_id": "dash_app",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\trading_center\\dash_readonly_app.py",
+      "exists": true,
+      "sha256": "4e805590aebcf106de0abaf5842d2603ff06ac1f889c7f905e962cee9852ef88"
+    },
+    {
+      "source_id": "design_doc",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\docs\\CODEX_AI_ANALYST_READONLY_DESIGN_V1.md",
+      "exists": true,
+      "sha256": "43de8be729b24473062ecc9f3d9e98c3d198343aeb3b4f67984e649ebd36b5ed"
+    }
+  ],
+  "package_hash_seed": "0b40dac3431ba95a7291d569e8277fd232b3997dd9419307175c397b03b619d7",
+  "model_called": false,
+  "is_read_only": true
+}

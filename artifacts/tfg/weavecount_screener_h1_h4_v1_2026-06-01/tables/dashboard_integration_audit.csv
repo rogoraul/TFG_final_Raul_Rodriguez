@@ -1,0 +1,2 @@
+check_name,status,artifact,notes
+dash_artifact_contract,pass,artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv,Dash can consume this artifact as the primary WeaveCount source.

@@ -1,0 +1,7 @@
+partial123_status,meaning,live_read,use
+valid_partial_123,visual 0-1-2-3 is coherent and later structure confirms continuation,partial_123_provisional,"good methodology example, not signal"
+partial_123_provisional,structure is plausible but lacks post-3 confirmation,partial_123_provisional,watch/context only
+partial_123_too_lax,"wave 3 displacement, breakout or visual quality is too weak",ambiguous_partial,downgrade from useful candidate
+belongs_to_prior_wave_45,the apparent 0 may belong to a previous structure rather than a fresh count,ambiguous_partial,manual review / negative example
+invalidated_after_3,post-3 structure breaks wave 2 after latency,partial_123_provisional_then_invalidated,retrospective diagnostic
+ambiguous_partial,not enough structure or conflicting evidence,ambiguous_partial,do not force count

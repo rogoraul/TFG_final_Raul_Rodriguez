@@ -1,0 +1,11 @@
+item_id,pending_item,reason,recommended_phase
+PEND_01,Validar con mas casos reales,"la capa funciona, pero conviene probar varios activos/timeframes y tipos de analisis",revision local continua
+PEND_02,Mejorar streaming/progreso real,"actualmente hay estado/progreso visual, pero no streaming token a token",future_ai_ux
+PEND_03,Cola de analisis,evitaria dobles ejecuciones y permitiria varias reviews ordenadas,future_ai_ux
+PEND_04,Historial de reports,util para comparar reviews y auditar evolucion,future_reporting
+PEND_05,HTML/PDF avanzado,LaTeX actual es suficiente; se puede mejorar como entrega final,memoria_reporting
+PEND_06,Integracion con MT5 read-only futuro,"cuando exista MT5 shadow/demo, AI Analyst podra revisar posiciones/estado sin operar",mt5_shadow_demo
+PEND_07,Integracion Telegram informativa posterior,"Telegram debe narrar eventos del bot MT5, no operar ni aprobar",post_mt5_telegram
+PEND_08,Nomenclatura final de estrategias,no llamar estrategias ENBOLSA como marca visible final; referenciar ENBOLSA como fuente de formalizacion,memoria_refinement
+PEND_09,Revision de lenguaje academico/financiero para memoria,"alinear nombres, claims y limitaciones antes de redactar memoria final",pre_memoria_audit
+PEND_10,Validacion de mercado real del refresh/hook,pendiente probar con mercado abierto y scheduler real de ingesta,live_local_review

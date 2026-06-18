@@ -1,0 +1,7 @@
+risk_id,severity,description,mitigation
+chart_path_breakage,high,CSV/Markdown image refs can break when artifact dirs move,rewrite paths and regenerate .md indexes
+run_meta_traceability,medium,run_meta paths will point to old dirs,update or add migration_note without pretending data was regenerated
+docs_link_rot,medium,root docs link to old artifacts,create index/redirect docs and update only current references
+canonical_confusion,high,historical artifacts may look current,use 99_superseded and status labels
+code_import_breakage,high,moving Python files breaks imports/tests,do not move code in first migration
+git_diff_size,medium,moving images creates large diffs,prefer copy/move only vigentes; leave historical documented

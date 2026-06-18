@@ -1,0 +1,216 @@
+\documentclass[twoside,spanish,a4paper,12pt]{tfg}
+
+% ====== Metadatos de portada ======
+\titulacion{Grado en Ciencia de Datos}
+\title{Automatizaci\'on de la teor\'ia de las Ondas de Elliott para trading}
+\authorlabel{Autor}
+\author{Ra\'ul Rodr\'iguez G\'omez}
+\tutorlabel{Tutores}
+\tutor{Nicola Rubino \\[2mm] Valero Laparra}
+\convocatoria{Junio 2026}
+
+% Ajuste de cabecera para la plantilla institucional.
+\setlength{\headheight}{15pt}
+\raggedbottom
+\usepackage{float}
+\makeatletter
+\renewcommand{\cleardoublepage}{%
+  \clearpage
+  \if@twoside
+    \ifodd\c@page
+    \else
+      \thispagestyle{empty}%
+      \hbox{}%
+      \newpage
+      \if@twocolumn\hbox{}\newpage\fi
+    \fi
+  \fi
+}
+\makeatother
+\hypersetup{hypertexnames=false}
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\appendixname}{Anexo}%
+  \renewcommand{\listfigurename}{\'Indice de figuras}%
+  \renewcommand{\listtablename}{\'Indice de tablas}%
+}
+
+\begin{document}
+
+% NO QUITAR ESTOS ELEMENTOS
+\portada
+\cleardoublepage
+\contraportada
+\cleardoublepage
+\declaracion
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Resumen}
+\begin{resumen}
+Este Trabajo de Fin de Grado desarrolla un sistema de Ciencia de Datos para
+ordenar, analizar y visualizar informaci\'on de mercado aplicada al estudio de
+estrategias de trading. El problema abordado no se plantea como una predicci\'on
+autom\'atica del precio, sino como la construcci\'on de un flujo reproducible que
+permita transformar criterios visuales de an\'alisis t\'ecnico en reglas
+calculables, revisar sus resultados y conservar evidencias trazables. El
+repositorio p\'ublico con el c\'odigo, los artifacts y los anexos complementarios
+est\'a disponible en \url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}.
+
+La metodolog\'ia se apoya en datos intradiarios y diarios de precios,
+organizados como velas cerradas, y en pruebas hist\'oricas por bloques. Sobre
+estos datos se formalizan setups inspirados en an\'alisis t\'ecnico, Ondas de
+Elliott y la referencia metodol\'ogica de Men\'endez Larre. La evaluaci\'on combina
+m\'etricas de retorno, riesgo y comportamiento por operaci\'on, junto con
+controles para evitar el uso de informaci\'on futura. Tambi\'en se incorpora
+WaveCount como l\'inea de an\'alisis estructural y WeaveCount como forma de
+mostrar esas hip\'otesis dentro del dashboard.
+
+El resultado es una plataforma local de visualizaci\'on y revisi\'on que integra
+benchmarks, screener, correlaciones, conteos estructurales, AI Analyst, MT5 en
+modo controlado y Telegram informativo. Los resultados muestran una lectura m\'as
+consistente para \texttt{macd\_breakout}, un comportamiento m\'as irregular en
+\texttt{fib\_limit} y la dificultad de automatizar mec\'anicamente lecturas
+Elliott complejas. La aportaci\'on principal es una base trazable para apoyar la
+toma de decisiones supervisada; la operaci\'on en real, la autonom\'ia operativa y
+la gesti\'on integral de cartera quedan fuera del alcance.
+\end{resumen}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{abstract}
+This Bachelor's Thesis develops a Data Science system to organise, analyse and
+visualise market information for the study of rule-based trading strategies. The
+problem is not framed as automatic price prediction, but as the construction of
+a reproducible workflow that turns visual technical criteria into computable
+rules, reviews their behaviour and preserves traceable evidence. The public
+repository with the code, artifacts and complementary appendices is available at
+\url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}.
+
+The methodology uses intraday and daily price data represented as closed
+candles, together with historical tests over predefined experimental blocks. On
+these data, the work formalises setups inspired by technical analysis, Elliott
+Wave theory and Men\'endez Larre's methodological reference
+\cite{frost_prechter_1985_elliott,menendez_larre_2016_ondas}. The evaluation
+combines return, risk and trade-level metrics, while explicitly controlling for
+look-ahead bias and separating rules, context, study signals and possible
+execution. WaveCount is used as the structural-analysis line, and WeaveCount as
+the dashboard layer that displays those hypotheses for review.
+
+The final result is a local visualisation and review platform that integrates
+benchmarks, a screener, correlations, structural counts, the AI Analyst, a
+controlled MT5 workflow and informational Telegram messages. The results show a
+more consistent reading for \texttt{macd\_breakout}, a more irregular behaviour
+for \texttt{fib\_limit}, and the difficulty of mechanically automating complex
+Elliott-based readings. The main contribution is a traceable basis for
+supervised decision support; real-money trading, autonomous operation and
+comprehensive portfolio risk management remain outside the scope of the work
+\cite{pardo_2008_trading_strategies,bailey_etal_2017_backtest_overfitting}.
+\end{abstract}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Resum}
+\begin{resum}
+\shorthandoff{'}
+Aquest Treball de Fi de Grau desenvolupa un sistema de Ci\`encia de Dades per a
+ordenar, analitzar i visualitzar informaci\'o de mercat aplicada a l'estudi
+d'estrat\`egies de trading. El problema no es planteja com una predicci\'o
+autom\`atica del preu, sin\'o com la construcci\'o d'un flux reprodu\"ible que
+permeta transformar criteris visuals d'an\`alisi t\`ecnica en regles calculables,
+revisar-ne el comportament i conservar evid\`encies tra\c{c}ables. El repositori
+p\'ublic amb el codi, els artifacts i els annexos complementaris est\`a disponible
+a \url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}.
+
+La metodologia es basa en dades intradi\`aries i di\`aries de preus,
+representades com a veles tancades, i en proves hist\`oriques per blocs
+experimentals. Sobre aquestes dades es formalitzen setups inspirats en l'an\`alisi
+t\`ecnica, les Ones d'Elliott i la refer\`encia metodol\`ogica de Men\'endez Larre.
+L'avaluaci\'o combina m\`etriques de retorn, risc i comportament per operaci\'o,
+juntament amb controls per evitar l'\'us d'informaci\'o futura. Tamb\'e s'incorpora
+WaveCount com a l\'inia d'an\`alisi estructural i WeaveCount com a forma de mostrar
+aquestes hip\`otesis dins del dashboard.
+
+El resultat \`es una plataforma local de visualitzaci\'o i revisi\'o que integra
+benchmarks, screener, correlacions, recomptes estructurals, AI Analyst, MT5 en
+mode controlat i Telegram informatiu. Els resultats mostren una lectura m\'es
+consistent per a \texttt{macd\_breakout}, un comportament m\'es irregular en
+\texttt{fib\_limit} i la dificultat d'automatitzar mec\`anicament lectures Elliott
+complexes. L'aportaci\'o principal \`es una base tra\c{c}able per donar suport a la
+presa de decisions supervisada; l'operaci\'o en real, l'autonomia operativa i la
+gesti\'o integral de cartera queden fora de l'abast.
+\shorthandon{'}
+\end{resum}
+\cleardoublepage
+
+\pagestyle{empty}
+\tableofcontents
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\'Indice de figuras}
+\listoffigures
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\'Indice de tablas}
+\listoftables
+
+\justify
+
+\chapter{Introducci\'on, motivaci\'on y alcance}
+\pagestyle{tfg}
+\label{cap:introduccion}
+Este primer cap\'itulo sit\'ua el trabajo dentro del problema que se aborda:
+convertir informaci\'on de mercado dispersa y criterios de an\'alisis t\'ecnico
+en un sistema de apoyo a la revisi\'on, con objetivos claros y un alcance
+delimitado. Tambi\'en resume c\'omo se organiza el resto de la memoria.
+
+\input{tex/introduccion.tex}
+
+\chapter{Materiales y m\'etodos}
+\label{cap:metodologia}
+Este cap\'itulo describe la base metodol\'ogica del proyecto: los datos usados,
+su ordenaci\'on temporal, la formalizaci\'on de reglas, el dise\~no de las pruebas,
+las m\'etricas de evaluaci\'on y la arquitectura que permite conservar evidencias
+revisables. El objetivo es explicar c\'omo se ha construido el sistema antes de
+presentar sus resultados.
+
+\input{tex/metodologia.tex}
+
+\chapter{Resultados y discusi\'on}
+\label{cap:resultados}
+Este cap\'itulo presenta los resultados obtenidos y los interpreta de forma
+conjunta. Primero se muestran las salidas principales de las estrategias,
+benchmarks, conteos estructurales y plataforma; despu\'es se discuten sus
+implicaciones, limitaciones y cautelas de lectura.
+
+\input{tex/resultados.tex}
+
+\chapter{Conclusiones y trabajo futuro}
+\label{cap:conclusiones}
+Este cap\'itulo sintetiza las conclusiones del trabajo, revisa el cumplimiento
+de los objetivos y recoge las principales limitaciones. Finalmente, se proponen
+l\'ineas de mejora que permitir\'ian ampliar o validar el sistema en fases
+posteriores.
+
+\input{tex/conclusiones.tex}
+
+\clearpage
+\pagestyle{bibliography}
+\phantomsection
+\markboth{Bibliograf\'ia}{Bibliograf\'ia}
+\addcontentsline{toc}{chapter}{Bibliograf\'ia}
+\bibliographystyle{unsrt}
+\bibliography{bib/bibliografia}
+
+\clearpage
+\pagestyle{appendix}
+
+\appendix
+\chapter{Anexos}
+\label{cap:anexos}
+\input{tex/apendice.tex}
+
+\end{document}

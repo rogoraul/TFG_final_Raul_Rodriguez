@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\hline
+Estrategia & Oper. & Bruto & Com. & Neto & Impacto & Com./bruto + \\
+\hline
+macd\_breakout & 28\,056 & 136\,636 & 40\,956 & 95\,680 & -40\,956 & 30.0\% \\
+fib\_limit & 39\,910 & -6\,870 & 9\,028 & -15\,898 & -9\,028 & n/d \\
+RSI 3TF mean reversion & 5\,012 & -32\,204 & 5\,179 & -37\,383 & -5\,179 & n/d \\
+RSI 3TF momentum reentry & 12\,976 & -45\,187 & 9\,467 & -54\,654 & -9\,467 & n/d \\
+MA cross 3TF trend & 13\,588 & 14\,745 & 32\,080 & -17\,335 & -32\,080 & 217,6\% \\
+BB 3TF pullback reentry & 22\,302 & -43\,912 & 13\,338 & -57\,250 & -13\,338 & n/d \\
+\hline
+\end{tabular}
+\caption[Costes de transacci\'on en el benchmark final]{Comparaci\'on entre resultado bruto antes de comisiones y resultado neto en el benchmark final. Los importes est\'an redondeados a unidades monetarias. El impacto corresponde a neto menos bruto; la columna Com./bruto + solo se calcula cuando el resultado bruto es positivo. En \texttt{MA cross 3TF trend} supera el 100\% porque el resultado bruto positivo es menor que las comisiones registradas. La comparaci\'on a\'isla comisiones, no reconstruye una simulaci\'on sin \textit{spread}.}
+\label{tab:benchmark-w2-costes-bruto-neto}
+\end{table}

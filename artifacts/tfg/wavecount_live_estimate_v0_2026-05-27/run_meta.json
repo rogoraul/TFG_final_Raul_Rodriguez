@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-05-27T17:43:19Z",
+  "version": "wavecount_live_estimate_v0",
+  "decision": "live_estimate_v0_promising_for_visual_review",
+  "symbols": [
+    "EURUSD.r",
+    "GBPUSD.r",
+    "US500",
+    "XAUUSD.r"
+  ],
+  "timeframes": [
+    "H4"
+  ],
+  "live_estimated_wave_distribution": {
+    "invalidated": 2,
+    "possible_wave3_active": 1,
+    "possible_wave3_candidate": 1
+  },
+  "confidence_bucket_distribution": {
+    "low": 3,
+    "medium": 1
+  },
+  "display_policy_distribution": {
+    "manual_review_only": 2,
+    "show_live_estimate_with_warning": 2
+  },
+  "safety": {
+    "real_sql_executed": false,
+    "ddl_executed": false,
+    "mt5_connected": false,
+    "backtests_executed": false,
+    "signals_generated": false,
+    "dashboard_implemented": false,
+    "telegram_implemented": false,
+    "bot_implemented": false
+  }
+}

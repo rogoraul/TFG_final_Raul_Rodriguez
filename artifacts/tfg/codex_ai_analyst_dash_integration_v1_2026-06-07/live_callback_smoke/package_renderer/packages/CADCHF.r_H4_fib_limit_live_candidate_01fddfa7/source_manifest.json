@@ -1,0 +1,74 @@
+{
+  "package_id": "CADCHF.r_H4_fib_limit_live_candidate_01fddfa7",
+  "package_dir": "artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\live_callback_smoke\\package_renderer\\packages\\CADCHF.r_H4_fib_limit_live_candidate_01fddfa7",
+  "generated_at": "2026-06-06T22:51:02.616317+00:00",
+  "method_version": "codex_ai_analyst_package_renderer_v1",
+  "setup_id": "trading_center_screener_unified_v1|CADCHF.r|H4|fib_limit_live_candidate|H4",
+  "symbol": "CADCHF.r",
+  "timeframe": "H4",
+  "sources": [
+    {
+      "source_id": "latest_manifest_json",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\latest_manifest.json",
+      "exists": true,
+      "sha256": "1d32e3b0d773485d2671ce1b79dd455074e2e5bbfd2421a44c89f1a95bff05c5"
+    },
+    {
+      "source_id": "screener_setups_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\screener_unified\\screener_setups.csv",
+      "exists": true,
+      "sha256": "03e4486f8f0a686559a2e8f9d8602497b240098caa760a805bdafe08d9751f95"
+    },
+    {
+      "source_id": "screener_chart_layers_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\screener_unified\\screener_chart_layers.csv",
+      "exists": true,
+      "sha256": "abf90ed805d12b575b883d03728ac94dd683ec51323e4a5199fc9874dde99a68"
+    },
+    {
+      "source_id": "ohlc_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\ohlc\\ohlc_mtf.csv",
+      "exists": true,
+      "sha256": "04ca90b46e3151b9b1b495388c32c17daa058abcf26ccdc4ff3300862d737e64"
+    },
+    {
+      "source_id": "market_radar_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\market_radar\\market_radar.csv",
+      "exists": true,
+      "sha256": "ace457494205feddef66e1878c9743537aa67160c78e60b90c259a202b141a95"
+    },
+    {
+      "source_id": "correlation_pairs_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations\\correlation_pairs.csv",
+      "exists": true,
+      "sha256": "f8af30202c0815c126db396e58053f059406aec7b842399f47e7bd32fb25b2fe"
+    },
+    {
+      "source_id": "rolling_correlations_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations\\rolling_correlations.csv",
+      "exists": true,
+      "sha256": "d25174f3e87ab5514aec9e4267a2d4f1e9c2734bf6bda4056521f0d98a0c67c2"
+    },
+    {
+      "source_id": "weavecount_screener_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\weavecount\\weavecount_screener.csv",
+      "exists": true,
+      "sha256": "31072802bccc1d99f636ed66b327b9211f555c2bf96b5a45d47ab2847731f87c"
+    },
+    {
+      "source_id": "weavecount_structure_points_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\weavecount\\weavecount_structure_points.csv",
+      "exists": true,
+      "sha256": "fe913c4ba5a8913801e12d69d3afaaeb98a19c068f02ea63b35b1d1c49d1cccd"
+    },
+    {
+      "source_id": "design_doc",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\docs\\CODEX_AI_ANALYST_READONLY_DESIGN_V1.md",
+      "exists": true,
+      "sha256": "43de8be729b24473062ecc9f3d9e98c3d198343aeb3b4f67984e649ebd36b5ed"
+    }
+  ],
+  "package_hash_seed": "7000b865abf1f4f393eb61c865103a5c8b6e328516e6bbf9c28dcc8a10a6eed6",
+  "model_called": false,
+  "is_read_only": true
+}

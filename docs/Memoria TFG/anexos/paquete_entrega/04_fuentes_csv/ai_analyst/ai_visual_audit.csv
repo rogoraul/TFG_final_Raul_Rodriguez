@@ -1,0 +1,7 @@
+screenshot,status,evidence
+ai_panel_closed.png,passed,Dash cargado con panel AI Analyst cerrado y boton flotante visible.
+ai_panel_setup.png,passed,Panel abierto en Setup Screener con selector de setup y botones manuales.
+ai_panel_market.png,passed,Contexto Mercado general seleccionado; muestra nota de paquete global.
+ai_panel_correlation.png,passed,Contexto Correlacion seleccionado; selector de par disponible.
+ai_panel_weavecount.png,passed,Contexto Onda WeaveCount seleccionado; selector de caso estructural visible.
+ai_result_pdf_ready.png,passed_with_note,Preparar paquete fixture deja descarga de diagnostico PDF; informe PDF validado se audita por artifacts de Codex local/UTF-8.

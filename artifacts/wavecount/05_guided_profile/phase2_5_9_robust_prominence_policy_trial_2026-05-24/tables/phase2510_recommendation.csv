@@ -1,0 +1,2 @@
+phase2510_recommendation,phase256_remains_official,phase259_candidate_policy_available,total_candidates,total_upgrades,metals_upgrades,excluded_to_high_quality,visual_too_lenient_cases,reason,do_not_do
+adopt_robust_prominence_as_diagnostic_only,True,True,162,0,0,0,0,Robust prominence is useful diagnostically but does not change buckets in this sample.,"Do not convert robust prominence, EWO, EMA or HTF into signals or operative filters."

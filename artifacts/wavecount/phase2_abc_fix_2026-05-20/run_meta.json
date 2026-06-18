@@ -1,0 +1,277 @@
+{
+  "started_at": "2026-05-20T22:03:07",
+  "finished_at": "2026-05-20T22:07:50",
+  "elapsed_seconds": 283.09389709995594,
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_abc_fix_2026-05-20",
+  "htf_rows": 260,
+  "context_config": {
+    "ema_fast": 50,
+    "ema_slow": 150,
+    "slope_bars": 3,
+    "ewo_fast": 5,
+    "ewo_slow": 35,
+    "min_alignment_separation_pct": 5e-05,
+    "flat_slope_pct": 2e-05,
+    "flat_ewo_pct": 2e-05,
+    "ewo_method": "sma_mid"
+  },
+  "h4_specs": [
+    {
+      "example_id": "forex_eurusd_h4",
+      "group": "Forex Majors",
+      "symbol": "EURUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_gbpusd_h4",
+      "group": "Forex Majors",
+      "symbol": "GBPUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_usdjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "USDJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_audjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "AUDJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_eurjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "EURJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_gbpjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "GBPJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xauusd_h4",
+      "group": "Metals",
+      "symbol": "XAUUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xagusd_h4",
+      "group": "Metals",
+      "symbol": "XAGUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xptusd_h4",
+      "group": "Metals",
+      "symbol": "XPTUSD",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xpdusd_h4",
+      "group": "Metals",
+      "symbol": "XPDUSD",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_aus200_h4",
+      "group": "Index",
+      "symbol": "AUS200",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_hk50_h4",
+      "group": "Index",
+      "symbol": "HK50",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_us500_h4",
+      "group": "Index",
+      "symbol": "US500",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_us30_h4",
+      "group": "Index",
+      "symbol": "US30",
+      "timeframe": "H4",
+      "rows": 420
+    }
+  ],
+  "h1_specs": [
+    {
+      "example_id": "forex_eurusd_h1",
+      "group": "Forex Majors",
+      "symbol": "EURUSD.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "forex_gbpusd_h1",
+      "group": "Forex Majors",
+      "symbol": "GBPUSD.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "forex_usdjpy_h1",
+      "group": "Forex Majors",
+      "symbol": "USDJPY.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "forex_audjpy_h1",
+      "group": "Forex Majors",
+      "symbol": "AUDJPY.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "forex_eurjpy_m30",
+      "group": "Forex Majors",
+      "symbol": "EURJPY.r",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "forex_gbpjpy_m30",
+      "group": "Forex Majors",
+      "symbol": "GBPJPY.r",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "metals_xauusd_m30",
+      "group": "Metals",
+      "symbol": "XAUUSD.r",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "metals_xauusd_h1",
+      "group": "Metals",
+      "symbol": "XAUUSD.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "metals_xagusd_h1",
+      "group": "Metals",
+      "symbol": "XAGUSD.r",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "metals_xptusd_h1",
+      "group": "Metals",
+      "symbol": "XPTUSD",
+      "timeframe": "H1",
+      "rows": 300
+    },
+    {
+      "example_id": "metals_xpdusd_h1",
+      "group": "Metals",
+      "symbol": "XPDUSD",
+      "timeframe": "H1",
+      "rows": 300
+    },
+    {
+      "example_id": "index_aus200_m30",
+      "group": "Index",
+      "symbol": "AUS200",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "index_aus200_h1",
+      "group": "Index",
+      "symbol": "AUS200",
+      "timeframe": "H1",
+      "rows": 320
+    },
+    {
+      "example_id": "index_hk50_m30",
+      "group": "Index",
+      "symbol": "HK50",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "index_us500_m30",
+      "group": "Index",
+      "symbol": "US500",
+      "timeframe": "M30",
+      "rows": 320
+    },
+    {
+      "example_id": "index_us30_m30",
+      "group": "Index",
+      "symbol": "US30",
+      "timeframe": "M30",
+      "rows": 320
+    }
+  ],
+  "counts": {
+    "before_rows": 24,
+    "after_rows": 24,
+    "phase2_3_fixed_charts": 24,
+    "phase2_4_fixed_charts": 12,
+    "focus_case_charts": 5,
+    "context_rows": 5460
+  },
+  "before_examples": [
+    {
+      "source": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1\\charts\\abc\\026_abc_metals_xagusd_h4_abc_003.png",
+      "copied_to": "charts\\before_examples\\phase2_3_visual_review_2026-05-17_h4_d1_026_abc_metals_xagusd_h4_abc_003.png",
+      "status": "ok"
+    },
+    {
+      "source": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1\\charts\\abc\\026_abc_metals_xagusd_h4_abc_003.png",
+      "copied_to": "charts\\before_examples\\phase2_4_context_2026-05-18_h4_d1_026_abc_metals_xagusd_h4_abc_003.png",
+      "status": "ok"
+    },
+    {
+      "source": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\charts\\abc\\036_abc_forex_gbpusd_h1_abc_003.png",
+      "copied_to": "charts\\before_examples\\phase2_3_visual_review_2026-05-17_036_abc_forex_gbpusd_h1_abc_003.png",
+      "status": "ok"
+    },
+    {
+      "source": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30\\charts\\abc\\030_abc_metals_xagusd_h1_abc_002.png",
+      "copied_to": "charts\\before_examples\\phase2_3_visual_review_2026-05-17_030_abc_metals_xagusd_h1_abc_002.png",
+      "status": "ok"
+    }
+  ],
+  "outputs": {
+    "abc_diagnostics_before": "tables/abc_diagnostics_before.csv",
+    "abc_diagnostics_after": "tables/abc_diagnostics_after.csv",
+    "abc_rejected_or_downgraded": "tables/abc_rejected_or_downgraded.csv",
+    "abc_clean_candidates": "tables/abc_clean_candidates.csv",
+    "phase2_3_abc_fixed_candidates": "tables/phase2_3_abc_fixed_candidates.csv",
+    "phase2_4_abc_fixed_context": "tables/phase2_4_abc_fixed_context.csv",
+    "abc_focus_cases": "tables/abc_focus_cases.csv",
+    "report": "WAVECOUNT_ABC_FIX_REPORT.md"
+  },
+  "notes": [
+    "No strategies, signals, MT5, backtests, dashboard or Telegram integration are touched.",
+    "ABC remains a visual/structural candidate, not an operative signal.",
+    "Phase 2.4 adds diagnostic context only and cannot rescue a bad ABC."
+  ]
+}

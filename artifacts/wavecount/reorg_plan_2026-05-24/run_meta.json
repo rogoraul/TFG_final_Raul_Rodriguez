@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-24T17:01:03",
+  "script": "backtests\\wavecount\\build_wavecount_reorg_plan.py",
+  "output_dir": "artifacts\\wavecount\\reorg_plan_2026-05-24",
+  "artifact_dirs": 29,
+  "docs": 31,
+  "code_files": 44,
+  "current_table_missing_image_refs": 1054,
+  "nested_missing_image_refs": 174,
+  "duplicate_proposed_paths": 0,
+  "no_files_moved": true,
+  "no_files_deleted": true,
+  "no_rules_changed": true,
+  "elapsed_seconds": 1.355
+}

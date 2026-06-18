@@ -1,0 +1,13 @@
+profile_name,seed_count,criterion,seed_values,policy,weight,notes
+guided_h4_intermediate_impulse_profile,3,timeframe_policy,primary_h4_d1,required_soft_gate,15,Use H4/D1 as primary scale.
+guided_h4_intermediate_impulse_profile,3,timeframe,H4,required_soft_gate,8,H4 candles are the seed timeframe.
+guided_h4_intermediate_impulse_profile,3,swing_degree,intermediate,required_soft_gate,15,Intermediate is the seed degree.
+guided_h4_intermediate_impulse_profile,3,structure_type,impulse,required_soft_gate,18,Seeds are impulse structures.
+guided_h4_intermediate_impulse_profile,3,phase25_allowed_use,candidate_structure,required_soft_gate,10,"Seeds are candidate structures, not signals."
+guided_h4_intermediate_impulse_profile,3,final_phase23_decision,keep_as_good_example,required_soft_gate,10,Seeds were already visually approved.
+guided_h4_intermediate_impulse_profile,3,guided_quality_bucket,high_quality_context,required_soft_gate,10,Seeds are high-quality context.
+guided_h4_intermediate_impulse_profile,3,context_review_status,context_confirms_good_count|context_conflicts_but_explains,soft_context,8,Context must not be misleading or rescue a bad count.
+guided_h4_intermediate_impulse_profile,3,ema_context_label,ema_supports_context,soft_context,5,EMA should support or at least not mislead.
+guided_h4_intermediate_impulse_profile,3,htf_ltf_alignment_label,conflict_explained|impulse_with_htf,soft_context,5,HTF can align or explain conflict.
+guided_h4_intermediate_impulse_profile,3,ewo_role_support,supports_wave_role,soft_context,6,EWO should support wave role or momentum.
+guided_h4_intermediate_impulse_profile,3,wave5_diagnostic,clean_or_acceptable,soft_context,3,Wave 5 can be acceptable or explicitly provisional.

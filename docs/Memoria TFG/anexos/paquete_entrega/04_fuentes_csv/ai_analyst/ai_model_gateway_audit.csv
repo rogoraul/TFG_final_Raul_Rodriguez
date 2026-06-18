@@ -1,0 +1,11 @@
+check_id,check,status,evidence
+GW_01,fixture_default,passed,Preparar paquete remains fixture/no real model by default
+GW_02,codex_cli_gated,passed,provider-id codex_cli only via explicit Codex local action
+GW_03,codex_cli_macro_gated,passed,macro requires separate button and macro-web-research flag
+GW_04,sandbox_read_only,passed,codex invoked with sandbox read-only
+GW_05,approvals_never,passed,codex invoked with -a never
+GW_06,output_schema,passed,gateway validates required JSON fields and blocked phrases
+GW_07,output_last_message,passed,Codex output captured into validated review_output.json path
+GW_08,chart_png_as_image,passed,prompt uses chart.png as visual support with structured data
+GW_09,utf8_fix,passed,"encoding=utf-8, errors=replace, PYTHONIOENCODING/PYTHONUTF8 set"
+GW_10,diagnostic_pdf_on_failure,passed,blocked/invalid output produces diagnostic PDF

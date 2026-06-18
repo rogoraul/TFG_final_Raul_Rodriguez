@@ -1,0 +1,10 @@
+Activo,Velas,Inicio,Fin,Dias,VelasVsMax%,VelasMenosQueMax,Variant
+EURUSD.r,101654,2018-01-10 19:30:00,2026-03-17 09:30:00,2987.6,100.0,0,faithful_operable_sma200_primary
+EURJPY.r,101653,2018-01-10 23:00:00,2026-03-17 09:30:00,2987.4,100.0,1,faithful_operable_sma200_primary
+USDJPY,101653,2018-01-10 19:00:00,2026-03-17 09:30:00,2987.6,100.0,1,faithful_operable_sma200_primary
+AUDUSD.r,59821,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41833,faithful_operable_sma200_primary
+EURGBP.r,59821,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41833,faithful_operable_sma200_primary
+USDCAD.r,59820,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41834,faithful_operable_sma200_primary
+GBPUSD.r,59818,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41836,faithful_operable_sma200_primary
+NZDUSD.r,59818,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41836,faithful_operable_sma200_primary
+USDCHF.r,59817,2021-05-26 00:00:00,2026-03-17 09:30:00,1756.4,58.8,41837,faithful_operable_sma200_primary

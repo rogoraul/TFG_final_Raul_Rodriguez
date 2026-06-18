@@ -1,0 +1,20 @@
+{
+  "phase": "telegram_sender_gate_design_v1",
+  "generated_at": "2026-05-28T22:51:22Z",
+  "decision": "telegram_sender_gate_design_ready_for_implementation",
+  "sender_gate_designed": true,
+  "sender_gate_implemented": false,
+  "telegram_connected": false,
+  "telegram_real_messages_sent": 0,
+  "telegram_tokens_created": false,
+  "telegram_bot_created": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "bot_implemented": false,
+  "mt5_connected": false,
+  "backtests_executed": false,
+  "signals_generated": false,
+  "wavecount_used_as_filter": false,
+  "source_delivery_fix": "artifacts/tfg/telegram_informational_v1_delivery_policy_fix_2026-05-29/",
+  "next_recommended_phase": "implement_telegram_sender_gate_v1_optional_or_review_design"
+}

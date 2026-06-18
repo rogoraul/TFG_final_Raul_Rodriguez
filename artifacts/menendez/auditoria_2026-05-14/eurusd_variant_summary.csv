@@ -1,0 +1,4 @@
+Variant,Trades,WR_pct,PF,Return_pct,ENTRY_READY_rows,SETUP_ROWS,RETRACE_OK,FAN_BREAKOUT,MACD_TRIGGER,STOCH_TRIGGER,RR_OK,VariantClass
+faithful_operable_trigger_or,11,27.3,0.86,-1.20,20,1762,414,1759,5,78,292,resultado_valido
+faithful_operable_sma200_primary,8,25.0,0.37,-4.16,12,3490,734,3481,4,133,479,resultado_valido
+experimental_composite_x,0,0.0,0.00,0.00,0,3490,626,3484,4,133,95,resultado_exploratorio

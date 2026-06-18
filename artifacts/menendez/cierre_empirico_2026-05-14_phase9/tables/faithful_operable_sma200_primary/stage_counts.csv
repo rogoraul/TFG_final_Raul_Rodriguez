@@ -1,0 +1,11 @@
+Activo,Velas,H4_BLOCKED,HTF_OK,SETUP_ROWS,RETRACE_OK,FAN_BREAKOUT,MACD_TRIGGER,STOCH_TRIGGER,RR_OK,ENTRY_READY,Variant,VariantClass
+AUDUSD.r,59821,46503,13262,2073,545,2070,0,77,247,9,faithful_operable_sma200_primary,resultado_valido
+EURGBP.r,59821,46506,13278,1913,447,1911,0,80,261,9,faithful_operable_sma200_primary,resultado_valido
+EURJPY.r,101653,76961,24603,3814,945,3810,1136,96,426,6,faithful_operable_sma200_primary,resultado_valido
+EURUSD.r,101654,77720,23861,3490,734,3481,4,133,479,12,faithful_operable_sma200_primary,resultado_valido
+GBPUSD.r,59818,46777,12982,1884,423,1882,9,76,295,3,faithful_operable_sma200_primary,resultado_valido
+NZDUSD.r,59818,46501,13250,2050,500,2042,4,65,237,7,faithful_operable_sma200_primary,resultado_valido
+USDCAD.r,59820,45998,13779,2075,415,2070,0,78,241,6,faithful_operable_sma200_primary,resultado_valido
+USDCHF.r,59817,46009,13758,2076,453,2071,0,79,248,5,faithful_operable_sma200_primary,resultado_valido
+USDJPY,101653,76025,25507,3777,899,3773,995,124,418,7,faithful_operable_sma200_primary,resultado_valido
+TOTAL,663875,509000,154280,23152,5361,23110,2148,808,2852,64,faithful_operable_sma200_primary,resultado_valido

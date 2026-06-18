@@ -1,0 +1,4 @@
+rule_area,manual_basis,interpretation,future_use,hard_or_soft
+weak_no_continuation,015 and 018,do not force Elliott count on short/weak structures with no continuation,negative examples for visual quality filter,soft_visual_rule
+corrective_range_context,017,partial may be geometrically plausible but should remain ambiguous inside lateral/corrective market,"context/scoring penalty, not hard invalidation",soft_context_rule
+event_volatility_context,018,external volatility can explain swings but should not rescue weak Elliott structure,document as limitation when using event-distorted examples,documentation_guard

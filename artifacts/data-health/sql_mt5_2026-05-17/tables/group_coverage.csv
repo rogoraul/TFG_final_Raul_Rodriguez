@@ -1,0 +1,3 @@
+group,enabled_symbols,symbols,M15_symbols_with_data,M15_missing_symbols,M30_symbols_with_data,M30_missing_symbols,H1_symbols_with_data,H1_missing_symbols,H4_symbols_with_data,H4_missing_symbols,D1_symbols_with_data,D1_missing_symbols
+Forex Majors,27,"AUDCAD.r, AUDJPY.r, AUDNZD.r, AUDUSD.r, CADCHF.r, CADJPY.r, CHFJPY.r, EURAUD.r, EURCAD.r, EURCHF.r, EURGBP.r, EURJPY.r, EURNZD.r, EURUSD.r, GBPAUD.r, GBPCAD.r, GBPCHF.r, GBPJPY.r, GBPNZD.r, GBPUSD.r, NZDCAD.r, NZDCHF.r, NZDJPY.r, NZDUSD.r, USDCAD.r, USDCHF.r, USDJPY",27,,27,,27,,27,,27,
+Metals,7,"XAGEUR.r, XAGUSD.r, XAUEUR.r, XAUUSD.r, XCUUSD.r, XPDUSD, XPTUSD",7,,7,,7,,7,,7,

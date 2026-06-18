@@ -1,0 +1,11 @@
+Activo,Velas,H4_BLOCKED,HTF_OK,SETUP_ROWS,RETRACE_OK,FAN_BREAKOUT,MACD_TRIGGER,STOCH_TRIGGER,RR_OK,ENTRY_READY,Variant,VariantClass
+AUDUSD.r,59821,46503,13262,2073,385,2070,0,77,44,0,experimental_composite_x,resultado_exploratorio
+EURGBP.r,59821,46506,13278,1913,330,1912,0,80,38,2,experimental_composite_x,resultado_exploratorio
+EURJPY.r,101653,76961,24603,3814,687,3811,1154,96,79,9,experimental_composite_x,resultado_exploratorio
+EURUSD.r,101654,77720,23861,3490,626,3484,4,133,95,0,experimental_composite_x,resultado_exploratorio
+GBPUSD.r,59818,46777,12982,1884,263,1882,9,76,39,0,experimental_composite_x,resultado_exploratorio
+NZDUSD.r,59818,46501,13250,2050,427,2043,4,65,42,1,experimental_composite_x,resultado_exploratorio
+USDCAD.r,59820,45998,13779,2075,332,2074,0,78,63,3,experimental_composite_x,resultado_exploratorio
+USDCHF.r,59817,46009,13758,2076,319,2073,0,79,53,0,experimental_composite_x,resultado_exploratorio
+USDJPY,101653,76025,25507,3777,748,3775,1004,124,76,3,experimental_composite_x,resultado_exploratorio
+TOTAL,663875,509000,154280,23152,4117,23124,2175,808,529,18,experimental_composite_x,resultado_exploratorio

@@ -1,0 +1,9 @@
+path,next_step,status,recommended_order,notes
+sql_runtime,no_go_keep_preview_only,selected,1,"Close current SQL runtime carril as preview-only and do not implement real writer now."
+telegram_command_bot_readonly,design_or_review_next,available,2,"Useful pending platform piece; must remain read-only, no orders, no approvals."
+ai_analyst_readonly,design_next,available,2,"Can consume artifacts/case packets without needing SQL runtime writes."
+dashboard_manual_review,user_review_pending,available,2,"User still wants manual dashboard review; can proceed independently of SQL writer."
+memory_track,continue_when_user_wants,available,3,"SQL runtime should be framed as design/preflight/preview, not real persistence."
+writer_real_db_target,do_not_start_now,deferred,4,"Requires explicit future go decision, DB target policy and DDL authorization."
+ddl_runtime_tables,do_not_start_now,deferred,4,"Must be separate from writer and reviewed before any DB write."
+mt5_path,blocked_future,blocked,5,"Still requires separate shadow/demo/live gates and must not consume runtime ledger as execution queue."

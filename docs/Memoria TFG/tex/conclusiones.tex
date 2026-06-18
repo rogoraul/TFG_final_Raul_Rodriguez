@@ -1,0 +1,200 @@
+\section{Conclusiones principales}
+
+El trabajo desarrollado permite concluir que es posible construir una plataforma
+de visualizaci\'on y apoyo al an\'alisis de estrategias de trading. Esta plataforma
+combina formalizaci\'on de reglas, evaluaci\'on hist\'orica, consulta de datos,
+seguimiento del estado del sistema y demostraci\'on controlada con MT5. La
+aportaci\'on principal no reside en una \'unica estrategia ni en un resultado
+aislado. Reside en el flujo completo: partir de datos de mercado, convertir
+criterios t\'ecnicos en reglas calculables, compararlas frente a referencias,
+organizar las evidencias generadas y presentarlas en una interfaz que facilite
+la revisi\'on supervisada.
+
+En la parte cuantitativa, la estrategia \texttt{macd\_breakout} es la que ofrece
+la lectura m\'as defendible dentro del benchmark final de comparaci\'on. Sus
+resultados agregados son m\'as favorables que los de las estrategias de
+referencia evaluadas bajo el mismo marco, aunque tambi\'en muestran variabilidad
+entre grupos de activos y timeframes. Por ello, la conclusi\'on no debe
+formularse como una garant\'ia de rentabilidad futura, sino como una evidencia de
+mejor comportamiento relativo en los experimentos realizados. La estrategia
+\texttt{fib\_limit}, en cambio, queda como una formalizaci\'on m\'as irregular:
+permite estudiar una idea t\'ecnica concreta, pero no alcanza una lectura
+agregada suficientemente estable.
+
+La l\'inea basada en el enfoque de Men\'endez cumple una funci\'on distinta. Sus
+resultados no son positivos desde el punto de vista operativo, pero s\'i aportan
+valor metodol\'ogico al mostrar las dificultades de traducir una lectura visual
+de Elliott a reglas cuantificables. Esta parte del trabajo ayuda a separar la
+inspiraci\'on t\'ecnica de la validaci\'on experimental. Una teor\'ia puede ser
+\'util para estructurar la revisi\'on del mercado, pero no debe tratarse como
+se\~nal operativa sin una prueba separada y reproducible.
+
+WaveCount y WeaveCount refuerzan esa misma separaci\'on. Su valor est\'a en
+convertir una lectura estructural del precio en informaci\'on revisable, no en
+generar \'ordenes. Las etiquetas de onda, los niveles de calidad visual y las
+advertencias de estudio permiten priorizar casos y entender mejor el contexto,
+pero se mantienen fuera de la ejecuci\'on. Este matiz es importante porque
+sit\'ua el an\'alisis estructural como una capa de apoyo, no como un mecanismo de
+decisi\'on autom\'atica.
+
+La plataforma final integra estos resultados en un entorno de visualizaci\'on y
+trazabilidad m\'as ordenado. El Trading Center Dashboard, el Screener, el AI Analyst, MT5 Bot,
+RiskGuard y Telegram no tienen todos el mismo papel, pero juntos permiten
+reducir la dispersi\'on de informaci\'on y mejorar la trazabilidad del proceso. El
+dashboard centraliza la revisi\'on, el Screener prioriza candidatos de estudio, el
+AI Analyst prepara informes, RiskGuard audita condiciones de riesgo, MT5 permite
+lectura y ciclo demo controlado, y Telegram queda como canal informativo. La
+separaci\'on entre estas capas es uno de los resultados m\'as relevantes del
+trabajo, porque evita confundir revisi\'on, contexto, validaci\'on, orden demo y
+operaci\'on real.
+
+\section{Cumplimiento de los objetivos}
+
+El objetivo general se considera alcanzado dentro del alcance definido. Se ha
+construido una base t\'ecnica que permite estudiar estrategias de trading,
+ordenar evidencias y presentar informaci\'on relevante para una toma de
+decisiones supervisada. El sistema no sustituye el criterio del usuario ni
+pretende operar de forma totalmente aut\'onoma. S\'i proporciona un flujo de
+trabajo que reduce la carga de revisi\'on inicial y ayuda a aprovechar mejor los
+datos disponibles. Tambi\'en permite relacionar cada conclusi\'on
+con datos, reglas, tablas, gr\'aficos o registros generados durante el proceso.
+
+Respecto a la preparaci\'on de datos, se ha desarrollado un flujo de ingesta y
+actualizaci\'on orientado a trabajar con series intradiarias y diarias. La
+informaci\'on externa de contexto se mantiene separada del conjunto principal de
+mercado, especialmente cuando depende de disponibilidad, coste o forma de
+acceso. Esta decisi\'on permite conservar una base reproducible para los
+experimentos y, al mismo tiempo, incorporar contexto adicional cuando resulta
+necesario para la revisi\'on.
+
+El objetivo de formalizar estrategias tambi\'en queda cubierto. Las reglas
+basadas en \texttt{macd\_breakout}, \texttt{fib\_limit} y RSI se han traducido a
+condiciones calculables, diferenciando entre setup, contexto y se\~nal de
+estudio. Adem\'as, se ha evaluado una l\'inea espec\'ifica basada en el enfoque de
+Men\'endez, lo que permite documentar tanto los aciertos como las limitaciones de
+formalizar una lectura t\'ecnica m\'as discrecional.
+
+En relaci\'on con las pruebas hist\'oricas, el trabajo ha permitido comparar las
+estrategias formalizadas frente a referencias sencillas y analizar sus
+resultados por bloques independientes. Esta evaluaci\'on se ha planteado con
+prudencia, evitando interpretar las tablas como una cartera \'unica o como una
+promesa de rentabilidad futura. Tambi\'en se ha prestado atenci\'on al control de
+\textit{look-ahead}, especialmente en las reglas donde la detecci\'on de
+estructura o niveles t\'ecnicos pod\'ia introducir informaci\'on futura si no se
+trataba con cuidado.
+
+El objetivo de incorporar an\'alisis estructural se ha materializado mediante
+WaveCount y WeaveCount. Estas herramientas no cierran una se\~nal operativa,
+pero s\'i ofrecen una forma revisable de representar hip\'otesis de onda, calidad
+visual y contexto. De esta forma, la estructura del precio se incorpora al
+sistema sin mezclarse con la ejecuci\'on de \'ordenes.
+
+La plataforma interactiva queda implementada como herramienta de visualizaci\'on y revisi\'on. El
+dashboard permite consultar mercado, correlaciones, WeaveCount, Screener, MT5
+Bot y AI Analyst desde una interfaz com\'un. Adem\'as, mantiene una separaci\'on
+clara: observa, resume y organiza informaci\'on, pero no ejecuta operaciones
+desde el panel.
+
+Por \'ultimo, el objetivo relacionado con MT5, RiskGuard y Telegram se cumple
+como demostraci\'on controlada. Se ha comprobado un flujo demo con preparaci\'on de
+orden, env\'io auditado, lectura de posici\'on, cierre y comprobaci\'on final.
+RiskGuard queda como capa de control previo y Telegram como canal informativo de
+observabilidad. Esta integraci\'on no habilita operaci\'on real ni convierte el
+sistema en una soluci\'on preparada para ejecuci\'on sin supervisi\'on.
+
+\section{Limitaciones}
+
+La primera limitaci\'on est\'a asociada a la interpretaci\'on de los resultados
+hist\'oricos. Aunque el benchmark permite comparar estrategias bajo un marco
+com\'un, los resultados dependen de los activos, timeframes, reglas de
+entrada, reglas de salida y supuestos de ejecuci\'on considerados. Por tanto, no
+pueden extrapolarse directamente a rentabilidad futura ni a condiciones reales
+de mercado sin validaciones adicionales.
+
+Una segunda limitaci\'on es que el sistema no se ha evaluado como servicio
+continuo durante un periodo prolongado. La arquitectura permite actualizar
+archivos generados y alimentar el dashboard en entorno local. Para
+considerarla una soluci\'on operativa estable har\'ian falta pruebas de
+disponibilidad, monitorizaci\'on, recuperaci\'on ante errores, control de fuentes
+externas y despliegue del planificador como servicio mantenido.
+
+La tercera limitaci\'on afecta a la parte operativa. MT5 Bot y RiskGuard se han
+cerrado como ciclo demo controlado, no como bot de trading real. La ejecuci\'on en
+cuenta real, la autonom\'ia completa, la gesti\'on integral del riesgo bajo
+condiciones reales y la gesti\'on de incidencias quedan fuera del alcance. La
+capa de riesgo permite auditar \'ordenes demo y controlar condiciones b\'asicas de
+exposici\'on, pero no sustituye a una gesti\'on de cartera que considere
+diversificaci\'on, correlaciones, concentraci\'on por activo o divisa y dependencia
+entre mercados. Del mismo modo, Telegram informa sobre eventos y estados, pero
+no funciona como consola, no confirma operaciones y no env\'ia \'ordenes.
+
+La cuarta limitaci\'on se relaciona con el AI Analyst. El asistente puede ayudar a
+preparar informes y sintetizar informaci\'on, pero sus salidas deben entenderse
+como apoyo a la revisi\'on. No sustituye a RiskGuard, no aprueba operaciones y no
+convierte una se\~nal de estudio en una decisi\'on de trading. Esta separaci\'on es
+necesaria para mantener el sistema dentro de un uso supervisado y defendible.
+
+Finalmente, la informaci\'on macroecon\'omica y externa de contexto no queda
+integrada como un conjunto de datos estructurado equivalente a las series de
+mercado. En el trabajo se utiliza como apoyo a la revisi\'on cuando procede,
+especialmente a trav\'es del AI Analyst, pero no como una fuente sistem\'atica
+integrada en todos los experimentos. Esta decisi\'on evita problemas de
+disponibilidad y acceso, aunque limita la profundidad con la que puede
+estudiarse el impacto de eventos externos.
+
+\section{Trabajo futuro}
+
+Una primera l\'inea futura consiste en ampliar la validaci\'on estad\'istica de las
+estrategias formalizadas. Ser\'ia conveniente estudiar nuevos periodos, m\'as
+activos, validaciones sobre periodos no utilizados para definir las reglas,
+pruebas de sensibilidad y an\'alisis de costes m\'as detallados. Esto permitir\'ia
+comprobar si el comportamiento relativo de \texttt{macd\_breakout} se mantiene
+fuera del corte analizado y si \texttt{fib\_limit} puede mejorar mediante
+condiciones de contexto m\'as selectivas.
+
+Otra l\'inea relevante es incorporar nuevas estrategias al Screener siguiendo la
+misma separaci\'on entre regla principal, contexto y se\~nal de estudio. El
+sistema se ha dise\~nado como una base ampliable, capaz de crecer con nuevas
+estrategias, m\'as periodos de prueba y estad\'isticas acumuladas. Esta
+escalabilidad no convierte el sistema en una soluci\'on operativa final, pero s\'i
+lo deja preparado para evolucionar desde reglas aisladas hacia un proceso de
+an\'alisis m\'as ordenado y verificable. En ese crecimiento, el l\'imite de
+seguridad debe mantenerse: primero se formaliza, despu\'es se eval\'ua y solo m\'as
+adelante se estudia si tiene sentido plantear una demostraci\'on operativa.
+
+Una extensi\'on m\'as ambiciosa consistir\'ia en estudiar modelos de aprendizaje
+autom\'atico o redes neuronales como comparativa metodol\'ogica. En ese caso, el
+reto no ser\'ia solo entrenar un modelo, sino definir etiquetas fiables, separar
+adecuadamente entrenamiento y evaluaci\'on, controlar el sobreajuste y justificar
+qu\'e informaci\'on estar\'ia disponible en el momento de la predicci\'on. Por ello,
+esta l\'inea se deja como trabajo futuro y no como parte de la validaci\'on
+principal de esta memoria.
+
+Tambi\'en queda margen para profundizar en WaveCount y WeaveCount. Como trabajo
+futuro, podr\'ian estudiarse formas de medir la utilidad del contexto estructural
+en la revisi\'on de setups, sin convertirlo necesariamente en filtro autom\'atico.
+Esto permitir\'ia analizar si ciertas configuraciones de onda ayudan a priorizar
+mejor los casos o a descartar situaciones ambiguas.
+
+Desde el punto de vista de la plataforma, el siguiente paso ser\'ia comprobar el
+sistema durante periodos m\'as largos y en un despliegue m\'as parecido a un uso
+continuado. Para ello ser\'ia necesario desplegar el planificador como servicio,
+monitorizar errores de ingesta, controlar tiempos de actualizaci\'on y generar alertas
+de fallos. Tambi\'en habr\'ia que mantener una selecci\'on clara de tablas, capturas
+e informes que permitan reproducir y revisar el estado del sistema.
+
+En la parte operativa, una evoluci\'on razonable pasar\'ia por reforzar RiskGuard,
+probar durante m\'as tiempo el ciclo demo y revisar la gesti\'on de posiciones
+simult\'aneas. Tambi\'en convendr\'ia estudiar m\'etricas de exposici\'on en condiciones m\'as cercanas a
+un uso real. Ser\'ia necesario profundizar adem\'as en la gesti\'on de cartera:
+correlaciones, concentraci\'on por divisa o sector, modelos de dependencia entre
+activos y relaci\'on con eventos macroecon\'omicos. Cualquier avance hacia
+operaci\'on real deber\'ia mantenerse separado, documentado y sujeto a controles
+adicionales.
+
+Por \'ultimo, el AI Analyst y Telegram podr\'ian ampliarse como herramientas de
+apoyo al seguimiento. El AI Analyst podr\'ia generar informes comparables entre
+setups y sesiones, mientras que Telegram podr\'ia enviar res\'umenes informativos
+m\'as completos sobre estado del sistema, posiciones demo, errores y revisiones
+disponibles. En ambos casos, la evoluci\'on deber\'ia conservar el l\'imite
+definido en este trabajo: informar y ayudar a revisar, no decidir ni ejecutar.

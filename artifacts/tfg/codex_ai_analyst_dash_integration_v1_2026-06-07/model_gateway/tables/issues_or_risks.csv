@@ -1,0 +1,2 @@
+issue_id,severity,status,description,mitigation
+MG-FC-01,none,closed_fail_closed,blocked_network_disabled,Review real_model_call_audit and model_response_audit before trusting any generated report.

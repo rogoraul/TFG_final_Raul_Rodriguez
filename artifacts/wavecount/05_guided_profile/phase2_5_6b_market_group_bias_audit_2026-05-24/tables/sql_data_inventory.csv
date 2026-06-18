@@ -1,0 +1,5 @@
+source_type,table_name,path,row_count,columns,has_group_column,notes
+local_sqlite_candidate,,,,,False,No .db/.sqlite/.sqlite3 files found inside repo.
+mysql,price_data,trading_data,12464155,"id, symbol, timeframe, time, open, high, low, close, tick_volume, spread, real_volume",False,Real MySQL table inspected by 2.5.6b.
+mysql,symbol_control,trading_data,60,"id, symbol, group, enabled, last_update",True,Real MySQL table inspected by 2.5.6b.
+mysql,symbol_metadata,trading_data,60,"symbol, digits, point_size, trade_tick_size, trade_tick_value, trade_tick_value_profit, trade_tick_value_loss, trade_contract_size, volume_min, volume_max, volume_step, currency_base, currency_profit, currency_margin, trade_mode, source, updated_at",False,Real MySQL table inspected by 2.5.6b.

@@ -1,0 +1,53 @@
+{
+  "run_timestamp": "2026-05-14T18:06:09.653215+00:00",
+  "variant_name": "experimental_composite_x",
+  "classification": "resultado_exploratorio",
+  "notes": "Permite que X sea una estructura ABC de 3 segmentos PSAR. Separado de la logica simple para preservar auditabilidad. Combina con sma200_primary y trigger_or sin admitir 5 segmentos correctivos, porque 5 se reserva para equivalentes motores.",
+  "group_name": "Forex Majors",
+  "timeframe_ltf": "M30",
+  "timeframe_htf": "H4",
+  "symbols": [
+    "AUDUSD.r",
+    "EURGBP.r",
+    "EURJPY.r",
+    "EURUSD.r",
+    "GBPUSD.r",
+    "NZDUSD.r",
+    "USDCAD.r",
+    "USDCHF.r",
+    "USDJPY"
+  ],
+  "symbol_count": 9,
+  "use_cache": true,
+  "use_disk_cache": true,
+  "force_rebuild": false,
+  "context_config": {
+    "use_composite_x": true,
+    "composite_x_max_segments": 3,
+    "h4_trend_filter": "sma200_primary",
+    "entry_primary_trigger_mode": "fan_or_psar",
+    "entry_momentum_confirm_mode": "macd_or_stoch"
+  },
+  "indicator_config": {},
+  "account_config": {
+    "initial_capital": 10000.0,
+    "risk_per_trade": 0.01,
+    "skip_if_below_min_volume": true,
+    "account_currency": "USD",
+    "commission_model": "fpmarkets_raw_mt45"
+  },
+  "contract": {
+    "group_name": "Forex Majors",
+    "timeframe_ltf": "M30",
+    "timeframe_htf": "H4",
+    "risk_per_trade": 0.01,
+    "commission_model": "fpmarkets_raw_mt45",
+    "account_currency": "USD",
+    "use_cache": true,
+    "use_disk_cache": true,
+    "data_source": "SQL+MT5 metadata",
+    "classification_valid": "resultado_valido",
+    "classification_exploratory": "resultado_exploratorio",
+    "classification_invalid": "resultado_no_defendible"
+  }
+}

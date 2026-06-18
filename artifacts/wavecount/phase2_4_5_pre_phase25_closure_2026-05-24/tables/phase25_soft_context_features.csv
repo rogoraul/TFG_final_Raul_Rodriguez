@@ -1,0 +1,6 @@
+feature,source_phase,use,policy,notes
+ema_50_150_alignment,2.4.2,regime and transition context,soft_context,Useful when aligned with visually good count; dangerous as hard filter.
+price_vs_ema_band,2.4.2,ambiguity penalty,soft_context,Inside band increases uncertainty.
+ewo_5_35_direction_slope,2.4.2,momentum role reading,soft_context,Supports wave 3/wave 5/correction interpretation.
+d1_htf_state,2.4.2,parent regime context,soft_context,Can explain countertrend corrections and transitions.
+abc_parent_context,2.4.4,correction role hypothesis,soft_context_with_manual_review,Only usable when parent/context is clear enough.

@@ -1,0 +1,2 @@
+Variant,Activo,Trades,WR%,AvgWin%,AvgLoss%,R:R,PF,Return%,Sharpe,Sortino,MaxDD%,Calmar,NetProfit,Expectancy,AvgR,ExpectancyR,Exposure%,ReturnOverDrawdown,Velas,H4_BLOCKED,HTF_OK,SETUP_ROWS,RETRACE_OK,FAN_BREAKOUT,MACD_TRIGGER,STOCH_TRIGGER,RR_OK,ENTRY_READY
+faithful_operable_sma200_primary,EURUSD.r,8,25.0,1.23,-1.11,1.11,0.37,-4.16,-1.46,-22.81,4.25,-0.17,-416.35,-52.04,-0.525,-0.525,0.04,-0.98,101654,77720,23861,3490,734,3481,4,133,479,12

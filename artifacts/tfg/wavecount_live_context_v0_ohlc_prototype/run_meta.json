@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-06-18T23:46:37Z",
+  "version": "wavecount_live_context_v0_ohlc_prototype",
+  "fixture_count": 17,
+  "rows": 17,
+  "structure_phase_distribution": {
+    "ambiguous": 1,
+    "completed_abc_candidate": 1,
+    "completed_impulse_candidate": 1,
+    "invalidated": 1,
+    "not_available": 1,
+    "possible_wave1": 1,
+    "possible_wave2": 1,
+    "possible_wave3_active": 1,
+    "possible_wave3_candidate": 1,
+    "possible_wave4": 1,
+    "possible_wave5_active": 1,
+    "possible_wave5_candidate": 1,
+    "possible_waveA": 1,
+    "possible_waveB": 1,
+    "possible_waveC_active": 1,
+    "possible_waveC_candidate": 1,
+    "unknown": 1
+  },
+  "hypothesis_status_distribution": {
+    "confirmed": 2,
+    "expired": 1,
+    "forming": 4,
+    "invalidated": 1,
+    "provisional": 9
+  },
+  "bars_after_as_of_ignored": 5,
+  "confirmed_pivots_used": 46,
+  "flags": {
+    "is_read_only": true,
+    "can_generate_signal": false,
+    "can_filter_trade": false,
+    "can_execute_order": false
+  },
+  "safety": {
+    "real_sql_executed": false,
+    "ddl_executed": false,
+    "mt5_connected": false,
+    "backtests_executed": false,
+    "signals_generated": false,
+    "dashboard_implemented": false,
+    "telegram_implemented": false,
+    "bot_implemented": false
+  },
+  "anti_lookahead_passed": true,
+  "limitations": [
+    "OHLC-cut prototype; it uses small synthetic OHLC fixtures, not live market feeds.",
+    "Pivot detection reuses the causal WaveCount pivot detector with lenient fixture parameters.",
+    "It does not solve full Elliott counting and does not produce operational signals.",
+    "No SQL, MT5, backtest, dashboard, Telegram or bot integration is performed."
+  ]
+}

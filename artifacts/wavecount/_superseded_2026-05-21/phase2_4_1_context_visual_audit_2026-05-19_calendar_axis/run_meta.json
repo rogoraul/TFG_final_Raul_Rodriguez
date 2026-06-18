@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-05-19T00:23:54",
+  "finished_at": "2026-05-19T00:23:54",
+  "elapsed_seconds": 0.24366739997640252,
+  "input_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_4_context_2026-05-18",
+  "reviewed_cases": 54,
+  "conflict_cases": 7,
+  "user_must_review_cases": 26,
+  "outputs": {
+    "visual_case_reviews": "tables/visual_case_reviews.csv",
+    "ewo_wave_role_review": "tables/ewo_wave_role_review.csv",
+    "conflict_cases_review": "tables/conflict_cases_review.csv",
+    "user_must_review": "tables/user_must_review.csv",
+    "phase2_5_soft_rule_candidates": "tables/phase2_5_soft_rule_candidates.csv",
+    "context_visual_audit_summary": "tables/context_visual_audit_summary.csv",
+    "report": "WAVECOUNT_PHASE2_4_1_VISUAL_AUDIT.md"
+  },
+  "notes": [
+    "The 54 current charts were visually reviewed in three independent blocks.",
+    "Scores were normalised to 1-5 because reviewers used mixed raw scales.",
+    "No counting rules, strategies, backtests, MT5, signals, dashboard or Telegram integration were changed."
+  ]
+}

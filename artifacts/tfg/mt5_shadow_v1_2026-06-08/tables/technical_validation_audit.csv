@@ -1,0 +1,9 @@
+check,observed,expected,status
+shadow_rows_generated,5,>=0,pass
+auto_scope_only_macd_and_fib,['macd_breakout'],"['fib_limit_live_candidate', 'macd_breakout']",pass
+orders_sent,0,0,pass
+mt5_connected,False,False,pass
+telegram_connected,False,False,pass
+sql_real_written,False,False,pass
+signals_generated,False,False,pass
+can_send_order_any_true,False,False,pass

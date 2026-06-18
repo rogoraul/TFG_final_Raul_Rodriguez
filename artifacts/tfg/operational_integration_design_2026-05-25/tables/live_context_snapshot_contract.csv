@@ -1,0 +1,55 @@
+section,column,dtype,required,allowed_values,source,description,v1_validation
+identity,snapshot_id,string,True,,snapshot builder,Unique id for one generation.,required column present; allowed values respected
+identity,generated_at,datetime,True,,snapshot builder,Generation timestamp.,required column present; allowed values respected
+identity,symbol,string,True,,watcher,Instrument symbol.,required column present; allowed values respected
+identity,market_group,string,True,,watcher/SQL mapping,"Market group such as Forex Majors, Index, Metals.",required column present; allowed values respected
+identity,strategy,string,True,,watcher,"Strategy id, initially enbolsa:macd_breakout.",required column present; allowed values respected
+identity,timeframe_ltf,string,True,,watcher,Lower timeframe.,required column present; allowed values respected
+identity,timeframe_htf,string,True,,watcher,Higher timeframe.,required column present; allowed values respected
+identity,last_closed_bar_time,datetime,True,,watcher/data_state,Last closed bar used.,required column present; allowed values respected
+identity,data_freshness_status,enum,True,,data_state,Fresh/stale/unknown data status.,required column present; allowed values respected
+enbolsa_state,signal_state,mixed,True,no_signal|watching_setup|entry_ready_new|ready_already_seen|ready_stale|blocked,watcher snapshot/watchlist,ENBOLSA watcher field signal_state.,required column present; allowed values respected
+enbolsa_state,side,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field side.,optional
+enbolsa_state,setup_id,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field setup_id.,optional
+enbolsa_state,entry,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field entry.,optional
+enbolsa_state,sl,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field sl.,optional
+enbolsa_state,tp1,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field tp1.,optional
+enbolsa_state,tp2,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field tp2.,optional
+enbolsa_state,setup_age,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field setup_age.,optional
+enbolsa_state,missing_confirmation,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field missing_confirmation.,optional
+enbolsa_state,enbolsa_reason,mixed,False,,watcher snapshot/watchlist,ENBOLSA watcher field enbolsa_reason.,optional
+order_intent,has_order_intent,mixed,True,,watcher order_intents,Order intent field has_order_intent.,required column present; allowed values respected
+order_intent,order_intent_id,mixed,True,,watcher order_intents,Order intent field order_intent_id.,required column present; allowed values respected
+order_intent,intent_status,mixed,True,not_applicable|diagnostic_only|riskguard_accepted|riskguard_rejected|stale|already_seen,watcher order_intents,Order intent field intent_status.,required column present; allowed values respected
+riskguard,riskguard_status,mixed,True,,RiskGuard,Risk context field riskguard_status.,required column present; allowed values respected
+riskguard,riskguard_reason,mixed,True,,RiskGuard,Risk context field riskguard_reason.,required column present; allowed values respected
+riskguard,riskguard_detail,mixed,True,,RiskGuard,Risk context field riskguard_detail.,required column present; allowed values respected
+riskguard,candidate_risk_pct,mixed,True,,RiskGuard,Risk context field candidate_risk_pct.,required column present; allowed values respected
+riskguard,projected_total_risk_pct,mixed,True,,RiskGuard,Risk context field projected_total_risk_pct.,required column present; allowed values respected
+riskguard,projected_symbol_risk_pct,mixed,True,,RiskGuard,Risk context field projected_symbol_risk_pct.,required column present; allowed values respected
+riskguard,projected_currency_gross_risk_pct,mixed,True,,RiskGuard,Risk context field projected_currency_gross_risk_pct.,required column present; allowed values respected
+riskguard,projected_currency_net_risk_pct,mixed,True,,RiskGuard,Risk context field projected_currency_net_risk_pct.,required column present; allowed values respected
+wavecount,wavecount_available,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_available.,required column present; allowed values respected
+wavecount,wavecount_primary_timeframe,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_primary_timeframe.,required column present; allowed values respected
+wavecount,wavecount_aux_timeframe,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_aux_timeframe.,required column present; allowed values respected
+wavecount,wavecount_structure_type,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_structure_type.,required column present; allowed values respected
+wavecount,wavecount_wave_role,mixed,True,possible_wave1|possible_wave2|possible_wave3|possible_wave4|possible_wave5|abc_context|unknown|not_available,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_wave_role.,required column present; allowed values respected
+wavecount,wavecount_degree,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_degree.,required column present; allowed values respected
+wavecount,wavecount_policy_bucket,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_policy_bucket.,required column present; allowed values respected
+wavecount,wavecount_context_status,mixed,True,supports_context|neutral_context|conflicting_context|low_prominence_watchlist|not_available,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_context_status.,required column present; allowed values respected
+wavecount,wavecount_should_filter_trade,mixed,True,false,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_should_filter_trade.,required column present; allowed values respected
+wavecount,wavecount_notes,mixed,True,,WaveCount 2.5.6/2.5.10 artifacts,WaveCount context field wavecount_notes.,required column present; allowed values respected
+dashboard,dashboard_priority,mixed,True,,snapshot builder,Dashboard display field dashboard_priority.,required column present; allowed values respected
+dashboard,dashboard_group,mixed,True,,snapshot builder,Dashboard display field dashboard_group.,required column present; allowed values respected
+dashboard,needs_user_attention,mixed,True,,snapshot builder,Dashboard display field needs_user_attention.,required column present; allowed values respected
+dashboard,display_status,mixed,True,,snapshot builder,Dashboard display field display_status.,required column present; allowed values respected
+telegram,telegram_should_notify,mixed,True,,snapshot builder,Telegram routing field telegram_should_notify.,required column present; allowed values respected
+telegram,telegram_message_type,mixed,True,,snapshot builder,Telegram routing field telegram_message_type.,required column present; allowed values respected
+telegram,telegram_dedup_key,mixed,True,,snapshot builder,Telegram routing field telegram_dedup_key.,required column present; allowed values respected
+dry_run,dry_run_eligible,mixed,True,,snapshot builder/RiskGuard,Dry-run field dry_run_eligible.,required column present; allowed values respected
+dry_run,dry_run_reason,mixed,True,,snapshot builder/RiskGuard,Dry-run field dry_run_reason.,required column present; allowed values respected
+dry_run,dry_run_action,mixed,True,none|would_accept|would_reject|watch_only,snapshot builder/RiskGuard,Dry-run field dry_run_action.,required column present; allowed values respected
+audit,is_read_only,mixed,True,,snapshot builder,Audit field is_read_only.,required column present; allowed values respected
+audit,can_execute_order,mixed,True,false,snapshot builder,Audit field can_execute_order.,required column present; allowed values respected
+audit,source_files,mixed,True,,snapshot builder,Audit field source_files.,required column present; allowed values respected
+audit,notes,mixed,True,,snapshot builder,Audit field notes.,required column present; allowed values respected

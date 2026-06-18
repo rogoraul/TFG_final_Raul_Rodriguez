@@ -1,0 +1,5 @@
+context,rows,status
+pivot,2,
+previous_day_high_low,28,
+round_level,56,
+fibonacci,95,context_only

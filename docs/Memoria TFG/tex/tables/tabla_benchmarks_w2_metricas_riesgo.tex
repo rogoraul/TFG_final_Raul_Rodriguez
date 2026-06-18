@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrr}
+\hline
+Estrategia & Exp. R & Expos. med. (\%) & Sharpe & Sortino & Calmar & Recovery Factor \\
+\hline
+macd\_breakout & 0,053 & 202,58 & 1,07 & 3,45 & 0,08 & 1,34 \\
+fib\_limit & -0,007 & 286,50 & -0,47 & -1,48 & -0,03 & -0,63 \\
+RSI 3TF mean reversion & -0,083 & 18,08 & -0,67 & -4,43 & -0,06 & -0,55 \\
+RSI 3TF momentum reentry & -0,088 & 28,50 & -2,62 & -9,44 & -0,14 & -0,97 \\
+MA cross 3TF trend & -0,085 & 66,96 & -1,39 & -7,46 & -0,12 & -0,89 \\
+BB 3TF pullback reentry & -0,069 & 39,30 & -2,61 & -8,36 & -0,14 & -0,98 \\
+\hline
+\end{tabular}
+\caption[Comparaci\'on de m\'etricas de riesgo en el benchmark final]{Comparaci\'on de m\'etricas que relacionan rendimiento y riesgo en el benchmark final.
+Todos los valores son medianas sobre nueve bloques independientes. Exp. R es
+el resultado medio por operaci\'on dividido por el riesgo monetario inicial de
+esa operaci\'on. Expos. med. corresponde al tiempo agregado en posici\'on dentro
+del bloque; puede superar el 100\% cuando se solapan varias operaciones durante
+el mismo periodo. Recovery Factor corresponde al cociente entre retorno y
+drawdown m\'aximo.}
+\label{tab:benchmarks-w2-metricas-riesgo}
+\end{table}

@@ -1,0 +1,4 @@
+Variante,LTF,HTF,Trades,WR%,AvgWin%,AvgLoss%,R:R,PF,Return%,Sharpe,Sortino,MaxDD%,Calmar,Variant,VariantClass
+menendez_core,M30,H4,45,26.7,1.27,-1.08,1.18,0.42,-18.71,-2.88,-53.51,17.86,-0.14,faithful_operable_sma200_primary,resultado_valido
+menendez_core,M30,H4,49,32.7,1.51,-1.06,1.42,0.68,-10.64,-1.15,-49.4,9.71,-0.14,faithful_operable_trigger_or,resultado_valido
+menendez_core,M30,H4,10,20.0,1.06,-1.04,1.02,0.26,-6.03,-2.32,-35.31,7.99,-0.13,experimental_composite_x,resultado_exploratorio

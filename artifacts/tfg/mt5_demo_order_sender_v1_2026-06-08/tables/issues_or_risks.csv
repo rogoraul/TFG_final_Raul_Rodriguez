@@ -1,0 +1,3 @@
+description,issue_id,recommended_action,severity
+Demo sending gates are closed; no order can be sent.,environment_gates_closed,Keep closed outside explicit local demo review.,info
+No intent passed sender preflight.,no_demo_requests_prepared,Review RiskGuard decisions and confirmations.,info

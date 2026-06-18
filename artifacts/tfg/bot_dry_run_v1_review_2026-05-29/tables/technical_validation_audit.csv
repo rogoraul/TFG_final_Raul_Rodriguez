@@ -1,0 +1,6 @@
+validation,command,status,evidence
+py_compile_bot_dry_run,python -m py_compile trading_center\bot_dry_run.py,passed,exit_code=0
+pytest_bot_and_snapshot,pytest tests\test_bot_dry_run.py tests\test_live_context_snapshot.py -q,passed,20 passed
+cli_default,python -m trading_center.bot_dry_run --dry-run --output-dir .../default_cli,passed,"{""dry_run_blocked_by_config"": 54}"
+cli_enabled_real_snapshot,python -m trading_center.bot_dry_run --dry-run --bot-enabled --mode dry_run --max-intents 5 --output-dir .../simulated_enabled_real_snapshot,passed,"{""dry_run_no_action"": 54}"
+forbidden_import_scan,AST import scan,passed,none

@@ -1,0 +1,44 @@
+{
+  "package_id": "correlation_H1_EURO50_FRA40_8a59b672",
+  "package_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\correlation_package_renderer\\packages\\correlation_H1_EURO50_FRA40_8a59b672",
+  "generated_at": "2026-06-07T17:15:11.819411+00:00",
+  "method_version": "codex_ai_analyst_correlation_package_from_dash_v1",
+  "analysis_type": "correlation",
+  "sources": [
+    {
+      "source_id": "latest_manifest_json",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\latest_manifest.json",
+      "exists": true,
+      "sha256": "1d32e3b0d773485d2671ce1b79dd455074e2e5bbfd2421a44c89f1a95bff05c5"
+    },
+    {
+      "source_id": "correlation_pairs_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations\\correlation_pairs.csv",
+      "exists": true,
+      "sha256": "f8af30202c0815c126db396e58053f059406aec7b842399f47e7bd32fb25b2fe"
+    },
+    {
+      "source_id": "rolling_correlations_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations\\rolling_correlations.csv",
+      "exists": true,
+      "sha256": "d25174f3e87ab5514aec9e4267a2d4f1e9c2734bf6bda4056521f0d98a0c67c2"
+    },
+    {
+      "source_id": "correlation_returns_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations\\correlation_returns_sample.csv",
+      "exists": true,
+      "sha256": "e183b310d915c5ab86a80c789eec76abd50061ea272507db05ad7667ca667806"
+    },
+    {
+      "source_id": "market_radar_csv",
+      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\market_radar\\market_radar.csv",
+      "exists": true,
+      "sha256": "ace457494205feddef66e1878c9743537aa67160c78e60b90c259a202b141a95"
+    }
+  ],
+  "package_hash_seed": "081b194912f1c7c13711927105a3ff93182d8abcca3b999bb18fd73895ac137b",
+  "model_called": false,
+  "is_read_only": true,
+  "symbol": "EURO50|FRA40",
+  "timeframe": "H1"
+}

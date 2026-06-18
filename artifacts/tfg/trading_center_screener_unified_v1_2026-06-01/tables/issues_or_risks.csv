@@ -1,0 +1,5 @@
+issue_id,severity,status,description,mitigation
+R01,medium,open,Quality 1-5 is contextual and can be overread as a recommendation.,UI labels use calidad visual and study_only; no execution controls.
+R02,low,monitor,"fib_limit live is a study candidate based on current Fib 61.8 proximity, not an execution signal.","Keep study_only flags, no order controls, and keep historical review separate."
+R03,low,open,Codex/AI Analyst valuation is not implemented yet.,Placeholder remains revision codex pendiente.
+R04,low,closed,macd_breakout solo debe destacarse con timing fresco desde el enrichment study-only.,entry_review/macd_recent/breakout_recent son los unicos estados highlightables; late/invalidated/missing_context quedan fuera del foco principal.

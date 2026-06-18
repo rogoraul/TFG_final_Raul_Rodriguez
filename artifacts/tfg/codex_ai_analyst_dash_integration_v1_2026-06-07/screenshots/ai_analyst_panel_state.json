@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:8067/",
+  "screenshot": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\screenshots\\ai_analyst_panel.png",
+  "panel_visible": true,
+  "panel_text": "AI Analyst\nREAD-ONLY\nCerrar\nPrepara paquetes reproducibles y valida una salida fixture. No llama modelos ni envia nada a MT5/Telegram.\nSetup\nCADCHF.r H4 · fib_limit_live_candidate · 2/5\nPreparar revision\nSin modelo real",
+  "has_setup_select": true,
+  "has_run_action": true
+}

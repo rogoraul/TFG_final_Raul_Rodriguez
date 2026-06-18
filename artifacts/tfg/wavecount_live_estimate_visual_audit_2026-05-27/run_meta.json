@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-27T18:00:22Z",
+  "version": "wavecount_live_estimate_visual_audit",
+  "source_input_dir": "artifacts\\tfg\\wavecount_live_estimate_v0_2026-05-27",
+  "symbols": [
+    "EURUSD.r",
+    "GBPUSD.r",
+    "US500",
+    "XAUUSD.r"
+  ],
+  "timeframes": [
+    "H4"
+  ],
+  "charts_reviewed": 4,
+  "visual_readability_distribution": {
+    "borderline": 1,
+    "readable": 3
+  },
+  "label_plausible_distribution": {
+    "true": 3,
+    "unclear": 1
+  },
+  "decision": "live_estimate_study_panel_only",
+  "safety": {
+    "real_sql_executed": false,
+    "ddl_executed": false,
+    "mt5_connected": false,
+    "backtests_executed": false,
+    "signals_generated": false,
+    "dashboard_implemented": false,
+    "telegram_implemented": false,
+    "bot_implemented": false
+  }
+}

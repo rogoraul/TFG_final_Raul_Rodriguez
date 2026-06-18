@@ -1,0 +1,39 @@
+{
+  "phase": "weavecount_dashboard_section_review_v1",
+  "generated_at": "2026-06-01T10:48:51.632058+00:00",
+  "decision": "weavecount_dashboard_section_review_v1_closed_for_now",
+  "weavecount_dashboard_section_reviewed": true,
+  "weavecount_dashboard_section_closed_for_now": true,
+  "source_screener_rows": 94,
+  "source_symbols": 47,
+  "source_timeframes": [
+    "H1",
+    "H4"
+  ],
+  "active_count": 0,
+  "candidate_count": 94,
+  "no_clear_count": 0,
+  "quality_counts": {
+    "debil": 18,
+    "fuerte": 17,
+    "media": 59
+  },
+  "wave_counts": {
+    "W2?": 21,
+    "W3?": 54,
+    "W4?": 14,
+    "W5?": 5
+  },
+  "dash_audit_decision": "trading_center_dash_readonly_v1_ready_for_local_review",
+  "study_only": true,
+  "is_signal": false,
+  "wavecount_used_as_filter": false,
+  "can_execute_order_any_true": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "mt5_connected": false,
+  "telegram_connected": false,
+  "orders_sent": 0,
+  "signals_generated": false,
+  "backtests_executed": false
+}

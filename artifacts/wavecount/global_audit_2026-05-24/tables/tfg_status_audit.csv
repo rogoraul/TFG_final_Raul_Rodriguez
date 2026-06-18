@@ -1,0 +1,6 @@
+area,status,evidence,role_in_tfg,next_action
+ENBOLSA,empirical_core,benchmark canonico y comparativas cerradas,eje empirico principal,redaccion academica y uso como referencia; no reabrir reglas
+Menendez,methodological_closed_no_edge,auditoria y cierre empirico 2026-05-14,bloque metodologico alternativo sin edge demostrado,mantener como discusion metodologica
+RiskGuard,diagnostic_risk_layer,RiskGuard operativo v0 y docs dedicadas,"control de riesgo post-candidato, no edge",no mezclar con WaveCount ni usar para optimizar
+Live Signal Watcher,read_only_diagnostic,watcher ENBOLSA macd_breakout v0,salida diagnostica de senales ENBOLSA,mantener separado de WaveCount
+WaveCount,structural_visual_extension,Fases 1 a 2.5.3 implementadas y auditadas,"lectura estructural visual, no estrategia","Fase 2.5.4 reglas blandas de calidad, sin senales"

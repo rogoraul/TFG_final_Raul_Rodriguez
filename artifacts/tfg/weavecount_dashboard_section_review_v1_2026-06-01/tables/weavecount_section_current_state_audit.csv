@@ -1,0 +1,10 @@
+check,status,value
+screener_artifact_exists,pass,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv
+symbols_evaluated,pass,47
+symbol_timeframes_evaluated,pass,94
+active_count,observed,0
+candidate_count,observed,94
+no_clear_count,observed,0
+current_segment_consistency,pass,0
+visual_duplicate_risk,pass,0
+modal_auto_open,pass,prevent_initial_call=true; modal hidden by default

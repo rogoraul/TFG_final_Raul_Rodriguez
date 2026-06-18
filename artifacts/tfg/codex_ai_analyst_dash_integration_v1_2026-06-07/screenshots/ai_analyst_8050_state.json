@@ -1,0 +1,11 @@
+{
+  "button_displayed": true,
+  "button_rect": {
+    "height": 56,
+    "width": 56,
+    "x": 1348,
+    "y": 774
+  },
+  "panel_displayed": true,
+  "panel_text": "AI Analyst\nREAD-ONLY\nCerrar\nPrepara paquetes reproducibles y valida una salida fixture. No llama modelos ni envia nada a MT5/Telegram.\nSetup\nCADCHF.r H4 · fib_limit_live_candidate · 2/5\nPreparar revision\nSin modelo real"
+}

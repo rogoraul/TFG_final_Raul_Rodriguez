@@ -1,0 +1,6 @@
+decision,rows,rule_summary
+dry_run_no_action,54,signal_state is not entry_ready_new
+dry_run_blocked_by_config,0,bot config or allow-list blocks the row
+dry_run_blocked_by_data,0,freshness or levels block an entry_ready_new row
+dry_run_blocked_by_riskguard,0,RiskGuard is not riskguard_accepted
+dry_run_order_intent,0,"config, data and RiskGuard pass; simulation only"

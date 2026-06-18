@@ -1,0 +1,8 @@
+check_id,boundary,status,evidence
+B01,telegram_command_bot,passed,not implemented; run_meta telegram_command_bot_implemented=false
+B02,telegram_messages_orders,passed,telegram_orders_sent=0
+B03,mt5_adapter,passed,mt5_connected=False
+B04,sql_writes,passed,sql_real_written=False
+B05,ddl,passed,ddl_executed=False
+B06,sql_runtime_ledger,passed,sql_runtime_ledger_implemented=False
+B07,artifact_first,passed,artifact_first=True

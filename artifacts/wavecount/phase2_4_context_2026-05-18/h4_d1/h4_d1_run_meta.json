@@ -1,0 +1,137 @@
+{
+  "started_at": "2026-05-20T00:31:01",
+  "finished_at": "2026-05-20T00:41:08",
+  "elapsed_seconds": 607.0737400000216,
+  "phase2_3_output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+  "phase2_4_output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1",
+  "htf_timeframe": "D1",
+  "htf_rows": 260,
+  "specs": [
+    {
+      "example_id": "forex_eurusd_h4",
+      "group": "Forex Majors",
+      "symbol": "EURUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_gbpusd_h4",
+      "group": "Forex Majors",
+      "symbol": "GBPUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_usdjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "USDJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_audjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "AUDJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_eurjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "EURJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "forex_gbpjpy_h4",
+      "group": "Forex Majors",
+      "symbol": "GBPJPY.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xauusd_h4",
+      "group": "Metals",
+      "symbol": "XAUUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xagusd_h4",
+      "group": "Metals",
+      "symbol": "XAGUSD.r",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xptusd_h4",
+      "group": "Metals",
+      "symbol": "XPTUSD",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "metals_xpdusd_h4",
+      "group": "Metals",
+      "symbol": "XPDUSD",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_aus200_h4",
+      "group": "Index",
+      "symbol": "AUS200",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_hk50_h4",
+      "group": "Index",
+      "symbol": "HK50",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_us500_h4",
+      "group": "Index",
+      "symbol": "US500",
+      "timeframe": "H4",
+      "rows": 420
+    },
+    {
+      "example_id": "index_us30_h4",
+      "group": "Index",
+      "symbol": "US30",
+      "timeframe": "H4",
+      "rows": 420
+    }
+  ],
+  "phase2_3": {
+    "charts": 54,
+    "outputs": {
+      "visual_review_candidates": "tables/visual_review_candidates.csv",
+      "manual_review_template": "tables/manual_review_template.csv",
+      "visual_review_summary": "tables/visual_review_summary.csv",
+      "source_windows": "tables/source_windows.csv",
+      "charts_dir": "charts",
+      "report": "WAVECOUNT_PHASE2_3_VISUAL_REVIEW.md"
+    }
+  },
+  "phase2_4": {
+    "charts": 54,
+    "outputs": {
+      "wavecount_context": "tables/wavecount_context.csv",
+      "candidate_context": "tables/candidate_context.csv",
+      "context_summary": "tables/context_summary.csv",
+      "source_windows": "tables/source_windows.csv",
+      "charts_dir": "charts",
+      "report": "WAVECOUNT_PHASE2_4_CONTEXT_REPORT.md"
+    }
+  },
+  "notes": [
+    "H4/D1 diagnostic extension only.",
+    "Phase 2.3 plots H4 candidate counts without indicators.",
+    "Phase 2.4 adds D1 context with EMAs 50/150 and EWO 5-35.",
+    "No WaveCount rules, strategies, signals, backtests, MT5, dashboard or Telegram integration were changed."
+  ]
+}

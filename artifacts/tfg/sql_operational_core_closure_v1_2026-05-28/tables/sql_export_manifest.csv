@@ -1,0 +1,4 @@
+artifact,source,rows,generated_from_sql,path,status
+live_context_snapshot_from_sql.csv,trading_ops.v_live_context_latest,54,true,artifacts/tfg/sql_operational_core_closure_v1_2026-05-28/export_from_sql/live_context_snapshot_from_sql.csv,generated
+live_context_snapshot_from_sql.json,trading_ops.v_live_context_latest,54,true,artifacts/tfg/sql_operational_core_closure_v1_2026-05-28/export_from_sql/live_context_snapshot_from_sql.json,generated
+run_meta.json,trading_ops.v_live_context_latest,54,true,artifacts/tfg/sql_operational_core_closure_v1_2026-05-28/export_from_sql/run_meta.json,generated

@@ -1,0 +1,111 @@
+5/5
+US100
+Index / H4 / fib_limit_live_candidate
+Cerrar
+study_only
+ready_for_chart_review
+entry_review
+calidad 5/5
+dist. 0.2406%
+revision codex pendiente
+CAPAS DEL GRAFICO
+Dia previo (2)
+Pivots R2/R3/S2/S3 (4)
+Setup fib_limit (9)
+Niveles redondos (2)
+SWING FIBO
+Corto
+Medio
+Amplio
+Macro
+POR QUE APARECE
+base fib_limit_live_candidate; tendencia compatible; nivel cercano; volatilidad util; confluencia multiple
+Timing: hubo toque y reaccion reciente compatible; conviene revisar el grafico ahora
+fib limit live
+fibonacci 0 618
+tactical alignment
+round level
+CONTEXTO
+TENDENCIA
+M15 ↓
+H1 ↓
+H4 ↓
+D1 ↓
+RSI: neutral
+WeaveCount: W3? H1 media
+NIVELES
+Pivot: sin cercania
+Dia previo: sin cercania
+Nivel redondo: Nivel redondo inferior 0.22%; Nivel redondo superior 0.19%
+TIMING
+Estado: entry review
+Trigger: Fib 61.8 24695.419
+Distancia: 0.2406
+Ultimo toque: 2026-03-16 20:00:00
+Barras desde toque: 2
+Reaccion: down / detectada=True
+Tarde o invalidado: late=False / invalidated=False
+PENDIENTE
+Fibonacci: cerca Fib 61.8 (0.24%)
+Codex review: revision codex pendiente
+23.5k
+24k
+24.5k
+25k
+25.5k
+26k
+30
+50
+70
+Jan 2312:00
+Jan 3016:00
+Feb 0620:00
+Feb 1600:00
+Feb 2308:00
+Mar 0212:00
+Mar 0916:00
+Mar 1704:00
+−300
+−200
+−100
+0
+100
+OHLC
+R2 previo
+R3 previo
+S2 previo
+S3 previo
+Maximo dia previo
+Minimo dia previo
+Fib 0 estudio
+Fib 100 estudio
+Fib 23.6 estudio
+Fib 38.2 estudio
+Fib 50 estudio
+Fib 61.8 estudio
+Fib 78.6 estudio
+Fib ext 1.272 estudio
+Fib ext 1.618 estudio
+RSI 14
+MACD 12-26
+Senal 9
+RSI 14
+MACD
+R2 previo
+R3 previo
+S2 previo
+S3 previo
+Maximo dia previo
+Minimo dia previo
+Fib 0 estudio
+Fib 100 estudio
+Fib 23.6 estudio
+Fib 38.2 estudio
+Fib 50 estudio
+Fib 61.8 estudio
+Fib 78.6 estudio
+Fib ext 1.272 estudio
+Fib ext 1.618 estudio
+RSI 48.5
+MACD
+Senal

@@ -1,0 +1,19 @@
+Variante,Family,Group,MetricScope,Trades,WR%,AvgWin%,AvgLoss%,R:R,PF,NetProfit,Expectancy,AvgR,ExpectancyR
+benchmark:bb_3tf_pullback_reentry,benchmark,Forex Majors,trade_pool,12771,38.8,1.29,-0.93,1.39,0.91,-23405.99,-1.83,-0.067,-0.067
+benchmark:bb_3tf_pullback_reentry,benchmark,Index,trade_pool,7165,37.6,1.45,-0.97,1.5,0.91,-18885.88,-2.64,-0.056,-0.056
+benchmark:bb_3tf_pullback_reentry,benchmark,Metals,trade_pool,2366,33.5,1.3,-0.89,1.47,0.77,-14957.73,-6.32,-0.154,-0.154
+benchmark:ma_cross_3tf_trend,benchmark,Forex Majors,trade_pool,7610,21.6,3.16,-0.97,3.26,0.96,-26769.78,-3.52,-0.079,-0.079
+benchmark:ma_cross_3tf_trend,benchmark,Index,trade_pool,4211,19.3,3.32,-0.94,3.53,0.84,-23224.93,-5.52,-0.12,-0.12
+benchmark:ma_cross_3tf_trend,benchmark,Metals,trade_pool,1767,22.0,3.94,-0.91,4.35,1.38,32660.05,18.48,0.158,0.158
+benchmark:rsi_3tf_mean_reversion,benchmark,Forex Majors,trade_pool,2948,18.6,3.6,-1.0,3.59,0.82,-20150.36,-6.84,-0.149,-0.149
+benchmark:rsi_3tf_mean_reversion,benchmark,Index,trade_pool,1521,18.1,3.59,-0.96,3.73,0.82,-12847.67,-8.45,-0.137,-0.137
+benchmark:rsi_3tf_mean_reversion,benchmark,Metals,trade_pool,543,20.6,3.29,-0.94,3.51,0.86,-4384.88,-8.08,-0.066,-0.066
+benchmark:rsi_3tf_momentum_reentry,benchmark,Forex Majors,trade_pool,7278,30.8,1.8,-0.96,1.88,0.84,-26697.57,-3.67,-0.111,-0.111
+benchmark:rsi_3tf_momentum_reentry,benchmark,Index,trade_pool,4178,29.5,1.92,-0.96,2.0,0.86,-16052.88,-3.84,-0.112,-0.112
+benchmark:rsi_3tf_momentum_reentry,benchmark,Metals,trade_pool,1520,28.0,1.76,-0.9,1.96,0.78,-11903.2,-7.83,-0.156,-0.156
+enbolsa:fib_limit,enbolsa,Forex Majors,trade_pool,22546,25.3,1.21,-0.44,2.73,0.92,-22549.23,-1.0,-0.05,-0.05
+enbolsa:fib_limit,enbolsa,Index,trade_pool,11618,25.1,1.36,-0.48,2.85,1.0,-83.36,-0.01,-0.03,-0.03
+enbolsa:fib_limit,enbolsa,Metals,trade_pool,5746,27.4,1.2,-0.43,2.8,1.04,6734.44,1.17,0.033,0.033
+enbolsa:macd_breakout,enbolsa,Forex Majors,trade_pool,12024,31.8,1.17,-0.49,2.37,1.1,141949.32,11.81,0.072,0.072
+enbolsa:macd_breakout,enbolsa,Index,trade_pool,5586,32.0,1.13,-0.47,2.39,1.09,25841.43,4.63,0.081,0.081
+enbolsa:macd_breakout,enbolsa,Metals,trade_pool,2606,34.1,0.94,-0.43,2.2,1.13,9631.3,3.7,0.078,0.078

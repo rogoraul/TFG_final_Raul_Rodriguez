@@ -1,0 +1,15 @@
+field_name,non_null_rows,total_rows,coverage_pct
+w1_start_time,188,188,100.0
+w1_end_time,188,188,100.0
+w1_start_price,188,188,100.0
+w1_end_price,188,188,100.0
+w2_swing_time,98,188,52.13
+w2_swing_price,98,188,52.13
+breakout_level,142,188,75.53
+directrix_start_price,142,188,75.53
+directrix_end_price,142,188,75.53
+last_breakout_time,142,188,75.53
+last_macd_cross_time,117,188,62.23
+sl_study,188,188,100.0
+tp1_study,188,188,100.0
+tp2_study,188,188,100.0

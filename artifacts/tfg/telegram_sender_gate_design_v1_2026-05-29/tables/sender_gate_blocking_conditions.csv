@@ -1,0 +1,17 @@
+block_id,category,trigger,block_scope,mitigation
+missing_external_token,secret,External token is absent.,block_all,Do not ask user for token in this phase.
+missing_external_chat_id,secret,External chat id is absent.,block_all,Do not store chat id in repo.
+secret_in_repo,secret,Token/chat id/API key-like file appears in repo.,block_all,Fail closed and document leak risk.
+telegram_disabled,config,telegram_enabled=false.,block_all,Default state.
+wrong_mode,config,telegram_mode is not informational_only.,block_all,No operational modes.
+unsafe_message,message,safe_to_send=false.,block_message,Keep in audit only.
+delivery_not_allowed,message,delivery_status is not preview_allowed.,block_message,Includes omitted_no_condition and manual_only.
+no_condition,message,condition_status=no_condition.,block_message,No event or digest authorization.
+manual_only_without_confirmation,message,delivery_status=manual_only without confirmation.,block_message,WaveCount/manual items require explicit operator confirmation.
+pre_gate_send_real_true,message,send_real=true before gate final step.,block_all,Indicates unsafe state mutation.
+wavecount_not_study,message,contains_wavecount=true without study/manual mode.,block_message,WaveCount cannot become signal.
+operative_wording,message,buy/sell/execute/approve wording detected.,block_message,No-action hard block.
+bot_or_mt5_active,system,bot or MT5 flags active.,block_all,Out of scope.
+sql_write_or_ddl_active,system,SQL write or DDL flag active.,block_all,Telegram cannot alter data.
+cooldown_or_daily_exceeded,delivery,Dedup/cooldown/max daily fails.,block_message,Anti-spam.
+audit_artifacts_missing,audit,Required artifacts missing.,block_all,Cannot prove safety.

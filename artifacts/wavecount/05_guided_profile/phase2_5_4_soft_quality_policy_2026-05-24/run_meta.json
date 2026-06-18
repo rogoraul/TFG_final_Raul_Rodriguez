@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-05-24T17:46:01",
+  "script": "backtests\\wavecount\\build_wavecount_soft_quality_policy.py",
+  "output_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_4_soft_quality_policy_2026-05-24",
+  "inputs": {
+    "phase250_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_0_guided_context_score_2026-05-24",
+    "phase252_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2_h4_d1_expansion_2026-05-24",
+    "phase252b_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2b_h1_h4_aux_2026-05-24",
+    "phase253_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_3_descriptive_stats_2026-05-24"
+  },
+  "source_rows": {
+    "phase254_readiness_matrix": 9,
+    "phase254_recommendations": 10,
+    "prominence_stats": 19,
+    "prominence_problem_cases": 20,
+    "ewo_stats": 26,
+    "ema_htf_stats": 30,
+    "context_misleading_cases": 10,
+    "h4_visual_expansion_review": 54,
+    "h4_ewo_expansion_review": 4,
+    "h4_ema_htf_expansion_review": 6,
+    "h4_false_positive_risks": 1,
+    "h1_visual_aux_review": 54,
+    "prominence_diagnostics": 108,
+    "h4_suspicious_scale_cases": 8,
+    "h1_ewo_aux_review": 6,
+    "h1_ema_htf_aux_review": 6,
+    "aus200_h4_case_review": 1
+  },
+  "rows": {
+    "soft_quality_policy_matrix": 9,
+    "prominence_soft_policy": 108,
+    "ewo_soft_policy": 108,
+    "ema_htf_soft_policy": 108,
+    "structural_quality_scores": 108,
+    "structural_quality_summary": 34,
+    "soft_policy_risk_register": 9,
+    "phase255_recommendation": 3,
+    "user_review_if_any": 20
+  },
+  "bucket_counts": {
+    "exclude_from_guided_search": 90,
+    "auxiliary_substructure": 7,
+    "usable_provisional_structure": 5,
+    "experimental_only": 4,
+    "ambiguous_structure": 1,
+    "high_quality_structure": 1
+  },
+  "aus200_policy_note": "`impulse_exp252_index_aus200_h4_intermediate_impulse_020` queda como `exclude_from_guided_search` con `low_prominence_vs_window` y score 24. Se trata como ejemplo de baja prominencia/contexto conflictivo, no como seed fuerte.",
+  "missing_output_image_refs": [],
+  "uses_reorganized_phase25_paths": true,
+  "no_strategy_changes": true,
+  "no_signals_generated": true,
+  "no_backtests_executed": true,
+  "no_base_rules_changed": true,
+  "no_pivots_recalculated": true,
+  "no_counts_recalculated": true,
+  "elapsed_seconds": 0.535
+}

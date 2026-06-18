@@ -1,0 +1,7 @@
+roadmap_item,alignment_status,recommendation
+ENBOLSA empirical core,aligned,mantener como eje empirico principal
+Menendez methodological block,aligned,cerrado sin edge demostrado
+RiskGuard,aligned,capa de riesgo separada
+Live Watcher,aligned,diagnostico read-only ENBOLSA
+WaveCount roadmap,aligned_updated,ROADMAP actualizado: siguiente paso 2.5.4 reglas blandas
+Dashboard/Telegram/MT5,blocked,no avanzar hasta WaveCount estable y validado visualmente

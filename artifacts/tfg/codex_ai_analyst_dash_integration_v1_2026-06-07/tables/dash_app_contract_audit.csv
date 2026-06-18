@@ -1,0 +1,5 @@
+check_id,check,status,evidence
+DASH_CONTRACT_01,module_exists,passed,trading_center/dash_readonly_app.py
+DASH_CONTRACT_02,dash_app_factory,passed,create_app(data)
+DASH_CONTRACT_03,artifact_first_data,passed,build_dash_data reuses readonly_dashboard build_data_model
+DASH_CONTRACT_04,interactive_readonly_surfaces,passed,"tabs, dropdowns, search, radar cards, correlation tools, WeaveCount modal and unified Screener modal"

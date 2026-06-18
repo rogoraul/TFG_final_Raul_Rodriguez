@@ -1,0 +1,9 @@
+check,value,status
+source_mode,sql_readonly_ohlc_artifact,configured
+m15_context_symbols,60,available
+h1_context_symbols,60,available
+h4_context_symbols,60,available
+d1_context_symbols,60,available
+common_radar_symbols,60,available
+universe_symbols,60,available
+coverage_vs_universe,60/60,complete

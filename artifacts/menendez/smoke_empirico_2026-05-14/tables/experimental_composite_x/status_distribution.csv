@@ -1,0 +1,11 @@
+Activo,SETUP_STATUS,Rows,Variant,VariantClass
+EURUSD.r,H4_BLOCKED,77720,experimental_composite_x,resultado_exploratorio
+EURUSD.r,HTF_READY,20444,experimental_composite_x,resultado_exploratorio
+EURUSD.r,SETUP_BLOCKED,2864,experimental_composite_x,resultado_exploratorio
+EURUSD.r,WAIT_MOMENTUM_CONFIRM,603,experimental_composite_x,resultado_exploratorio
+EURUSD.r,WAIT_RR,23,experimental_composite_x,resultado_exploratorio
+TOTAL,H4_BLOCKED,77720,experimental_composite_x,resultado_exploratorio
+TOTAL,HTF_READY,20444,experimental_composite_x,resultado_exploratorio
+TOTAL,SETUP_BLOCKED,2864,experimental_composite_x,resultado_exploratorio
+TOTAL,WAIT_MOMENTUM_CONFIRM,603,experimental_composite_x,resultado_exploratorio
+TOTAL,WAIT_RR,23,experimental_composite_x,resultado_exploratorio

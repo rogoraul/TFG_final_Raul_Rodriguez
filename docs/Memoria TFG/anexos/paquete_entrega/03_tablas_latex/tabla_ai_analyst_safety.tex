@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{0.24\textwidth}p{0.16\textwidth}p{0.50\textwidth}}
+\hline
+Chequeo & Estado & Evidencia \\
+\hline
+Solo lectura & Superado & Paneles, paquetes e informes no ejecutan acciones \\
+Sin MT5 & Superado & Sin conexi\'on MT5 en cierre/gateway \\
+Sin Telegram & Superado & Sin ruta de conexi\'on o env\'io desde AI Analyst \\
+Sin \'ordenes & Superado & Sin env\'ios de \'orden en la pol\'itica del run \\
+Sin escrituras SQL & Superado & Lectura de archivos/paquetes; sin escrituras SQL \\
+Sin DDL & Superado & Sin migraciones ni cambios de esquema \\
+Sin backtests & Superado & Informes y revisi\'on solamente \\
+Sin se\~nales operativas & Superado & No activa permisos de ejecuci\'on \\
+Sin bypass RiskGuard & Superado & No es capa de aprobaci\'on \\
+Codex manual & Superado & Botones expl\'icitos para Codex local/macros \\
+\hline
+\end{tabular}
+\caption{Auditor\'ia de seguridad del AI Analyst. El m\'odulo se documenta como asistente de solo lectura y no como decisor operativo. La fuente completa queda registrada en el \'indice de tablas curadas.}
+\label{tab:ai-analyst-safety}
+\end{table}

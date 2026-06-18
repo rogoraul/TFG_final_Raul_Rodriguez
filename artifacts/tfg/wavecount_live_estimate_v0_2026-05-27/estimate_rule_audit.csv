@@ -1,0 +1,5 @@
+symbol,timeframe,state_machine_wave,live_estimated_wave,activation_crossed,invalidated,rule_applied,why_this_label,why_not_higher_confidence,lookahead_safe
+EURUSD.r,H4,invalidated,invalidated,False,True,invalidation_guard,latest close breached invalidation or state machine invalidated the cycle,invalidated contexts cannot receive higher confidence,True
+GBPUSD.r,H4,invalidated,invalidated,False,True,invalidation_guard,latest close breached invalidation or state machine invalidated the cycle,invalidated contexts cannot receive higher confidence,True
+US500,H4,possible_wave3_active,possible_wave3_active,True,False,activation_crossed_live_estimate,latest close crossed activation in the inferred cycle direction,confirmed context is still late and this is not an operational signal,True
+XAUUSD.r,H4,possible_wave3_candidate,possible_wave3_candidate,False,False,activation_pending_candidate,latest close has not crossed activation but keeps a plausible wave3 attempt alive,activation is not crossed; confidence remains low,True

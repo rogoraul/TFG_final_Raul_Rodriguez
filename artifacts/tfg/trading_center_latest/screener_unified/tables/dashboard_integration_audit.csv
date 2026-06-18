@@ -1,0 +1,5 @@
+check,status,path,value
+screener_setups_artifact,created,artifacts\tfg\trading_center_latest\screener_unified\screener_setups.csv,
+asset_matrix_artifact,created,artifacts\tfg\trading_center_latest\screener_unified\screener_asset_matrix.csv,
+chart_layers_artifact,created,artifacts\tfg\trading_center_latest\screener_unified\screener_chart_layers.csv,
+estrategias_absorbed_by_screener,dash_update_required,,True

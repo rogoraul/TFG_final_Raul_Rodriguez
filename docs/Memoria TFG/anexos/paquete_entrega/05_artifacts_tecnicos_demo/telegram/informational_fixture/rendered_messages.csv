@@ -1,0 +1,53 @@
+﻿message_id,message_type,severity,title,body,source_artifacts,dedup_key,cooldown_minutes,delivery_status,would_send_in_dry_run,send_real,telegram_connected,telegram_message_sent,safe_to_send,blocked_patterns,created_at_utc
+mt5_bot_status_digest_1f3468ca98db,mt5_bot_status_digest,info,MT5 Bot: estado informativo,"Estado informativo del MT5 Bot
+Datos publicados: 2026-06-11 15:10 UTC
+Decisiones shadow: 2
+Decisiones RiskGuard: 1
+Ordenes demo auditadas: 1
+Cierres demo auditados: 1
+Telegram: solo informativo
+Live trading: bloqueado",fixture\latest_manifest.json|fixture\mt5_shadow|fixture\riskguard,a82eb413e8c4184b,30,preview_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+mt5_account_snapshot_notice_08093e30d322,mt5_account_snapshot_notice,info,Cuenta MT5 - resumen,"Cuenta MT5 - resumen de solo lectura
+--------------------------------
+Balance:       100,000.00
+Equity:        99,980.50
+Margen usado:  120.00
+Margen libre:  99,860.50
+Nivel margen:  n/d
+Rentabilidad:  n/d
+
+Posiciones abiertas: 1
+Ordenes pendientes:  0
+Lectura: 2026-06-11 15:10 UTC",fixture\mt5_read_only,4da7eec4e1293dc9,30,preview_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+mt5_positions_digest_c51cbd795e0c,mt5_positions_digest,info,Posiciones abiertas - rentabilidad,"Posiciones abiertas - ultima lectura MT5
+----------------------------------
+Total posiciones: 1
+Rentabilidad flotante: -1.20
+
+Activo    Dir    Vol   Rentab.  Entrada  Actual
+EURUSD.r  Largo  0.01     -1.2    1.153     n/d
+
+Exposicion por activo:
+EURUSD.r x1",fixture\mt5_read_only,48343336f01de5ff,30,event_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+riskguard_block_notice_c3a73b93d521,riskguard_block_notice,warning,RiskGuard: bloqueos informativos,RiskGuard registra 1 bloqueos informativos. Motivos: blocked_by_late_setup=1. Ejemplos: AUDNZD.r H1 blocked_by_late_setup.,fixture\riskguard,d0728907f838bdcf,20,event_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+demo_order_event_notice_24702c46f76e,demo_order_event_notice,info,Orden demo - evento MT5,"Orden demo - evento MT5 auditado
+--------------------------------
+Eventos leidos: 2
+Enviadas: 1
+No enviadas: 1
+
+EURUSD.r - enviada
+Resultado MT5: aceptada por MT5
+Codigo broker: 10009
+Referencia: req_fixture
+
+GBPUSD.r - no enviada
+Resultado MT5: no aceptada
+Codigo broker: 10027
+Referencia: req_rejected
+
+Telegram solo informa este evento; no solicita ni confirma operaciones.",fixture\sender,9e77c2bf3d9a76ec,10,event_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+demo_position_close_notice_d41abb3469b5,demo_position_close_notice,info,Cierre demo: evento auditado,"Eventos de cierre DEMO auditados: total 1, cierres ejecutados 1. Detalle: EURUSD.r retcode 10009 status closed.",fixture\manager,b628fed5d1c31d6b,10,event_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+refresh_pipeline_notice_8c8881a46099,refresh_pipeline_notice,warning,Refresh: aviso informativo,No hay incidencia refresh detectada en manifest. Estado: refresh_allowed.,fixture\latest_manifest.json,16d2b663fc254d98,30,omitted_no_condition,False,False,False,False,True,,2026-06-11T15:10:07Z
+daily_summary_9033d8b2ca8e,daily_summary,info,Resumen diario informativo,Resumen informativo diario. Equity: 99980.50. Posiciones abiertas: 1. Decisiones RiskGuard: 1. Ordenes demo auditadas: 1. Cierres demo auditados: 1. Telegram no confirma ni realiza acciones.,fixture\latest_manifest.json|fixture\mt5_read_only|fixture\sender|fixture\manager,fe3e9fd5f04493f9,240,preview_allowed,True,False,False,False,True,,2026-06-11T15:10:07Z
+

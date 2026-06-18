@@ -1,0 +1,4 @@
+strategy,rows,status
+fib_limit,4,context_only
+macd_breakout,90,context_only
+rsi_trend_reversal,3,context_only

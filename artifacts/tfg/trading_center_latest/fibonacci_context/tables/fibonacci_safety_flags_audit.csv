@@ -1,0 +1,5 @@
+flag,any_true,status
+is_signal,False,passed
+can_execute_order,False,passed
+would_send_to_mt5,False,passed
+would_send_telegram_order,False,passed

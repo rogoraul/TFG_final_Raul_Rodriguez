@@ -1,0 +1,8 @@
+component,relationship,boundary
+telegram_informational.py,input,Provides rendered messages and audits; gate must not change message content.
+dashboard_readonly,context,Canonical UI remains dashboard; Telegram only summarizes.
+sql_snapshot_export,source,Read-only artifact/view source; gate does not write SQL.
+bot_dry_run_future,separate,Bot dry-run may consume data later but does not depend on Telegram.
+ai_analyst_future,optional_context,AI Analyst may explain messages later but cannot decide execution.
+mt5_future,blocked,No MT5 path through Telegram sender gate.
+wavecount,study_only,Only study/manual context if enabled; never filter/signal.

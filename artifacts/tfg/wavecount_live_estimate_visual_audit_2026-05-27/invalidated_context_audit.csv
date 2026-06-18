@@ -1,0 +1,3 @@
+symbol,timeframe,latest_close,invalidation_level,direction,invalidation_breached,invalidation_source,display_policy,display_policy_ok,recommended_label_future,interpretation
+EURUSD.r,H4,1.1497,1.18079,long,True,state_machine_and_latest_close,manual_review_only,True,invalidated_old_context,"Manual-only is correct. The current output should be read as old long context invalidated, not as a new bearish WaveCount signal."
+GBPUSD.r,H4,1.33114,1.35675,long,True,state_machine_and_latest_close,manual_review_only,True,invalidated_old_context,"Manual-only is correct. The current output should be read as old long context invalidated, not as a new bearish WaveCount signal."

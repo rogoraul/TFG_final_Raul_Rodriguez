@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-05-23T20:21:41",
+  "finished_at": "2026-05-23T20:21:53",
+  "elapsed_seconds": 12.1784398999298,
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_3_degree_calibration_2026-05-23",
+  "inputs": {
+    "h1_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30",
+    "h4_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+    "manual_feedback_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21"
+  },
+  "rows": {
+    "degree_calibration_metrics": 84,
+    "degree_discrimination_issues": 28,
+    "manual_degree_evidence": 9,
+    "recommended_degree_policy": 3,
+    "phase2_5_degree_readiness": 2,
+    "degree_comparison_charts": 8
+  },
+  "notes": [
+    "Audit only; no thresholds, pivots, counts, strategies, signals, ABC rules, partial rules or wave-5 rules changed.",
+    "H4/D1 is recommended as preferred Phase 2.5 base; H1/M30 remains auxiliary."
+  ],
+  "outputs": {
+    "degree_calibration_metrics": "tables/degree_calibration_metrics.csv",
+    "degree_discrimination_issues": "tables/degree_discrimination_issues.csv",
+    "manual_degree_evidence": "tables/manual_degree_evidence.csv",
+    "recommended_degree_policy": "tables/recommended_degree_policy.csv",
+    "phase2_5_degree_readiness": "tables/phase2_5_degree_readiness.csv",
+    "degree_comparison_charts": "tables/degree_comparison_charts.csv",
+    "report": "WAVECOUNT_PHASE2_3_3_DEGREE_CALIBRATION_REPORT.md"
+  }
+}

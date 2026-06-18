@@ -1,0 +1,4 @@
+recommendation,status,reason
+keep_h1_h4_as_auxiliary_zoom,yes,H1/H4 can represent lower-timeframe substructure but should not replace H4/D1.
+add_soft_prominence_penalty,yes_candidate,Short duration / low prominence helps explain H4 counts that look too small.
+do_not_promote_aux_to_signal,required,Auxiliary profile remains descriptive and non-operational.

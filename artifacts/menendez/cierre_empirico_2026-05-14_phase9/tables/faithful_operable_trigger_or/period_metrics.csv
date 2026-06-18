@@ -1,0 +1,7 @@
+Periodo,Trades,WR%,AvgWin%,AvgLoss%,R:R,PF,Return%,Sharpe,Sortino,MaxDD%,Calmar,NetProfit,Expectancy,AvgR,ExpectancyR,Exposure%,ReturnOverDrawdown,Variant
+2009-2012,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,faithful_operable_trigger_or
+2013-2015,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,faithful_operable_trigger_or
+2016-2018,4,0.0,0.0,-1.05,0.0,0.0,-4.14,-174.98,-174.98,3.13,-2.06,-413.57,-103.39,-1.05,-1.05,0.32,-1.32,faithful_operable_trigger_or
+2019-2021,14,42.9,1.34,-1.09,1.23,0.91,-0.77,-0.15,-7.98,2.97,-0.1,-76.62,-5.47,-0.05,-0.05,0.83,-0.26,faithful_operable_trigger_or
+2022-2024,20,40.0,1.24,-1.04,1.19,0.78,-2.57,-0.52,-19.72,5.43,-0.18,-257.31,-12.87,-0.131,-0.131,0.39,-0.47,faithful_operable_trigger_or
+2025-2026,11,18.2,3.1,-1.06,2.92,0.64,-3.17,-0.54,-38.81,6.7,-0.42,-316.69,-28.79,-0.303,-0.303,2.02,-0.47,faithful_operable_trigger_or

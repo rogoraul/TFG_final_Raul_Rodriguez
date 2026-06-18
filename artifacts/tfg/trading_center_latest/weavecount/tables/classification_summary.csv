@@ -1,0 +1,26 @@
+market_group,timeframe,count_label,confidence_status,row_count
+Forex Majors,H1,W1?,candidate,1
+Forex Majors,H1,W2?,candidate,5
+Forex Majors,H1,W3?,candidate,4
+Forex Majors,H1,W4?,candidate,10
+Forex Majors,H1,W5,active,3
+Forex Majors,H1,W5?,candidate,4
+Forex Majors,H4,W1?,candidate,2
+Forex Majors,H4,W2?,candidate,4
+Forex Majors,H4,W3?,candidate,16
+Forex Majors,H4,W4?,candidate,4
+Forex Majors,H4,W5,active,1
+Index,H1,W2?,candidate,7
+Index,H1,W4?,candidate,5
+Index,H1,W5?,candidate,1
+Index,H4,W2?,candidate,5
+Index,H4,W3?,candidate,3
+Index,H4,W4?,candidate,5
+Metals,H1,W2?,candidate,1
+Metals,H1,W3?,candidate,1
+Metals,H1,W4?,candidate,4
+Metals,H1,W5?,candidate,1
+Metals,H4,W1?,candidate,2
+Metals,H4,W2?,candidate,2
+Metals,H4,W3?,candidate,2
+Metals,H4,W5?,candidate,1

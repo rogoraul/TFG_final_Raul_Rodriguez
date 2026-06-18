@@ -1,0 +1,5 @@
+future_item,priority,description,blocks_phase25
+correction_model_redesign,medium_after_phase25,"Implement zigzag, flat, triangle, combination, alternation and post-wave-5 roles.",no
+visual_dashboard_layer,later,Show WaveCount read-only after Phase 2.5 is stable.,no
+descriptive_offline_statistics,after_guided_search,"Frequency, stability, invalidation rate and ambiguity by asset/timeframe.",no
+telegram_informative_context,much_later,Only informational after visual and descriptive validation.,no

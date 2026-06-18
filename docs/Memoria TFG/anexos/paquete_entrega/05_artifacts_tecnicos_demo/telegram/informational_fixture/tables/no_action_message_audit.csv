@@ -1,0 +1,10 @@
+﻿message_id,message_type,safe_to_send,audit_status,blocked_patterns,telegram_can_confirm,telegram_can_trade
+mt5_bot_status_digest_1f3468ca98db,mt5_bot_status_digest,True,pass,,False,False
+mt5_account_snapshot_notice_08093e30d322,mt5_account_snapshot_notice,True,pass,,False,False
+mt5_positions_digest_c51cbd795e0c,mt5_positions_digest,True,pass,,False,False
+riskguard_block_notice_c3a73b93d521,riskguard_block_notice,True,pass,,False,False
+demo_order_event_notice_24702c46f76e,demo_order_event_notice,True,pass,,False,False
+demo_position_close_notice_d41abb3469b5,demo_position_close_notice,True,pass,,False,False
+refresh_pipeline_notice_8c8881a46099,refresh_pipeline_notice,True,pass,,False,False
+daily_summary_9033d8b2ca8e,daily_summary,True,pass,,False,False
+

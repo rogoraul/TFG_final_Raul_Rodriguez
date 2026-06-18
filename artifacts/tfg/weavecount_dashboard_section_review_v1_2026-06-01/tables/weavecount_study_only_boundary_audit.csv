@@ -1,0 +1,10 @@
+check,status,value
+study_only,pass,
+is_signal_false,pass,
+wavecount_used_as_filter_false,pass,
+can_execute_order_false,pass,
+sql_real_written,pass,False
+mt5_connected,pass,False
+telegram_connected,pass,False
+signals_generated,pass,False
+backtests_executed,pass,False

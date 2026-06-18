@@ -1,0 +1,6 @@
+concept,status,evidence,audit_decision,live_readiness,notes
+pivot_extreme_time,causal core,backtests/wavecount/wavecount_pivots.py:True|tests/test_wavecount_pivots.py:True,protected in code/tests,causal_base_ready,later phases are descriptive/offline and must not be treated as live execution
+pivot_detected_at,causal core,backtests/wavecount/wavecount_pivots.py:True|tests/test_wavecount_pivots.py:True,protected in code/tests,causal_base_ready,later phases are descriptive/offline and must not be treated as live execution
+structural_detected_at,causal structural layer,backtests/wavecount/wavecount_structure.py:True,protected in code/tests,causal_base_ready,later phases are descriptive/offline and must not be treated as live execution
+count_detected_at,count latency,backtests/wavecount/wavecount_counts.py:True|tests/test_wavecount_counts.py:True,protected in code/tests,not_live_ready,later phases are descriptive/offline and must not be treated as live execution
+htf_lookahead_safe,HTF alignment,backtests/wavecount/wavecount_context.py:True|backtests/wavecount/wavecount_context_gallery.py:True,protected in code/tests,not_live_ready,later phases are descriptive/offline and must not be treated as live execution

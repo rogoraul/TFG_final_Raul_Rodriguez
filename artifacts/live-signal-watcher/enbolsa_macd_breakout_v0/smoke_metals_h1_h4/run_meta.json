@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-05-16T13:12:32",
+  "mode": "snapshot",
+  "strategy": "enbolsa:macd_breakout",
+  "groups": [
+    "Metals"
+  ],
+  "timeframe_ltf": "H1",
+  "timeframe_htf": "H4",
+  "lookback_bars": 1,
+  "registry_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\smoke_metals_h1_h4\\seen_events.json",
+  "mark_seen": false,
+  "order_intents": 0
+}

@@ -1,0 +1,20 @@
+check_name,status,observed,severity
+csv_json_row_count_match,pass,csv=4;json=4,info
+expected_columns_present,pass,all expected columns present,info
+payload_json_valid,pass,True,info
+why_this_label_present,pass,non-empty why_this_label,info
+why_not_higher_confidence_present,pass,non-empty why_not_higher_confidence,info
+lookahead_safe_all_true,pass,True,info
+latest_close_not_after_as_of,pass,True,info
+hard_flag_is_read_only,pass,True,info
+hard_flag_can_generate_signal,pass,True,info
+hard_flag_can_filter_trade,pass,True,info
+hard_flag_can_execute_order,pass,True,info
+run_meta_real_sql_executed,pass,False,info
+run_meta_ddl_executed,pass,False,info
+run_meta_mt5_connected,pass,False,info
+run_meta_backtests_executed,pass,False,info
+run_meta_signals_generated,pass,False,info
+run_meta_dashboard_implemented,pass,False,info
+run_meta_telegram_implemented,pass,False,info
+run_meta_bot_implemented,pass,False,info

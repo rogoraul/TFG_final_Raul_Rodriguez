@@ -1,0 +1,3 @@
+migration_id,checksum,description,status
+001_create_operational_core,30a6876dea16855d51ba53393459288ec05a4fa9887edd5ce2c3c4f509b4e091,Create SQL operational core tables.,registered
+002_create_operational_core_views,296d8f6eb0887daed7cf51f0796215ee470bc91bea91214a5d94c50655981cfe,Create SQL operational core views.,registered

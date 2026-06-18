@@ -1,0 +1,7 @@
+flag,value,expected,status
+model_called,False,False,pass
+sql_real_written,False,False,pass
+mt5_connected,False,False,pass
+telegram_connected,False,False,pass
+orders_sent,0,0,pass
+signals_generated,False,False,pass

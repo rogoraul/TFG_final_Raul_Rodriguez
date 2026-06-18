@@ -1,0 +1,2 @@
+issue_id,severity,area,description,recommended_action
+real_messages_sent,warning,transport,At least one real Telegram message was sent.,Review sent_messages_audit and Telegram response audit.

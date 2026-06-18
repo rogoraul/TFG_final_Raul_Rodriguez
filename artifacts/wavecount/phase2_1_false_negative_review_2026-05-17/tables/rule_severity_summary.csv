@@ -1,0 +1,13 @@
+reason,rule_severity,pattern_type,original_state,recommended_state,count
+B leg breaks ABC origin,hard_invalid,abc,invalidated_count,invalidated_count,21
+B retracement exceeds configured maximum,hard_invalid,abc,invalidated_count,invalidated_count,21
+wave 3 does not exceed wave 1 extreme,hard_invalid,impulse,invalidated_count,invalidated_count,21
+wave 2 breaks wave 1 origin,hard_invalid,impulse,invalidated_count,invalidated_count,17
+wave 3 is shorter than both wave 1 and wave 5,hard_invalid,impulse,invalidated_count,invalidated_count,15
+wave 4 overlaps wave 1 territory,soft_invalid_or_ambiguous,impulse,invalidated_count,invalidated_count,27
+C leg does not exceed A extreme,soft_invalid_or_ambiguous,abc,invalidated_count,invalidated_count,14
+C leg does not exceed A extreme,soft_invalid_or_ambiguous,abc,ambiguous_count,ambiguous_count,12
+wave 4 overlaps wave 1 territory,soft_invalid_or_ambiguous,impulse,ambiguous_count,ambiguous_count,9
+wave 5 fails to exceed wave 3 extreme,soft_invalid_or_ambiguous,impulse,ambiguous_count,ambiguous_count,9
+ABC is too compressed: C leg is small versus A,soft_invalid_or_ambiguous,abc,ambiguous_count,ambiguous_count,8
+ABC is too compressed: C leg is small versus A,soft_invalid_or_ambiguous,abc,invalidated_count,invalidated_count,2

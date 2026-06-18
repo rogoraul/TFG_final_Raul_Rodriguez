@@ -1,0 +1,7 @@
+source_scope,timeframe,swing_degree,candidate_count,yes_like_count,near_miss_count,no_count,yes_like_share_pct,avg_profile_score
+h1_h4,H1,intermediate,18,4,0,14,22.22,80.56
+h1_h4,H1,major,18,0,4,14,0.0,58.11
+h1_h4,H1,minor,18,0,4,14,0.0,61.67
+h4_d1,H4,intermediate,18,3,1,14,16.67,79.44
+h4_d1,H4,major,18,0,4,14,0.0,59.28
+h4_d1,H4,minor,18,0,4,14,0.0,61.89

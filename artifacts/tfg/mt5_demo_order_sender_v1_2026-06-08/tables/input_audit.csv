@@ -1,0 +1,5 @@
+path,rows,source,status
+artifacts\tfg\riskguard_demo_intent_builder_v1_2026-06-08\demo_order_intents.csv,0,demo_order_intents,loaded
+artifacts\tfg\riskguard_demo_intent_builder_v1_2026-06-08\riskguard_decisions.csv,5,riskguard_decisions,loaded
+artifacts\tfg\mt5_read_only_connection_v1_2026-06-07_local_connect_review\mt5_account_snapshot.csv,1,mt5_account_snapshot,loaded
+artifacts\tfg\mt5_demo_order_sender_v1_2026-06-08\manual_confirmations.csv,0,manual_confirmations,optional_missing

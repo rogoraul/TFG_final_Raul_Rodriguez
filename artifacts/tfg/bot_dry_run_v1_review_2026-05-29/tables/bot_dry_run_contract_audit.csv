@@ -1,0 +1,9 @@
+check_id,check,status,evidence
+C01,module_exists,passed,trading_center/bot_dry_run.py
+C02,cli_reproducible,passed,default_cli and simulated_enabled_real_snapshot generated
+C03,csv_json_same_rows,passed,csv=54 json=54
+C04,ledger_columns_present,passed,"dry_run_event_id,generated_at,snapshot_id,symbol,market_group,timeframe,higher_timeframe,setup_id,strategy,signal_state,side,entry,sl,tp1,tp2,riskguard_status,riskguard_reason,dry_run_decision,dry_run_reason,would_create_order_intent,would_send_to_mt5,would_send_telegram_order,can_execute_order,is_simulation,wavecount_context_summary,source_artifacts,payload_json"
+C05,payload_json_valid,passed,all payload_json rows parsed
+C06,dry_run_event_id_unique,passed,unique=54 rows=54
+C07,decision_and_reason_present,passed,dry_run_decision and dry_run_reason populated
+C08,expected_artifacts_exist,passed,artifacts\tfg\bot_dry_run_v1_2026-05-29\dry_run_decision_ledger.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\dry_run_decision_ledger.json;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\source_data_audit.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\config_audit.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\decision_rule_audit.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\safety_flags_audit.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\wavecount_non_filter_audit.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\tables\issues_or_risks.csv;artifacts\tfg\bot_dry_run_v1_2026-05-29\run_meta.json;artifacts\tfg\bot_dry_run_v1_2026-05-29\BOT_DRY_RUN_V1.md

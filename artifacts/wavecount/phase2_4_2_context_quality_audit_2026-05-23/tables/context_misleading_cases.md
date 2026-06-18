@@ -1,0 +1,34 @@
+# Image index: context_misleading_cases.csv
+
+Generado: 2026-05-24T00:15:53
+
+CSV fuente: [context_misleading_cases.csv](context_misleading_cases.csv)
+
+- filas con imagen/enlace resuelto: 6
+- imagenes enlazadas: 17
+- imagenes no resueltas: 0
+
+Este indice solo facilita abrir graficos desde los CSV. No cambia datos,
+conteos, reglas, EMAs/EWO ni resultados.
+
+## Imagenes
+
+| fila CSV | referencia | columna | imagen |
+| --- | --- | --- | --- |
+| 2 | `candidate_order=7 \| candidate_id=impulse_index_aus200_h4_intermediate_impulse_015 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=impulse \| phase=h4_d1_main` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h4_d1/charts/impulses/007_impulse_index_aus200_h4_intermediate_impulse_015.png>) |
+| 2 | `candidate_order=7 \| candidate_id=impulse_index_aus200_h4_intermediate_impulse_015 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=impulse \| phase=h4_d1_main` | `reviewed_chart_path` | [abrir imagen](<../../phase2_3_4_h4_d1_visual_closure_2026-05-23/charts/reviewed/007_impulse_index_aus200_h4_intermediate_impulse_015.png>) |
+| 2 | `candidate_order=7 \| candidate_id=impulse_index_aus200_h4_intermediate_impulse_015 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=impulse \| phase=h4_d1_main` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/007_impulse_index_aus200_h4_intermediate_impulse_015.png>) |
+| 3 | `candidate_order=15 \| candidate_id=partial_123_index_aus200_h4_intermediate_partial123_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123 \| phase=h4_d1_main` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h4_d1/charts/partials/015_partial_123_index_aus200_h4_intermediate_partial123_006.png>) |
+| 3 | `candidate_order=15 \| candidate_id=partial_123_index_aus200_h4_intermediate_partial123_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123 \| phase=h4_d1_main` | `reviewed_chart_path` | [abrir imagen](<../../phase2_3_4_h4_d1_visual_closure_2026-05-23/charts/reviewed/015_partial_123_index_aus200_h4_intermediate_partial123_006.png>) |
+| 3 | `candidate_order=15 \| candidate_id=partial_123_index_aus200_h4_intermediate_partial123_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123 \| phase=h4_d1_main` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/015_partial_123_index_aus200_h4_intermediate_partial123_006.png>) |
+| 4 | `candidate_order=27 \| candidate_id=abc_index_aus200_h4_abc_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=abc \| phase=h4_d1_main` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h4_d1/charts/abc/027_abc_index_aus200_h4_abc_006.png>) |
+| 4 | `candidate_order=27 \| candidate_id=abc_index_aus200_h4_abc_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=abc \| phase=h4_d1_main` | `reviewed_chart_path` | [abrir imagen](<../../phase2_3_4_h4_d1_visual_closure_2026-05-23/charts/reviewed/027_abc_index_aus200_h4_abc_006.png>) |
+| 4 | `candidate_order=27 \| candidate_id=abc_index_aus200_h4_abc_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=abc \| phase=h4_d1_main` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/027_abc_index_aus200_h4_abc_006.png>) |
+| 5 | `candidate_order=40 \| candidate_id=near_miss_forex_audjpy_h4_minor_impulse_002 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=minor \| review_category=near_miss \| phase=h4_d1_main` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h4_d1/charts/impulses/040_near_miss_forex_audjpy_h4_minor_impulse_002.png>) |
+| 5 | `candidate_order=40 \| candidate_id=near_miss_forex_audjpy_h4_minor_impulse_002 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=minor \| review_category=near_miss \| phase=h4_d1_main` | `reviewed_chart_path` | [abrir imagen](<../../phase2_3_4_h4_d1_visual_closure_2026-05-23/charts/reviewed/040_near_miss_forex_audjpy_h4_minor_impulse_002.png>) |
+| 5 | `candidate_order=40 \| candidate_id=near_miss_forex_audjpy_h4_minor_impulse_002 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=minor \| review_category=near_miss \| phase=h4_d1_main` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/040_near_miss_forex_audjpy_h4_minor_impulse_002.png>) |
+| 6 | `candidate_order=44 \| candidate_id=near_miss_metals_xagusd_h4_major_impulse_003 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=major \| review_category=near_miss \| phase=h4_d1_main` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h4_d1/charts/impulses/044_near_miss_metals_xagusd_h4_major_impulse_003.png>) |
+| 6 | `candidate_order=44 \| candidate_id=near_miss_metals_xagusd_h4_major_impulse_003 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=major \| review_category=near_miss \| phase=h4_d1_main` | `reviewed_chart_path` | [abrir imagen](<../../phase2_3_4_h4_d1_visual_closure_2026-05-23/charts/reviewed/044_near_miss_metals_xagusd_h4_major_impulse_003.png>) |
+| 6 | `candidate_order=44 \| candidate_id=near_miss_metals_xagusd_h4_major_impulse_003 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=major \| review_category=near_miss \| phase=h4_d1_main` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/044_near_miss_metals_xagusd_h4_major_impulse_003.png>) |
+| 7 | `candidate_order=50 \| candidate_id=hard_invalid_metals_xagusd_h1_minor_impulse_001 \| example_id=metals_xagusd_h1 \| symbol=XAGUSD.r \| timeframe=H1 \| swing_degree=minor \| review_category=hard_invalid \| phase=auxiliary_h1_h4_m30_h1` | `chart_path` | [abrir imagen](<../../phase2_4_context_2026-05-18/h1_m30/charts/invalidations/050_hard_invalid_metals_xagusd_h1_minor_impulse_001.png>) |
+| 7 | `candidate_order=50 \| candidate_id=hard_invalid_metals_xagusd_h1_minor_impulse_001 \| example_id=metals_xagusd_h1 \| symbol=XAGUSD.r \| timeframe=H1 \| swing_degree=minor \| review_category=hard_invalid \| phase=auxiliary_h1_h4_m30_h1` | `reviewed_context_chart_path` | [abrir imagen](<../charts/misleading_context_examples/050_hard_invalid_metals_xagusd_h1_minor_impulse_001.png>) |

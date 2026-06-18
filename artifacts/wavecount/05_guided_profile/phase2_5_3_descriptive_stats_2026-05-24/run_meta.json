@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-05-24T12:06:31",
+  "script": "backtests\\wavecount\\build_wavecount_descriptive_stats.py",
+  "output_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_3_descriptive_stats_2026-05-24",
+  "inputs": {
+    "phase250_dir": "artifacts\\wavecount\\phase2_5_0_guided_context_score_2026-05-24",
+    "phase251_dir": "artifacts\\wavecount\\phase2_5_1_guided_impulse_profile_2026-05-24",
+    "phase252_dir": "artifacts\\wavecount\\phase2_5_2_guided_impulse_expansion_2026-05-24",
+    "phase252b_dir": "artifacts\\wavecount\\phase2_5_2b_h1_h4_aux_expansion_2026-05-24"
+  },
+  "rows": {
+    "dataset_inventory": 26,
+    "classification_stats_h4_d1": 19,
+    "classification_stats_h1_h4": 17,
+    "group_symbol_stats": 8,
+    "degree_stats": 6,
+    "prominence_stats": 19,
+    "prominence_problem_cases": 20,
+    "ewo_stats": 26,
+    "ema_htf_stats": 30,
+    "context_misleading_cases": 10,
+    "phase254_readiness_matrix": 9,
+    "phase254_recommendations": 10,
+    "user_review_if_any": 16
+  },
+  "source_rows": {
+    "h4_d1_candidates": 54,
+    "h4_d1_visual_review": 54,
+    "h1_h4_candidates": 54,
+    "h1_h4_visual_review": 54
+  },
+  "h4_d1_counts": {
+    "no": 42,
+    "near_miss": 9,
+    "yes": 3
+  },
+  "h1_h4_counts": {
+    "no": 42,
+    "near_miss_aux": 8,
+    "yes_aux": 4
+  },
+  "prominence_problem_cases": 20,
+  "missing_input_image_refs": 0,
+  "missing_output_image_refs": [],
+  "no_strategy_changes": true,
+  "no_signals_generated": true,
+  "no_backtests_executed": true,
+  "no_base_rules_changed": true,
+  "elapsed_seconds": 1.22,
+  "original_output_dir": "artifacts\\wavecount\\phase2_5_3_descriptive_stats_2026-05-24",
+  "original_artifact_path": "artifacts/wavecount/phase2_5_3_descriptive_stats_2026-05-24",
+  "migrated_to": "artifacts/wavecount/05_guided_profile/phase2_5_3_descriptive_stats_2026-05-24",
+  "migration_date": "2026-05-24",
+  "migration_scope": "minimal_phase25_reorg",
+  "migration_action": "copied",
+  "rules_changed": false,
+  "signals_generated": false,
+  "legacy_root_kept": true
+}

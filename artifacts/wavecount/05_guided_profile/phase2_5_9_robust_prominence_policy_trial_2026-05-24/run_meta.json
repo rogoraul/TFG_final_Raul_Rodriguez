@@ -1,0 +1,28 @@
+{
+  "phase": "2.5.9",
+  "generated_at": "2026-05-24T23:18:25",
+  "output_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_9_robust_prominence_policy_trial_2026-05-24",
+  "inputs": {
+    "phase258_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_8_prominence_normalization_audit_2026-05-24",
+    "phase257_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_7_market_stratified_expansion_2026-05-24",
+    "phase256_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_6_soft_policy_weight_adjustment_2026-05-24",
+    "phase256b_dir": "artifacts\\wavecount\\05_guided_profile\\phase2_5_6b_market_group_bias_audit_2026-05-24",
+    "alternative_metrics_rows": 162,
+    "phase257_rows": 162,
+    "phase257_visual_review_rows": 20,
+    "phase256_rows": 108,
+    "phase256_watchlist_rows": 1,
+    "phase256_exclusion_rows": 90,
+    "market_mapping_rows": 60,
+    "sql_category_rows": 6
+  },
+  "min_symbol_family_size": 5,
+  "low_prominence_threshold": 0.18,
+  "rules_changed": false,
+  "phase256_policy_changed": false,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "base_counts_recomputed": false,
+  "candidate_policy_only": true,
+  "runtime_seconds": 2.971
+}

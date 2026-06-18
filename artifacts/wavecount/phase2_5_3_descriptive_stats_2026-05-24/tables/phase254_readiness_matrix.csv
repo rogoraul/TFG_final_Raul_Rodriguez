@@ -1,0 +1,10 @@
+component,ready_status,evidence_summary,risk_if_used_wrong,recommended_phase254_action
+H4/D1 intermediate profile,ready_for_soft_rule,"3 yes, 9 near-misses in controlled H4/D1 expansion.",Could be misread as trading signal instead of structural quality filter.,formalize as primary descriptive profile with no execution output
+H1/H4 auxiliary profile,auxiliary_only,4 yes_aux and 8 near_miss_aux; useful as zoom/substructure.,Could displace H4/D1 and reintroduce micro counts.,keep as auxiliary zoom and comparison layer
+prominence/size penalty,ready_for_soft_rule,20 prominence/scale problem cases detected.,A hard threshold could reject valid compact impulses.,"add soft penalty, especially for too_small_for_timeframe and short duration"
+EWO role support,ready_as_context_only,149 rows show EWO support-like labels across reviewed sources.,Absolute thresholds or autonomous labels would overfit momentum noise.,keep relative wave-role context; leave EWO+SVM as future experimental work
+EMA/HTF context,ready_as_context_only,99 rows show support/explanation context labels.,HTF lag could invalidate good transitions or rescue bad counts.,"use as soft regime/ambiguity filter, not hard validation"
+ABC contextual,experimental,ABC requires parent context; isolated ABC remains unsafe.,Impulses can be mislabeled as corrections.,keep out of impulse profile; use only contextual corrections with parent
+partial 1-2-3,ready_as_context_only,Partials remain provisional and require post-3 quality checks.,Three alternating swings can be noise or a prior 4-5.,"allow only provisional context, not profile seeds"
+major context,ready_as_context_only,Major can be higher-degree operable context but is not the base profile.,Too coarse for candidate search if treated as primary everywhere.,use to frame H4/D1 intermediate structures
+minor substructure,auxiliary_only,"Minor repeatedly appears as useful substructure/near-miss, not primary base.",Can create micro-Elliott counts inside lateral movement.,keep as substructure or negative/near-miss evidence

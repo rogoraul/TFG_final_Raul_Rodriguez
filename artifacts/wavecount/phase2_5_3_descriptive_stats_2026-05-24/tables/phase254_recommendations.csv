@@ -1,0 +1,11 @@
+component,phase254_action,priority,must_remain_non_operational
+H4/D1 intermediate profile,formalize as primary descriptive profile with no execution output,high,True
+H1/H4 auxiliary profile,keep as auxiliary zoom and comparison layer,medium,True
+prominence/size penalty,"add soft penalty, especially for too_small_for_timeframe and short duration",high,True
+EWO role support,keep relative wave-role context; leave EWO+SVM as future experimental work,medium,True
+EMA/HTF context,"use as soft regime/ambiguity filter, not hard validation",high,True
+ABC contextual,keep out of impulse profile; use only contextual corrections with parent,medium,True
+partial 1-2-3,"allow only provisional context, not profile seeds",medium,True
+major context,use to frame H4/D1 intermediate structures,medium,True
+minor substructure,keep as substructure or negative/near-miss evidence,medium,True
+manual review gate,"manual review only for misleading context / low prominence examples, not for every candidate",medium,True

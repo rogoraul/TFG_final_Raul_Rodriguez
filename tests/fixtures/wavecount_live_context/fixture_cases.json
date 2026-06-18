@@ -1,0 +1,403 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "impulse_possible_wave1",
+      "symbol": "FX_W1",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-01T12:00:00",
+      "expected_structure_phase": "possible_wave1",
+      "notes": "Only the origin pivot is confirmed; first impulse leg is forming.",
+      "bars": [
+        {"time": "2026-01-01T00:00:00", "close": 100.0},
+        {"time": "2026-01-01T04:00:00", "close": 103.0},
+        {"time": "2026-01-01T08:00:00", "close": 106.0},
+        {"time": "2026-01-01T12:00:00", "close": 108.0},
+        {"time": "2026-01-01T16:00:00", "close": 110.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-01T00:00:00", "detected_at": "2026-01-01T04:00:00", "price": 100.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_possible_wave2",
+      "symbol": "FX_W2",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-02T12:00:00",
+      "expected_structure_phase": "possible_wave2",
+      "bars": [
+        {"time": "2026-01-02T00:00:00", "close": 100.0},
+        {"time": "2026-01-02T04:00:00", "close": 112.0},
+        {"time": "2026-01-02T08:00:00", "close": 108.0},
+        {"time": "2026-01-02T12:00:00", "close": 105.0},
+        {"time": "2026-01-02T16:00:00", "close": 115.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-02T00:00:00", "detected_at": "2026-01-02T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-02T04:00:00", "detected_at": "2026-01-02T08:00:00", "price": 112.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_wave3_candidate",
+      "symbol": "FX_W3C",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-03T16:00:00",
+      "expected_structure_phase": "possible_wave3_candidate",
+      "bars": [
+        {"time": "2026-01-03T00:00:00", "close": 100.0},
+        {"time": "2026-01-03T04:00:00", "close": 112.0},
+        {"time": "2026-01-03T08:00:00", "close": 105.0},
+        {"time": "2026-01-03T12:00:00", "close": 108.0},
+        {"time": "2026-01-03T16:00:00", "close": 111.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-03T00:00:00", "detected_at": "2026-01-03T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-03T04:00:00", "detected_at": "2026-01-03T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-03T08:00:00", "detected_at": "2026-01-03T12:00:00", "price": 105.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_wave3_active",
+      "symbol": "FX_W3A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-04T16:00:00",
+      "expected_structure_phase": "possible_wave3_active",
+      "bars": [
+        {"time": "2026-01-04T00:00:00", "close": 100.0},
+        {"time": "2026-01-04T04:00:00", "close": 112.0},
+        {"time": "2026-01-04T08:00:00", "close": 105.0},
+        {"time": "2026-01-04T12:00:00", "close": 111.0},
+        {"time": "2026-01-04T16:00:00", "close": 118.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-04T00:00:00", "detected_at": "2026-01-04T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-04T04:00:00", "detected_at": "2026-01-04T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-04T08:00:00", "detected_at": "2026-01-04T12:00:00", "price": 105.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_possible_wave4",
+      "symbol": "FX_W4",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-05T20:00:00",
+      "expected_structure_phase": "possible_wave4",
+      "bars": [
+        {"time": "2026-01-05T00:00:00", "close": 100.0},
+        {"time": "2026-01-05T04:00:00", "close": 112.0},
+        {"time": "2026-01-05T08:00:00", "close": 105.0},
+        {"time": "2026-01-05T12:00:00", "close": 126.0},
+        {"time": "2026-01-05T16:00:00", "close": 121.0},
+        {"time": "2026-01-05T20:00:00", "close": 119.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-05T00:00:00", "detected_at": "2026-01-05T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-05T04:00:00", "detected_at": "2026-01-05T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-05T08:00:00", "detected_at": "2026-01-05T12:00:00", "price": 105.0, "confirmation_lag_bars": 1},
+        {"label": "wave3", "pivot_type": "high", "extreme_time": "2026-01-05T12:00:00", "detected_at": "2026-01-05T16:00:00", "price": 126.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_wave5_candidate",
+      "symbol": "FX_W5C",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-06T20:00:00",
+      "expected_structure_phase": "possible_wave5_candidate",
+      "bars": [
+        {"time": "2026-01-06T00:00:00", "close": 100.0},
+        {"time": "2026-01-06T04:00:00", "close": 112.0},
+        {"time": "2026-01-06T08:00:00", "close": 105.0},
+        {"time": "2026-01-06T12:00:00", "close": 126.0},
+        {"time": "2026-01-06T16:00:00", "close": 118.0},
+        {"time": "2026-01-06T20:00:00", "close": 124.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-06T00:00:00", "detected_at": "2026-01-06T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-06T04:00:00", "detected_at": "2026-01-06T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-06T08:00:00", "detected_at": "2026-01-06T12:00:00", "price": 105.0, "confirmation_lag_bars": 1},
+        {"label": "wave3", "pivot_type": "high", "extreme_time": "2026-01-06T12:00:00", "detected_at": "2026-01-06T16:00:00", "price": 126.0, "confirmation_lag_bars": 1},
+        {"label": "wave4", "pivot_type": "low", "extreme_time": "2026-01-06T16:00:00", "detected_at": "2026-01-06T20:00:00", "price": 118.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_wave5_active",
+      "symbol": "FX_W5A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-07T20:00:00",
+      "expected_structure_phase": "possible_wave5_active",
+      "ewo_divergence_status": "provisional",
+      "bars": [
+        {"time": "2026-01-07T00:00:00", "close": 100.0},
+        {"time": "2026-01-07T04:00:00", "close": 112.0},
+        {"time": "2026-01-07T08:00:00", "close": 105.0},
+        {"time": "2026-01-07T12:00:00", "close": 126.0},
+        {"time": "2026-01-07T16:00:00", "close": 118.0},
+        {"time": "2026-01-07T20:00:00", "close": 130.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-07T00:00:00", "detected_at": "2026-01-07T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-07T04:00:00", "detected_at": "2026-01-07T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-07T08:00:00", "detected_at": "2026-01-07T12:00:00", "price": 105.0, "confirmation_lag_bars": 1},
+        {"label": "wave3", "pivot_type": "high", "extreme_time": "2026-01-07T12:00:00", "detected_at": "2026-01-07T16:00:00", "price": 126.0, "confirmation_lag_bars": 1},
+        {"label": "wave4", "pivot_type": "low", "extreme_time": "2026-01-07T16:00:00", "detected_at": "2026-01-07T20:00:00", "price": 118.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "impulse_completed_candidate",
+      "symbol": "FX_WDONE",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-09T00:00:00",
+      "expected_structure_phase": "completed_impulse_candidate",
+      "bars": [
+        {"time": "2026-01-08T00:00:00", "close": 100.0},
+        {"time": "2026-01-08T04:00:00", "close": 112.0},
+        {"time": "2026-01-08T08:00:00", "close": 105.0},
+        {"time": "2026-01-08T12:00:00", "close": 126.0},
+        {"time": "2026-01-08T16:00:00", "close": 118.0},
+        {"time": "2026-01-08T20:00:00", "close": 130.0},
+        {"time": "2026-01-09T00:00:00", "close": 126.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-08T00:00:00", "detected_at": "2026-01-08T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-08T04:00:00", "detected_at": "2026-01-08T08:00:00", "price": 112.0, "confirmation_lag_bars": 1},
+        {"label": "wave2", "pivot_type": "low", "extreme_time": "2026-01-08T08:00:00", "detected_at": "2026-01-08T12:00:00", "price": 105.0, "confirmation_lag_bars": 1},
+        {"label": "wave3", "pivot_type": "high", "extreme_time": "2026-01-08T12:00:00", "detected_at": "2026-01-08T16:00:00", "price": 126.0, "confirmation_lag_bars": 1},
+        {"label": "wave4", "pivot_type": "low", "extreme_time": "2026-01-08T16:00:00", "detected_at": "2026-01-08T20:00:00", "price": 118.0, "confirmation_lag_bars": 1},
+        {"label": "wave5", "pivot_type": "high", "extreme_time": "2026-01-08T20:00:00", "detected_at": "2026-01-09T00:00:00", "price": 130.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "correction_possible_waveA",
+      "symbol": "FX_A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-09T08:00:00",
+      "expected_structure_phase": "possible_waveA",
+      "bars": [
+        {"time": "2026-01-09T00:00:00", "close": 130.0},
+        {"time": "2026-01-09T04:00:00", "close": 126.0},
+        {"time": "2026-01-09T08:00:00", "close": 122.0}
+      ],
+      "pivots": [
+        {"label": "correction_origin", "pivot_type": "high", "extreme_time": "2026-01-09T00:00:00", "detected_at": "2026-01-09T04:00:00", "price": 130.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "correction_possible_waveB",
+      "symbol": "FX_B",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-10T12:00:00",
+      "expected_structure_phase": "possible_waveB",
+      "bars": [
+        {"time": "2026-01-10T00:00:00", "close": 130.0},
+        {"time": "2026-01-10T04:00:00", "close": 118.0},
+        {"time": "2026-01-10T08:00:00", "close": 124.0},
+        {"time": "2026-01-10T12:00:00", "close": 126.0}
+      ],
+      "pivots": [
+        {"label": "correction_origin", "pivot_type": "high", "extreme_time": "2026-01-10T00:00:00", "detected_at": "2026-01-10T04:00:00", "price": 130.0, "confirmation_lag_bars": 1},
+        {"label": "waveA", "pivot_type": "low", "extreme_time": "2026-01-10T04:00:00", "detected_at": "2026-01-10T08:00:00", "price": 118.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "correction_waveC_candidate",
+      "symbol": "FX_CC",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-11T16:00:00",
+      "expected_structure_phase": "possible_waveC_candidate",
+      "bars": [
+        {"time": "2026-01-11T00:00:00", "close": 130.0},
+        {"time": "2026-01-11T04:00:00", "close": 118.0},
+        {"time": "2026-01-11T08:00:00", "close": 126.0},
+        {"time": "2026-01-11T12:00:00", "close": 121.0},
+        {"time": "2026-01-11T16:00:00", "close": 119.0}
+      ],
+      "pivots": [
+        {"label": "correction_origin", "pivot_type": "high", "extreme_time": "2026-01-11T00:00:00", "detected_at": "2026-01-11T04:00:00", "price": 130.0, "confirmation_lag_bars": 1},
+        {"label": "waveA", "pivot_type": "low", "extreme_time": "2026-01-11T04:00:00", "detected_at": "2026-01-11T08:00:00", "price": 118.0, "confirmation_lag_bars": 1},
+        {"label": "waveB", "pivot_type": "high", "extreme_time": "2026-01-11T08:00:00", "detected_at": "2026-01-11T12:00:00", "price": 126.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "correction_waveC_active",
+      "symbol": "FX_CA",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-12T16:00:00",
+      "expected_structure_phase": "possible_waveC_active",
+      "bars": [
+        {"time": "2026-01-12T00:00:00", "close": 130.0},
+        {"time": "2026-01-12T04:00:00", "close": 118.0},
+        {"time": "2026-01-12T08:00:00", "close": 126.0},
+        {"time": "2026-01-12T12:00:00", "close": 119.0},
+        {"time": "2026-01-12T16:00:00", "close": 114.0}
+      ],
+      "pivots": [
+        {"label": "correction_origin", "pivot_type": "high", "extreme_time": "2026-01-12T00:00:00", "detected_at": "2026-01-12T04:00:00", "price": 130.0, "confirmation_lag_bars": 1},
+        {"label": "waveA", "pivot_type": "low", "extreme_time": "2026-01-12T04:00:00", "detected_at": "2026-01-12T08:00:00", "price": 118.0, "confirmation_lag_bars": 1},
+        {"label": "waveB", "pivot_type": "high", "extreme_time": "2026-01-12T08:00:00", "detected_at": "2026-01-12T12:00:00", "price": 126.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "correction_completed_abc",
+      "symbol": "FX_ABCDONE",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-13T20:00:00",
+      "expected_structure_phase": "completed_abc_candidate",
+      "bars": [
+        {"time": "2026-01-13T00:00:00", "close": 130.0},
+        {"time": "2026-01-13T04:00:00", "close": 118.0},
+        {"time": "2026-01-13T08:00:00", "close": 126.0},
+        {"time": "2026-01-13T12:00:00", "close": 114.0},
+        {"time": "2026-01-13T16:00:00", "close": 117.0},
+        {"time": "2026-01-13T20:00:00", "close": 119.0}
+      ],
+      "pivots": [
+        {"label": "correction_origin", "pivot_type": "high", "extreme_time": "2026-01-13T00:00:00", "detected_at": "2026-01-13T04:00:00", "price": 130.0, "confirmation_lag_bars": 1},
+        {"label": "waveA", "pivot_type": "low", "extreme_time": "2026-01-13T04:00:00", "detected_at": "2026-01-13T08:00:00", "price": 118.0, "confirmation_lag_bars": 1},
+        {"label": "waveB", "pivot_type": "high", "extreme_time": "2026-01-13T08:00:00", "detected_at": "2026-01-13T12:00:00", "price": 126.0, "confirmation_lag_bars": 1},
+        {"label": "waveC", "pivot_type": "low", "extreme_time": "2026-01-13T12:00:00", "detected_at": "2026-01-13T16:00:00", "price": 114.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "unknown_no_pivots",
+      "symbol": "FX_UNKNOWN",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "unknown",
+      "direction": "neutral",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-14T08:00:00",
+      "expected_structure_phase": "unknown",
+      "bars": [
+        {"time": "2026-01-14T00:00:00", "close": 100.0},
+        {"time": "2026-01-14T04:00:00", "close": 100.5},
+        {"time": "2026-01-14T08:00:00", "close": 100.2}
+      ],
+      "pivots": []
+    },
+    {
+      "fixture_id": "ambiguous_low_prominence",
+      "symbol": "FX_AMBIG",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-15T12:00:00",
+      "expected_structure_phase": "ambiguous",
+      "ambiguous": true,
+      "prominence_score": 0.1,
+      "bars": [
+        {"time": "2026-01-15T00:00:00", "close": 100.0},
+        {"time": "2026-01-15T04:00:00", "close": 101.0},
+        {"time": "2026-01-15T08:00:00", "close": 100.4},
+        {"time": "2026-01-15T12:00:00", "close": 100.8}
+      ],
+      "pivots": [
+        {"label": "noise_low", "pivot_type": "low", "extreme_time": "2026-01-15T00:00:00", "detected_at": "2026-01-15T04:00:00", "price": 100.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "invalidated_wave2",
+      "symbol": "FX_INV",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-01-16T12:00:00",
+      "expected_structure_phase": "invalidated",
+      "force_invalidated": true,
+      "bars": [
+        {"time": "2026-01-16T00:00:00", "close": 100.0},
+        {"time": "2026-01-16T04:00:00", "close": 112.0},
+        {"time": "2026-01-16T08:00:00", "close": 101.0},
+        {"time": "2026-01-16T12:00:00", "close": 98.0}
+      ],
+      "pivots": [
+        {"label": "origin", "pivot_type": "low", "extreme_time": "2026-01-16T00:00:00", "detected_at": "2026-01-16T04:00:00", "price": 100.0, "confirmation_lag_bars": 1},
+        {"label": "wave1", "pivot_type": "high", "extreme_time": "2026-01-16T04:00:00", "detected_at": "2026-01-16T08:00:00", "price": 112.0, "confirmation_lag_bars": 1}
+      ]
+    },
+    {
+      "fixture_id": "not_available_missing_context",
+      "symbol": "FX_NA",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "unknown",
+      "direction": "not_available",
+      "degree": "not_available",
+      "as_of_bar_time": "2026-01-17T08:00:00",
+      "expected_structure_phase": "not_available",
+      "no_context": true,
+      "bars": [],
+      "pivots": []
+    }
+  ]
+}

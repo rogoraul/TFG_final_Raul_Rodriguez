@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-05-28T18:27:46",
+  "source": "trading_ops.v_live_context_latest",
+  "rows": 54,
+  "csv_path": "artifacts\\tfg\\sql_operational_core_closure_v1_2026-05-28\\export_from_sql\\live_context_snapshot_from_sql.csv",
+  "json_path": "artifacts\\tfg\\sql_operational_core_closure_v1_2026-05-28\\export_from_sql\\live_context_snapshot_from_sql.json",
+  "real_sql_executed": true
+}

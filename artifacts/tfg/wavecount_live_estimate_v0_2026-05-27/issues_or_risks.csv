@@ -1,0 +1,5 @@
+severity,risk,description,recommendation
+info,lookahead_guard,All rows use latest close <= as_of_bar_time.,Keep as hard guardrail.
+medium,manual_review_only,2 rows require manual review.,Do not show manual rows as live wave context.
+medium,provisional_live_estimate,2 rows are provisional live estimates.,Show only with warning; never use as signal/filter.
+medium,low_confidence,3 rows have low confidence.,Keep why_not_higher_confidence visible.

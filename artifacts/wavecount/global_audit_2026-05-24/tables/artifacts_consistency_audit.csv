@@ -1,0 +1,19 @@
+artifact_dir,exists,csv_count,md_count,png_count,report_count,run_meta_exists,current_table_image_refs,current_table_missing_image_refs,nested_image_refs,nested_missing_image_refs,artifact_status,recommendation
+artifacts/wavecount/phase1_pivots_2026-05-17,True,2,2,4,1,True,4,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase1_5_structural_swings_2026-05-17,True,3,1,4,1,True,0,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase1_6_swing_degrees_2026-05-17,True,3,1,4,1,True,0,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_candidate_counts_2026-05-17,True,3,1,4,1,True,0,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_3_visual_review_2026-05-17,True,8,7,108,2,False,0,0,216,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_3_1_wave5_endpoint_2026-05-21,True,8,7,32,2,True,224,74,0,0,current,review current table image refs before using this artifact
+artifacts/wavecount/phase2_3_2_partial123_2026-05-21,True,9,7,17,2,True,128,47,0,0,current,review current table image refs before using this artifact
+artifacts/wavecount/phase2_3_3_degree_calibration_2026-05-23,True,6,3,8,1,True,17,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_3_4_h4_d1_visual_closure_2026-05-23,True,8,6,100,1,True,622,154,0,0,current,review current table image refs before using this artifact
+artifacts/wavecount/phase2_4_2_context_quality_audit_2026-05-23,True,10,11,134,1,True,895,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_4_3_abc_quality_audit_2026-05-23,True,8,9,62,1,True,327,109,0,0,current,review current table image refs before using this artifact
+artifacts/wavecount/phase2_4_4_contextual_corrections_2026-05-24,True,10,11,45,1,True,352,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_4_5_pre_phase25_closure_2026-05-24,True,9,10,0,1,True,29,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_5_0_guided_context_score_2026-05-24,True,9,10,0,1,True,1174,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_5_1_guided_impulse_profile_2026-05-24,True,7,8,1,1,True,817,0,0,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_5_2_guided_impulse_expansion_2026-05-24,True,20,15,166,3,True,835,0,216,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_5_2b_h1_h4_aux_expansion_2026-05-24,True,21,16,175,3,True,1028,0,216,0,current,keep; do not move in this audit
+artifacts/wavecount/phase2_5_3_descriptive_stats_2026-05-24,True,13,14,5,1,True,56,0,0,0,current,keep; do not move in this audit

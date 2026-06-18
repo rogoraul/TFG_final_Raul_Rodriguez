@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-15T12:09:32",
+  "command": "python -m backtests.benchmarks.run_enbolsa_riskguard_audit --trade-log artifacts\\benchmark-significance\\enbolsa\\final\\tables\\trade_log.csv --output-dir artifacts\\benchmark-significance\\enbolsa\\riskguard_audit_2026-05-15 --strategy enbolsa:macd_breakout --max-total-open-risk-pct 5 --max-symbol-open-risk-pct 1 --max-currency-gross-risk-pct 3 --max-currency-net-risk-pct 3 --initial-capital 10000 --risk-mode fixed_initial --risk-per-trade-pct 1",
+  "trade_log": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\benchmark-significance\\enbolsa\\final\\tables\\trade_log.csv",
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\benchmark-significance\\enbolsa\\riskguard_audit_2026-05-15",
+  "strategy": "enbolsa:macd_breakout",
+  "initial_capital": 10000.0,
+  "risk_mode": "fixed_initial",
+  "risk_per_trade_pct": 1.0,
+  "max_total_open_risk_pct": 5.0,
+  "max_symbol_open_risk_pct": 1.0,
+  "max_currency_gross_risk_pct": 3.0,
+  "max_currency_net_risk_pct": 3.0,
+  "group": "",
+  "tf_pair": "",
+  "input_trades": 20216,
+  "accepted_trades": 15750,
+  "rejected_setups": 2233
+}

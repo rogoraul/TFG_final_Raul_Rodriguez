@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-27T14:13:53Z",
+  "version": "wavecount_persistent_hypothesis_v0",
+  "decision": "persistent_hypothesis_v0_needs_more_review",
+  "source_csv": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2_h4_d1_expansion_2026-05-24\\diagnostic_phase2_4_h4_d1_expanded\\tables\\wavecount_context.csv",
+  "symbols": [
+    "EURUSD.r",
+    "GBPUSD.r",
+    "US500",
+    "XAUUSD.r"
+  ],
+  "timeframes": [
+    "H4"
+  ],
+  "cuts": 10,
+  "hypothesis_rows": 40,
+  "persistent_pivots": 39,
+  "latest_estimated_current_wave_distribution": {
+    "possible_wave5_active": 4
+  },
+  "latest_display_policy_distribution": {
+    "show_with_warning": 4
+  },
+  "anti_lookahead_passed": true,
+  "flags": {
+    "is_read_only": true,
+    "can_generate_signal": false,
+    "can_filter_trade": false,
+    "can_execute_order": false
+  },
+  "safety": {
+    "real_sql_executed": false,
+    "ddl_executed": false,
+    "mt5_connected": false,
+    "backtests_executed": false,
+    "signals_generated": false,
+    "dashboard_implemented": false,
+    "telegram_implemented": false,
+    "bot_implemented": false
+  }
+}

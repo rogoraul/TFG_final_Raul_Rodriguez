@@ -1,0 +1,2 @@
+Variante,Family,Group,LTF,HTF,TFPair,BlockId,OriginalTrades,RiskGuardTrades,OriginalReturn%,RiskGuardReturn%,ReturnDeltaPctPoints,OriginalPF,RiskGuardPF,OriginalMaxDD%,RiskGuardMaxDD%,AcceptedSetups,RejectedSetups,AcceptanceRate%,TopRejectionReasons,MaxCurrencyExposure
+enbolsa:macd_breakout,enbolsa,Forex Majors,H1,H4,H1:H4,forex-majors-h1-h4,4670,3744,1405.24,290.54,-1114.7,1.13,1.24,37.0,17.33,1872,463,80.17,"{""total_open_risk_cap"": 389, ""currency_gross_cap"": 53, ""symbol_open_risk_cap"": 21}",AUD gross 3.00%

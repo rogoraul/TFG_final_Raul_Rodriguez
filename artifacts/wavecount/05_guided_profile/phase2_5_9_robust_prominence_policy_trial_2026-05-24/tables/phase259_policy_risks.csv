@@ -1,0 +1,5 @@
+risk,risk_level,case_count,mitigation
+excluded_count_promoted_to_high_quality,low,0,Policy cap forbids direct jump from exclude to high quality.
+too_many_bucket_upgrades,low,0,Use visual review before adopting candidate policy.
+visual_review_too_lenient,low,0,Do not adopt candidate policy if too-lenient cases appear.
+low_sample_symbol_percentiles,medium,0,Fallback percentiles remain diagnostic until larger sample exists.

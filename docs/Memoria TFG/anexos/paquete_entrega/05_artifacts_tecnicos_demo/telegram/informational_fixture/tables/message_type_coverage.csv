@@ -1,0 +1,12 @@
+﻿message_type,selected,rendered,status
+mt5_bot_status_digest,True,True,rendered
+mt5_account_snapshot_notice,True,True,rendered
+mt5_positions_digest,True,True,rendered
+riskguard_block_notice,True,True,rendered
+demo_order_event_notice,True,True,rendered
+demo_position_close_notice,True,True,rendered
+refresh_pipeline_notice,True,True,rendered
+ai_review_available_notice,False,False,not_selected
+daily_summary,True,True,rendered
+wavecount_study_digest,False,False,not_selected
+

@@ -1,0 +1,10 @@
+setup_id,symbol,timeframe,shadow_state,triggered_at,observed_at,review_window_seconds,late_after,current_state,riskguard_decision
+fx_macd_ok,EURUSD.r,H1,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,accepted_for_demo_intent
+fx_macd_late,GBPUSD.r,H1,would_trigger,2026-06-11T12:10:07,2026-06-11T15:10:07,3600,2026-06-11T13:10:07,late,blocked_by_late_setup
+fx_fib_ok,XAUUSD.r,H1,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,accepted_for_demo_intent
+fx_fib_missing_tp,US100,H4,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,blocked_by_missing_tp
+fx_rsi_manual,EURJPY.r,H1,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,blocked_by_setup_scope
+fx_context,EURO50,H1,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,blocked_by_setup_scope
+fx_low_quality,AUDUSD.r,H1,would_trigger,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,within_review_window,blocked_by_low_quality
+fx_wait,CADJPY.r,H1,would_wait,,2026-06-11T15:10:07,3600,,waiting_confirmation,blocked_by_waiting_confirmation
+fx_invalid,SPA35,H4,invalidated,2026-06-11T14:50:07,2026-06-11T15:10:07,3600,2026-06-11T15:50:07,invalidated,blocked_by_invalidated_setup

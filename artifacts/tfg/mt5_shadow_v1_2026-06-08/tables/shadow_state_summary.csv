@@ -1,0 +1,3 @@
+shadow_state,count,order_sent,can_send_order
+would_trigger,3,False,False
+would_wait,2,False,False

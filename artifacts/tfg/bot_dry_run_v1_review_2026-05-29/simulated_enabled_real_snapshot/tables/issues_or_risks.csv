@@ -1,0 +1,2 @@
+issue_id,severity,status,description
+current_snapshot_watch_only,info,expected,Current real snapshot has only watching_setup rows; no simulated order intent should be created.

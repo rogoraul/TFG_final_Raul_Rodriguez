@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-08T12:02:51.493340+00:00",
+  "module": "macd_breakout_watcher_combined_v1",
+  "strategy": "macd_breakout",
+  "groups": [
+    "Forex Majors",
+    "Metals",
+    "Index"
+  ],
+  "tf_pairs": [
+    "H1:H4",
+    "H4:D1"
+  ],
+  "snapshot_rows": 188,
+  "watchlist_rows": 29,
+  "order_intents_rows": 0,
+  "riskguard_decisions_rows": 0,
+  "is_signal": false,
+  "can_execute_order": false,
+  "orders_sent": 0,
+  "mt5_connected": false,
+  "telegram_connected": false,
+  "sql_real_written": false,
+  "backtests_executed": false
+}

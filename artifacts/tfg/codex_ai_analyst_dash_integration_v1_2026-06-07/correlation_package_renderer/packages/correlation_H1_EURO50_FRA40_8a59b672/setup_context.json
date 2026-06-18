@@ -1,0 +1,23 @@
+{
+  "setup": {
+    "analysis_type": "correlation",
+    "symbol": "EURO50|FRA40",
+    "timeframe": "H1",
+    "pair": "EURO50 | FRA40",
+    "metrics": {
+      "pearson": "0.911131",
+      "spearman": "0.867397",
+      "kendall": "0.716065",
+      "dcor": "0.957376"
+    }
+  },
+  "selected_at": "2026-06-07T17:15:11.819411+00:00",
+  "safety": {
+    "is_signal": false,
+    "is_study_only": true,
+    "can_execute_order": false,
+    "would_send_to_mt5": false,
+    "would_send_telegram_order": false,
+    "model_called": false
+  }
+}

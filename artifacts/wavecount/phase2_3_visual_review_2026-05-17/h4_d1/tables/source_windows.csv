@@ -1,0 +1,15 @@
+example_id,group,symbol,timeframe,status,rows,first_time,last_time,raw_confirmed_pivots,degree_pivots,error
+forex_eurusd_h4,Forex Majors,EURUSD.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,67,84,
+forex_gbpusd_h4,Forex Majors,GBPUSD.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,72,91,
+forex_usdjpy_h4,Forex Majors,USDJPY.r,H4,error,0,,,0,0,insufficient SQL rows: 0
+forex_audjpy_h4,Forex Majors,AUDJPY.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,63,89,
+forex_eurjpy_h4,Forex Majors,EURJPY.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,66,82,
+forex_gbpjpy_h4,Forex Majors,GBPJPY.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,64,85,
+metals_xauusd_h4,Metals,XAUUSD.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,62,81,
+metals_xagusd_h4,Metals,XAGUSD.r,H4,ok,420,2025-12-05T08:00:00,2026-03-17T04:00:00,59,71,
+metals_xptusd_h4,Metals,XPTUSD,H4,ok,420,2025-12-05T00:00:00,2026-03-17T04:00:00,66,79,
+metals_xpdusd_h4,Metals,XPDUSD,H4,ok,420,2025-12-05T00:00:00,2026-03-17T04:00:00,81,95,
+index_aus200_h4,Index,AUS200,H4,ok,420,2025-12-02T16:00:00,2026-03-17T04:00:00,76,85,
+index_hk50_h4,Index,HK50,H4,ok,420,2025-11-25T08:00:00,2026-03-17T04:00:00,65,92,
+index_us500_h4,Index,US500,H4,ok,420,2025-12-05T00:00:00,2026-03-17T04:00:00,75,85,
+index_us30_h4,Index,US30,H4,ok,420,2025-12-05T00:00:00,2026-03-17T04:00:00,70,92,

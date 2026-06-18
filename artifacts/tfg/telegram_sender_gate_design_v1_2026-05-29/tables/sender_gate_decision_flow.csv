@@ -1,0 +1,12 @@
+step_number,step_id,description,fail_closed_behavior
+1,load_dry_run_messages,Read rendered_messages and delivery/no-action audits.,missing artifact -> block_all
+2,load_external_config,Read non-secret config and environment-backed secret availability.,config missing -> block_all
+3,verify_secret_presence_without_printing,Check token/chat id exist externally; never log values.,missing or printed secret -> block_all
+4,run_no_action_check,Re-check safe_to_send and wording.,failure -> block_message
+5,check_delivery_status,Require delivery_status=preview_allowed.,otherwise -> block_message
+6,check_condition_status,Require allowed_digest/event_detected or explicit manual confirmation.,no_condition -> block_message
+7,check_limits,"Apply dedup, cooldown and daily caps.",limit fail -> block_message
+8,check_wavecount,Allow only study/manual with explicit config.,otherwise -> block_message
+9,build_allowed_blocked_lists,Split messages into allowed_to_send and blocked_to_send.,always log both lists
+10,send_future_allowed_only,Future implementation sends only allowed messages.,not implemented in design phase
+11,write_audit_log,Record every gate decision and future sender result.,missing audit -> block next run

@@ -1,0 +1,43 @@
+﻿{
+  "phase": "telegram_real_sender_v1",
+  "generated_at": "2026-06-09T08:56:36Z",
+  "decision": "telegram_real_sender_v1_real_send_executed",
+  "method_version": "telegram_real_sender_v1",
+  "real_sender_implemented": true,
+  "real_sender_design_source": "not_included_in_final_public_repo",
+  "telegram_connected": true,
+  "telegram_real_messages_sent": 1,
+  "telegram_tokens_printed": false,
+  "telegram_chat_ids_printed": false,
+  "telegram_tokens_stored": false,
+  "telegram_chat_ids_stored": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "bot_implemented": false,
+  "mt5_connected": false,
+  "backtests_executed": false,
+  "signals_generated": false,
+  "wavecount_used_as_filter": false,
+  "telegram_enabled": true,
+  "allow_real_send": true,
+  "send_real_requested": true,
+  "manual_confirmation": true,
+  "allow_wavecount_study": false,
+  "max_messages": 1,
+  "input_artifact_status_distribution": {
+    "available": 6
+  },
+  "attempt_count": 7,
+  "sent_count": 1,
+  "blocked_before_send_count": 6,
+  "failed_transport_count": 0,
+  "pre_send_status_distribution": {
+    "sent": 1,
+    "blocked_before_send": 6
+  },
+  "failure_reason_distribution": {
+    "max_messages_exceeded": 2,
+    "delivery_not_preview_allowed": 4
+  },
+  "next_recommended_phase": "review_telegram_real_sender_v1_before_any_manual_real_send"
+}

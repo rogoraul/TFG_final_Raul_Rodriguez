@@ -1,0 +1,2 @@
+issue_id,severity,status,description,mitigation
+R00,low,closed,No blocking issue found for artifact-first radar generation.,Keep radar informational and non-operational.

@@ -1,0 +1,9 @@
+layer_type,metric,value,timeframe,asset_1,asset_2,is_operational,pair,window,latest_corr,previous_corr,delta_prev,mean_corr,latest_abs,obs,is_read_only,can_execute_order,signals_generated
+correlation_metric,pearson,0.911131,H1,EURO50,FRA40,False,,,,,,,,,,,
+correlation_metric,spearman,0.867397,H1,EURO50,FRA40,False,,,,,,,,,,,
+correlation_metric,kendall,0.716065,H1,EURO50,FRA40,False,,,,,,,,,,,
+correlation_metric,dcor,0.957376,H1,EURO50,FRA40,False,,,,,,,,,,,
+rolling_correlation_metric,pearson,,H1,EURO50,FRA40,False,EURO50 | FRA40,120,0.97663,0.966722,0.009907,0.971676,0.97663,120,True,False,False
+rolling_correlation_metric,spearman,,H1,EURO50,FRA40,False,EURO50 | FRA40,120,0.958271,0.942003,0.016269,0.950137,0.958271,120,True,False,False
+rolling_correlation_metric,kendall,,H1,EURO50,FRA40,False,EURO50 | FRA40,120,0.863987,0.841774,0.022213,0.85288,0.863987,120,True,False,False
+rolling_correlation_metric,dcor,,H1,EURO50,FRA40,False,EURO50 | FRA40,120,0.957376,0.949819,0.007557,0.953597,0.957376,80,True,False,False

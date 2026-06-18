@@ -1,0 +1,4 @@
+resolved_market_group,case_count,case_share_pct,h4_d1_count,h1_h4_count,high_quality_structure,high_quality_structure_pct,usable_provisional_structure,usable_provisional_structure_pct,visual_watchlist_low_prominence,visual_watchlist_low_prominence_pct,auxiliary_substructure,auxiliary_substructure_pct,auxiliary_low_prominence_substructure,auxiliary_low_prominence_substructure_pct,ambiguous_structure,ambiguous_structure_pct,experimental_only,experimental_only_pct,exclude_from_guided_search,exclude_from_guided_search_pct,low_prominence_rows,low_prominence_pct,minor_count,intermediate_count,major_count
+Forex Majors,48,44.44,24,24,1,2.08,2,4.17,0,0.0,2,4.17,3,6.25,0,0.0,1,2.08,39,81.25,6,12.5,16,16,16
+Index,30,27.78,15,15,0,0.0,1,3.33,0,0.0,1,3.33,2,6.67,0,0.0,0,0.0,26,86.67,4,13.33,10,10,10
+Metals,30,27.78,15,15,0,0.0,1,3.33,1,3.33,1,3.33,2,6.67,0,0.0,0,0.0,25,83.33,4,13.33,10,10,10

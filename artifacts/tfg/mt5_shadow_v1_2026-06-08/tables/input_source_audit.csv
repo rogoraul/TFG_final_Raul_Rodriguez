@@ -1,0 +1,6 @@
+source,path,required,status,rows
+screener_setups,artifacts\tfg\trading_center_latest\screener_unified\screener_setups.csv,True,loaded,97
+ohlc,artifacts\tfg\trading_center_latest\ohlc\ohlc_mtf.csv,True,loaded,445664
+mt5_positions,artifacts\tfg\mt5_read_only_connection_v1_2026-06-07_local_connect_review\mt5_positions_snapshot.csv,False,loaded,0
+mt5_account,artifacts\tfg\mt5_read_only_connection_v1_2026-06-07_local_connect_review\mt5_account_snapshot.csv,False,loaded,1
+chart_layers,artifacts\tfg\trading_center_latest\screener_unified\screener_chart_layers.csv,False,loaded,2441

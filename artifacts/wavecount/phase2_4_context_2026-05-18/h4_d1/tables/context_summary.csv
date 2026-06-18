@@ -1,0 +1,17 @@
+metric,value
+source_windows_ok,13.0
+source_windows_error,1.0
+htf_windows_ok,13.0
+htf_windows_error,0.0
+wavecount_context_rows,5460.0
+candidate_context_rows,54.0
+htf_lookahead_violations,0.0
+trend_context_impulse_with_htf,40.0
+trend_context_correction_against_htf,9.0
+trend_context_conflict_with_htf,5.0
+review_category_impulse,12.0
+review_category_partial_123,12.0
+review_category_abc,12.0
+review_category_near_miss,9.0
+review_category_hard_invalid,9.0
+mean_context_score,61.5741

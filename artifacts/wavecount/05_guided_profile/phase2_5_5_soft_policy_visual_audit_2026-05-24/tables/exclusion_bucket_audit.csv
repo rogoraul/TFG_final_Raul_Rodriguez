@@ -1,0 +1,9 @@
+exclusion_group,case_count,share_of_excluded_pct,audit_conclusion
+original_no_or_negative,85,94.44,Exclusion is generally expected when the upstream profile/visual label is already no or negative.
+low_prominence,5,5.56,Low prominence explains compact H4 cases; use as soft penalty and review only near-threshold cases.
+context_misleading_or_must_not_rescue,82,91.11,Context risk is a valid exclusion reason when it would otherwise rescue weak counts.
+h1_h4_auxiliary_not_primary,43,47.78,H1/H4 exclusions are not primary H4/D1 failures; some may become auxiliary watchlist.
+ewo_support_but_excluded,48,53.33,EWO support alone is intentionally insufficient to rescue weak/negative structures.
+near_threshold_excluded,3,3.33,These are the only likely candidates for watchlist/manual review rather than direct policy rewrite.
+visual_sample_valid_exclusion,19,79.17,"Visual sample verdict distribution; denominator is selected sample, not all excluded."
+visual_sample_probably_valid_exclusion,5,20.83,"Visual sample verdict distribution; denominator is selected sample, not all excluded."

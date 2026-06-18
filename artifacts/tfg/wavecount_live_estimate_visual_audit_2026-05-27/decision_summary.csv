@@ -1,0 +1,2 @@
+decision,us500_result,xauusd_result,invalidated_rows,visual_summary,sql_dashboard_allowed_now,next_step
+live_estimate_study_panel_only,Keep possible_wave3_active as provisional study-panel label; do not show as fresh main-dashboard current wave.,Keep possible_wave3_candidate only as low-confidence study-panel context.,2,EURUSD.r:readable/true; GBPUSD.r:readable/true; US500:readable/true; XAUUSD.r:borderline/unclear,False,Broaden real-OHLC visual review or design a study-panel contract; do not integrate into SQL/dashboard main view yet.

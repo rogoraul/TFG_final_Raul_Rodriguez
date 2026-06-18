@@ -1,0 +1,3 @@
+check,value,status
+codex_review_status,revision codex pendiente,future_phase
+codex_review_implemented,False,passed

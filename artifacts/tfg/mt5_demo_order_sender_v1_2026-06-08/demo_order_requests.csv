@@ -1,0 +1,1 @@
+request_id,intent_id,setup_id,symbol,timeframe,setup_type,direction,order_type,entry_type,entry_price,sl,tp,volume,manual_confirmation_id,request_status,send_requested,order_sent,created_at_utc

@@ -1,0 +1,5 @@
+timeframe,symbols,return_rows,pair_rows,strong_spearman_abs_ge_0_7,strong_inverse_spearman_le_minus_0_7
+M15,60,4087,1770,73,9
+H1,60,3829,1770,39,4
+H4,60,3121,1770,38,4
+D1,60,2097,1770,55,9

@@ -1,0 +1,98 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\geometry{margin=2cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\sloppy
+\definecolor{tcTeal}{HTML}{0E7C74}
+\definecolor{tcDark}{HTML}{101817}
+\definecolor{tcMuted}{HTML}{526A65}
+\definecolor{tcWarnBg}{HTML}{FFF7E5}
+\definecolor{tcWarnBorder}{HTML}{C99123}
+\hypersetup{colorlinks=true, urlcolor=tcTeal, linkcolor=tcTeal}
+\begin{document}
+
+\begin{center}
+{\huge\bfseries Informe AI Analyst: XAGEUR.r|XAGUSD.r H1 correlation}\\[0.25em]
+{\large Reporte read-only para revision humana}
+\end{center}
+
+\vspace{0.2em}
+\hrule height 0.7pt
+\vspace{0.9em}
+
+\begin{tabularx}{\textwidth}{>{\bfseries}p{3.2cm}X}
+Paquete & correlation H1 XAGEUR.r XAGUSD.r d67ee4c9 \\
+Setup & XAGEUR.r|XAGUSD.r H1 correlation \\
+Modelo & gpt-5.5 \\
+Thinking & medium \\
+Macro & not requested \\
+Estado & reviewed \\
+\end{tabularx}
+
+\vspace{0.75em}
+\fcolorbox{tcWarnBorder}{tcWarnBg}{%
+\begin{minipage}{0.94\textwidth}
+\textbf{Limite de uso.} Este informe no es una senal, no autoriza MT5 y no ejecuta ordenes. Sirve para priorizar revision humana y documentar el contexto.
+\end{minipage}}
+
+\vspace{0.4em}
+
+\section*{Resumen}
+Revision read-only de correlacion H1 entre XAGEUR.r y XAGUSD.r. La relacion estadistica es extremadamente alta y positiva: Pearson 0.996903, Spearman 0.992718, Kendall 0.937668 y distancia de correlacion 0.994052 sobre 1999 observaciones. El grafico respalda visualmente una nube casi lineal, con pocos puntos alejados pero sin ruptura evidente del vinculo principal.
+
+\section*{Lectura tecnica}
+El paquete mide retornos logaritmicos cierre a cierre en H1 para plata cotizada frente a EUR y plata cotizada frente a USD, con muestra entre 2025-11-11 22:00:00 y 2026-03-17 09:00:00. La lectura principal es de co-movimiento fuerte, no de oportunidad operativa. En el radar de mercado mas reciente, ambos instrumentos aparecen dentro de metales, con tendencia bajista alineada en H1, H4 y D1, estado de sobreventa en H1/H4 y volatilidad H1 superior a su mediana historica.
+
+
+
+\section*{Grafico de referencia}
+\begin{center}
+\includegraphics[width=0.96\textwidth]{\detokenize{ai_analyst_report_chart.png}}
+\end{center}
+
+
+\section*{Lectura de confluencias}
+Todas las metricas de dependencia coinciden en una relacion positiva muy alta, no solo Pearson; esto reduce la posibilidad de que la lectura dependa de una unica metrica lineal; La correlacion movil de 120 periodos sigue elevada: Pearson 0.994939, Spearman 0.991958, Kendall 0.928291 y distancia de correlacion 0.994052, con variacion positiva frente al periodo previo; La dispersion visual muestra retornos de ambos activos moviendose casi sobre la misma diagonal, coherente con que ambos representan plata con distinta divisa de cotizacion; y El contexto de mercado para XAGEUR.r y XAGUSD.r es similar: ambos figuran como metales con alineacion bajista H1-H4-D1 y lectura de sobreventa en H1/H4.
+
+\section*{Contradicciones y cautelas}
+La muestra global de correlacion termina el 2026-03-17 09:00:00, mientras el radar de mercado para XAGEUR.r y XAGUSD.r usa datos de junio de 2026; por tanto, correlacion historica y contexto actual no pertenecen exactamente a la misma ventana temporal; XAGEUR.r tiene hora de radar 2026-06-05 15:00:00 y XAGUSD.r 2026-06-05 22:15:00, lo que introduce una diferencia temporal en la lectura comparativa reciente; La correlacion elevada no implica que el spread entre ambos sea estable ni operable: falta informacion directa de EURUSD, diferenciales de cotizacion, coste, liquidez y estabilidad fuera de muestra; y La distancia de correlacion movil declara ventana 120 pero obs 80, por lo que conviene revisar si hay datos faltantes o una limitacion metodologica en ese calculo.
+
+\section*{Riesgos principales}
+Riesgo de interpretar una correlacion casi perfecta como senal direccional. El paquete esta marcado como estudio, sin ejecucion ni generacion de senales; Riesgo de falsa robustez por activos economicamente solapados: ambos dependen de la plata, y la diferencia de divisa puede quedar subrepresentada si no se analiza explicitamente EURUSD; Riesgo de desfase temporal: la correlacion principal acaba en marzo de 2026, mientras el radar usado como contexto esta generado en junio de 2026; Riesgo de concentracion: en un evento fuerte de metales, ambos activos pueden moverse juntos y no aportar diversificacion efectiva; y Riesgo de outliers: la nube incluye retornos extremos, por ejemplo caidas cercanas a -3.4\% y movimientos positivos superiores a 3\%, que deberian auditarse por impacto en las metricas.
+
+\section*{Contexto macro y noticias}
+No se solicito lectura macro para este paquete. El informe se limita al contexto tecnico y a los datos estructurados del Trading Center.
+
+\section*{Conclusion operativa y financiera}
+Conclusion operativa y financiera: el analisis de correlacion queda como lectura de relacion entre activos, con prioridad de revision AI 2/5 y riesgo macro no solicitado. La conclusion debe usarse para detectar dependencia, diversificacion aparente o concentracion de riesgo entre instrumentos, no para validar un setup por si sola. Si la relacion es inestable, cambia por timeframe o se apoya en una ventana corta, debe tratarse como contexto auxiliar antes de revisar exposicion o pares comparables. En todos los casos, el informe documenta seguimiento y revision humana; no autoriza ejecucion, MT5 ni envio de ordenes.
+
+\section*{Comprobaciones humanas}
+\begin{itemize}
+  \item Verificar con la serie completa si la correlacion se mantiene en una ventana actualizada hasta junio de 2026.
+  \item Revisar rolling correlations por subperiodos y eventos para detectar rupturas temporales del vinculo.
+  \item Comparar la relacion XAGEUR.r-XAGUSD.r contra EURUSD para separar efecto plata y efecto divisa.
+  \item Auditar los puntos extremos de la muestra y confirmar que no son gaps, errores de datos o diferencias de horario entre simbolos.
+  \item Comprobar costes, liquidez, spread y sincronizacion de velas antes de usar esta relacion en cualquier estudio posterior no operativo.
+\end{itemize}
+
+\section*{Fuentes}
+\textbf{Fuentes locales}\par
+\begin{tabularx}{\textwidth}{p{4.2cm}X}
+setup\_context.metrics & Fuente local del paquete de revision \\
+market\_context.correlation\_pair & Fuente local del paquete de revision \\
+chart\_layers\_tail & Fuente local del paquete de revision \\
+ohlc\_window\_tail & Fuente local del paquete de revision \\
+source\_manifest.sources & Fuente local del paquete de revision \\
+chart.png & Imagen renderizada del grafico \\
+\end{tabularx}
+
+\end{document}

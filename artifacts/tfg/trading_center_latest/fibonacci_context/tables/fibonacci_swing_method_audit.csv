@@ -1,0 +1,2 @@
+method,window_h1,window_h4,min_bars_h1,min_bars_h4,min_tr_multiple_forex_h1,min_tr_multiple_forex_h4,lookahead_policy,no_clear_policy
+confirmed_pivots_best_recent_material_swing,3,2,10,6,3.0,2.5,only confirmed historical pivots; no future beyond loaded artifact,no_clear_swing

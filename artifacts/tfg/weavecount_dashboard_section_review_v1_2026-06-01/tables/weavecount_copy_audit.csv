@@ -1,0 +1,6 @@
+copy_item,status,meaning
+Wn_question_mark,pass,Wn? se presenta como candidata de estudio.
+active_label,pass,Activa queda reservada para estructura fuerte si aparece.
+study_only_copy,pass,La UI conserva solo estudio y no senal.
+no_ai_copy,pass,No se anade copy visible de IA/Codex/OpenAI.
+no_trade_language,pass,"No se usan compra, venta, ejecutar o aprobar."

@@ -1,0 +1,5 @@
+issue_id,severity,count,recommendation
+broken_current_table_image_refs,high,1054,rewrite chart_path during migration
+old_folder_refs_in_docs,medium,7,update docs or route via index
+too_many_wavecount_docs_in_root,medium,31,create docs/wavecount/INDEX.md and group docs later
+code_flat_but_stable,low,44,do not move code until artifact/doc migration is finished

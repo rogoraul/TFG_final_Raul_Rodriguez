@@ -1,0 +1,34 @@
+# Image index: partial123_cases_reclassified.csv
+
+Generado: 2026-05-24T00:15:53
+
+CSV fuente: [partial123_cases_reclassified.csv](partial123_cases_reclassified.csv)
+
+- filas con imagen/enlace resuelto: 17
+- imagenes enlazadas: 17
+- imagenes no resueltas: 0
+
+Este indice solo facilita abrir graficos desde los CSV. No cambia datos,
+conteos, reglas, EMAs/EWO ni resultados.
+
+## Imagenes
+
+| fila CSV | referencia | columna | imagen |
+| --- | --- | --- | --- |
+| 2 | `candidate_order=15 \| candidate_id=partial_123_index_aus200_h1_intermediate_partial123_001 \| example_id=index_aus200_h1 \| symbol=AUS200 \| timeframe=H1 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/015_partial_123_index_aus200_h1_intermediate_partial123_001.png>) |
+| 3 | `candidate_order=16 \| candidate_id=partial_123_forex_audjpy_h1_intermediate_partial123_011 \| example_id=forex_audjpy_h1 \| symbol=AUDJPY.r \| timeframe=H1 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/016_partial_123_forex_audjpy_h1_intermediate_partial123_011.png>) |
+| 4 | `candidate_order=17 \| candidate_id=partial_123_forex_audjpy_h1_minor_partial123_007 \| example_id=forex_audjpy_h1 \| symbol=AUDJPY.r \| timeframe=H1 \| swing_degree=minor \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/017_partial_123_forex_audjpy_h1_minor_partial123_007.png>) |
+| 5 | `candidate_order=18 \| candidate_id=partial_123_metals_xagusd_h1_minor_partial123_002 \| example_id=metals_xagusd_h1 \| symbol=XAGUSD.r \| timeframe=H1 \| swing_degree=minor \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/018_partial_123_metals_xagusd_h1_minor_partial123_002.png>) |
+| 6 | `candidate_order=19 \| candidate_id=partial_123_index_aus200_h1_minor_partial123_001 \| example_id=index_aus200_h1 \| symbol=AUS200 \| timeframe=H1 \| swing_degree=minor \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/019_partial_123_index_aus200_h1_minor_partial123_001.png>) |
+| 7 | `candidate_order=21 \| candidate_id=partial_123_forex_audjpy_h1_major_partial123_007 \| example_id=forex_audjpy_h1 \| symbol=AUDJPY.r \| timeframe=H1 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/021_partial_123_forex_audjpy_h1_major_partial123_007.png>) |
+| 8 | `candidate_order=22 \| candidate_id=partial_123_metals_xagusd_h1_major_partial123_006 \| example_id=metals_xagusd_h1 \| symbol=XAGUSD.r \| timeframe=H1 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/022_partial_123_metals_xagusd_h1_major_partial123_006.png>) |
+| 9 | `candidate_order=24 \| candidate_id=partial_123_forex_eurusd_h1_major_partial123_002 \| example_id=forex_eurusd_h1 \| symbol=EURUSD.r \| timeframe=H1 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h1_m30/charts/partials/024_partial_123_forex_eurusd_h1_major_partial123_002.png>) |
+| 10 | `candidate_order=13 \| candidate_id=partial_123_forex_audjpy_h4_intermediate_partial123_002 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/013_partial_123_forex_audjpy_h4_intermediate_partial123_002.png>) |
+| 11 | `candidate_order=14 \| candidate_id=partial_123_metals_xagusd_h4_intermediate_partial123_001 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/014_partial_123_metals_xagusd_h4_intermediate_partial123_001.png>) |
+| 12 | `candidate_order=15 \| candidate_id=partial_123_index_aus200_h4_intermediate_partial123_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/015_partial_123_index_aus200_h4_intermediate_partial123_006.png>) |
+| 13 | `candidate_order=16 \| candidate_id=partial_123_forex_audjpy_h4_intermediate_partial123_005 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=intermediate \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/016_partial_123_forex_audjpy_h4_intermediate_partial123_005.png>) |
+| 14 | `candidate_order=17 \| candidate_id=partial_123_forex_audjpy_h4_minor_partial123_002 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=minor \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/017_partial_123_forex_audjpy_h4_minor_partial123_002.png>) |
+| 15 | `candidate_order=18 \| candidate_id=partial_123_metals_xagusd_h4_minor_partial123_001 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=minor \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/018_partial_123_metals_xagusd_h4_minor_partial123_001.png>) |
+| 16 | `candidate_order=22 \| candidate_id=partial_123_metals_xagusd_h4_major_partial123_003 \| example_id=metals_xagusd_h4 \| symbol=XAGUSD.r \| timeframe=H4 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/022_partial_123_metals_xagusd_h4_major_partial123_003.png>) |
+| 17 | `candidate_order=23 \| candidate_id=partial_123_index_aus200_h4_major_partial123_006 \| example_id=index_aus200_h4 \| symbol=AUS200 \| timeframe=H4 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/023_partial_123_index_aus200_h4_major_partial123_006.png>) |
+| 18 | `candidate_order=24 \| candidate_id=partial_123_forex_audjpy_h4_major_partial123_005 \| example_id=forex_audjpy_h4 \| symbol=AUDJPY.r \| timeframe=H4 \| swing_degree=major \| review_category=partial_123` | `chart_path` | [abrir imagen](<../../phase2_3_visual_review_2026-05-17/h4_d1/charts/partials/024_partial_123_forex_audjpy_h4_major_partial123_005.png>) |

@@ -1,0 +1,11 @@
+item,value,status
+indicator_engine,backtests.enbolsa.GenerarIndicadores,reused
+trend_engine,backtests.enbolsa.market_context.AnalizadorDeContexto,reused
+source_mode,sql_readonly_ohlc_artifact,configured
+rsi_len,14,configured
+stoch_k_d_smooth,14/3/3,configured
+rsi_overbought_oversold,70.0/30.0,configured
+stoch_overbought_oversold,80.0/20.0,configured
+source_sql_readonly_artifact,True,source_artifact
+sql_real_read,False,passed
+signals_generated,False,passed

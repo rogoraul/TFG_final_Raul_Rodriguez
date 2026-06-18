@@ -1,0 +1,11 @@
+source_id,path,rows,status
+market_radar,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_market_radar_v1_2026-05-31\market_radar.csv,60,available
+ohlc_mtf,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_sql_market_data_readonly_v1_2026-05-31\ohlc_mtf.csv,442597,available
+weavecount,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv,94,available
+macd_breakout_snapshot,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\snapshot.csv,54,available
+macd_breakout_enriched,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\macd_breakout_watcher_enrichment_h1_h4_major_metals_index_combined_v1_2026-06-04\macd_breakout_enriched_setups.csv,188,available
+macd_breakout_chart_layers,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\macd_breakout_watcher_enrichment_h1_h4_major_metals_index_combined_v1_2026-06-04\macd_breakout_chart_layers.csv,1628,available
+fibonacci_context,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_fibonacci_context_v1_2026-06-02\fibonacci_context.csv,94,available
+fibonacci_chart_layers,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_fibonacci_context_v1_2026-06-02\fibonacci_chart_layers.csv,846,available
+fib_limit_visual_review,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\fib_limit_swing_quality_visual_review_v1_2026-06-02\tables\fib_limit_visual_case_review.csv,36,available
+fib_limit_sample_selection,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\fib_limit_swing_quality_visual_review_v1_2026-06-02\tables\fib_limit_visual_sample_selection.csv,36,available

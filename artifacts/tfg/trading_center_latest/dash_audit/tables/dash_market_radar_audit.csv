@@ -1,0 +1,8 @@
+check_id,check,status,evidence,value
+RADAR_01,market_radar_source,available,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\market_radar\market_radar.csv,
+RADAR_02,trend_alignment_rows,available,,29
+RADAR_03,counter_extreme_rows,available,,5
+RADAR_04,no_signal_fabrication,passed,Resumen only uses market_radar.csv when present; current snapshot is not converted into trend/RSI readings.,
+RADAR_05,market_pulse_and_volatility,passed,"Mercado UI renders market mode, timeframe strength and ATR% H1 rankings against each asset median.",
+RADAR_06,universe_summary_blocks,passed,Radar renders simplified alignment and movement panels with empty-state protection.,
+RADAR_07,asset_lists_are_screener_only,passed,"Alignment and RSI contexts are absorbed by the unified Screener artifacts, not rendered as Radar summary tables.",

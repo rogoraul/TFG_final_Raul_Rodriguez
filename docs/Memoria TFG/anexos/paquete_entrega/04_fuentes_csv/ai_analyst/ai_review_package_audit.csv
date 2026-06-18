@@ -1,0 +1,9 @@
+package_component,status,evidence,risk
+package_manifest.json,passed,renderer contract documented and package artifacts exist,missing component blocks reproducible review
+setup_context.json or context equivalent,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+market_context.json,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+ohlc_window.csv when applicable,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+chart_layers.csv when applicable,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+chart.png,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+source_manifest.json,passed,renderer contract documented and package artifacts exist,missing component blocks reproducible review
+prompt_context artifact,passed,renderer contract documented and package artifacts exist,component must remain source-bound

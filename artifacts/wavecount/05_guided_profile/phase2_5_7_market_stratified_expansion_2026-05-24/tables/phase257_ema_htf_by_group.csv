@@ -1,0 +1,4 @@
+resolved_market_group,candidate_count,ema_htf_score_delta_mean,ema_htf_policy_label_ema_htf_context_support,ema_htf_policy_label_ema_htf_correction_context,ema_htf_policy_label_ema_htf_misleading_warning,ema_htf_policy_label_ema_htf_transition_support,ema_htf_soft_support_supports,ema_htf_soft_support_contextual,ema_htf_soft_support_misleading,ema_htf_soft_support_supports_transition,ema_htf_helpfulness_supports_context,ema_htf_helpfulness_explains_correction,ema_htf_helpfulness_misleading,ema_htf_helpfulness_explains_transition
+Forex Majors,72,-3.3889,37,25,8,2.0,37,25,8,2.0,37,25,8,2.0
+Index,45,-1.3333,31,11,3,,31,11,3,,31,11,3,
+Metals,45,-1.4667,34,5,6,,34,5,6,,34,5,6,

@@ -1,0 +1,4 @@
+materiality_status,rows,policy
+passed,94,passed rows can draw Fibonacci; failed rows remain context-free
+failed,0,passed rows can draw Fibonacci; failed rows remain context-free
+not_available,0,passed rows can draw Fibonacci; failed rows remain context-free

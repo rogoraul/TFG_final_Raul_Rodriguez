@@ -1,0 +1,6 @@
+setup_id,symbol,timeframe,shadow_state,triggered_at,observed_at,review_window_seconds,late_after,current_state,riskguard_decision
+trading_center_screener_unified_v1|EURO50|H4|macd_breakout|222,EURO50,H4,would_trigger,2026-06-05T16:00:00,2026-06-08T19:34:05,3600,2026-06-05T17:00:00,late,blocked_by_late_setup
+trading_center_screener_unified_v1|SPA35|H4|macd_breakout|132,SPA35,H4,would_trigger,2026-06-05T08:00:00,2026-06-08T19:34:05,3600,2026-06-05T09:00:00,late,blocked_by_late_setup
+trading_center_screener_unified_v1|EURUSD.r|H4|macd_breakout|670,EURUSD.r,H4,would_wait,,2026-06-08T19:34:05,3600,,waiting_confirmation,blocked_by_waiting_confirmation
+trading_center_screener_unified_v1|GBPCHF.r|H4|macd_breakout|150,GBPCHF.r,H4,would_wait,,2026-06-08T19:34:05,3600,,waiting_confirmation,blocked_by_waiting_confirmation
+trading_center_screener_unified_v1|XPTUSD|H4|macd_breakout|792,XPTUSD,H4,would_trigger,2026-06-05T12:00:00,2026-06-08T19:34:05,3600,2026-06-05T13:00:00,late,blocked_by_late_setup

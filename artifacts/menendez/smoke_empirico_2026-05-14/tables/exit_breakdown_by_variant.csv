@@ -1,0 +1,5 @@
+Variante,Salida,Trades,Pct%,Variant
+menendez_core,SL,6,75.0,faithful_operable_sma200_primary
+menendez_core,TP,2,25.0,faithful_operable_sma200_primary
+menendez_core,SL,8,72.7,faithful_operable_trigger_or
+menendez_core,TP,3,27.3,faithful_operable_trigger_or

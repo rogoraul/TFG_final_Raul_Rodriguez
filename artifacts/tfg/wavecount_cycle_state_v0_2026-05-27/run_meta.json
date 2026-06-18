@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-05-27T15:58:57Z",
+  "version": "wavecount_cycle_state_v0",
+  "decision": "cycle_state_v0_promising_for_visual_review",
+  "input_dir": "artifacts\\tfg\\wavecount_persistent_hypothesis_v0_2026-05-27",
+  "symbols": [
+    "EURUSD.r",
+    "GBPUSD.r",
+    "US500",
+    "XAUUSD.r"
+  ],
+  "timeframes": [
+    "H4"
+  ],
+  "cycles_detected": 8,
+  "estimated_current_wave_distribution": {
+    "possible_wave3_active": 2,
+    "possible_wave3_candidate": 2
+  },
+  "cycle_status_distribution": {
+    "reset_candidate": 4
+  },
+  "display_policy_distribution": {
+    "show_with_warning": 4
+  },
+  "reset_candidates": 4,
+  "anti_lookahead_passed": true,
+  "safety": {
+    "real_sql_executed": false,
+    "ddl_executed": false,
+    "mt5_connected": false,
+    "backtests_executed": false,
+    "signals_generated": false,
+    "dashboard_implemented": false,
+    "telegram_implemented": false,
+    "bot_implemented": false
+  }
+}

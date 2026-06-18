@@ -1,0 +1,5 @@
+display_policy,meaning,telegram_allowed,bot_allowed
+show_live_estimate_with_warning,Can be shown as provisional live wave context with warning.,False,False
+show_study_only,Can be shown only in study/manual context.,False,False
+manual_review_only,Requires human review; hide from default wave summary.,False,False
+not_displayable,No useful context.,False,False

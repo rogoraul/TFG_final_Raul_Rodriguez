@@ -1,0 +1,8 @@
+check,expected,observed,status
+MT5_DEMO_ORDER_SENDER_ENABLED,1,False,blocked
+MT5_DEMO_TRADING_ENABLED,1,False,blocked
+MT5_LIVE_TRADING_BLOCKED,1,False,blocked
+send_flag,True,False,blocked
+connect_flag,True,False,blocked
+not_audit_only,True,False,blocked
+not_dry_run,True,True,pass

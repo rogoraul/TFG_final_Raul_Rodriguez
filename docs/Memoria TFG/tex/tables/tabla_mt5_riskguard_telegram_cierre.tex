@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{0.20\textwidth}p{0.35\textwidth}p{0.35\textwidth}}
+\hline
+Bloque & Evidencia curada & Lectura para memoria \\
+\hline
+RiskGuard demo & Controles de dimensionamiento, exposici\'on y p\'erdida m\'axima & Control previo en demo, no riesgo real \\
+RiskGuard demo & 9 decisiones: 2 intenciones demo y 7 bloqueos & Ninguna habilita env\'io directo \\
+MT5 demo & Orden demo auditada: 1 & Ciclo controlado, sin operaci\'on real \\
+MT5 demo & Cierre demo auditado: 1 & Posici\'on final cerrada en demo \\
+MT5 seguridad & Operaci\'on real habilitada: no & Operaci\'on real bloqueada \\
+MT5 seguridad & Confirmaci\'on manual requerida: s\'i & Sin automatizaci\'on aut\'onoma \\
+Telegram & Dise\~no hasta 10 tipos; 8 renderizados auditados & Observabilidad informativa \\
+Telegram & 1 env\'io auditado con \texttt{telegram\_api\_ok} & Prueba t\'ecnica controlada \\
+Telegram & 3 capturas de recepci\'on & Evidencia visual de estado, cuenta y posiciones \\
+\hline
+\end{tabular}
+\caption[Cierre curado de MT5 demo, RiskGuard y Telegram]{Cierre curado de MT5 demo, RiskGuard demo y Telegram informativo. La evidencia respalda un prototipo demo controlado y observable; no respalda operaci\'on real, consola Telegram ni automatizaci\'on operativa real. Las fuentes completas quedan registradas en el \'indice de tablas curadas.}
+\label{tab:mt5-riskguard-telegram-cierre}
+\end{table}

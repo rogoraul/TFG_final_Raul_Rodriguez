@@ -1,0 +1,181 @@
+# Phase257 Visual Review
+
+## 1. impulse_exp252_forex_audjpy_h4_intermediate_impulse_002
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: high_quality_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![001_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/001_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png)
+
+## 2. impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: usable_provisional_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![002_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/002_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png)
+
+## 3. impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: auxiliary_low_prominence_substructure
+- phase257_visual_verdict: group_specific_behavior
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![003_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/003_impulse_aux252b_forex_audjpy_h1_intermediate_impulse_022.png)
+
+## 4. impulse_exp257_forex_majors_audcadr_h4_minor_impulse_028
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![004_impulse_exp257_forex_majors_audcadr_h4_minor_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/004_impulse_exp257_forex_majors_audcadr_h4_minor_impulse_028.png)
+
+## 5. impulse_exp257_forex_majors_audcadr_h4_major_impulse_036
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: usable_provisional_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![005_impulse_exp257_forex_majors_audcadr_h4_major_impulse_036.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/005_impulse_exp257_forex_majors_audcadr_h4_major_impulse_036.png)
+
+## 6. abc_exp257_forex_majors_audcadr_h4_minor_abc_005
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![006_abc_exp257_forex_majors_audcadr_h4_minor_abc_005.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/006_abc_exp257_forex_majors_audcadr_h4_minor_abc_005.png)
+
+## 7. impulse_exp257_forex_majors_audcadr_h4_minor_impulse_080
+- resolved_market_group: Forex Majors
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![007_impulse_exp257_forex_majors_audcadr_h4_minor_impulse_080.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/forex_majors/007_impulse_exp257_forex_majors_audcadr_h4_minor_impulse_080.png)
+
+## 8. impulse_exp257_index_aus200_h4_major_impulse_023
+- resolved_market_group: Index
+- phase257_policy_bucket: usable_provisional_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![008_impulse_exp257_index_aus200_h4_major_impulse_023.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/008_impulse_exp257_index_aus200_h4_major_impulse_023.png)
+
+## 9. impulse_aux252b_index_aus200_h1_intermediate_impulse_007
+- resolved_market_group: Index
+- phase257_policy_bucket: auxiliary_low_prominence_substructure
+- phase257_visual_verdict: group_specific_behavior
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![009_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/009_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png)
+
+## 10. impulse_exp257_index_aus200_h4_minor_impulse_049
+- resolved_market_group: Index
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![010_impulse_exp257_index_aus200_h4_minor_impulse_049.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/010_impulse_exp257_index_aus200_h4_minor_impulse_049.png)
+
+## 11. impulse_exp252_index_aus200_h4_major_impulse_016
+- resolved_market_group: Index
+- phase257_policy_bucket: usable_provisional_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![011_impulse_exp252_index_aus200_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/011_impulse_exp252_index_aus200_h4_major_impulse_016.png)
+
+## 12. hard_invalid_exp257_index_aus200_h4_minor_impulse_001
+- resolved_market_group: Index
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![012_hard_invalid_exp257_index_aus200_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/012_hard_invalid_exp257_index_aus200_h4_minor_impulse_001.png)
+
+## 13. impulse_exp252_index_aus200_h4_minor_impulse_028
+- resolved_market_group: Index
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![013_impulse_exp252_index_aus200_h4_minor_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/index/013_impulse_exp252_index_aus200_h4_minor_impulse_028.png)
+
+## 14. impulse_exp252_metals_xagusd_h4_major_impulse_002
+- resolved_market_group: Metals
+- phase257_policy_bucket: usable_provisional_structure
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![014_impulse_exp252_metals_xagusd_h4_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/014_impulse_exp252_metals_xagusd_h4_major_impulse_002.png)
+
+## 15. impulse_exp257_metals_xageurr_h4_intermediate_impulse_008
+- resolved_market_group: Metals
+- phase257_policy_bucket: visual_watchlist_low_prominence
+- phase257_visual_verdict: needs_percentile_normalization
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![015_impulse_exp257_metals_xageurr_h4_intermediate_impulse_008.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/015_impulse_exp257_metals_xageurr_h4_intermediate_impulse_008.png)
+
+## 16. impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036
+- resolved_market_group: Metals
+- phase257_policy_bucket: auxiliary_low_prominence_substructure
+- phase257_visual_verdict: group_specific_behavior
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![016_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/016_impulse_aux252b_metals_xagusd_h1_intermediate_impulse_036.png)
+
+## 17. impulse_exp257_metals_xageurr_h4_minor_impulse_012
+- resolved_market_group: Metals
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: needs_percentile_normalization
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![017_impulse_exp257_metals_xageurr_h4_minor_impulse_012.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/017_impulse_exp257_metals_xageurr_h4_minor_impulse_012.png)
+
+## 18. impulse_aux252b_metals_xagusd_h1_major_impulse_025
+- resolved_market_group: Metals
+- phase257_policy_bucket: auxiliary_substructure
+- phase257_visual_verdict: group_specific_behavior
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![018_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/018_impulse_aux252b_metals_xagusd_h1_major_impulse_025.png)
+
+## 19. hard_invalid_exp257_metals_xageurr_h4_minor_impulse_001
+- resolved_market_group: Metals
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: policy_correct
+- market_group_bias_risk: low
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![019_hard_invalid_exp257_metals_xageurr_h4_minor_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/019_hard_invalid_exp257_metals_xageurr_h4_minor_impulse_001.png)
+
+## 20. impulse_exp252_metals_xagusd_h4_minor_impulse_004
+- resolved_market_group: Metals
+- phase257_policy_bucket: exclude_from_guided_search
+- phase257_visual_verdict: needs_percentile_normalization
+- market_group_bias_risk: medium
+- notes: Visual gallery selected for manual/agent audit; verdict is methodological and non-operational.
+
+![020_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_7_market_stratified_expansion_2026-05-24/charts/by_market_group/metals/020_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png)

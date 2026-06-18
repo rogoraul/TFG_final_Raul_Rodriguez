@@ -1,0 +1,29 @@
+{
+  "phase": "minimal_phase25_reorg",
+  "created_at": "2026-05-24T15:17:40.321572+00:00",
+  "migration_date": "2026-05-24",
+  "migration_scope": "minimal_phase25_reorg",
+  "action": "copied",
+  "rules_changed": false,
+  "signals_generated": false,
+  "backtests_run": false,
+  "mt5_connected": false,
+  "code_reorganized": false,
+  "artifacts_migrated": 7,
+  "broken_paths_after_migration": 0,
+  "output_dir": "artifacts\\wavecount\\90_global_audits\\minimal_reorg_2026-05-24",
+  "path_validation_scope": "concrete path/chart/doc columns only; planned proposed paths are not treated as broken",
+  "validated_at": "2026-05-24T15:18:49.981441+00:00",
+  "docs_index_created": true,
+  "docs_updated": [
+    "docs/wavecount/INDEX.md",
+    "docs/WAVECOUNT_REORGANIZACION_MINIMA_2026-05-24.md",
+    "docs/WAVECOUNT_ARTIFACTS_MANIFEST.md",
+    "docs/ESTADO_TFG_ACTUAL.md",
+    "docs/ROADMAP_TFG_PLATAFORMA.md",
+    "docs/WAVECOUNT_REORGANIZACION_PLAN_2026-05-24.md",
+    "docs/WAVECOUNT_AUDITORIA_GLOBAL_2026-05-24.md",
+    "docs/WAVECOUNT_FASE2_5_3_ESTADISTICA_DESCRIPTIVA.md"
+  ],
+  "docs_links_validated_at": "2026-05-24T15:20:26.580379+00:00"
+}

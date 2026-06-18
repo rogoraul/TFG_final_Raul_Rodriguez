@@ -1,0 +1,6 @@
+flag,value
+is_signal_any_true,False
+is_study_only_all_true,True
+can_execute_order_any_true,False
+would_send_to_mt5_any_true,False
+would_send_telegram_order_any_true,False

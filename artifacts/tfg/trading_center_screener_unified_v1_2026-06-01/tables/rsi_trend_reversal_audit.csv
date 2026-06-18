@@ -1,0 +1,5 @@
+check,rows,policy,status
+rsi_trend_reversal_setups,0,M15 usa M15/H1/H4; H1 usa H1/H4/D1; Crypto excluido; Commodities y Forex Exotic permitidos; study-only sin SL/TP operativo,implemented
+crypto_excluded,0,Crypto no se evalua para rsi_trend_reversal,passed
+entry_review_rows,0,cruce de vuelta 70/30 con triple alineacion,current_cut
+watching_rows,0,RSI cerca de 68/32 con triple alineacion,current_cut

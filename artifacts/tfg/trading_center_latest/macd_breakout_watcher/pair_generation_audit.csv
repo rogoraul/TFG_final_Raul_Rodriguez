@@ -1,0 +1,3 @@
+timeframe_ltf,timeframe_htf,output_dir,snapshot_rows,watchlist_rows,order_intents_rows,riskguard_decisions_rows,status
+H1,H4,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\macd_breakout_watcher\pairs\h1_h4,94,10,0,0,generated
+H4,D1,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\macd_breakout_watcher\pairs\h4_d1,94,19,0,0,generated

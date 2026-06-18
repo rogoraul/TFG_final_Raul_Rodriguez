@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-15T10:55:40",
+  "command": "python -m backtests.benchmarks.analyze_enbolsa_risk_sensitivity --trade-log artifacts\\benchmark-significance\\enbolsa\\final\\tables\\trade_log.csv --output-dir artifacts\\benchmark-significance\\enbolsa\\risk_sensitivity_2026-05-15 --strategies enbolsa:fib_limit,enbolsa:macd_breakout --caps 3,5,10 --initial-capital 10000 --risk-per-trade 0.01",
+  "trade_log": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\benchmark-significance\\enbolsa\\final\\tables\\trade_log.csv",
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\benchmark-significance\\enbolsa\\risk_sensitivity_2026-05-15",
+  "initial_capital": 10000.0,
+  "risk_per_trade": 0.01,
+  "strategies": [
+    "enbolsa:fib_limit",
+    "enbolsa:macd_breakout"
+  ],
+  "caps": [
+    0.03,
+    0.05,
+    0.1
+  ],
+  "scenarios": [
+    "observed_compounded_uncapped",
+    "fixed_initial_uncapped",
+    "fixed_initial_cap_3pct",
+    "fixed_initial_cap_5pct",
+    "fixed_initial_cap_10pct",
+    "compounded_cap_3pct",
+    "compounded_cap_5pct",
+    "compounded_cap_10pct"
+  ]
+}

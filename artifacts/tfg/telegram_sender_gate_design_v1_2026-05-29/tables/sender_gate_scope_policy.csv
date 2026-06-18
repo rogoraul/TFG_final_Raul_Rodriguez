@@ -1,0 +1,7 @@
+item,policy,meaning,allowed,prohibited,notes
+purpose,authorization_gate_for_informational_send,Decide if an already-audited informational message may be sent by a future sender.,True,False,Gate does not create message content.
+telegram_sender,not_implemented_in_design_phase,This phase designs the gate only.,False,True,"No network call, token or chat id."
+trading_bot,out_of_scope,Gate is not a bot and cannot approve setups.,False,True,Bot dry-run has a separate future phase.
+mt5,out_of_scope,No MT5 connection or execution path.,False,True,MT5 remains blocked.
+wavecount,study_only_manual,WaveCount can only cross gate as study/manual context if explicitly enabled.,True,False,Never as signal or filter.
+dashboard,not_replaced,"Telegram summarizes, dashboard remains the canonical review surface.",True,False,Messages should point back to dashboard/artifacts.

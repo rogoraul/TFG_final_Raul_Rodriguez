@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-29T09:31:40",
+  "decision": "bot_dry_run_v1_artifact_ledger_ready_for_review",
+  "bot_dry_run_implemented": true,
+  "bot_enabled": true,
+  "bot_mode": "dry_run",
+  "default_bot_enabled": false,
+  "default_bot_mode": "off",
+  "snapshot_rows": 54,
+  "ledger_rows": 54,
+  "decision_distribution": {
+    "dry_run_no_action": 54
+  },
+  "simulated_intents": 0,
+  "mt5_connected": false,
+  "mt5_orders_sent": 0,
+  "telegram_connected": false,
+  "telegram_orders_sent": 0,
+  "telegram_command_bot_implemented": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "wavecount_used_as_filter": false,
+  "can_execute_order_any_true": false,
+  "would_send_to_mt5_any_true": false,
+  "would_send_telegram_order_any_true": false,
+  "artifact_first": true,
+  "sql_runtime_ledger_implemented": false,
+  "mt5_adapter_implemented": false,
+  "dry_run_only": true
+}

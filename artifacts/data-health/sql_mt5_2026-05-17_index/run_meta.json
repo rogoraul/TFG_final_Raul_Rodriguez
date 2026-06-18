@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-05-17T11:50:28",
+  "elapsed_seconds": 338.686,
+  "output_dir": "artifacts\\data-health\\sql_mt5_2026-05-17_index",
+  "focus_groups": [
+    "Index"
+  ],
+  "timeframes": [
+    "M15",
+    "M30",
+    "H1",
+    "H4",
+    "D1"
+  ],
+  "query_timeout_ms": 15000,
+  "query_timeout_supported": true,
+  "stale_days": 7.0,
+  "max_gap_pair_rows": 250000,
+  "max_gap_examples_per_pair": 3,
+  "skip_gap_audit": false,
+  "price_columns": [
+    "id",
+    "symbol",
+    "timeframe",
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "tick_volume",
+    "spread",
+    "real_volume"
+  ],
+  "missing_price_columns": [],
+  "unique_symbol_timeframe_time_key": true,
+  "unique_key_detail": "indice unico uniq_symbol_tf_time sobre symbol/timeframe/time"
+}

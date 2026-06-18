@@ -1,0 +1,111 @@
+# Market Group Visual Review
+
+## 1. impulse_exp252_forex_audjpy_h4_intermediate_impulse_002
+- resolved_market_group: Forex Majors
+- phase256_policy_bucket: high_quality_structure
+- selection_reason: best_high_quality
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![001_forex_majors_005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/001_forex_majors_005_impulse_exp252_forex_audjpy_h4_intermediate_impulse_002.png)
+
+## 2. impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007
+- resolved_market_group: Forex Majors
+- phase256_policy_bucket: usable_provisional_structure
+- selection_reason: usable_or_provisional
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![002_forex_majors_008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/002_forex_majors_008_impulse_exp252_forex_eurjpy_h4_intermediate_impulse_007.png)
+
+## 3. impulse_exp252_forex_eurusd_h4_major_impulse_029
+- resolved_market_group: Forex Majors
+- phase256_policy_bucket: exclude_from_guided_search
+- selection_reason: low_prominence_representative
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![003_forex_majors_012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/003_forex_majors_012_impulse_exp252_forex_eurusd_h4_major_impulse_029.png)
+
+## 4. hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001
+- resolved_market_group: Forex Majors
+- phase256_policy_bucket: exclude_from_guided_search
+- selection_reason: ema_htf_conflict_or_misleading
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![004_forex_majors_046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/004_forex_majors_046_hard_invalid_exp252_forex_audjpy_h4_intermediate_impulse_001.png)
+
+## 5. impulse_exp252_index_aus200_h4_major_impulse_016
+- resolved_market_group: Index
+- phase256_policy_bucket: usable_provisional_structure
+- selection_reason: usable_or_provisional
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![005_index_011_impulse_exp252_index_aus200_h4_major_impulse_016.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/005_index_011_impulse_exp252_index_aus200_h4_major_impulse_016.png)
+
+## 6. impulse_aux252b_index_aus200_h1_intermediate_impulse_007
+- resolved_market_group: Index
+- phase256_policy_bucket: auxiliary_low_prominence_substructure
+- selection_reason: low_prominence_representative
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![006_index_007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/006_index_007_impulse_aux252b_index_aus200_h1_intermediate_impulse_007.png)
+
+## 7. impulse_exp252_index_aus200_h4_minor_impulse_028
+- resolved_market_group: Index
+- phase256_policy_bucket: exclude_from_guided_search
+- selection_reason: excluded_highest_score
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![007_index_003_impulse_exp252_index_aus200_h4_minor_impulse_028.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/007_index_003_impulse_exp252_index_aus200_h4_minor_impulse_028.png)
+
+## 8. impulse_exp252_metals_xagusd_h4_major_impulse_002
+- resolved_market_group: Metals
+- phase256_policy_bucket: usable_provisional_structure
+- selection_reason: usable_or_provisional
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![008_metals_010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/008_metals_010_impulse_exp252_metals_xagusd_h4_major_impulse_002.png)
+
+## 9. impulse_exp252_metals_xagusd_h4_intermediate_impulse_002
+- resolved_market_group: Metals
+- phase256_policy_bucket: visual_watchlist_low_prominence
+- selection_reason: watchlist_low_prominence
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: medium
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![009_metals_006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/009_metals_006_impulse_exp252_metals_xagusd_h4_intermediate_impulse_002.png)
+
+## 10. impulse_exp252_metals_xagusd_h4_minor_impulse_004
+- resolved_market_group: Metals
+- phase256_policy_bucket: exclude_from_guided_search
+- selection_reason: low_prominence_representative
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![010_metals_002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/010_metals_002_impulse_exp252_metals_xagusd_h4_minor_impulse_004.png)
+
+## 11. hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001
+- resolved_market_group: Metals
+- phase256_policy_bucket: exclude_from_guided_search
+- selection_reason: ema_htf_conflict_or_misleading
+- market_group_visual_verdict: policy_consistent_for_group
+- market_group_bias_risk: low
+- notes: Review before changing weights; do not compare raw scores across market groups as if fully normalized.
+
+![011_metals_047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_6b_market_group_bias_audit_2026-05-24/charts/selected_by_market_group/011_metals_047_hard_invalid_exp252_metals_xagusd_h4_intermediate_impulse_001.png)

@@ -1,0 +1,6 @@
+check,status,rows
+allowed_timing_states_only,passed,114
+fib_limit_only_specific_timing_source,passed,3
+macd_breakout_only_specific_timing_source,passed,94
+rsi_trend_reversal_only_specific_timing_source,passed,0
+no_operational_timing_flags,passed,114

@@ -1,0 +1,32 @@
+{
+  "phase": "trading_center_market_correlations_v1",
+  "generated_at": "2026-05-31T12:58:28Z",
+  "decision": "trading_center_market_correlations_v1_ready_for_dashboard",
+  "source_ohlc_csv": "artifacts\\tfg\\trading_center_sql_market_data_readonly_v1_2026-05-31\\ohlc_mtf.csv",
+  "timeframes": [
+    "M15",
+    "H1",
+    "H4",
+    "D1"
+  ],
+  "pair_rows": 7080,
+  "rolling_rows": 28320,
+  "min_observations": 40,
+  "dcor_max_observations": 80,
+  "returns_sample_rows": 167748,
+  "returns_sample_size_per_symbol_timeframe": 700,
+  "artifact_first": true,
+  "returns_based": true,
+  "price_based_correlation": false,
+  "sql_real_read": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "db_connected": false,
+  "mt5_connected": false,
+  "telegram_connected": false,
+  "orders_sent": 0,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "wavecount_used_as_filter": false,
+  "can_execute_order_any_true": false
+}

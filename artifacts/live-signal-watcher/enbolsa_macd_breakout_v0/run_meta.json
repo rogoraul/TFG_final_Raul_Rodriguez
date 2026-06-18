@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-16T16:18:45",
+  "mode": "snapshot",
+  "strategy": "enbolsa:macd_breakout",
+  "groups": [
+    "Forex Majors"
+  ],
+  "timeframe_ltf": "H1",
+  "timeframe_htf": "H4",
+  "lookback_bars": 1,
+  "registry_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\seen_events.json",
+  "mark_seen": false,
+  "watchlist_rows": 10,
+  "order_intents": 0
+}

@@ -1,0 +1,11 @@
+risk_id,category,risk,mitigation,severity
+token_leak,security,Token accidentally stored/printed.,"environment_only, secret scan, never print values",high
+chat_id_leak,security,Chat id committed to repo.,"environment_only, no .env, audit token_printed/chat_id_printed false",high
+spam,operational,Too many informational messages.,"cooldown, max daily, dedup, condition gates",medium
+operative_wording,methodology,Message sounds like instruction.,no-action audit and blocked wording list,high
+wavecount_signal_confusion,methodology,Study context interpreted as signal.,allow_wavecount_study=false by default; manual-only,high
+pseudo_bot,scope,Telegram becomes command surface.,no operational commands/buttons; sender only,high
+stale_artifacts,data,Message uses stale artifacts.,source freshness check and dashboard reference,medium
+false_live_feeling,academic,User thinks snapshot is live feed.,show run_kind/source artifact and read-only wording,medium
+cooldown_bug,technical,Dedup/cooldown lets duplicates through.,audit dedup_key and caps; tests before implementation,medium
+academic_overclaim,academic,TFG claims operational automation too early.,document as informational sender only,medium

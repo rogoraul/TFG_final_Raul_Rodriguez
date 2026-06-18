@@ -1,0 +1,38 @@
+{
+  "phase": "weavecount_screener_h1_h4_v1",
+  "generated_at": "2026-06-08T12:02:49.027393+00:00",
+  "decision": "weavecount_screener_h1_h4_v1_ready_for_dashboard_review",
+  "weavecount_screener_implemented": true,
+  "artifact_first": true,
+  "source_groups": [
+    "Forex Majors",
+    "Metals",
+    "Index"
+  ],
+  "source_timeframes": [
+    "H1",
+    "H4"
+  ],
+  "symbols_expected": 47,
+  "timeframes_expected": 2,
+  "symbol_timeframe_expected": 94,
+  "symbols_evaluated": 47,
+  "symbol_timeframes_evaluated": 94,
+  "active_count": 4,
+  "candidate_count": 90,
+  "no_clear_count": 0,
+  "study_only": true,
+  "is_signal": false,
+  "wavecount_used_as_filter": false,
+  "can_execute_order_any_true": false,
+  "sql_real_written": false,
+  "ddl_executed": false,
+  "mt5_connected": false,
+  "telegram_connected": false,
+  "orders_sent": 0,
+  "signals_generated": false,
+  "backtests_executed": false,
+  "source_ohlc": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\sql_market_data_readonly\\ohlc_mtf.csv",
+  "window_bars": 1100,
+  "elapsed_seconds": 99.549
+}

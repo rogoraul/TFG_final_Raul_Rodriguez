@@ -1,0 +1,10 @@
+Variante,Family,Group,LTF,HTF,TFPair,BlockId,OriginalTrades,RiskGuardTrades,OriginalReturn%,RiskGuardReturn%,ReturnDeltaPctPoints,OriginalPF,RiskGuardPF,OriginalMaxDD%,RiskGuardMaxDD%,AcceptedSetups,RejectedSetups,AcceptanceRate%
+enbolsa:macd_breakout,enbolsa,Forex Majors,H1,H4,H1:H4,forex-majors-h1-h4,4670,3744,1405.24,290.54,-1114.7,1.13,1.24,37.0,17.33,1872,463,80.17
+enbolsa:macd_breakout,enbolsa,Forex Majors,H4,D1,H4:D1,forex-majors-h4-d1,1282,1140,21.62,30.1,8.48,1.04,1.08,39.8,30.47,570,71,88.92
+enbolsa:macd_breakout,enbolsa,Forex Majors,M30,H1,M30:H1,forex-majors-m30-h1,6072,4404,-7.37,6.08,13.45,1.0,1.0,69.72,46.04,2202,834,72.53
+enbolsa:macd_breakout,enbolsa,Index,H1,H4,H1:H4,index-h1-h4,1608,1304,86.51,48.41,-38.1,1.15,1.12,34.54,34.37,652,152,81.09
+enbolsa:macd_breakout,enbolsa,Index,H4,D1,H4:D1,index-h4-d1,396,306,6.0,19.0,13.0,1.05,1.2,17.15,11.7,153,45,77.27
+enbolsa:macd_breakout,enbolsa,Index,M30,H1,M30:H1,index-m30-h1,3582,2788,165.91,143.5,-22.41,1.08,1.16,42.94,15.89,1394,397,77.83
+enbolsa:macd_breakout,enbolsa,Metals,H1,H4,H1:H4,metals-h1-h4,844,690,44.17,51.83,7.66,1.15,1.27,15.51,11.35,345,77,81.75
+enbolsa:macd_breakout,enbolsa,Metals,H4,D1,H4:D1,metals-h4-d1,242,202,36.28,30.44,-5.84,1.73,1.82,7.61,6.27,101,20,83.47
+enbolsa:macd_breakout,enbolsa,Metals,M30,H1,M30:H1,metals-m30-h1,1520,1172,15.87,46.29,30.42,1.04,1.14,33.24,26.6,586,174,77.11

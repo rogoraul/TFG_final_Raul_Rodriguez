@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-05-17T16:27:27",
+  "finished_at": "2026-05-17T16:27:37",
+  "elapsed_seconds": 10.070718300004955,
+  "input_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase1_6_swing_degrees_2026-05-17",
+  "config": {
+    "primary_degree": "intermediate",
+    "context_degree": "major",
+    "min_abc_c_vs_a": 0.5,
+    "max_b_retrace": 1.0,
+    "max_wave2_retrace_warning": 0.95,
+    "max_wave4_retrace_warning": 0.95,
+    "major_conflict_mode": "soft"
+  },
+  "charts": [
+    {
+      "example_id": "forex_clean_eurusd_h1",
+      "chart_path": "charts\\forex_clean_eurusd_h1_counts.png",
+      "status": "ok",
+      "selected_impulse": "forex_clean_eurusd_h1_impulse_005",
+      "selected_abc": "forex_clean_eurusd_h1_abc_009",
+      "error": ""
+    },
+    {
+      "example_id": "metals_noisy_xauusd_m30",
+      "chart_path": "charts\\metals_noisy_xauusd_m30_counts.png",
+      "status": "ok",
+      "selected_impulse": "metals_noisy_xauusd_m30_impulse_011",
+      "selected_abc": "metals_noisy_xauusd_m30_abc_013",
+      "error": ""
+    },
+    {
+      "example_id": "index_gap_aus200_m30",
+      "chart_path": "charts\\index_gap_aus200_m30_counts.png",
+      "status": "ok",
+      "selected_impulse": "index_gap_aus200_m30_impulse_009",
+      "selected_abc": "index_gap_aus200_m30_abc_014",
+      "error": ""
+    },
+    {
+      "example_id": "metals_ambiguous_xptusd_h1",
+      "chart_path": "charts\\metals_ambiguous_xptusd_h1_counts.png",
+      "status": "ok",
+      "selected_impulse": "metals_ambiguous_xptusd_h1_impulse_008",
+      "selected_abc": "metals_ambiguous_xptusd_h1_abc_008",
+      "error": ""
+    }
+  ],
+  "outputs": {
+    "candidate_counts": "tables/candidate_counts.csv",
+    "count_legs": "tables/count_legs.csv",
+    "count_summary": "tables/count_summary.csv",
+    "charts_dir": "charts",
+    "report": "WAVECOUNT_PHASE2_REPORT.md"
+  },
+  "notes": [
+    "No raw pivots are consumed directly for counts.",
+    "No trading signals, filters, MT5 connection or backtests are produced.",
+    "count_detected_at is the max structural_detected_at of the swings used."
+  ]
+}

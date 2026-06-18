@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-05-20T00:12:00",
+  "finished_at": "2026-05-20T00:12:00",
+  "elapsed_seconds": 0.17252730001928285,
+  "phase2_3_rows": 54,
+  "phase2_4_rows": 54,
+  "user_must_review_rows": 57,
+  "best_example_rows": 11,
+  "outputs": {
+    "phase2_3_visual_reaudit": "tables/phase2_3_visual_reaudit.csv",
+    "phase2_4_context_reaudit": "tables/phase2_4_context_reaudit.csv",
+    "user_must_review_compressed": "tables/user_must_review_compressed.csv",
+    "best_examples_compressed": "tables/best_examples_compressed.csv",
+    "summary": "tables/compressed_reaudit_summary.csv",
+    "report": "WAVECOUNT_COMPRESSED_REAUDIT_REPORT.md"
+  }
+}

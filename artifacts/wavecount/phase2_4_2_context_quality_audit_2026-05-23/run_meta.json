@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-05-23T23:11:55",
+  "finished_at": "2026-05-23T23:12:03",
+  "elapsed_seconds": 7.8522494999924675,
+  "inputs": {
+    "h4_context_dir": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1",
+    "aux_context_dir": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h1_m30",
+    "phase23_closure_dir": "artifacts\\wavecount\\phase2_3_4_h4_d1_visual_closure_2026-05-23",
+    "previous_h4_audit_dir": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20",
+    "aux_visual_audit_dir": "artifacts\\wavecount\\phase2_4_1_context_visual_audit_2026-05-19"
+  },
+  "rows": {
+    "h4_d1_context_quality_audit": 54,
+    "h1_h4_m30_h1_aux_context_audit": 54,
+    "context_rule_candidates": 10,
+    "context_misleading_cases": 6,
+    "context_confirms_good_counts": 8,
+    "context_explains_ambiguous_counts": 13,
+    "context_should_not_rescue_counts": 49,
+    "user_must_review_context_cases": 1,
+    "phase25_context_readiness": 1,
+    "context_quality_summary": 28
+  },
+  "outputs": {
+    "h4_d1_context_quality_audit": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\h4_d1_context_quality_audit.csv",
+    "h1_h4_m30_h1_aux_context_audit": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\h1_h4_m30_h1_aux_context_audit.csv",
+    "context_rule_candidates": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_rule_candidates.csv",
+    "context_misleading_cases": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_misleading_cases.csv",
+    "context_confirms_good_counts": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_confirms_good_counts.csv",
+    "context_explains_ambiguous_counts": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_explains_ambiguous_counts.csv",
+    "context_should_not_rescue_counts": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_should_not_rescue_counts.csv",
+    "user_must_review_context_cases": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\user_must_review_context_cases.csv",
+    "phase25_context_readiness": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\phase25_context_readiness.csv",
+    "context_quality_summary": "artifacts\\wavecount\\phase2_4_2_context_quality_audit_2026-05-23\\tables\\context_quality_summary.csv"
+  },
+  "notes": [
+    "No counting rules were changed.",
+    "No strategy, signal, MT5 or benchmark artifact was changed.",
+    "Charts are annotated copies of the current Phase 2.4 context images.",
+    "The authoritative Phase 2.3 base is phase2_3_4_h4_d1_visual_closure_2026-05-23."
+  ]
+}

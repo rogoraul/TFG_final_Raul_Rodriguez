@@ -1,0 +1,4 @@
+trend_compatibility,rows,fib_limit_live_rows,policy
+compatible,37,0,compatible can add quality; mixed is caution; against is downgraded and study-only
+mixed,56,4,compatible can add quality; mixed is caution; against is downgraded and study-only
+against,4,0,compatible can add quality; mixed is caution; against is downgraded and study-only

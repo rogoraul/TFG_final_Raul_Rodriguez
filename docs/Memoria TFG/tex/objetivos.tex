@@ -1,0 +1,90 @@
+\section{Objetivos del trabajo}
+\label{sec:objetivos-trabajo}
+
+\subsection{Objetivo general}
+
+El objetivo general de este Trabajo de Fin de Grado consiste en construir una
+plataforma de visualizaci\'on y apoyo al an\'alisis de estrategias de trading.
+Esta plataforma busca ordenar el an\'alisis del mercado a partir de datos,
+reducir el tiempo dedicado a tareas repetitivas de revisi\'on, priorizar
+candidatos de estudio y mantener una visi\'on
+ordenada de la informaci\'on disponible. El prop\'osito no es sustituir el
+criterio del usuario ni desarrollar un sistema que opere de forma totalmente
+aut\'onoma. Se busca crear una base t\'ecnica que permita estudiar reglas de
+entrada, contextualizarlas con datos de mercado, aprovechar mejor la evidencia
+disponible y presentarla de forma clara para facilitar la toma de decisiones
+supervisada.
+
+Para ello, el trabajo busca convertir estrategias y criterios originalmente
+descritos de forma discrecional en reglas que puedan calcularse, compararse y
+evaluarse de manera sistem\'atica mediante distintos m\'etodos. Esta
+formalizaci\'on se basa en datos intradiarios y diarios. Adem\'as, se apoya en
+informaci\'on externa de contexto cuando procede, en procesos de backtesting y
+en la comparaci\'on con estrategias de referencia. De este modo, la evaluaci\'on
+de cada estrategia no se apoya solo en la lectura puntual de una se\~nal. Tambi\'en
+se apoya en un conjunto de evidencias revisables: m\'etricas de comportamiento,
+tablas comparativas, gr\'aficos, informes y registros generados durante las pruebas.
+
+El sistema resultante se plantea como una base ampliable. Permite incorporar
+nuevas estrategias al Screener, entendido como filtro de candidatos, generar
+estad\'isticas sobre su comportamiento y estudiar su robustez antes de considerar
+cualquier uso m\'as operativo. En este contexto, se presenta una plataforma
+interactiva que agrupa gr\'aficos, Screener y an\'alisis estructural del precio
+mediante WaveCount y WeaveCount. Tambi\'en integra AI Analyst, conexi\'on con MT5
+y Telegram como elementos de apoyo, seguimiento y organizaci\'on de la informaci\'on.
+
+\subsection{Objetivos espec\'ificos}
+
+A partir del objetivo general, el trabajo se concreta en los siguientes
+objetivos espec\'ificos:
+
+\begin{enumerate}
+    \setlength{\itemsep}{0.35em}
+    \setlength{\parsep}{0pt}
+    \item Recopilar, preparar y organizar los datos necesarios para el estudio,
+    combinando series intradiarias, datos diarios e informaci\'on externa de
+    apoyo cuando est\'e disponible. Este objetivo incluye el dise\~no de un flujo
+    de ingesta incremental, as\'incrono y optimizado en tiempo, orientado a
+    mantener actualizada la informaci\'on de mercado sin repetir procesos
+    innecesarios.
+
+    \item Formalizar estrategias de trading y criterios de contexto descritos
+    originalmente de forma discrecional. Para ello, se traducen reglas de
+    entrada, condiciones de mercado, niveles t\'ecnicos y filtros de revisi\'on a
+    procedimientos calculables, de forma que puedan evaluarse de manera
+    sistem\'atica.
+
+    \item Dise\~nar y ejecutar pruebas hist\'oricas que permitan estudiar el
+    comportamiento de las estrategias formalizadas. Estas pruebas deben
+    compararse con estrategias de referencia y evitar problemas de
+    \textit{look-ahead}, entendidos como el uso de informaci\'on que todav\'ia no
+    estar\'ia disponible en una revisi\'on real, de forma que las se\~nales se
+    eval\'uen solo con la informaci\'on que habr\'ia estado disponible en cada
+    momento.
+
+    \item Incorporar herramientas de an\'alisis estructural basadas en
+    WaveCount y WeaveCount para estudiar la organizaci\'on del movimiento del
+    precio. Este objetivo no busca automatizar una decisi\'on operativa, sino
+    a\~nadir una capa de contexto que ayude a interpretar las se\~nales generadas
+    por las estrategias.
+
+    \item Desarrollar una plataforma interactiva de visualizaci\'on y revisi\'on de datos que permita
+    consultar mercado, gr\'aficos, evidencias generadas, Screener, estado del
+    sistema y relaciones entre activos desde una interfaz com\'un. La finalidad
+    es reducir la dispersi\'on de informaci\'on, facilitar una revisi\'on
+    supervisada de los candidatos priorizados y ayudar a identificar activos
+    con alta correlaci\'on que podr\'ian concentrar riesgo de forma inadvertida,
+    pese a parecer diversificados.
+
+    \item Integrar un asistente de an\'alisis en modo solo lectura que ayude a
+    preparar informes y paquetes reproducibles a partir de la informaci\'on
+    disponible. Este asistente se plantea como apoyo a la revisi\'on, no como
+    mecanismo de aprobaci\'on de operaciones.
+
+    \item Verificar una capa controlada de observabilidad y ejecuci\'on demo mediante
+    conexi\'on con MT5, RiskGuard y Telegram informativo. Este objetivo permite
+    comprobar el flujo t\'ecnico de lectura, auditor\'ia y generaci\'on de propuestas de orden.
+    Tambi\'en incluye el env\'io controlado de \'ordenes desde el bot de MT5 y el
+    seguimiento informativo de eventos mediante Telegram, manteniendo fuera del
+    alcance la operaci\'on aut\'onoma en producci\'on.
+\end{enumerate}

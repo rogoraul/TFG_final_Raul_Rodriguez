@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-06-08T14:07:16",
+  "mode": "snapshot",
+  "strategy": "enbolsa:macd_breakout",
+  "groups": [
+    "Forex Majors",
+    "Metals",
+    "Index"
+  ],
+  "timeframe_ltf": "H1",
+  "timeframe_htf": "H4",
+  "lookback_bars": 1,
+  "registry_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\macd_breakout_watcher\\pairs\\h1_h4\\seen_events.json",
+  "mark_seen": false,
+  "watchlist_rows": 10,
+  "order_intents": 0
+}

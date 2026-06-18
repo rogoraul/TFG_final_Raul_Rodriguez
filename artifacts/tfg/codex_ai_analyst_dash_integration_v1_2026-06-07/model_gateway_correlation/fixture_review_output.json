@@ -1,0 +1,37 @@
+{
+  "review_id": "dash_fixture_review",
+  "package_id": "correlation_H1_XAGEUR.r_XAGUSD.r_d67ee4c9",
+  "review_status": "reviewed",
+  "review_priority": 3,
+  "summary": "Revision fixture de correlacion generada desde el Dash; no hay llamada real a modelo.",
+  "setup_reading": "Paquete de correlacion validado para revisar relacion estadistica y rolling sin convertirlo en senal.",
+  "confluences": [
+    "metricas de correlacion exportadas",
+    "retornos alineados incluidos"
+  ],
+  "contradictions": [
+    "sin review IA real todavia"
+  ],
+  "risk_notes": [
+    "No usar como instruccion operativa ni autorizacion."
+  ],
+  "human_next_checks": [
+    "Revisar manualmente grafico, timing y contexto antes de cualquier decision humana."
+  ],
+  "sources": [
+    "setup_context.json",
+    "market_context.json",
+    "ohlc_window.csv",
+    "chart_layers.csv",
+    "chart.png"
+  ],
+  "safety_flags": {
+    "can_execute_order": false,
+    "would_send_to_mt5": false,
+    "would_send_telegram_order": false,
+    "sql_real_written": false,
+    "mt5_connected": false,
+    "telegram_connected": false,
+    "signals_generated": false
+  }
+}

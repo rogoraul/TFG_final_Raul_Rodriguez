@@ -1,0 +1,12 @@
+criterion,assessment,value_score,risk_score,notes,recommendation
+value_for_tfg_memory,medium,3,2,"The design/preflight/preview is useful as evidence of safety-by-design and traceability, but real SQL writes are not required to explain the TFG.","Keep preview-only and frame as future-ready audit layer."
+technical_platform_value,medium,3,3,"A real writer would add persistence, but current artifacts already preserve the dry-run ledger reproducibly.","Defer until runtime consumers genuinely need SQL persistence."
+needed_for_dashboard,low,1,3,"Dashboard currently reads snapshots/artifacts/read-only SQL views, not runtime ledger writes.","Do not block dashboard review on writer real."
+needed_for_telegram,low,1,4,"Telegram informational can summarize artifacts/previews; command bot is still pending and read-only.","Do not use SQL writer as Telegram dependency now."
+needed_for_bot_dry_run,low,1,3,"Bot dry-run already produces CSV/JSON ledger and is validated artifact-first.","Keep bot dry-run artifact ledger as canonical for now."
+needed_for_ai_analyst,low_to_medium,2,3,"AI Analyst could read artifacts first; SQL runtime may help later but is not necessary for design/read-only analysis.","Do AI Analyst over artifacts/case packets first."
+complexity_cost,high_negative,1,4,"Real writer introduces DB target, credentials, DDL/migrations, idempotency against live state and retention policy.","Avoid now unless a strong consumer requires it."
+credential_db_risk,high_negative,1,5,"Moving beyond boolean checks introduces secret handling and DB safety risks.","Keep environment/DB handling out of scope for now."
+live_trading_confusion_risk,high_negative,1,4,"Runtime SQL writes could make dry-run appear operational/live, especially with dashboard/Telegram nearby.","Do not create real runtime writes before stronger UX/memory framing."
+mt5_proximity_risk,high_negative,1,5,"A real runtime ledger can be mistaken as an execution queue before MT5 gates exist.","Keep MT5 separated and blocked."
+overall,preview_only_preferred,3,4,"Current preview gives most methodological value with much lower operational risk.","Recommend no-go for real writer now."

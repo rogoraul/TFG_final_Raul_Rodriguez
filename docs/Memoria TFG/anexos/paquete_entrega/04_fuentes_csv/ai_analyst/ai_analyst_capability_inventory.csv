@@ -1,0 +1,14 @@
+capability,status,evidence,limit
+boton_flotante_ai_analyst,implemented,dash_readonly_app exposes ai-analyst-toggle and ai-analyst-panel,"read-only panel, no operational controls"
+selector_tipo_analisis,implemented,"Setup Screener, Mercado general, Correlacion and Onda WeaveCount contexts",context selection only
+setup_screener_review,implemented,package renderer and Dash callbacks create screener_setup packages,"review context, not signal"
+market_summary_review,implemented,Dash package path for market_summary plus market chart/context generation,"global context, not trading instruction"
+correlation_review,implemented,Dash package path for correlation plus correlation context package,relationship/risk context only
+weavecount_review,implemented,Dash package path for weavecount_case with chart and Elliott paragraph in PDF,study-only structural hypothesis
+preparar_paquete_fixture,implemented,default Dash action uses fixture/local package validation,does not call model
+codex_local_call,implemented_gated,"provider-id codex_cli, sandbox read-only, approvals never, explicit button",manual call only
+codex_macro_call,implemented_gated,Codex + macro button adds macro-web-research explicitly,"macro context is cautionary, not execution permission"
+pdf_report,implemented,validated report PDF with LaTeX/fallback and clickable external sources,read-only human report
+diagnostic_pdf,implemented,diagnostic PDF produced when gateway output is blocked or invalid,not an analytical report
+chart_png,implemented,renderer package includes chart.png from artifacts,image supports structured data; it does not replace it
+review_output_json,implemented,gateway writes review_output.json when output validates,"schema-gated, no side effects"

@@ -1,0 +1,9 @@
+check_id,check,status,evidence,risk
+PDF_01,validated_vs_diagnostic_pdf,passed,Dash labels Descargar informe PDF only on pass; diagnostic PDF otherwise,diagnostic could be mistaken for review if label regresses
+PDF_02,local_sources_described,passed,local repository sources are rendered with short explanations,source provenance must stay readable
+PDF_03,external_sources_clickable,passed,"external URLs rendered as clickable labels, not overlapping table cells",long raw URLs can break layout if reintroduced
+PDF_04,financial_language,passed,"PDF uses report prose, human labels and read-only conclusion",avoid code-like field names in user-facing report
+PDF_05,macro_interpretation,passed,macro section is paragraph-based and interprets implications when macro is requested,macro may be incomplete; unknown must be explicit
+PDF_06,weavecount_elliott_paragraph,passed,weavecount_case includes Elliott/WeaveCount structural paragraph,"must remain hypothesis, not count confirmation"
+PDF_07,context_specific_conclusion,passed,"conclusion differs for screener, weavecount, market and correlation contexts",generic conclusion would reduce analytical value
+PDF_08,blocked_language_absent,passed,"policy blocks buy now, sell now, trade_ready, MT5 approval language",model output validation must keep forbidden language gate

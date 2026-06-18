@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{p{0.20\textwidth}p{0.26\textwidth}p{0.25\textwidth}p{0.21\textwidth}}
+\hline
+\textbf{Bloque} & \textbf{Par\'ametros principales} & \textbf{Convenci\'on experimental} & \textbf{Lectura en memoria} \\
+\hline
+\texttt{macd\_breakout} & Estructura W1/W2 aproximada por ZigZag, directriz W2 y confirmaci\'on MACD. & Entrada por ruptura confirmada al cierre; costes incorporados en la simulaci\'on. & Regla principal de ruptura y continuidad. \\
+\texttt{fib\_limit} & Nivel 61,8\% de Fibonacci, setup activo, W2 no invalidada y toque OHLC. & Entrada en el nivel cuando, tras crearse el setup, una vela alcanza la zona; stop y objetivo se eval\'uan desde la vela posterior por ambig\"uedad intrabar. & Regla de retroceso; no equivale a orden real enviada. \\
+\texttt{rsi\_trend\_reversal} & RSI en zona extrema, salida del umbral y tendencia alineada. & Se usa como se\~nal de estudio del Screener, sin estructura propia de stop y objetivo. & Prioriza revisiones, no forma parte del benchmark principal. \\
+Benchmarks de referencia & RSI, bandas de Bollinger, medias m\'oviles y momentum. & Se eval\'uan con el mismo motor, costes y grupos de datos que las reglas principales. & Comparaci\'on frente a reglas simples. \\
+M\'etricas y riesgo & Retorno, drawdown, factor de beneficio, expectativa, Sharpe, Sortino, Calmar y Recovery Factor. & Lectura por bloque experimental; no se une todo como una cartera real. & Comparaci\'on de rendimiento y riesgo bajo supuestos comunes. \\
+\hline
+\end{tabular}
+\caption[Par\'ametros y convenciones principales de simulaci\'on]{Resumen compacto de los par\'ametros y convenciones principales usados en la formalizaci\'on y simulaci\'on. La tabla ayuda a reproducir la lectura experimental sin convertir las reglas en instrucciones operativas reales.}
+\label{tab:parametros-reglas-simulacion}
+\end{table}

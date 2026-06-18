@@ -1,0 +1,12 @@
+# Open Technical Items
+
+| technical_item | status | evidence | estimated_scope | requires_code_changes | requires_new_artifacts | requires_manual_review | recommended_action |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| roadmap cleanup | pending | El roadmap aun contenia decisiones pre-2.5.10. | medium | False | True | False | Actualizar estado post-WaveCount en roadmap. |
+| dashboard read-only | future_only | Bloque deseable para plataforma, no imprescindible para cerrar evidencia del TFG. | large | True | True | True | Dejar post-memoria salvo decision explicita. |
+| telegram informativo | future_only | Depende de snapshots/deduplicacion y no debe operar. | medium | True | True | True | No hacer todavia. |
+| watcher integration outputs | implemented_not_integrated | Watcher v0 ya produce CSVs; falta convertirlo en UI/servicio estable si se prioriza plataforma. | medium | True | True | True | No bloquea memoria. |
+| RiskGuard live position source | pending | RiskGuard no tiene libro vivo ni broker adapter. | large | True | True | True | Futuro antes de dry-run, no ahora. |
+| Numba/Python parity | pending | Estado documentado como pendiente metodologico en ENBOLSA. | medium | True | True | False | Puede abordarse si se quiere reforzar reproducibilidad tecnica. |
+| packaging/reproducibility | pending | README/requirements existen, pero falta cierre academico de ejecucion reproducible. | medium | False | True | False | Hacer junto al mapa de memoria. |
+| tests inventory | pending | Hay suite amplia, pero falta separar unitarios puros de comprobaciones dependientes de datos reales. | medium | False | True | False | Documentar antes de entrega. |

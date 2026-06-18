@@ -1,0 +1,8 @@
+artifact_root,csv_files_checked,csv_cells_rewritten,md_files_rewritten,json_files_rewritten,run_meta_files_updated,broken_paths_after
+artifacts/wavecount/05_guided_profile/phase2_5_0_guided_context_score_2026-05-24,9,776,0,0,1,0
+artifacts/wavecount/05_guided_profile/phase2_5_1_guided_impulse_profile_2026-05-24,7,550,0,0,1,0
+artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24,20,1051,7,0,3,0
+artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24,21,1244,9,0,3,0
+artifacts/wavecount/05_guided_profile/phase2_5_3_descriptive_stats_2026-05-24,13,82,3,0,1,0
+artifacts/wavecount/90_global_audits/global_audit_2026-05-24,9,51,0,0,1,0
+artifacts/wavecount/90_global_audits/reorg_plan_2026-05-24,9,30,0,0,1,0

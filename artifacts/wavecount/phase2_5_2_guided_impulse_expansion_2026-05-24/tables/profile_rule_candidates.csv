@@ -1,0 +1,5 @@
+rule_candidate,policy,evidence,must_not_be_hard_signal
+h4_d1_intermediate_required,keep_as_soft_gate,Matches concentrate on H4/D1 intermediate; other degrees are near-miss/context.,True
+ewo_supports_but_does_not_label,soft_context,"EWO is useful when it supports role/momentum, but unclear/misleading cases remain.",True
+ema_htf_context_cannot_rescue,soft_context,"Context conflicts are kept as near-miss or risk, not as strong matches.",True
+inside_ema_band_ambiguity_penalty,soft_penalty,"Inside EMA band should increase ambiguity, not invalidate automatically.",True

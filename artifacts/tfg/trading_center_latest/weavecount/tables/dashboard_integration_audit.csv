@@ -1,0 +1,2 @@
+check_name,status,artifact,notes
+dash_artifact_contract,pass,artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\weavecount_screener_h1_h4\weavecount_screener.csv,Dash can consume this artifact as the primary WeaveCount source.

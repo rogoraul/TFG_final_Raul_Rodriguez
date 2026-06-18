@@ -1,0 +1,5 @@
+check_name,status
+study_only_all_true,pass
+is_signal_all_false,pass
+wavecount_used_as_filter_all_false,pass
+can_execute_order_all_false,pass

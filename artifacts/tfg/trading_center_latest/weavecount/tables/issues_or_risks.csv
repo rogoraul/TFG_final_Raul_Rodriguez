@@ -1,0 +1,3 @@
+severity,issue,status,notes
+medium,algorithmic_study_not_manual_validation,documented,Broad H1/H4 classifications are study candidates and may require visual/manual review.
+info,no_clear_counts_expected,accepted,Assets without enough conservative structure are left as no_clear_count instead of forcing a wave.

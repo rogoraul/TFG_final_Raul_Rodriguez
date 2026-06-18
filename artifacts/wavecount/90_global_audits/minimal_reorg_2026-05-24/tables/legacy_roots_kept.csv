@@ -1,0 +1,8 @@
+legacy_path,current_path,status,kept_in_place,deletion_performed,notes
+artifacts/wavecount/phase2_5_0_guided_context_score_2026-05-24,artifacts/wavecount/05_guided_profile/phase2_5_0_guided_context_score_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/phase2_5_1_guided_impulse_profile_2026-05-24,artifacts/wavecount/05_guided_profile/phase2_5_1_guided_impulse_profile_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/phase2_5_2_guided_impulse_expansion_2026-05-24,artifacts/wavecount/05_guided_profile/phase2_5_2_h4_d1_expansion_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/phase2_5_2b_h1_h4_aux_expansion_2026-05-24,artifacts/wavecount/05_guided_profile/phase2_5_2b_h1_h4_aux_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/phase2_5_3_descriptive_stats_2026-05-24,artifacts/wavecount/05_guided_profile/phase2_5_3_descriptive_stats_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/global_audit_2026-05-24,artifacts/wavecount/90_global_audits/global_audit_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.
+artifacts/wavecount/reorg_plan_2026-05-24,artifacts/wavecount/90_global_audits/reorg_plan_2026-05-24,legacy_temporal,yes,no,Kept to preserve traceability during minimal reorganization.

@@ -1,0 +1,19 @@
+field,type,meaning,required
+send_attempt_id,uuid/text,Unique attempt id for batch/message.,True
+generated_at,timestamp,Gate evaluation time.,True
+message_id,text,Message from rendered_messages.,True
+message_type,text,Type of message.,True
+dedup_key,text,Dedup key used for cooldown.,True
+gate_decision,enum,allowed_to_send|blocked_to_send|sent|send_failed.,True
+gate_reason,text,Human-readable reason.,True
+telegram_connected,bool,Whether sender connected; false in dry-run.,True
+send_real_requested,bool,CLI/operator asked for real send.,True
+send_real_executed,bool,Whether a real send was attempted.,True
+telegram_response_status,text,HTTP/API status without secret data.,True
+telegram_message_id_hash,text,Hashed external message id if sent.,True
+token_printed,bool,Must always be false.,True
+chat_id_printed,bool,Must always be false.,True
+safe_to_send,bool,Message safety status.,True
+delivery_status,text,Delivery status from dry-run.,True
+operator_confirmation,text/bool,Confirmation id/boolean without PII.,True
+source_artifacts,text,Input artifact paths.,True

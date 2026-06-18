@@ -1,0 +1,34 @@
+{
+  "started_at": "2026-05-21T18:26:00",
+  "finished_at": "2026-05-21T18:28:07",
+  "elapsed_seconds": 126.28839130001143,
+  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21",
+  "inputs": {
+    "h1_m30_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h1_m30",
+    "h4_d1_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+    "manual_feedback_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_manual_feedback_h1_m30_2026-05-21"
+  },
+  "config": {
+    "post_count_pivots": 4,
+    "min_extension_vs_wave5": 0.25,
+    "min_extension_vs_wave1": 0.1
+  },
+  "rows": {
+    "diagnostics": 42,
+    "reclassified": 32,
+    "manual_cases": 6,
+    "rule_candidates": 3,
+    "diagnostic_charts": 32
+  },
+  "notes": [
+    "Diagnostic only; no strategies, signals, backtests or MT5 execution were changed.",
+    "Post-count pivots are used only for retrospective audit of premature wave-5 endpoint risk."
+  ],
+  "outputs": {
+    "wave5_endpoint_diagnostics": "tables/wave5_endpoint_diagnostics.csv",
+    "wave5_cases_reclassified": "tables/wave5_cases_reclassified.csv",
+    "wave5_rule_candidates": "tables/wave5_rule_candidates.csv",
+    "manual_cases_wave5_review": "tables/manual_cases_wave5_review.csv",
+    "report": "WAVECOUNT_PHASE2_3_1_WAVE5_ENDPOINT_REPORT.md"
+  }
+}

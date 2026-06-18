@@ -1,0 +1,2 @@
+issue_id,severity,status,description,mitigation
+MG-FC-01,medium,review_required,real_model_called,Review real_model_call_audit and model_response_audit before trusting any generated report.

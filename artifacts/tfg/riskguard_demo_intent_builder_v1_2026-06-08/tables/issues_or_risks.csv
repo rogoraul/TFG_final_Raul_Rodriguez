@@ -1,0 +1,2 @@
+issue_id,severity,description,recommended_action
+no_accepted_intents,info,All candidate rows were blocked or non-eligible.,Review blocking reasons before any future demo sender design.

@@ -1,0 +1,171 @@
+symbol,group,group_normalized,timeframe,expected_minutes,summary_status,summary_error,duplicate_check_mode,duplicate_count,rows_count,first_time,last_time,minutes_since_last,latest_closed_like,stale_for_live,null_ohlc,null_tick_volume,null_spread,null_real_volume,nonpositive_ohlc,bad_ohlc,nan_like_ohlc,negative_volume_spread,misaligned_time,gap_status,gap_error,gap_count,short_gap_count,session_gap_count,max_gap_minutes
+AUDCAD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 03:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+AUDCAD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59820,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+AUDCAD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+AUDCAD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+AUDCAD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+AUDJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 03:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+AUDJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59821,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+AUDJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+AUDJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+AUDJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+AUDNZD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 01:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,228,11,217,5775
+AUDNZD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59817,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,260,9,251,5790
+AUDNZD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+AUDNZD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+AUDNZD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+AUDUSD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103308,2022-01-19 03:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,225,8,217,5775
+AUDUSD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59821,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+AUDUSD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+AUDUSD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+AUDUSD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+CADCHF.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-18 21:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,232,15,217,5775
+CADCHF.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59811,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,265,14,251,5790
+CADCHF.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+CADCHF.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+CADCHF.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+CADJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 03:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+CADJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59820,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+CADJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+CADJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+CADJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+CHFJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-18 17:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,247,30,217,5775
+CHFJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59811,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,266,15,251,5790
+CHFJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,257,6,251,5820
+CHFJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+CHFJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+EURAUD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 01:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+EURAUD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,101653,2018-01-10 20:30:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,439,12,427,5790
+EURAUD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,102243,2009-09-23 13:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,883,23,860,5820
+EURAUD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,33749,2004-06-17 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1164,29,1135,6000
+EURAUD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,5637,2004-06-17 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1158,0,1158,7200
+EURCAD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-18 23:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,229,12,217,5775
+EURCAD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59817,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+EURCAD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+EURCAD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+EURCAD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+EURCHF.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-18 22:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,232,15,217,5775
+EURCHF.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59816,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+EURCHF.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+EURCHF.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+EURCHF.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+EURGBP.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 03:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+EURGBP.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59821,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+EURGBP.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+EURGBP.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+EURGBP.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+EURJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 04:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,225,8,217,5775
+EURJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,101653,2018-01-10 23:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,439,12,427,5790
+EURJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,102243,2009-09-23 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,883,23,860,5820
+EURJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,39300,2000-12-15 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1337,19,1318,6000
+EURJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,6559,2000-12-15 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1334,0,1334,7200
+EURNZD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 00:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,228,11,217,5775
+EURNZD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59816,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,260,9,251,5790
+EURNZD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+EURNZD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+EURNZD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+EURUSD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103310,2022-01-19 02:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+EURUSD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,101654,2018-01-10 19:30:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,440,13,427,5790
+EURUSD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,102249,2009-09-22 13:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,884,24,860,5820
+EURUSD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,40792,2000-01-03 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1389,22,1367,6000
+EURUSD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,6808,2000-01-03 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1383,0,1383,7200
+GBPAUD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-18 21:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,231,14,217,5775
+GBPAUD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59813,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+GBPAUD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+GBPAUD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPAUD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+GBPCAD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103309,2022-01-18 21:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,234,17,217,5775
+GBPCAD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59815,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,262,11,251,5790
+GBPCAD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+GBPCAD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPCAD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+GBPCHF.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-18 23:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,231,14,217,5775
+GBPCHF.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59814,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,262,11,251,5790
+GBPCHF.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+GBPCHF.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPCHF.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+GBPJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 00:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,231,14,217,5775
+GBPJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59818,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+GBPJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+GBPJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+GBPNZD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-18 17:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,238,21,217,5775
+GBPNZD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59808,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,263,12,251,5790
+GBPNZD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+GBPNZD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPNZD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+GBPUSD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 02:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+GBPUSD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59818,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+GBPUSD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,257,6,251,5820
+GBPUSD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+GBPUSD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+NZDCAD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 00:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,231,14,217,5775
+NZDCAD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59816,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+NZDCAD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+NZDCAD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+NZDCAD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+NZDCHF.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 00:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,229,12,217,5775
+NZDCHF.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59817,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,261,10,251,5790
+NZDCHF.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+NZDCHF.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+NZDCHF.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+NZDJPY.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103306,2022-01-19 03:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,225,8,217,5775
+NZDJPY.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59820,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,259,8,251,5790
+NZDJPY.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+NZDJPY.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+NZDJPY.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+NZDUSD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 02:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+NZDUSD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59818,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,260,9,251,5790
+NZDUSD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29913,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+NZDUSD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+NZDUSD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+USDCAD.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-19 02:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,227,10,217,5775
+USDCAD.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59820,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,260,9,251,5790
+USDCAD.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+USDCAD.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+USDCAD.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+USDCHF.r,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103307,2022-01-18 23:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,234,17,217,5775
+USDCHF.r,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,59817,2021-05-26 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,262,11,251,5790
+USDCHF.r,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,29914,2021-05-26 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,256,5,251,5820
+USDCHF.r,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,7479,2021-05-26 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,4,251,6000
+USDCHF.r,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,1247,2021-05-26 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,0,255,7200
+USDJPY,Forex Majors,Forex Majors,M15,15,ok,,unique_index,0,103308,2022-01-19 03:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,226,9,217,5775
+USDJPY,Forex Majors,Forex Majors,M30,30,ok,,unique_index,0,101653,2018-01-10 19:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,443,16,427,5790
+USDJPY,Forex Majors,Forex Majors,H1,60,ok,,unique_index,0,102243,2009-09-22 08:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,901,41,860,5820
+USDJPY,Forex Majors,Forex Majors,H4,240,ok,,unique_index,0,41502,1999-12-28 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1390,22,1368,6000
+USDJPY,Forex Majors,Forex Majors,D1,1440,ok,,unique_index,0,7502,1999-12-28 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1385,0,1385,7200
+XAGEUR.r,Metals,Metals,M15,15,ok,,unique_index,0,102874,2021-11-02 01:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1138,910,228,5835
+XAGEUR.r,Metals,Metals,M30,30,ok,,unique_index,0,51462,2021-11-02 01:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1133,905,228,5850
+XAGEUR.r,Metals,Metals,H1,60,ok,,unique_index,0,25796,2021-11-02 01:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1128,900,228,5880
+XAGEUR.r,Metals,Metals,H4,240,ok,,unique_index,0,6757,2021-11-02 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,233,5,228,6000
+XAGEUR.r,Metals,Metals,D1,1440,ok,,unique_index,0,1127,2021-11-02 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,232,0,232,7200
+XAGUSD.r,Metals,Metals,M15,15,ok,,unique_index,0,103158,2021-11-02 02:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1132,904,228,5835
+XAGUSD.r,Metals,Metals,M30,30,ok,,unique_index,0,71433,2020-02-28 01:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1564,1248,316,5850
+XAGUSD.r,Metals,Metals,H1,60,ok,,unique_index,0,35737,2020-02-28 01:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1560,1244,316,5880
+XAGUSD.r,Metals,Metals,H4,240,ok,,unique_index,0,9352,2020-02-28 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,324,8,316,6000
+XAGUSD.r,Metals,Metals,D1,1440,ok,,unique_index,0,1560,2020-02-28 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,320,0,320,7200
+XAUEUR.r,Metals,Metals,M15,15,ok,,unique_index,0,103158,2021-11-01 17:15:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1133,905,228,5835
+XAUEUR.r,Metals,Metals,M30,30,ok,,unique_index,0,55959,2021-06-21 08:30:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1227,980,247,5850
+XAUEUR.r,Metals,Metals,H1,60,ok,,unique_index,0,27997,2021-06-21 08:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1223,976,247,5880
+XAUEUR.r,Metals,Metals,H4,240,ok,,unique_index,0,7326,2021-06-21 08:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,255,8,247,6000
+XAUEUR.r,Metals,Metals,D1,1440,ok,,unique_index,0,1223,2021-06-21 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,251,0,251,7200
+XAUUSD.r,Metals,Metals,M15,15,ok,,unique_index,0,103158,2021-11-01 23:30:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1133,905,228,5835
+XAUUSD.r,Metals,Metals,M30,30,ok,,unique_index,0,71432,2020-02-28 01:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1565,1249,316,5850
+XAUUSD.r,Metals,Metals,H1,60,ok,,unique_index,0,35730,2020-02-28 01:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1560,1244,316,5880
+XAUUSD.r,Metals,Metals,H4,240,ok,,unique_index,0,9349,2020-02-28 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,325,9,316,6000
+XAUUSD.r,Metals,Metals,D1,1440,ok,,unique_index,0,1560,2020-02-28 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,320,0,320,7200
+XCUUSD.r,Metals,Metals,M15,15,ok,,unique_index,0,45375,2023-09-18 03:00:00,2026-03-17 09:45:00,87368.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,640,509,131,6195
+XCUUSD.r,Metals,Metals,M30,30,ok,,unique_index,0,22696,2023-09-18 03:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,637,506,131,6210
+XCUUSD.r,Metals,Metals,H1,60,ok,,unique_index,0,11354,2023-09-18 03:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,632,501,131,6240
+XCUUSD.r,Metals,Metals,H4,240,ok,,unique_index,0,3734,2023-09-18 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,177,46,131,6240
+XCUUSD.r,Metals,Metals,D1,1440,ok,,unique_index,0,632,2023-09-18 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,133,0,133,7200
+XPDUSD,Metals,Metals,M15,15,ok,,unique_index,0,103141,2021-10-19 06:00:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1162,932,230,5835
+XPDUSD,Metals,Metals,M30,30,ok,,unique_index,0,67535,2013-01-25 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,5386,4629,757,14400
+XPDUSD,Metals,Metals,H1,60,ok,,unique_index,0,35789,2013-01-25 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,3448,2691,757,14400
+XPDUSD,Metals,Metals,H4,240,ok,,unique_index,0,10827,2013-01-25 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,2290,1533,757,14400
+XPDUSD,Metals,Metals,D1,1440,ok,,unique_index,0,3443,2013-01-25 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,697,0,697,14400
+XPTUSD,Metals,Metals,M15,15,ok,,unique_index,0,103141,2021-10-22 18:45:00,2026-03-17 10:00:00,87353.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,1144,914,230,5835
+XPTUSD,Metals,Metals,M30,30,ok,,unique_index,0,67674,2013-02-03 00:00:00,2026-03-17 09:30:00,87383.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,5379,4625,754,5850
+XPTUSD,Metals,Metals,H1,60,ok,,unique_index,0,35845,2013-02-03 00:00:00,2026-03-17 09:00:00,87413.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,3446,2692,754,5880
+XPTUSD,Metals,Metals,H4,240,ok,,unique_index,0,10830,2013-02-03 00:00:00,2026-03-17 04:00:00,87713.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,2291,1537,754,6000
+XPTUSD,Metals,Metals,D1,1440,ok,,unique_index,0,3443,2013-02-03 00:00:00,2026-03-16 00:00:00,89393.9242829,True,True,0,0,0,0,0,0,0,0,0,ok,,696,0,696,7200

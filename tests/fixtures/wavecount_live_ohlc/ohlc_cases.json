@@ -1,0 +1,327 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "ohlc_possible_wave1",
+      "symbol": "OHLC_W1",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-01T08:00:00",
+      "expected_structure_phase": "possible_wave1",
+      "bars": [
+        {"time": "2026-02-01T00:00:00", "close": 104.0},
+        {"time": "2026-02-01T04:00:00", "close": 100.0},
+        {"time": "2026-02-01T08:00:00", "close": 108.0},
+        {"time": "2026-02-01T12:00:00", "close": 110.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_possible_wave2",
+      "symbol": "OHLC_W2",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-02T12:00:00",
+      "expected_structure_phase": "possible_wave2",
+      "bars": [
+        {"time": "2026-02-02T00:00:00", "close": 104.0},
+        {"time": "2026-02-02T04:00:00", "close": 100.0},
+        {"time": "2026-02-02T08:00:00", "close": 112.0},
+        {"time": "2026-02-02T12:00:00", "close": 105.0},
+        {"time": "2026-02-02T16:00:00", "close": 116.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_wave3_candidate",
+      "symbol": "OHLC_W3C",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-03T16:00:00",
+      "expected_structure_phase": "possible_wave3_candidate",
+      "bars": [
+        {"time": "2026-02-03T00:00:00", "close": 104.0},
+        {"time": "2026-02-03T04:00:00", "close": 100.0},
+        {"time": "2026-02-03T08:00:00", "close": 112.0},
+        {"time": "2026-02-03T12:00:00", "close": 105.0},
+        {"time": "2026-02-03T16:00:00", "close": 111.0},
+        {"time": "2026-02-03T20:00:00", "close": 126.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_wave3_active",
+      "symbol": "OHLC_W3A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-04T16:00:00",
+      "expected_structure_phase": "possible_wave3_active",
+      "bars": [
+        {"time": "2026-02-04T00:00:00", "close": 104.0},
+        {"time": "2026-02-04T04:00:00", "close": 100.0},
+        {"time": "2026-02-04T08:00:00", "close": 112.0},
+        {"time": "2026-02-04T12:00:00", "close": 105.0},
+        {"time": "2026-02-04T16:00:00", "close": 118.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_possible_wave4",
+      "symbol": "OHLC_W4",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-05T20:00:00",
+      "expected_structure_phase": "possible_wave4",
+      "bars": [
+        {"time": "2026-02-05T00:00:00", "close": 104.0},
+        {"time": "2026-02-05T04:00:00", "close": 100.0},
+        {"time": "2026-02-05T08:00:00", "close": 112.0},
+        {"time": "2026-02-05T12:00:00", "close": 105.0},
+        {"time": "2026-02-05T16:00:00", "close": 126.0},
+        {"time": "2026-02-05T20:00:00", "close": 119.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_wave5_candidate",
+      "symbol": "OHLC_W5C",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-07T00:00:00",
+      "expected_structure_phase": "possible_wave5_candidate",
+      "bars": [
+        {"time": "2026-02-06T00:00:00", "close": 104.0},
+        {"time": "2026-02-06T04:00:00", "close": 100.0},
+        {"time": "2026-02-06T08:00:00", "close": 112.0},
+        {"time": "2026-02-06T12:00:00", "close": 105.0},
+        {"time": "2026-02-06T16:00:00", "close": 126.0},
+        {"time": "2026-02-06T20:00:00", "close": 118.0},
+        {"time": "2026-02-07T00:00:00", "close": 124.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_wave5_active",
+      "symbol": "OHLC_W5A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-08T00:00:00",
+      "expected_structure_phase": "possible_wave5_active",
+      "bars": [
+        {"time": "2026-02-07T00:00:00", "close": 104.0},
+        {"time": "2026-02-07T04:00:00", "close": 100.0},
+        {"time": "2026-02-07T08:00:00", "close": 112.0},
+        {"time": "2026-02-07T12:00:00", "close": 105.0},
+        {"time": "2026-02-07T16:00:00", "close": 126.0},
+        {"time": "2026-02-07T20:00:00", "close": 118.0},
+        {"time": "2026-02-08T00:00:00", "close": 130.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_completed_impulse",
+      "symbol": "OHLC_WDONE",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-09T04:00:00",
+      "expected_structure_phase": "completed_impulse_candidate",
+      "bars": [
+        {"time": "2026-02-08T00:00:00", "close": 104.0},
+        {"time": "2026-02-08T04:00:00", "close": 100.0},
+        {"time": "2026-02-08T08:00:00", "close": 112.0},
+        {"time": "2026-02-08T12:00:00", "close": 105.0},
+        {"time": "2026-02-08T16:00:00", "close": 126.0},
+        {"time": "2026-02-08T20:00:00", "close": 118.0},
+        {"time": "2026-02-09T00:00:00", "close": 130.0},
+        {"time": "2026-02-09T04:00:00", "close": 126.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_possible_waveA",
+      "symbol": "OHLC_A",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-10T08:00:00",
+      "expected_structure_phase": "possible_waveA",
+      "bars": [
+        {"time": "2026-02-10T00:00:00", "close": 126.0},
+        {"time": "2026-02-10T04:00:00", "close": 130.0},
+        {"time": "2026-02-10T08:00:00", "close": 122.0},
+        {"time": "2026-02-10T12:00:00", "close": 120.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_possible_waveB",
+      "symbol": "OHLC_B",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-11T12:00:00",
+      "expected_structure_phase": "possible_waveB",
+      "bars": [
+        {"time": "2026-02-11T00:00:00", "close": 126.0},
+        {"time": "2026-02-11T04:00:00", "close": 130.0},
+        {"time": "2026-02-11T08:00:00", "close": 118.0},
+        {"time": "2026-02-11T12:00:00", "close": 126.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_waveC_candidate",
+      "symbol": "OHLC_CC",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-12T16:00:00",
+      "expected_structure_phase": "possible_waveC_candidate",
+      "bars": [
+        {"time": "2026-02-12T00:00:00", "close": 126.0},
+        {"time": "2026-02-12T04:00:00", "close": 130.0},
+        {"time": "2026-02-12T08:00:00", "close": 118.0},
+        {"time": "2026-02-12T12:00:00", "close": 126.0},
+        {"time": "2026-02-12T16:00:00", "close": 119.0},
+        {"time": "2026-02-12T20:00:00", "close": 114.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_waveC_active",
+      "symbol": "OHLC_CA",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-13T16:00:00",
+      "expected_structure_phase": "possible_waveC_active",
+      "bars": [
+        {"time": "2026-02-13T00:00:00", "close": 126.0},
+        {"time": "2026-02-13T04:00:00", "close": 130.0},
+        {"time": "2026-02-13T08:00:00", "close": 118.0},
+        {"time": "2026-02-13T12:00:00", "close": 126.0},
+        {"time": "2026-02-13T16:00:00", "close": 114.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_completed_abc",
+      "symbol": "OHLC_ABCDONE",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "correction",
+      "direction": "short",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-14T20:00:00",
+      "expected_structure_phase": "completed_abc_candidate",
+      "bars": [
+        {"time": "2026-02-14T00:00:00", "close": 126.0},
+        {"time": "2026-02-14T04:00:00", "close": 130.0},
+        {"time": "2026-02-14T08:00:00", "close": 118.0},
+        {"time": "2026-02-14T12:00:00", "close": 126.0},
+        {"time": "2026-02-14T16:00:00", "close": 114.0},
+        {"time": "2026-02-14T20:00:00", "close": 119.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_unknown",
+      "symbol": "OHLC_UNKNOWN",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "unknown",
+      "direction": "neutral",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-15T08:00:00",
+      "expected_structure_phase": "unknown",
+      "bars": [
+        {"time": "2026-02-15T00:00:00", "close": 100.0},
+        {"time": "2026-02-15T04:00:00", "close": 101.0},
+        {"time": "2026-02-15T08:00:00", "close": 102.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_ambiguous",
+      "symbol": "OHLC_AMBIG",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-16T12:00:00",
+      "expected_structure_phase": "ambiguous",
+      "ambiguous": true,
+      "bars": [
+        {"time": "2026-02-16T00:00:00", "close": 100.0},
+        {"time": "2026-02-16T04:00:00", "close": 101.0},
+        {"time": "2026-02-16T08:00:00", "close": 100.2},
+        {"time": "2026-02-16T12:00:00", "close": 100.8}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_invalidated",
+      "symbol": "OHLC_INV",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "impulse",
+      "direction": "long",
+      "degree": "intermediate",
+      "as_of_bar_time": "2026-02-17T12:00:00",
+      "expected_structure_phase": "invalidated",
+      "bars": [
+        {"time": "2026-02-17T00:00:00", "close": 104.0},
+        {"time": "2026-02-17T04:00:00", "close": 100.0},
+        {"time": "2026-02-17T08:00:00", "close": 112.0},
+        {"time": "2026-02-17T12:00:00", "close": 98.0}
+      ]
+    },
+    {
+      "fixture_id": "ohlc_not_available",
+      "symbol": "OHLC_NA",
+      "market_group": "Forex Majors",
+      "timeframe": "H4",
+      "higher_timeframe": "D1",
+      "structure_family": "unknown",
+      "direction": "not_available",
+      "degree": "not_available",
+      "as_of_bar_time": "2026-02-18T08:00:00",
+      "expected_structure_phase": "not_available",
+      "no_context": true,
+      "bars": []
+    }
+  ]
+}

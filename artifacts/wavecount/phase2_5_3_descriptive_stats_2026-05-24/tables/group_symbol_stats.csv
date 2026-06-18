@@ -1,0 +1,9 @@
+source_scope,group,symbol,timeframe,candidate_count,yes_like_count,near_miss_count,no_count,avg_profile_score,ewo_support_count,ema_htf_support_count,scale_problem_count
+h1_h4,Forex Majors,AUDJPY.r,H1,24,2,4,18,65.08,24,22,6
+h1_h4,Index,AUS200,H1,15,1,2,12,71.47,15,15,3
+h1_h4,Metals,XAGUSD.r,H1,15,1,2,12,64.8,15,13,2
+h4_d1,Forex Majors,AUDJPY.r,H4,21,1,2,18,64.14,3,19,0
+h4_d1,Forex Majors,EURJPY.r,H4,1,1,0,0,100.0,1,1,0
+h4_d1,Forex Majors,EURUSD.r,H4,2,0,2,0,83.0,2,2,0
+h4_d1,Index,AUS200,H4,15,0,3,12,69.2,3,15,0
+h4_d1,Metals,XAGUSD.r,H4,15,1,2,12,64.0,3,12,0

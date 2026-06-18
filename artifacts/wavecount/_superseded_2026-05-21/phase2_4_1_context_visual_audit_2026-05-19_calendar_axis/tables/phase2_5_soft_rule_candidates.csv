@@ -1,0 +1,9 @@
+rule_id,rule_candidate,status,supporting_cases,do_not_make_hard_because
+SR1,HTF/LTF aligned with EMA 50/150 plus EWO expansion can support impulse search.,usable_soft_rule,"1,4,5,13,16,20,21,24,37",Some valid-looking cases have late EWO peaks or counter-HTF context.
+SR2,EWO expansion after wave 2 is useful for detecting wave 3 in partial 1-2-3 candidates.,usable_soft_rule,"13,14,16,20,21,23,24",EWO can lag or remain useful only as momentum context.
+SR3,EWO peak or trough in the central leg can support wave 3 identification.,usable_soft_rule,"3,7,8,10,37,38,39,47,53",Several impulses have the strongest reading late or in wave 5.
+SR4,EWO loss/divergence in the last leg is promising for wave 5 or failed fifth detection.,promising_but_needs_review,"37,39,42,43,45,48,51,54","The visual meaning depends on whether the fifth is valid, truncated or false."
+SR5,"HTF conflict should increase ambiguity or mark countertrend/reversal context, not automatically reject the count.",usable_soft_rule,"3,10,14,23,38,46,52",Several conflict/correction cases are visually defensible and useful.
+SR6,Price inside or around EMA band should raise ambiguity instead of invalidating a count.,promising_but_needs_review,"1,13,17,20,37,43","Band behavior differs between bases, pullbacks and chop."
+SR7,Current ABC selection should not guide Phase 2.5 rules until the ABC search is redesigned.,usable_soft_rule,"25,26,28,29,30,32,33,36",Most ABC charts look forced or tangled across degrees.
+SR8,Hard Elliott invalidations remain structural; EWO/EMA context cannot rescue them.,usable_soft_rule,"46,47,48,49,51,52,53,54",This is already a hard structural rule; context only explains why a tempting count still fails.

@@ -1,0 +1,5 @@
+example_id,total_counts,candidate_impulse,candidate_abc,invalidated_count,ambiguous_count,no_count,lookahead_violations
+forex_clean_eurusd_h1,18,0,2,11,5,0,0
+index_gap_aus200_m30,28,0,4,18,6,0,0
+metals_ambiguous_xptusd_h1,18,0,3,10,5,0,0
+metals_noisy_xauusd_m30,24,0,5,11,8,0,0

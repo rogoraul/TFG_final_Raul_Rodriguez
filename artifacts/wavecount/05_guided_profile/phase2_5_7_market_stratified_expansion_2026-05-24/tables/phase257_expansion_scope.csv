@@ -1,0 +1,7 @@
+expansion_scope,resolved_market_group,included,symbols_included,symbol_count,timeframe,htf_timeframe,max_symbols_per_group,ltf_rows_per_symbol,htf_rows,generation_mode,notes
+controlled_h4_d1_by_market_group,Forex Majors,True,AUDJPY.r|EURJPY.r|EURUSD.r|AUDCAD.r|AUDNZD.r|AUDUSD.r,6,H4,D1,6,1100,520,new_diagnostic_h4_d1_plus_existing_h1_h4_auxiliary,Grupo representado en WaveCount 2.5.6; expansion descriptiva offline.
+controlled_h4_d1_by_market_group,Index,True,AUS200|CHINA50|EURO50|FRA40|GER40|HK50,6,H4,D1,6,1100,520,new_diagnostic_h4_d1_plus_existing_h1_h4_auxiliary,Grupo representado en WaveCount 2.5.6; expansion descriptiva offline.
+controlled_h4_d1_by_market_group,Metals,True,XAGUSD.r|XAGEUR.r|XAUEUR.r|XAUUSD.r|XCUUSD.r|XPDUSD,6,H4,D1,6,1100,520,new_diagnostic_h4_d1_plus_existing_h1_h4_auxiliary,Grupo representado en WaveCount 2.5.6; expansion descriptiva offline.
+controlled_h4_d1_by_market_group,Commodities,False,,0,,,6,,,not_included,Existe en SQL pero no tiene evidencia WaveCount 2.5.6; no se extrapolan conclusiones.
+controlled_h4_d1_by_market_group,Crypto,False,,0,,,6,,,not_included,Existe en SQL pero no tiene evidencia WaveCount 2.5.6; no se extrapolan conclusiones.
+controlled_h4_d1_by_market_group,Forex Exotic,False,,0,,,6,,,not_included,Existe en SQL pero no tiene evidencia WaveCount 2.5.6; no se extrapolan conclusiones.

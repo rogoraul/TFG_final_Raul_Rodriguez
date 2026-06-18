@@ -1,0 +1,7 @@
+check_id,check,status,evidence
+F01,default_bot_enabled_false,passed,False
+F02,default_mode_off,passed,off
+F03,default_run_blocks_safely,passed,"{""dry_run_blocked_by_config"": 54}"
+F04,hard_flags_false,passed,"{""can_execute_order_false_all"": true, ""is_simulation_true_all"": true, ""would_send_telegram_order_false_all"": true, ""would_send_to_mt5_false_all"": true}"
+F05,runtime_flags_false,passed,"{""mt5_connected"": false, ""signals_generated"": false, ""sql_real_written"": false, ""telegram_connected"": false}"
+F06,no_forbidden_imports,passed,none

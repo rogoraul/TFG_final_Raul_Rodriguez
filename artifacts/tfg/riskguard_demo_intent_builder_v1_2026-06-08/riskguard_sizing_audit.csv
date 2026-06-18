@@ -1,0 +1,6 @@
+intent_id,setup_id,symbol,account_equity_snapshot,volume,position_sizing_method,sizing_status,riskguard_decision
+,trading_center_screener_unified_v1|EURO50|H4|macd_breakout|222,EURO50,100000.0,,not_available_without_symbol_metadata,not_applicable,blocked_by_late_setup
+,trading_center_screener_unified_v1|SPA35|H4|macd_breakout|132,SPA35,100000.0,,not_available_without_symbol_metadata,not_applicable,blocked_by_late_setup
+,trading_center_screener_unified_v1|EURUSD.r|H4|macd_breakout|670,EURUSD.r,100000.0,,not_available_without_symbol_metadata,not_applicable,blocked_by_waiting_confirmation
+,trading_center_screener_unified_v1|GBPCHF.r|H4|macd_breakout|150,GBPCHF.r,100000.0,,not_available_without_symbol_metadata,not_applicable,blocked_by_waiting_confirmation
+,trading_center_screener_unified_v1|XPTUSD|H4|macd_breakout|792,XPTUSD,100000.0,,not_available_without_symbol_metadata,not_applicable,blocked_by_late_setup

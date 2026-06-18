@@ -1,0 +1,6 @@
+excluded_item,reason,phase25_policy
+ABC without parent/context as strong correction,A clean 0-A-B-C can be an impulse/subimpulse if it does not correct a known movement.,exclude_as_rule
+complex corrections taxonomy,"Zigzag, flat, triangle, combination and alternation are not implemented rigorously yet.",future_work
+operational signals/trading filters,"WaveCount is still visual/structural context, not a strategy.",out_of_scope
+M30/H1 as primary WaveCount base,Too much microstructure and lateral noise relative to H4/D1.,auxiliary_only
+hard EMA/EWO/HTF filters,Context can help but must not rescue bad counts or reject valid transitions.,soft_only

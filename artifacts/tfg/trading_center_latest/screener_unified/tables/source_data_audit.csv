@@ -1,0 +1,11 @@
+source_id,path,rows,status
+market_radar,artifacts\tfg\trading_center_latest\market_radar\market_radar.csv,60,available
+ohlc_mtf,artifacts\tfg\trading_center_latest\ohlc\ohlc_mtf.csv,445664,available
+weavecount,artifacts\tfg\trading_center_latest\weavecount\weavecount_screener.csv,94,available
+macd_breakout_snapshot,artifacts\tfg\trading_center_latest\macd_breakout_watcher\snapshot.csv,188,available
+macd_breakout_enriched,artifacts\tfg\trading_center_latest\macd_breakout_enrichment\macd_breakout_enriched_setups.csv,150,available
+macd_breakout_chart_layers,artifacts\tfg\trading_center_latest\macd_breakout_enrichment\macd_breakout_chart_layers.csv,1363,available
+fibonacci_context,artifacts\tfg\trading_center_latest\fibonacci_context\fibonacci_context.csv,94,available
+fibonacci_chart_layers,artifacts\tfg\trading_center_latest\fibonacci_context\fibonacci_chart_layers.csv,846,available
+fib_limit_visual_review,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\fib_limit_swing_quality_visual_review_v1_2026-06-02\tables\fib_limit_visual_case_review.csv,36,available
+fib_limit_sample_selection,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\fib_limit_swing_quality_visual_review_v1_2026-06-02\tables\fib_limit_visual_sample_selection.csv,36,available

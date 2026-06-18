@@ -1,0 +1,12 @@
+check_name,value,expected,status
+can_execute_order_true,0,0,passed
+wavecount_should_filter_trade_true,0,0,passed
+non_read_only_rows,0,0,passed
+visible_backfill_or_test_rows,0,0,passed
+snapshot_runs_historical_or_test_operational,0,0,passed
+dashboard_implemented,false,false,passed
+telegram_implemented,false,false,passed
+bot_implemented,false,false,passed
+mt5_connected,false,false,passed
+backtests_executed,false,false,passed
+signals_generated,false,false,passed

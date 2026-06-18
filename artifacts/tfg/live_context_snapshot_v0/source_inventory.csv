@@ -1,0 +1,11 @@
+name,path,exists,rows,role
+watcher_snapshot,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\snapshot.csv,True,54,required
+watcher_watchlist,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\watchlist.csv,True,10,optional_context
+watcher_order_intents,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\order_intents.csv,True,0,optional_context
+watcher_riskguard_decisions,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\riskguard_decisions.csv,True,0,optional_context
+watcher_run_meta,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0\run_meta.json,True,1,metadata
+snapshot_contract,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\operational_integration_design_2026-05-25\tables\live_context_snapshot_contract.csv,True,54,contract
+wavecount_policy_256,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\wavecount\05_guided_profile\phase2_5_6_soft_policy_weight_adjustment_2026-05-24\tables\phase256_policy_scores.csv,True,108,official_context
+wavecount_robust_259,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\wavecount\05_guided_profile\phase2_5_9_robust_prominence_policy_trial_2026-05-24\tables\phase259_candidate_policy_scores.csv,True,162,diagnostic_only
+wavecount_closure_2510,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\wavecount\05_guided_profile\phase2_5_10_guided_profile_closure_2026-05-24\tables\phase25_final_policy_matrix.csv,True,19,documentation
+watcher_dir,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\live-signal-watcher\enbolsa_macd_breakout_v0,True,0,input_dir

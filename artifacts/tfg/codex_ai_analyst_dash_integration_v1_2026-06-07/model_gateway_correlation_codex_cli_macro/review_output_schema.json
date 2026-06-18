@@ -1,0 +1,133 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_id",
+    "package_id",
+    "review_status",
+    "review_priority",
+    "summary",
+    "setup_reading",
+    "confluences",
+    "contradictions",
+    "risk_notes",
+    "human_next_checks",
+    "sources",
+    "macro_context_summary",
+    "macro_risk_level",
+    "macro_sources",
+    "safety_flags"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "reviewed",
+        "blocked",
+        "needs_human_review"
+      ]
+    },
+    "review_priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "summary": {
+      "type": "string"
+    },
+    "setup_reading": {
+      "type": "string"
+    },
+    "confluences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_next_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "macro_context_summary": {
+      "type": "string"
+    },
+    "macro_risk_level": {
+      "type": "string",
+      "enum": [
+        "not_requested",
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "macro_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "can_execute_order",
+        "would_send_to_mt5",
+        "would_send_telegram_order",
+        "sql_real_written",
+        "mt5_connected",
+        "telegram_connected",
+        "signals_generated"
+      ],
+      "properties": {
+        "can_execute_order": {
+          "type": "boolean"
+        },
+        "would_send_to_mt5": {
+          "type": "boolean"
+        },
+        "would_send_telegram_order": {
+          "type": "boolean"
+        },
+        "sql_real_written": {
+          "type": "boolean"
+        },
+        "mt5_connected": {
+          "type": "boolean"
+        },
+        "telegram_connected": {
+          "type": "boolean"
+        },
+        "signals_generated": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

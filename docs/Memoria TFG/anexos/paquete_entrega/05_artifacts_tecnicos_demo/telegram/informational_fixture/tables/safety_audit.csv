@@ -1,0 +1,9 @@
+﻿check,value,expected,status
+telegram_connected,False,False,pass
+telegram_messages_sent,0,0,pass
+telegram_command_bot_implemented,False,False,pass
+telegram_can_confirm,False,False,pass
+telegram_can_trade,False,False,pass
+message_send_real_any_true,False,False,pass
+message_telegram_sent_any_true,False,False,pass
+

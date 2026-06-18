@@ -1,0 +1,9 @@
+check_id,check,status,evidence
+TECH_01,py_compile_dash_renderer_gateway,passed,python -m py_compile trading_center/dash_readonly_app.py trading_center/codex_ai_analyst_package_renderer.py trading_center/codex_ai_analyst_model_gateway.py
+TECH_02,pytest_ai_dash_renderer_gateway,passed,"68 passed in tests/test_trading_center_dash_readonly_app.py, tests/test_codex_ai_analyst_package_renderer.py, tests/test_codex_ai_analyst_model_gateway.py"
+TECH_03,dash_audit_only,passed,python -m trading_center.dash_readonly_app --audit-only
+TECH_04,required_artifacts_present,passed,"all closeout tables, run_meta, markdown and requested screenshots present"
+TECH_05,run_meta_fail_closed,passed,sql_real_written=false; mt5_connected=false; telegram_connected=false; orders_sent=0; signals_generated=false
+TECH_06,browser_visual_audit,passed,"ChromeDriver headless screenshots captured for closed panel, setup, market, correlation, weavecount and result/download state"
+TECH_07,no_sql_mt5_telegram_orders_signals,passed,closeout generated docs/artifacts only; no connectors invoked
+TECH_08,git_diff_check,passed,git diff --check exit 0; only CRLF warnings printed

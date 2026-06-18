@@ -1,0 +1,7 @@
+issue_id,severity,status,description,mitigation
+risk_001,high,open_controlled,"Real writer would introduce SQL writes, DB target and credentials.","Keep no_go_keep_preview_only; require separate approval before DB work."
+risk_002,medium,open_controlled,"preview_would_insert can be misread as inserted rows.","Use memory framing and docs to state rows_inserted=0."
+risk_003,high,open_controlled,"Runtime ledger could be confused with order/execution queue.","Keep MT5 blocked and state ledger is not broker/order ledger."
+risk_004,medium,open_controlled,"Dashboard, Telegram or AI future consumers could overinterpret runtime events.","Keep consumers read-only and artifact-first until reviewed."
+gap_001,medium,accepted,"No real SQL writer, DDL migration or runtime table exists.","Document as future work, not current capability."
+gap_002,low,accepted,"Retention/archival policy for append-only runtime ledger is not designed in detail.","Define before any real writer."

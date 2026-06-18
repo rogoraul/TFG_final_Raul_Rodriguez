@@ -1,0 +1,13 @@
+metric_group,metric,value
+table_counts,snapshot_runs,1
+table_counts,live_context_snapshot_rows,54
+table_counts,snapshot_source_inventory,10
+table_counts,signal_events,54
+table_counts,data_health_snapshot,27
+view_counts,v_live_context_latest,54
+view_counts,v_dashboard_trading_center,54
+view_counts,v_dashboard_watchlist,54
+view_counts,v_signal_events_latest,54
+view_counts,v_data_health_latest,27
+run_kind_distribution,bootstrap_current,1
+is_operational_distribution,1,1

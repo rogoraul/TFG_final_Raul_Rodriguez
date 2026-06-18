@@ -1,0 +1,7 @@
+estrategia,strategy,operaciones,resultado_bruto_pre_comisiones,comisiones,resultado_neto,impacto_comisiones,coste_sobre_bruto_positivo_pct
+macd_breakout,enbolsa:macd_breakout,28056,136635.62764570574,40956.12,95679.50764570574,-40956.119999999995,29.974700380634722
+fib_limit,enbolsa:fib_limit,39910,-6869.8287549302295,9028.32,-15898.148754930231,-9028.320000000002,
+RSI 3TF mean reversion,benchmark:rsi_3tf_mean_reversion,5012,-32204.307651520183,5178.6,-37382.90765152018,-5178.5999999999985,
+RSI 3TF momentum reentry,benchmark:rsi_3tf_momentum_reentry,12976,-45186.67302261863,9466.98,-54653.65302261863,-9466.980000000003,
+MA cross 3TF trend,benchmark:ma_cross_3tf_trend,13588,14744.994834523302,32079.66,-17334.6651654767,-32079.660000000003,217.563046715283
+BB 3TF pullback reentry,benchmark:bb_3tf_pullback_reentry,22302,-43912.024548060195,13337.58,-57249.6045480602,-13337.580000000002,

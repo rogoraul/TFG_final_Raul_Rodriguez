@@ -1,0 +1,30 @@
+{
+  "package_id": "US30_H1_rsi_extreme_with_context_86844a61",
+  "package_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61",
+  "files": {
+    "setup_context.json": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\setup_context.json",
+    "market_context.json": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\market_context.json",
+    "ohlc_window.csv": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\ohlc_window.csv",
+    "chart_layers.csv": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\chart_layers.csv",
+    "chart.png": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\chart.png",
+    "source_manifest.json": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\source_manifest.json",
+    "prompt_context.md": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\prompt_context.md"
+  },
+  "setup_id": "trading_center_screener_unified_v1|US30|H1|rsi_extreme_with_context|5",
+  "symbol": "US30",
+  "timeframe": "H1",
+  "setup_type": "rsi_extreme_with_context",
+  "chart_audit": {
+    "chart_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\codex_ai_analyst_dash_integration_v1_2026-06-07\\package_renderer\\packages\\US30_H1_rsi_extreme_with_context_86844a61\\chart.png",
+    "chart_rendered": true,
+    "ohlc_rows": 220,
+    "layer_rows": 17,
+    "layers_drawn": 17
+  },
+  "model_called": false,
+  "sql_real_written": false,
+  "mt5_connected": false,
+  "telegram_connected": false,
+  "orders_sent": 0,
+  "signals_generated": false
+}

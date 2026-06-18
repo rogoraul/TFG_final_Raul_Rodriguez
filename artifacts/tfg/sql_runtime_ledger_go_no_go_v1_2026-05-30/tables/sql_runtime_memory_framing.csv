@@ -1,0 +1,8 @@
+memory_topic,allowed_framing,blocked_framing,evidence,section_fit
+SQL operational core,"The project has an operational SQL core and current snapshot/export verified for read-only platform use.","Do not imply SQL runtime ledger tables are active.","docs/SQL_OPERATIONAL_CORE_V0.md","Architecture / platform"
+Runtime ledger design,"A future append-only runtime ledger was designed for dry-run decision traceability.","Do not claim runtime SQL persistence exists.","docs/SQL_RUNTIME_LEDGER_DESIGN_V1.md","Security and future architecture"
+Preflight,"A preflight validates dry-run ledger artifacts before any possible future SQL write.","Do not claim the preflight writes to DB.","docs/SQL_RUNTIME_LEDGER_PREFLIGHT_V1.md","Safety gates"
+Writer preview,"A preview-only writer simulates write attempts and keeps rows_inserted=0.","Do not claim preview_would_insert means inserted or approved for operation.","docs/SQL_RUNTIME_LEDGER_WRITER_PREVIEW_V1.md","Safety gates / dry-run platform"
+Review,"The preview writer was reviewed and passed as fail-closed.","Do not claim real writer is approved.","docs/SQL_RUNTIME_LEDGER_WRITER_PREVIEW_V1_REVIEW.md","Validation / limitations"
+Go no-go,"The decision is to keep SQL runtime preview-only for now.","Do not present no-go as a failure; present it as scope control and risk management.","docs/SQL_RUNTIME_LEDGER_GO_NO_GO_V1.md","Limitations / future work"
+Live trading,"No live trading, MT5, DB runtime execution or SQL order ledger exists.","Do not imply platform is live or executable.","run_meta flags across artifacts","Limitations"
