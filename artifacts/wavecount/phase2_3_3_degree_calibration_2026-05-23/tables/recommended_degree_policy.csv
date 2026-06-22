@@ -1,4 +1,0 @@
-scope,primary_degree_recommendation,context_degree,minor_use,status,reason,apply_threshold_change_now
-H1/M30,intermediate_auxiliary,major,internal_detail_only,not_primary_for_phase_2_5,"manual review found too-micro/lateral counts and degree overlap in H1/M30; useful as case bank, not main Elliott base",False
-H4/D1,intermediate,major,substructure_detail,preferred_phase_2_5_base,larger timeframe gives broader swings; still needs visual review but is more aligned with Elliott structural reading,False
-global_thresholds,keep_current_for_now,major,internal_detail_only,needs_experimental_recalibration_phase_if_changed,thresholds are global and changing them would require regenerating Phase 1.6 and downstream galleries; audit should not mutate canonical artifacts,False

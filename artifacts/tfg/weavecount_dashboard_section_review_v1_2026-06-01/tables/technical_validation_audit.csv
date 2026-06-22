@@ -1,7 +1,7 @@
 validation,status,evidence
 py_compile,pass,"trading_center/weavecount_screener_h1_h4.py, dash_readonly_app.py and review module compiled."
 tests_weavecount_and_dash,pass,tests/test_weavecount_screener_h1_h4.py and tests/test_trading_center_dash_readonly_app.py passed.
-cli_screener,pass,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv
-dash_audit_only,pass,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_dash_readonly_v1_2026-05-30\run_meta.json
+cli_screener,pass,artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv
+dash_audit_only,pass,artifacts\tfg\trading_center_dash_readonly_v1_2026-05-30\run_meta.json
 browser_screenshots,pass,weavecount_overview.png|weavecount_filter_h1.png|weavecount_filter_h4.png|weavecount_filter_quality.png|weavecount_modal_w2_h1_bullish.png|weavecount_modal_w2_h1_bearish.png|weavecount_modal_h4.png
 git_diff_check,pass,Executed after artifact generation; no whitespace errors.

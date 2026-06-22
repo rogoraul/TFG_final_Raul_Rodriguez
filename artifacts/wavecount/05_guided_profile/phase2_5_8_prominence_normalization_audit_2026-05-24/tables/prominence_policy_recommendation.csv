@@ -1,2 +1,0 @@
-decision,phase256_still_valid,phase257_still_valid,metals_low_after_scope_degree_split,robust_improvement_cases,true_low_metals_cases,recommended_phase259_metric,should_change_policy_now,manual_metals_review_before_policy_change,notes
-use_robust_window_prominence_next,True,True,True,30,0,robust_window_prominence_p05_p95 plus symbol/timeframe/degree percentiles,False,False,2.5.6 remains vigente: this phase only audits normalization. The current visual-window prominence is offline and not live-ready.

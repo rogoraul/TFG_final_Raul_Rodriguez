@@ -1,5 +1,5 @@
 check_id,check,status,evidence,rows
-SCREENER_DASH_01,screener_source,available,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\screener_unified\screener_setups.csv,118
-SCREENER_DASH_02,chart_layers_source,available,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\screener_unified\screener_chart_layers.csv,2771
+SCREENER_DASH_01,screener_source,available,artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\screener_unified\screener_setups.csv,118
+SCREENER_DASH_02,chart_layers_source,available,artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\refresh_service\cycles\20260608T120000+0000_M15\orchestrator\generated\screener_unified\screener_chart_layers.csv,2771
 SCREENER_DASH_03,estrategias_absorbed,passed,Visible navigation keeps Screener and removes the separate Estrategias tab.,
 SCREENER_DASH_04,no_operational_controls,passed,"Screener exposes compact setup rows, filters and chart modal only.",

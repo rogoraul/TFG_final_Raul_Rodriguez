@@ -2,14 +2,14 @@
   "started_at": "2026-05-23T21:50:38",
   "finished_at": "2026-05-23T21:51:00",
   "elapsed_seconds": 21.886837600031868,
-  "output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_4_h4_d1_visual_closure_2026-05-23",
+  "output_dir": "artifacts\\wavecount\\phase2_3_4_h4_d1_visual_closure_2026-05-23",
   "inputs": {
-    "phase23_h4_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
-    "h4_audit_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20",
-    "wave5_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21",
-    "partial123_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21",
-    "degree_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_3_degree_calibration_2026-05-23",
-    "abc_fix_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_abc_fix_2026-05-20"
+    "phase23_h4_dir": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+    "h4_audit_dir": "artifacts\\wavecount\\phase2_3_2_4_h4_d1_visual_audit_2026-05-20",
+    "wave5_dir": "artifacts\\wavecount\\phase2_3_1_wave5_endpoint_2026-05-21",
+    "partial123_dir": "artifacts\\wavecount\\phase2_3_2_partial123_2026-05-21",
+    "degree_dir": "artifacts\\wavecount\\phase2_3_3_degree_calibration_2026-05-23",
+    "abc_fix_dir": "artifacts\\wavecount\\phase2_abc_fix_2026-05-20"
   },
   "rows": {
     "h4_d1_visual_closure": 54,

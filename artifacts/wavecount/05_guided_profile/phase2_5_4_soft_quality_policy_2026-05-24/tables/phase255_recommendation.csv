@@ -1,4 +1,0 @@
-phase255_recommended_scope,phase255_inputs,phase255_do_not_do,phase255_validation_needed,evidence_summary,priority
-controlled_h4_d1_historical_expansion,structural_quality_scores high_quality_structure and usable_provisional_structure from H4/D1,"do not generate signals, do not run backtests, do not optimize by returns","selective visual gallery for high scores, low-prominence false positives and context conflicts","1 high_quality, 5 usable provisional, 90 excluded.",high
-keep_h1_h4_auxiliary_zoom,H1/H4 auxiliary_substructure rows only,do not merge H1/H4 with primary H4/D1 seeds,use H1/H4 only to explain substructure and low-prominence H4 cases,7 auxiliary_substructure rows.,medium
-false_positive_gallery,exclude_from_guided_search and ambiguous_structure rows with policy_warnings,do not relax rules to increase match count,"spot-check low prominence, context_must_not_rescue_bad_count and EWO misleading cases",Use negatives to stress-test the soft policy.,medium

@@ -1,4 +1,0 @@
-check,status,evidence
-package_created,pass,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\codex_ai_analyst_dash_integration_v1_2026-06-07\package_renderer\packages\CADCHF.r_H4_fib_limit_live_candidate_01fddfa7
-structured_data_present,pass,setup_context.json|market_context.json|ohlc_window.csv|chart_layers.csv
-model_not_called,pass,model_called=false

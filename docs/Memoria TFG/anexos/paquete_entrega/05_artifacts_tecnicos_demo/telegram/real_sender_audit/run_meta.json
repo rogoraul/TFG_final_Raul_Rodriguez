@@ -4,7 +4,7 @@
   "decision": "telegram_real_sender_v1_real_send_executed",
   "method_version": "telegram_real_sender_v1",
   "real_sender_implemented": true,
-  "real_sender_design_source": "not_included_in_final_public_repo",
+  "real_sender_design_source": "docs/TELEGRAM_REAL_SENDER_DESIGN_V1.md",
   "telegram_connected": true,
   "telegram_real_messages_sent": 1,
   "telegram_tokens_printed": false,

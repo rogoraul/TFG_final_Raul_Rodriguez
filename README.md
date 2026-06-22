@@ -1,25 +1,26 @@
 # TFG final - Raul Rodriguez
 
-Repositorio final del Trabajo de Fin de Grado **Automatizacion de la teoria de
-las Ondas de Elliott para trading**.
+Repositorio del Trabajo de Fin de Grado **Automatizacion de la teoria de las
+Ondas de Elliott para trading**.
 
-El proyecto desarrolla un sistema de ciencia de datos aplicado al estudio de
-estrategias de trading. El objetivo no es publicar un bot de trading en real,
-sino dejar un flujo reproducible para ingerir datos, formalizar reglas, ejecutar
-backtests, conservar artifacts y revisar la informacion desde un dashboard
-interactivo.
+El proyecto aplica tecnicas de ciencia de datos al estudio de estrategias de
+trading. Reune codigo de ingesta, backtesting, analisis estructural y
+visualizacion en un flujo reproducible. El resultado principal es el Trading
+Center Dashboard, una herramienta local para revisar datos, candidatos de
+estudio, resultados y material de apoyo del proyecto.
 
 ## Alcance
 
 El repositorio contiene:
 
 - codigo Python para ingesta, backtesting, screener, dashboard y auditorias;
-- artifacts curados usados por la plataforma y la memoria;
+- artifacts seleccionados usados por la plataforma y la memoria;
 - dashboard Trading Center en modo de revision;
-- RiskGuard, MT5 y Telegram limitados al alcance demo/informativo documentado;
+- nucleo SQL de apoyo para snapshots, vistas y controles de seguridad;
+- RiskGuard, MT5 y Telegram dentro del alcance demo e informativo documentado;
 - memoria final en PDF, fuentes LaTeX, figuras y anexos de entrega.
 
-Limites importantes:
+El alcance esta acotado:
 
 - no habilita live trading;
 - no ejecuta ordenes reales desde el dashboard;
@@ -34,12 +35,30 @@ backtests/              Motores, helpers y estrategias de backtesting.
 data/                   Acceso a datos, SQL/MT5 y utilidades de carga.
 trading_center/         Dashboard, screener, refresh, RiskGuard, MT5 y Telegram.
 zigzag/                 Implementacion local usada para pivotes y estructura.
-artifacts/              Evidencias y salidas curadas para ejecucion/revision.
+artifacts/              Salidas seleccionadas para ejecucion y revision.
 docs/                   Memoria final, fuentes LaTeX, figuras y anexos.
 docs/Memoria TFG/       Memoria, fuentes LaTeX, figuras y anexos.
 tests/                  Tests unitarios y de integracion ligera.
-sql/                    Esquemas y material SQL del proyecto.
+sql/                    Esquemas SQL de apoyo para snapshots y vistas.
 ```
+
+## Artifacts incluidos
+
+La carpeta `artifacts/` incluida en este repositorio no es el historial completo
+de ejecuciones del TFG. Se ha dejado una seleccion reducida, de unas 850 piezas
+y unos 234 MB, con:
+
+- datos necesarios para abrir el dashboard con el estado publicado;
+- salidas principales de benchmarks, Menendez, Screener y WeaveCount;
+- material tecnico de MT5 demo, RiskGuard y Telegram informativo;
+- fuentes de apoyo necesarias para interpretar la memoria y los anexos.
+
+Se han dejado fuera ejecuciones exploratorias, carpetas superadas y material de
+trabajo que no ayuda a revisar la version final.
+
+Los anexos incluyen una seleccion adicional reducida en
+`docs/Memoria TFG/anexos/paquete_entrega/`, pensada para acompanar la lectura
+del PDF sin depender del historial completo de ejecuciones.
 
 ## Memoria y anexos
 
@@ -55,8 +74,8 @@ Los anexos de entrega estan en:
 docs/Memoria TFG/anexos/paquete_entrega/
 ```
 
-El archivo `MANIFEST_ARCHIVOS.csv` dentro de esa carpeta resume las evidencias
-incluidas.
+El archivo `MANIFEST_ARCHIVOS.csv` dentro de esa carpeta resume los archivos
+incluidos.
 
 ## Instalacion local
 
@@ -92,7 +111,7 @@ http://127.0.0.1:8050
 Tambien se puede ejecutar una validacion sin abrir servidor:
 
 ```powershell
-python -m trading_center.dash_readonly_app --audit-only --output-dir artifacts\tfg\dashboard_audit_local
+python -m trading_center.dash_readonly_app --audit-only --output-dir .tmp\dashboard_audit_local
 ```
 
 El dashboard consume artifacts locales ya generados. Si falta una fuente, el
@@ -102,7 +121,7 @@ correspondiente, no inventar datos.
 Nota de rendimiento: el dashboard se entrega como herramienta local de revision
 y visualizacion de resultados del TFG. No esta optimizado como producto web para
 tiempos de carga minimos ni para uso multiusuario; algunas vistas pueden tardar
-al cargar porque leen artifacts curados, tablas y figuras locales.
+al cargar porque leen artifacts, tablas y figuras locales.
 
 ## Pruebas
 
@@ -110,6 +129,12 @@ Prueba focal del dashboard:
 
 ```powershell
 python -m pytest tests\test_trading_center_dash_readonly_app.py -q
+```
+
+Pruebas focales del nucleo SQL:
+
+```powershell
+python -m pytest tests\test_sql_operational_core.py -q
 ```
 
 Suite completa:
@@ -127,8 +152,9 @@ dashboard y los modulos que se vayan a revisar.
 El archivo `.env` real no se publica. Se incluye `.env.example` como referencia.
 
 Los componentes que puedan usar SQL, MT5, Telegram o llamadas externas requieren
-configuracion local explicita. Por defecto, las capas sensibles estan disenadas
-para funcionar en modo auditado, informativo o fail-closed.
+configuracion local explicita. En una instalacion nueva no envian mensajes, no
+operan ni se conectan a servicios externos sin activar esas piezas de forma
+manual.
 
 ## Componentes principales
 
@@ -141,13 +167,15 @@ para funcionar en modo auditado, informativo o fail-closed.
 - `trading_center/mt5_demo_order_sender.py`: envio demo condicionado por gates.
 - `trading_center/mt5_demo_position_manager.py`: gestion demo controlada.
 - `trading_center/telegram_mt5_bot_informational.py`: mensajes informativos.
-- `trading_center/telegram_sender_gate.py`: gate de envio fail-closed.
+- `trading_center/telegram_sender_gate.py`: control previo de envio.
 - `trading_center/codex_ai_analyst_package_renderer.py`: paquetes de revision.
+- `sql/ops/`: DDL del nucleo SQL usado para snapshots y vistas.
+- `tests/fixtures/`: fixtures pequenos para validar piezas de WaveCount.
 
 ## Notas de seguridad
 
-Este repositorio no debe usarse como sistema de produccion para operar mercados.
-La memoria explica los limites metodologicos, el alcance demo y las cautelas de
-interpretacion. Cualquier uso operativo real exigiria validacion adicional,
-control de costes, supervision continua, gestion de riesgo mas amplia y
-revision externa.
+Este repositorio no esta pensado como sistema de produccion para operar
+mercados. La memoria explica el alcance, los supuestos de backtesting y las
+limitaciones de la parte demo. Cualquier uso operativo real exigiria validacion
+adicional, control de costes, supervision continua y una gestion de riesgo mas
+amplia.

@@ -1,5 +1,0 @@
-example_id,group,symbol,timeframe,example_type,status,rows,first_time,last_time,gap_events,confirmed_highs,confirmed_lows,ambiguous_count,chart_path,error
-forex_clean_eurusd_h1,Forex Majors,EURUSD.r,H1,clean,ok,240,2026-03-03T10:00:00,2026-03-17T09:00:00,2,17,22,3,charts\forex_clean_eurusd_h1.png,
-metals_noisy_xauusd_m30,Metals,XAUUSD.r,M30,noisy,ok,240,2026-03-10T05:00:00,2026-03-17T09:30:00,5,20,21,7,charts\metals_noisy_xauusd_m30.png,
-index_gap_aus200_m30,Index,AUS200,M30,gap,ok,240,2026-03-09T16:00:00,2026-03-17T09:30:00,12,18,15,3,charts\index_gap_aus200_m30.png,
-metals_ambiguous_xptusd_h1,Metals,XPTUSD,H1,ambiguous,ok,220,2026-03-03T20:00:00,2026-03-17T09:00:00,10,17,22,6,charts\metals_ambiguous_xptusd_h1.png,

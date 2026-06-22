@@ -87,7 +87,7 @@ def _get_table_columns(connection, table_name):
 
 def get_enabled_symbols():
     """
-    Devuelve una lista con los símbolos que están activados (enabled = TRUE).
+    Devuelve una lista con los simbolos que estan activados (enabled = TRUE).
     """
     connection = connect_db()
     if connection is None:
@@ -98,7 +98,7 @@ def get_enabled_symbols():
         df = pd.read_sql(query, connection)
         symbols = df["symbol"].tolist()
     except Error as e:
-        print(f"Error al consultar símbolos habilitados: {e}")
+        print(f"Error al consultar simbolos habilitados: {e}")
         symbols = []
     finally:
         close_db(connection)
@@ -108,7 +108,7 @@ def get_enabled_symbols():
 def get_symbols_by_group():
     """
     Devuelve un diccionario {grupo: [lista_de_symbols]} desde symbol_control.
-    Solo incluye símbolos habilitados (enabled = TRUE).
+    Solo incluye simbolos habilitados (enabled = TRUE).
     """
     connection = connect_db()
     if connection is None:
@@ -134,7 +134,7 @@ def get_symbols_by_group():
 def get_symbol_groups():
     """
     Devuelve un DataFrame con las columnas 'symbol' y 'group'.
-    Útil para hacer merge con resultados de backtest.
+    Util para hacer merge con resultados de backtest.
     """
     connection = connect_db()
     if connection is None:
@@ -154,7 +154,7 @@ def get_symbol_groups():
 
 def get_symbols_by_group_normalized(selected_groups=None):
     """
-    Devuelve grupos normalizados para backtests ENBOLSA.
+    Devuelve grupos normalizados para backtests y comparativas.
 
     Args:
         selected_groups: iterable opcional con los grupos ya normalizados

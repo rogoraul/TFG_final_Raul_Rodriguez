@@ -1,7 +1,0 @@
-metric,causal_feasibility,live_ready_now,requirements,risk
-last_N_bars_window,causal_if_only_closed_past_bars,False,Definir N por timeframe y calcular solo con velas cerradas anteriores al count_detected_at.,N arbitrario puede no representar el movimiento padre.
-last_confirmed_major_window,causal_if_major_uses_structural_detected_at,False,Necesita enlazar cada candidato con el último major confirmado sin mirar pivotes futuros.,"Si el major cambia con latencia, la ventana puede moverse."
-robust_window_p05_p95,causal_if_computed_on_past_window,False,Usar ventana pasada congelada y percentiles calculados solo con datos disponibles.,Puede ocultar spikes que sí sean relevantes en metales.
-atr_normalized_count_size,causal_if_atr_uses_closed_past_bars,False,"ATR por símbolo/timeframe con velas cerradas, sin vela en formación.",ATR alto tras spike puede seguir penalizando estructuras legítimas.
-symbol_group_percentiles,usable_if_trained_offline_and_frozen,False,Calibrar percentiles offline por símbolo/timeframe/grado y congelarlos para uso diagnóstico.,Muestra pequeña o cambios de régimen pueden sesgar percentiles.
-current_visual_window,not_live_ready,False,Sustituir por ventana causal antes de cualquier uso live.,Mezcla futuro visual y rango completo del plot.

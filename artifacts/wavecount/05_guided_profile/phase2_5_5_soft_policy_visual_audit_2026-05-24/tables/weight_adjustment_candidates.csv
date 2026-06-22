@@ -1,9 +1,0 @@
-weight_adjustment_candidate,current_weight,suggested_weight,reason,risk_if_changed
-too_small_for_timeframe,-16 plus possible duration penalty,keep,AUS200 H4 and low-prominence sample support excluding compact H4 structures from seed set.,Reducing too much would re-admit tiny H4 subwaves as primary structures.
-duration_vs_window < 0.08,-4 soft threshold candidate,keep_but_monitor,Short duration helped identify AUS200 H4; still should not be a hard rule.,Hardening could reject valid fast impulses after volatility events.
-context_must_not_rescue_bad_count,-8,keep,Core principle: indicators cannot rescue visually weak counts.,Lowering the penalty would make EMAs/EWO act like validation.
-ema_htf_misleading_warning,-12,keep,Misleading context is concentrated in excluded/no buckets.,Reducing may let HTF lag/conflict distort the structural profile.
-H1/H4 auxiliary treatment,auxiliary bucket or exclusion when weak,consider_auxiliary_watchlist_bucket,Some near-threshold H1/H4 exclusions may be useful as zoom/substructure rather than hard excludes.,Could blur primary H4/D1 profile if mixed into seed set.
-major treatment,context/higher-degree warning,manual_review_before_exclusion,Major can be visually meaningful but should not define the H4 intermediate profile.,Could create too-coarse primary structures.
-minor treatment,substructure penalty,keep,Manual and visual phases repeatedly showed minor can be too micro.,Could reintroduce noisy micro-Elliott counts.
-prominence_penalty_for_kept_h4_d1,can still leave low-prominence H4/D1 as usable provisional,increase_or_force_manual_review,At least one kept H4/D1 intermediate match is visually too small relative to the full window.,Too much hardening could reject fast but valid H4 impulses after volatility bursts.

@@ -1,7 +1,7 @@
 [
   {
     "context_id": "wavecount_live_v0_ohlc_possible_wave1_20260201T080000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-01T08:00:00",
     "symbol": "OHLC_W1",
     "market_group": "Forex Majors",
@@ -52,7 +52,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_possible_wave2_20260202T120000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-02T12:00:00",
     "symbol": "OHLC_W2",
     "market_group": "Forex Majors",
@@ -103,7 +103,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_wave3_candidate_20260203T160000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-03T16:00:00",
     "symbol": "OHLC_W3C",
     "market_group": "Forex Majors",
@@ -154,7 +154,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_wave3_active_20260204T160000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-04T16:00:00",
     "symbol": "OHLC_W3A",
     "market_group": "Forex Majors",
@@ -205,7 +205,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_possible_wave4_20260205T200000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-05T20:00:00",
     "symbol": "OHLC_W4",
     "market_group": "Forex Majors",
@@ -256,7 +256,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_wave5_candidate_20260207T000000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-07T00:00:00",
     "symbol": "OHLC_W5C",
     "market_group": "Forex Majors",
@@ -307,7 +307,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_wave5_active_20260208T000000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-08T00:00:00",
     "symbol": "OHLC_W5A",
     "market_group": "Forex Majors",
@@ -358,7 +358,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_completed_impulse_20260209T040000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-09T04:00:00",
     "symbol": "OHLC_WDONE",
     "market_group": "Forex Majors",
@@ -409,7 +409,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_possible_waveA_20260210T080000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-10T08:00:00",
     "symbol": "OHLC_A",
     "market_group": "Forex Majors",
@@ -460,7 +460,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_possible_waveB_20260211T120000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-11T12:00:00",
     "symbol": "OHLC_B",
     "market_group": "Forex Majors",
@@ -511,7 +511,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_waveC_candidate_20260212T160000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-12T16:00:00",
     "symbol": "OHLC_CC",
     "market_group": "Forex Majors",
@@ -562,7 +562,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_waveC_active_20260213T160000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-13T16:00:00",
     "symbol": "OHLC_CA",
     "market_group": "Forex Majors",
@@ -613,7 +613,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_completed_abc_20260214T200000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-14T20:00:00",
     "symbol": "OHLC_ABCDONE",
     "market_group": "Forex Majors",
@@ -664,7 +664,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_unknown_20260215T080000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-15T08:00:00",
     "symbol": "OHLC_UNKNOWN",
     "market_group": "Forex Majors",
@@ -715,7 +715,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_ambiguous_20260216T120000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-16T12:00:00",
     "symbol": "OHLC_AMBIG",
     "market_group": "Forex Majors",
@@ -766,7 +766,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_invalidated_20260217T120000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-17T12:00:00",
     "symbol": "OHLC_INV",
     "market_group": "Forex Majors",
@@ -817,7 +817,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ohlc_not_available_20260218T080000",
-    "generated_at": "2026-06-18T23:46:37Z",
+    "generated_at": "2026-06-22T15:12:49Z",
     "as_of_bar_time": "2026-02-18T08:00:00",
     "symbol": "OHLC_NA",
     "market_group": "Forex Majors",

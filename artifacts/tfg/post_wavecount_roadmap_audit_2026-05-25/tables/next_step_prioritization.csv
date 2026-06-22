@@ -1,5 +1,0 @@
-next_best_step,priority,why_now,risk_if_skipped,estimated_scope,requires_code_changes,requires_new_artifacts,requires_manual_review
-memory_architecture_and_evidence_map,primary,Los bloques empiricos/metodologicos principales estan cerrados o pausados; seguir abriendo tecnologia aumenta ruido.,Acumular mas fases sin convertir evidencia en memoria defendible.,medium,False,True,True
-roadmap_cleanup_only,secondary,El roadmap estaba desfasado tras WaveCount 2.5.10.,Tomar decisiones sobre una secuencia antigua.,small,False,True,False
-numba_python_parity_audit,alternative_if_technical_hardening_needed,Puede reforzar ENBOLSA antes de memoria si preocupa reproducibilidad tecnica.,"Queda una limitacion tecnica documentada, aunque no bloquea la narrativa principal.",medium,False,True,False
-read_only_dashboard_prototype,defer,"Interesante para plataforma, pero no imprescindible para cerrar TFG.","Se retrasa el prototipo visual, no la evidencia academica.",large,True,True,True

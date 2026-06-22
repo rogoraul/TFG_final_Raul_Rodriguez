@@ -1,2 +1,0 @@
-phase257_recommendation,reason,changed_cases,watchlist_cases,inputs,do_not_do,validation_needed
-descriptive_expansion_with_phase256_policy,2.5.6 corrects low-prominence kept cases without relaxing exclusions. Next phase can expand descriptively using phase256 buckets.,8,1,phase256_policy_scores.csv; phase254_vs_phase256_bucket_changes.csv; phase256_visual_recheck.csv,"do not generate signals, do not backtest, do not optimize returns, do not promote watchlist to entries",spot-check watchlist and low-prominence auxiliary cases if they become examples in the thesis

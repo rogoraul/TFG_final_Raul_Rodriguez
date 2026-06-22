@@ -1,7 +1,0 @@
-sql_market_group,enabled_symbols,price_symbols_with_data,artifact_symbols,candidate_rows
-Commodities,3,3,0,0
-Crypto,4,4,0,0
-Forex Exotic,6,6,0,0
-Forex Majors,27,27,3,48
-Index,13,13,1,30
-Metals,7,7,1,30

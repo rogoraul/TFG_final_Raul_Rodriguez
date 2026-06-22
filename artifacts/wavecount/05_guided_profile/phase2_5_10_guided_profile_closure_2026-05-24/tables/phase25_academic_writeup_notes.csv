@@ -1,8 +1,0 @@
-section,writeup_note
-definition,"WaveCount se plantea como una capa exploratoria de lectura estructural del precio basada en pivotes causales, swings, grados y conteos candidatos."
-negative_scope,"No es una estrategia de trading, no genera entradas, no filtra ENBOLSA y no se ha conectado a MT5 ni a backtests operativos."
-method,"El desarrollo se separo por fases para evitar mezclar conteo puro, contexto tecnico, correcciones, scoring blando y diagnosticos de escala."
-main_result,"La base metodologica defendible es H4/D1 con grado intermediate, major como contexto y H1/H4 como auxiliar."
-context,"EWO, EMA 50/150 y HTF aportan lectura de momentum/regimen, pero solo como contexto blando."
-limitations,ABC y correcciones complejas siguen experimentales; Metals requiere advertencia por baja prominencia y ventanas/spikes.
-future_work,"Antes de cualquier uso live haria falta una metrica causal de ventana y una validacion descriptiva mas amplia, siempre sin asumir edge."

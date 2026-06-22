@@ -1,4 +1,0 @@
-resolved_market_group,case_count,ema_htf_score_mean,ema_htf_policy_label_ema_htf_context_support,ema_htf_policy_label_ema_htf_correction_context,ema_htf_policy_label_ema_htf_misleading_warning,ema_htf_soft_support_supports,ema_htf_soft_support_contextual,ema_htf_soft_support_misleading,ema_htf_helpfulness_supports_context,ema_htf_helpfulness_explains_correction,ema_htf_helpfulness_misleading
-Forex Majors,48,-2.3333,28,16,4.0,28,16,4.0,28,16,4.0
-Index,30,0.2667,22,8,,22,8,,22,8,
-Metals,30,-2.0,22,3,5.0,22,3,5.0,22,3,5.0

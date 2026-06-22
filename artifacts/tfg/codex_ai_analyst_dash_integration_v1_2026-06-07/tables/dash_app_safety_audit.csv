@@ -1,8 +1,0 @@
-check_id,check,status,value
-DASH_SAFE_01,sql_real_written,passed,False
-DASH_SAFE_02,db_connected,passed,False
-DASH_SAFE_03,mt5_connected,passed,False
-DASH_SAFE_04,telegram_connected,passed,False
-DASH_SAFE_05,secret_inputs_present,passed,False
-DASH_SAFE_06,operational_buttons_present,passed,False
-DASH_SAFE_07,wavecount_used_as_filter,passed,False

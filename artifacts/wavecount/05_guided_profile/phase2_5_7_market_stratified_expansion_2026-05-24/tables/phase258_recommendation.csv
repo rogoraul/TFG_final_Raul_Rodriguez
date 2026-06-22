@@ -1,2 +1,0 @@
-phase258_recommendation,policy_decision,exclusion_pct_spread,prominence_median_spread,risk_rows,reason,do_not_do
-open_group_percentile_normalization_phase,do_not_change_phase256_policy_in_257,5.56,0.235267,3,La prominencia por ventana difiere bastante entre grupos; conviene normalizacion por percentiles antes de endurecer umbrales.,"no signals, no backtests, no strategy filters, no SVM, no hard EMA/EWO/HTF rules"

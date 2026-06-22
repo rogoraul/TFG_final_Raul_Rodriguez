@@ -1,4 +1,0 @@
-rule_candidate,purpose,status,evidence_count,manual_evidence_count,recommended_future_state,hard_or_soft,anti_lookahead_note
-post_count_material_wave5_extension,degrade clean impulse when wave 5 is followed by a materially more extreme same-direction structural pivot,implemented_as_diagnostic,13,3,premature_wave5_completion or wave_5_in_progress,soft_until_more_manual_review,uses future pivots only for retrospective diagnosis; live code must keep the count provisional until later pivots confirm the endpoint
-truncated_fifth_separation,separate wave 5 failing to exceed wave 3 from clean impulse candidates,implemented_as_diagnostic,18,1,truncated_fifth_candidate,soft_methodological_label,depends only on the six confirmed pivots used by the original window
-clean_impulse_is_provisional,avoid treating a just-detected impulse as final or tradable,documented,11,0,candidate_impulse_provisional,documentation_guard,keeps real-time state honest without reading future bars

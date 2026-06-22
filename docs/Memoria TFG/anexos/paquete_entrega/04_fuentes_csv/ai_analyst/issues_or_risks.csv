@@ -2,4 +2,4 @@ issue_id,severity,issue,mitigation
 RISK_01,medium,El usuario puede interpretar el reporte como recomendacion operativa si se relaja el lenguaje.,mantener frases read-only y bloqueos de lenguaje en gateway/PDF.
 RISK_02,medium,La busqueda macro puede no encontrar fuentes suficientes o quedar obsoleta.,exigir macro_risk_level=unknown si no verifica y citar enlaces externos.
 RISK_03,low,El progreso del panel no es streaming real.,documentado como mejora futura; no bloquea closeout.
-RISK_04,medium,Validacion con mercado real del refresh/hook sigue pendiente.,mantener como pendiente antes de afirmar funcionamiento live completo.
+RISK_04,medium,Validacion con mercado real del refresh/hook queda como trabajo futuro.,no afirmar funcionamiento live completo.

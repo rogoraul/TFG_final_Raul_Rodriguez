@@ -80,7 +80,7 @@ DEFAULT_ROW: dict[str, Any] = {
     "generated_at": "",
     "symbol": "not_available",
     "market_group": "not_available",
-    "strategy": "enbolsa:macd_breakout",
+    "strategy": "macd_breakout",
     "timeframe_ltf": "not_available",
     "timeframe_htf": "not_available",
     "last_closed_bar_time": "not_available",

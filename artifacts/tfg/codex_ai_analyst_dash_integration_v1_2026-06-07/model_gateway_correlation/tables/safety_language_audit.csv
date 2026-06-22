@@ -1,5 +1,0 @@
-check,status,evidence
-network_call_disabled_by_default,pass,False
-model_not_called,pass,model_called=false
-blocked_phrases_configured,pass,15
-real_provider_not_implemented,pass,real calls are still blocked

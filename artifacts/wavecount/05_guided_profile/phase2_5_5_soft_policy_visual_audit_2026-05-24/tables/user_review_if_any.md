@@ -1,7 +1,0 @@
-# user_review_if_any
-
-## 1. impulse_exp252_index_aus200_h4_intermediate_impulse_020
-- visual_policy_verdict: policy_correct
-- recommended_policy_adjustment: keep_policy
-
-![013_007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png](C:/Users/ralr1/Desktop/CD/TFG/TFG-Raul_Rodriguez/artifacts/wavecount/05_guided_profile/phase2_5_5_soft_policy_visual_audit_2026-05-24/charts/selected_review/013_007_impulse_exp252_index_aus200_h4_intermediate_impulse_020.png)

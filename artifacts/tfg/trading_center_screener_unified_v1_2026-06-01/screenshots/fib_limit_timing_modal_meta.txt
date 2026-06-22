@@ -3,10 +3,10 @@ ready_for_chart_review
 entry_review
 calidad 5/5
 dist. 0.2406%
-revision codex pendiente
+revision codex REVISION
 ---
 POR QUE APARECE
 CONTEXTO
 NIVELES
 TIMING
-PENDIENTE
+REVISION

@@ -1,4 +1,0 @@
-recommendation,status,reason,next_phase
-controlled_h4_d1_expansion_can_continue,conditional_yes,Use matches as seeds and near-misses/negatives as validation gallery; do not generate signals.,phase2_5_3_descriptive_offline_statistics
-keep_ewo_as_soft_context,yes,EWO helps interpret momentum/role but should not label waves alone.,optional_feature_analysis_or_future_svm
-keep_ema_htf_as_soft_context,yes,"HTF/EMA alignment helps, but conflicts can be transition/lag and must not be hard filters.",phase2_5_3_context_stability

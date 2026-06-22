@@ -1,8 +1,0 @@
-phase_or_area,next_step,priority,constraint
-2.5.4,formalizar penalizacion blanda de prominencia/tamano,next,no senales
-2.5.4,formalizar uso blando EWO por rol de onda,next,sin umbrales absolutos
-2.5.4,formalizar EMA/HTF como contexto de regimen/ambiguedad,next,no hard filter
-posterior,expansion descriptiva mas amplia si 2.5.4 queda estable,later,offline
-posterior,estadistica de estabilidad y revision visual selectiva,later,offline
-futuro,dashboard read-only,future,solo cuando WaveCount sea estable
-bloqueado,"senales, MT5, Telegram, backtests, optimizacion",do_not_do,romperia el enfoque actual

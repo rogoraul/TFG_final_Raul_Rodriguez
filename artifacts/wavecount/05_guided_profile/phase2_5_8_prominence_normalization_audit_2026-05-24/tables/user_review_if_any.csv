@@ -1,2 +1,0 @@
-candidate_id,review_reason,priority,reviewed_chart_path,notes
-,no_blocking_manual_review,none,,No hace falta revision manual para cerrar 2.5.8; la siguiente decision puede documentarse en 2.5.9.

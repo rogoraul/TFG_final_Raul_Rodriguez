@@ -1,9 +1,0 @@
-Scenario,Variante,Family,MetricScope,Blocks,TotalTrades,TotalNetProfit,MeanReturn%,MedianReturn%,MinReturn%,MaxReturn%,PositiveBlocks,PositiveBlockRate%,MedianPF,MedianMaxDD%,MaxOpenRiskSetup%
-compounded_cap_10pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,20076,178635.92,198.49,36.28,3.78,1409.33,9,100.0,1.08,34.54,15.34
-compounded_cap_3pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,13176,136088.2,151.21,31.86,-5.03,992.64,8,88.9,1.13,28.64,5.3
-compounded_cap_5pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,17098,220096.13,244.55,36.28,-18.1,1837.17,8,88.9,1.08,33.24,9.56
-fixed_initial_cap_10pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,20092,76355.09,84.84,43.2,8.71,341.45,9,100.0,1.12,25.48,13.7
-fixed_initial_cap_3pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,13926,58643.28,65.16,32.82,-44.62,273.48,8,88.9,1.14,20.54,7.57
-fixed_initial_cap_5pct,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,17474,74807.51,83.12,43.2,8.65,323.82,9,100.0,1.13,22.31,9.91
-fixed_initial_uncapped,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,20216,75884.45,84.32,43.2,8.71,340.07,9,100.0,1.12,25.48,16.86
-observed_compounded_uncapped,enbolsa:macd_breakout,enbolsa,risk_sensitivity_aggregate,9,20216,177422.03,197.14,36.28,-7.37,1405.24,8,88.9,1.08,34.54,18.34

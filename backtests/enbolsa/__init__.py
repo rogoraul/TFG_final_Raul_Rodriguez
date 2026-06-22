@@ -1,1 +1,1 @@
-"""ENBOLSA backtesting modules."""
+"""Legacy namespace for formalized setup backtests."""

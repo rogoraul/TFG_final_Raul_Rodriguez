@@ -14,70 +14,70 @@
   "sources": [
     {
       "name": "watcher_snapshot",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\snapshot.csv",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\snapshot.csv",
       "exists": true,
       "rows": 54,
       "role": "required"
     },
     {
       "name": "watcher_watchlist",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\watchlist.csv",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\watchlist.csv",
       "exists": true,
       "rows": 10,
       "role": "optional_context"
     },
     {
       "name": "watcher_order_intents",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\order_intents.csv",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\order_intents.csv",
       "exists": true,
       "rows": 0,
       "role": "optional_context"
     },
     {
       "name": "watcher_riskguard_decisions",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\riskguard_decisions.csv",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\riskguard_decisions.csv",
       "exists": true,
       "rows": 0,
       "role": "optional_context"
     },
     {
       "name": "watcher_run_meta",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\run_meta.json",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0\\run_meta.json",
       "exists": true,
       "rows": 1,
       "role": "metadata"
     },
     {
       "name": "snapshot_contract",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\operational_integration_design_2026-05-25\\tables\\live_context_snapshot_contract.csv",
+      "path": "artifacts\\tfg\\operational_integration_design_2026-05-25\\tables\\live_context_snapshot_contract.csv",
       "exists": true,
       "rows": 54,
       "role": "contract"
     },
     {
       "name": "wavecount_policy_256",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\05_guided_profile\\phase2_5_6_soft_policy_weight_adjustment_2026-05-24\\tables\\phase256_policy_scores.csv",
+      "path": "artifacts\\wavecount\\05_guided_profile\\phase2_5_6_soft_policy_weight_adjustment_2026-05-24\\tables\\phase256_policy_scores.csv",
       "exists": true,
       "rows": 108,
       "role": "official_context"
     },
     {
       "name": "wavecount_robust_259",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\05_guided_profile\\phase2_5_9_robust_prominence_policy_trial_2026-05-24\\tables\\phase259_candidate_policy_scores.csv",
+      "path": "artifacts\\wavecount\\05_guided_profile\\phase2_5_9_robust_prominence_policy_trial_2026-05-24\\tables\\phase259_candidate_policy_scores.csv",
       "exists": true,
       "rows": 162,
       "role": "diagnostic_only"
     },
     {
       "name": "wavecount_closure_2510",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\05_guided_profile\\phase2_5_10_guided_profile_closure_2026-05-24\\tables\\phase25_final_policy_matrix.csv",
+      "path": "artifacts\\wavecount\\05_guided_profile\\phase2_5_10_guided_profile_closure_2026-05-24\\tables\\phase25_final_policy_matrix.csv",
       "exists": true,
       "rows": 19,
       "role": "documentation"
     },
     {
       "name": "watcher_dir",
-      "path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0",
+      "path": "artifacts\\live-signal-watcher\\enbolsa_macd_breakout_v0",
       "exists": true,
       "rows": 0,
       "role": "input_dir"

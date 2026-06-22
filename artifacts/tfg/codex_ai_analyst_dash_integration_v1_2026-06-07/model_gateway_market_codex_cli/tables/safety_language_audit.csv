@@ -1,6 +1,0 @@
-check,status,evidence
-network_call_disabled_by_default,warning,True
-model_not_called_by_default,warning,True
-blocked_phrases_configured,pass,15
-real_provider_gated,pass,"openai provider requires allow-network-call, secret and manual intent"
-macro_web_research_explicit_only,pass,False

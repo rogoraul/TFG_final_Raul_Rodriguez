@@ -1,7 +1,0 @@
-check,status,evidence
-required_fields,pass,
-package_id_match,pass,CADCHF.r_H4_fib_limit_live_candidate_01fddfa7
-review_priority_range,pass,3
-sources_present,pass,5
-blocked_phrase_scan,pass,
-side_effect_flags_false,pass,

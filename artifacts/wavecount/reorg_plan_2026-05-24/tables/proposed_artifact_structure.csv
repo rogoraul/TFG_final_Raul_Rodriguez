@@ -1,9 +1,0 @@
-proposed_path,purpose,action
-artifacts/wavecount/00_manifest,indices/manifests generated after migration,create
-artifacts/wavecount/01_pivots_and_swings,phase 1 to 1.6 base structures,create
-artifacts/wavecount/02_candidate_counts,phase 2 base counts and invalidation diagnostics,create
-artifacts/wavecount/03_visual_review,phase 2.3 visual review and manual diagnostics,create
-artifacts/wavecount/04_context_and_corrections,EMA/EWO/HTF and correction/ABC work,create
-artifacts/wavecount/05_guided_profile,phase 2.5 guided profile and stats,create
-artifacts/wavecount/90_global_audits,global audits and reorg plans,create
-artifacts/wavecount/99_superseded,historical or superseded artifacts,create

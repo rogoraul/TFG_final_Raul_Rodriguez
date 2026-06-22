@@ -1,7 +1,7 @@
 check_id,check,status,evidence,rows,timeframes
-CORR_DASH_01,correlation_source,available,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_market_correlations_v1_2026-05-31\correlation_pairs.csv,7080,
+CORR_DASH_01,correlation_source,available,artifacts\tfg\trading_center_market_correlations_v1_2026-05-31\correlation_pairs.csv,7080,
 CORR_DASH_02,returns_based_not_price_based,passed,Market correlations are consumed from artifact generated on close-to-close log returns.,,
 CORR_DASH_03,timeframe_selector_available,passed,Dash Correlacion section exposes corr-timeframe dropdown.,,D1|H1|H4|M15
 CORR_DASH_04,views_available,passed,"Base and Rolling correlation views are read-only; Base includes four pair metrics, LOWESS scatter and fixed selectable matrix.",,
 CORR_DASH_05,no_operational_decision,passed,"Correlation section is context-only; no signals, orders, MT5, Telegram or SQL writes.",,
-CORR_DASH_06,returns_sample_for_pair_graph,available,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\trading_center_market_correlations_v1_2026-05-31\correlation_returns_sample.csv,167748,
+CORR_DASH_06,returns_sample_for_pair_graph,available,artifacts\tfg\trading_center_market_correlations_v1_2026-05-31\correlation_returns_sample.csv,167748,

@@ -457,7 +457,7 @@ def _write_charts(
         data.append(values.to_numpy())
     if data:
         plt.figure(figsize=(12, max(5, len(data) * 0.55)))
-        plt.boxplot(data, tick_labels=strategies, vert=False, showmeans=True)
+        plt.boxplot(data, tick_labels=strategies, orientation="horizontal", showmeans=True)
         plt.xlabel("Return% por bloque")
         plt.title("Distribucion de Return% por estrategia")
         plt.tight_layout()

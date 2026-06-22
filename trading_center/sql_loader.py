@@ -48,13 +48,13 @@ STABLE_ROW_COLUMNS = [
 ]
 
 DEFAULT_STRATEGY = {
-    "strategy_id": "enbolsa:macd_breakout",
-    "family": "enbolsa",
+    "strategy_id": "macd_breakout",
+    "family": "setup",
     "status": "active_read_only",
     "can_generate_signals": True,
     "can_enter_dry_run": False,
     "can_execute_live": False,
-    "description": "ENBOLSA MACD breakout, initial operational integration strategy.",
+    "description": "MACD breakout setup, initial operational integration strategy.",
     "payload_json": json.dumps({"source": "sql_operational_core_v0", "execution_blocked": True}, ensure_ascii=False),
 }
 
@@ -77,7 +77,7 @@ DEFAULT_BOT_CONFIG = {
     "is_active": True,
     "bot_enabled": False,
     "mode": "off",
-    "allowed_strategies_json": json.dumps(["enbolsa:macd_breakout"], ensure_ascii=False),
+    "allowed_strategies_json": json.dumps(["macd_breakout"], ensure_ascii=False),
     "allowed_symbols_json": json.dumps([], ensure_ascii=False),
     "requires_manual_approval": True,
     "mt5_enabled": False,

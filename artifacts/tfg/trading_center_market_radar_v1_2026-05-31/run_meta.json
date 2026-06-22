@@ -21,7 +21,7 @@
   "wavecount_used_as_filter": false,
   "can_execute_order_any_true": false,
   "source_m15_context_csv": "",
-  "source_h1_context_csv": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\05_guided_profile\\phase2_5_2b_h1_h4_aux_2026-05-24\\diagnostic_phase2_4_h1_h4_aux\\tables\\wavecount_context.csv",
-  "source_h4_context_csv": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\05_guided_profile\\phase2_5_2_h4_d1_expansion_2026-05-24\\diagnostic_phase2_4_h4_d1_expanded\\tables\\wavecount_context.csv",
+  "source_h1_context_csv": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2b_h1_h4_aux_2026-05-24\\diagnostic_phase2_4_h1_h4_aux\\tables\\wavecount_context.csv",
+  "source_h4_context_csv": "artifacts\\wavecount\\05_guided_profile\\phase2_5_2_h4_d1_expansion_2026-05-24\\diagnostic_phase2_4_h4_d1_expanded\\tables\\wavecount_context.csv",
   "source_ohlc_csv": "artifacts\\tfg\\trading_center_sql_market_data_readonly_v1_2026-05-31\\ohlc_mtf.csv"
 }

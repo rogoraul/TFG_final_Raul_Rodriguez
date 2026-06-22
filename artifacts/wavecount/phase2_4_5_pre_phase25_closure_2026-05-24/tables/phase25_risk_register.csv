@@ -1,7 +1,0 @@
-risk,severity,mitigation
-context_rescues_bad_count,high,A downgraded count cannot become good only because EMAs/EWO/HTF agree.
-abc_isolated_false_correction,high,Require parent/context and keep unknown-parent ABC experimental.
-degree_overconfidence,medium,"Treat degree as visual scale, not objective market truth."
-low_timeframe_noise,medium,Keep H1/H4 and M30/H1 auxiliary.
-wave5_endpoint_overreaction,medium,"Use provisional endpoint uncertainty, not automatic invalidation."
-turning_context_into_signal,high,Phase 2.5 remains no-signal and no-trading.

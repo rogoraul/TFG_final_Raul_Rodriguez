@@ -2,8 +2,8 @@
   "started_at": "2026-05-20T00:31:01",
   "finished_at": "2026-05-20T00:41:08",
   "elapsed_seconds": 607.0737400000216,
-  "phase2_3_output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
-  "phase2_4_output_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1",
+  "phase2_3_output_dir": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+  "phase2_4_output_dir": "artifacts\\wavecount\\phase2_4_context_2026-05-18\\h4_d1",
   "htf_timeframe": "D1",
   "htf_rows": 260,
   "specs": [

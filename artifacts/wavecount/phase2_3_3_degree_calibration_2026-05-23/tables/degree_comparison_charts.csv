@@ -1,9 +1,0 @@
-scenario,example_id,symbol,timeframe,status,chart_path,error
-h1_m30,forex_audjpy_h1,AUDJPY.r,H1,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h1_m30_forex_audjpy_h1_degree_comparison.png,
-h1_m30,forex_eurjpy_m30,EURJPY.r,M30,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h1_m30_forex_eurjpy_m30_degree_comparison.png,
-h1_m30,metals_xagusd_h1,XAGUSD.r,H1,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h1_m30_metals_xagusd_h1_degree_comparison.png,
-h1_m30,index_aus200_h1,AUS200,H1,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h1_m30_index_aus200_h1_degree_comparison.png,
-h4_d1,forex_audjpy_h4,AUDJPY.r,H4,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h4_d1_forex_audjpy_h4_degree_comparison.png,
-h4_d1,metals_xagusd_h4,XAGUSD.r,H4,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h4_d1_metals_xagusd_h4_degree_comparison.png,
-h4_d1,index_aus200_h4,AUS200,H4,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h4_d1_index_aus200_h4_degree_comparison.png,
-h4_d1,index_hk50_h4,HK50,H4,ok,artifacts\wavecount\phase2_3_3_degree_calibration_2026-05-23\charts\degree_comparison\h4_d1_index_hk50_h4_degree_comparison.png,

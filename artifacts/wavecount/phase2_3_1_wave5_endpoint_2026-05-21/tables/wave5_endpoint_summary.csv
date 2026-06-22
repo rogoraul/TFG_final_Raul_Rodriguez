@@ -1,9 +1,0 @@
-metric,value
-diagnosed_candidates,42
-reclassified_or_manual_cases,32
-manual_wave5_cases,6
-endpoint_status_truncated_fifth_candidate,18
-endpoint_status_premature_wave5_completion,13
-endpoint_status_clean_or_unresolved_wave5_endpoint,11
-scenario_h1_m30,21
-scenario_h4_d1,21

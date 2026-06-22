@@ -6,4 +6,4 @@ ohlc_window.csv when applicable,passed,renderer contract documented and package 
 chart_layers.csv when applicable,passed,renderer contract documented and package artifacts exist,component must remain source-bound
 chart.png,passed,renderer contract documented and package artifacts exist,component must remain source-bound
 source_manifest.json,passed,renderer contract documented and package artifacts exist,missing component blocks reproducible review
-prompt_context artifact,passed,renderer contract documented and package artifacts exist,component must remain source-bound
+prompt_context.md,passed,renderer contract documented and package artifacts exist,component must remain source-bound

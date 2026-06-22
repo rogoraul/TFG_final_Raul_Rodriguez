@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-08T12:09:42.790070+00:00",
-  "latest_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest",
+  "latest_dir": "artifacts\\tfg\\trading_center_latest",
   "refresh_decision": "refresh_allowed_with_warnings",
   "dry_run": false,
   "audit_only": false,
@@ -22,8 +22,8 @@
   "components": [
     {
       "component": "ohlc",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\sql_market_data_readonly\\ohlc_mtf.csv",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\ohlc\\ohlc_mtf.csv",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\sql_market_data_readonly\\ohlc_mtf.csv",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\ohlc\\ohlc_mtf.csv",
       "promotion_status": "promoted",
       "reason": "valid_ohlc_artifact",
       "copied_files": 1,
@@ -32,8 +32,8 @@
     },
     {
       "component": "market_radar",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\market_radar",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\market_radar",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\market_radar",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\market_radar",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 9,
@@ -42,8 +42,8 @@
     },
     {
       "component": "fibonacci_context",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\fibonacci_context",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\fibonacci_context",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\fibonacci_context",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\fibonacci_context",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 15,
@@ -52,8 +52,8 @@
     },
     {
       "component": "screener_unified",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\screener_unified",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\screener_unified",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\screener_unified",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\screener_unified",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 25,
@@ -62,8 +62,8 @@
     },
     {
       "component": "dash_audit",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\dash_audit",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\dash_audit",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\dash_audit",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\dash_audit",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 10,
@@ -72,8 +72,8 @@
     },
     {
       "component": "weavecount",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\weavecount_screener_h1_h4",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\weavecount",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\weavecount_screener_h1_h4",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\weavecount",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 14,
@@ -82,8 +82,8 @@
     },
     {
       "component": "macd_breakout_watcher",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\macd_breakout_watcher",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\macd_breakout_watcher",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\macd_breakout_watcher",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\macd_breakout_watcher",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 16,
@@ -92,8 +92,8 @@
     },
     {
       "component": "macd_breakout_enrichment",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\macd_breakout_enrichment",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\macd_breakout_enrichment",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\macd_breakout_enrichment",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\macd_breakout_enrichment",
       "promotion_status": "promoted",
       "reason": "dependency_passed",
       "copied_files": 13,
@@ -102,8 +102,8 @@
     },
     {
       "component": "correlations",
-      "source_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\market_correlations",
-      "latest_path": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\correlations",
+      "source_path": "artifacts\\tfg\\live_hook\\mt5_ingest_H1_H4_D1_20260608T140013+0200\\refresh_service\\cycles\\20260608T120000+0000_M15\\orchestrator\\generated\\market_correlations",
+      "latest_path": "artifacts\\tfg\\trading_center_latest\\correlations",
       "promotion_status": "preserved_last_good",
       "reason": "skipped_slow_analytics_last_good",
       "copied_files": 0,

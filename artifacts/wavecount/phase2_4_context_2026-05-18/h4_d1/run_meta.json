@@ -2,7 +2,7 @@
   "started_at": "2026-05-20T00:35:56",
   "finished_at": "2026-05-20T00:41:08",
   "elapsed_seconds": 312.19967990001896,
-  "input_dir": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
+  "input_dir": "artifacts\\wavecount\\phase2_3_visual_review_2026-05-17\\h4_d1",
   "context_config": {
     "ema_fast": 50,
     "ema_slow": 150,

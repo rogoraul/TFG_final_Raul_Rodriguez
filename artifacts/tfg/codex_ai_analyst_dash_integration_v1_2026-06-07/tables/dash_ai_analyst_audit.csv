@@ -1,5 +1,0 @@
-check_id,check,status,evidence
-AI_DASH_01,floating_assistant_available,passed,"Dash layout exposes ai-analyst-toggle, ai-analyst-panel and setup selector."
-AI_DASH_02,package_renderer_integration,passed,AI Analyst callback prepares reproducible package through codex_ai_analyst_package_renderer.
-AI_DASH_03,controlled_gateway_fixture_only,passed,Dash integration calls model gateway in fixture mode; model/network remain disabled.
-AI_DASH_04,no_operational_side_effects,passed,Assistant cannot send MT5/Telegram/SQL/orders/signals from the UI.

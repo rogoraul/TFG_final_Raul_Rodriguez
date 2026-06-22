@@ -1,2 +1,2 @@
 source,source_rows,groups,timeframes,symbols,symbol_timeframes
-C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\sql_market_data_readonly\ohlc_mtf.csv,445664,Forex Majors|Index|Metals,H1|H4,47,94
+artifacts\tfg\live_hook\mt5_ingest_H1_H4_D1_20260608T140013+0200\sql_market_data_readonly\ohlc_mtf.csv,445664,Forex Majors|Index|Metals,H1|H4,47,94

@@ -1,9 +1,0 @@
-# Phase25 Future Path Recommendation
-
-| path_option | priority | recommended | reason | do_next | do_not_do |
-| --- | --- | --- | --- | --- | --- |
-| pause_wavecount_and_return_to_tfg_core | primary_recommendation | True | 2.5.x is methodologically closed enough; no bucket changed in 2.5.9 and 2.5.6 remains official. Robust prominence is useful diagnostically but does not change buckets in this sample. | Use WaveCount findings in the academic writeup and return focus to ENBOLSA/TFG core. | Do not turn WaveCount scoring into entries, filters, MT5, Telegram or backtests. |
-| prepare_academic_writeup_without_more_wavecount | strong_alternative | True | The methodological narrative is now coherent and documented. | Draft the WaveCount section as exploratory structural analysis. | Do not claim empirical edge. |
-| expand_descriptive_h4_d1_more_history | optional_later | False | Only useful if more descriptive evidence is needed; it should remain offline and stratified. | Open a future Phase 2.6 descriptive expansion if the TFG needs more WaveCount material. | Do not optimize by profitability or generate signals. |
-| manual_review_selected_cases_before_expansion | conditional | False | Useful only before a Metals-specific or larger historical expansion. | Review selected Metals/watchlist cases if expansion is reopened. | Do not block the 2.5.x closure on this. |
-| open_phase26_descriptive_expansion | defer | False | Possible future path, but not needed before returning to TFG core. | Keep it as future work. | Do not make it operational. |

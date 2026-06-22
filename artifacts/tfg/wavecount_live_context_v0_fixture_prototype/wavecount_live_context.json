@@ -1,7 +1,7 @@
 [
   {
     "context_id": "wavecount_live_v0_impulse_possible_wave1_20260101T120000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-01T12:00:00",
     "symbol": "FX_W1",
     "market_group": "Forex Majors",
@@ -52,7 +52,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_possible_wave2_20260102T120000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-02T12:00:00",
     "symbol": "FX_W2",
     "market_group": "Forex Majors",
@@ -103,7 +103,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_wave3_candidate_20260103T160000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-03T16:00:00",
     "symbol": "FX_W3C",
     "market_group": "Forex Majors",
@@ -154,7 +154,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_wave3_active_20260104T160000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-04T16:00:00",
     "symbol": "FX_W3A",
     "market_group": "Forex Majors",
@@ -205,7 +205,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_possible_wave4_20260105T200000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-05T20:00:00",
     "symbol": "FX_W4",
     "market_group": "Forex Majors",
@@ -256,7 +256,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_wave5_candidate_20260106T200000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-06T20:00:00",
     "symbol": "FX_W5C",
     "market_group": "Forex Majors",
@@ -307,7 +307,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_wave5_active_20260107T200000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-07T20:00:00",
     "symbol": "FX_W5A",
     "market_group": "Forex Majors",
@@ -358,7 +358,7 @@
   },
   {
     "context_id": "wavecount_live_v0_impulse_completed_candidate_20260109T000000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-09T00:00:00",
     "symbol": "FX_WDONE",
     "market_group": "Forex Majors",
@@ -409,7 +409,7 @@
   },
   {
     "context_id": "wavecount_live_v0_correction_possible_waveA_20260109T080000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-09T08:00:00",
     "symbol": "FX_A",
     "market_group": "Forex Majors",
@@ -460,7 +460,7 @@
   },
   {
     "context_id": "wavecount_live_v0_correction_possible_waveB_20260110T120000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-10T12:00:00",
     "symbol": "FX_B",
     "market_group": "Forex Majors",
@@ -511,7 +511,7 @@
   },
   {
     "context_id": "wavecount_live_v0_correction_waveC_candidate_20260111T160000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-11T16:00:00",
     "symbol": "FX_CC",
     "market_group": "Forex Majors",
@@ -562,7 +562,7 @@
   },
   {
     "context_id": "wavecount_live_v0_correction_waveC_active_20260112T160000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-12T16:00:00",
     "symbol": "FX_CA",
     "market_group": "Forex Majors",
@@ -613,7 +613,7 @@
   },
   {
     "context_id": "wavecount_live_v0_correction_completed_abc_20260113T200000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-13T20:00:00",
     "symbol": "FX_ABCDONE",
     "market_group": "Forex Majors",
@@ -664,7 +664,7 @@
   },
   {
     "context_id": "wavecount_live_v0_unknown_no_pivots_20260114T080000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-14T08:00:00",
     "symbol": "FX_UNKNOWN",
     "market_group": "Forex Majors",
@@ -715,7 +715,7 @@
   },
   {
     "context_id": "wavecount_live_v0_ambiguous_low_prominence_20260115T120000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-15T12:00:00",
     "symbol": "FX_AMBIG",
     "market_group": "Forex Majors",
@@ -766,7 +766,7 @@
   },
   {
     "context_id": "wavecount_live_v0_invalidated_wave2_20260116T120000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-16T12:00:00",
     "symbol": "FX_INV",
     "market_group": "Forex Majors",
@@ -817,7 +817,7 @@
   },
   {
     "context_id": "wavecount_live_v0_not_available_missing_context_20260117T080000",
-    "generated_at": "2026-06-18T23:46:34Z",
+    "generated_at": "2026-06-22T15:12:47Z",
     "as_of_bar_time": "2026-01-17T08:00:00",
     "symbol": "FX_NA",
     "market_group": "Forex Majors",

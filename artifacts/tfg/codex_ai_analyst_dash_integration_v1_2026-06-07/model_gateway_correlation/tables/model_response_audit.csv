@@ -1,7 +1,0 @@
-check,status,evidence
-required_fields,pass,
-package_id_match,pass,correlation_H1_XAGEUR.r_XAGUSD.r_d67ee4c9
-review_priority_range,pass,3
-sources_present,pass,5
-blocked_phrase_scan,pass,
-side_effect_flags_false,pass,

@@ -11,8 +11,8 @@
     "port": 3306,
     "user": "root",
     "database": "trading_data",
-    "has_password": true,
-    "config_source": "host:.env; port:.env; user:.env; password:.env; database:.env",
+    "has_secret_value": true,
+    "config_source": "connection fields loaded from local .env; values not included",
     "is_local": true,
     "secret_values_printed": false
   },

@@ -53,7 +53,7 @@ class TradingCenterRefreshHookResult:
 
 
 def truthy(value: Any) -> bool:
-    return str(value or "").strip().lower() in {"1", "true", "yes", "y", "si", "sí"}
+    return str(value or "").strip().lower() in {"1", "true", "yes", "y", "si"}
 
 
 def config_from_env() -> TradingCenterRefreshHookConfig:

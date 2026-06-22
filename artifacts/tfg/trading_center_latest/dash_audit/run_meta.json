@@ -22,7 +22,7 @@
   "ai_analyst_pdf_report_available": true,
   "ai_analyst_codex_model_effective": "gpt-5.5",
   "ai_analyst_codex_reasoning_effort_effective": "medium",
-  "latest_manifest_json": "C:\\Users\\ralr1\\Desktop\\CD\\TFG\\TFG-Raul_Rodriguez\\artifacts\\tfg\\trading_center_latest\\latest_manifest.json",
+  "latest_manifest_json": "artifacts\\tfg\\trading_center_latest\\latest_manifest.json",
   "sql_real_read": false,
   "sql_real_written": false,
   "ddl_executed": false,

@@ -1,5 +1,0 @@
-rule_candidate,purpose,status,evidence_count,manual_evidence_cases,hard_or_soft,anti_lookahead_note
-wave3_must_displace_visibly,avoid accepting 1-2-3 where wave 3 barely exceeds wave 1,implemented_as_diagnostic,4,partial_123_index_aus200_h1_intermediate_partial123_001;partial_123_forex_audjpy_h1_minor_partial123_007,soft_until_more_manual_review,uses only the four pivots already required for partial detection
-post_3_invalidates_partial,flag partial 1-2-3 when immediate post-3 structure breaks wave 2,implemented_as_retrospective_diagnostic,10,,diagnostic_not_live_filter,post-3 pivots are future relative to partial_detected_at and only usable after latency/confirmation
-possible_prior_wave_45_context,warn when the origin may be a higher low/high inside a prior structure instead of a fresh 0 point,implemented_as_soft_context,7,partial_123_metals_xagusd_h1_minor_partial123_002,soft_context,uses prior structural pivots only
-partial_123_is_not_signal,"keep valid partials as provisional context toward 4-5, never as execution signal",documented,7,,methodological_guard,live state remains provisional until later confirmation

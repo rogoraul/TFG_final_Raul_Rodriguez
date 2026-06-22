@@ -2,7 +2,7 @@
   "generated_at": "2026-05-29T09:33:49",
   "phase": "bot_dry_run_v1_review",
   "decision": "bot_dry_run_v1_review_passed",
-  "reviewed_artifact": "artifacts/tfg/bot_dry_run_v1_2026-05-29",
+  "reviewed_artifact": "artifacts/tfg/bot_dry_run_v1_review_2026-05-29",
   "default_ledger_rows": 54,
   "default_decision_distribution": {
     "dry_run_blocked_by_config": 54

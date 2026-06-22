@@ -44,16 +44,12 @@ python -m trading_center.telegram_real_sender --input-dir artifacts/tfg/telegram
 - No hay SQL writes, DDL, bot, MT5, backtests ni senales.
 - WaveCount queda bloqueado por defecto y nunca se usa como filtro.
 
-## Secretos Auditados
+## Credenciales Auditadas
 
-- external_telegram_bot_token: present
-- external_telegram_chat_id: present
-- repo_secret_file:.env: local_ignored_secret_file_present
-- repo_secret_file:.env.local: not_found
-- repo_secret_file:telegram_token.txt: not_found
-- repo_secret_file:telegram_chat_id.txt: not_found
-- repo_secret_file:telegram_bot_token.txt: not_found
-- repo_secret_template:.env.example: template_present
+- Credenciales externas de Telegram disponibles durante la validacion local.
+- Archivo `.env` local presente e ignorado por Git.
+- No se imprimen ni guardan valores sensibles.
+- Las plantillas publicas no contienen secretos reales.
 
 ## Outputs
 

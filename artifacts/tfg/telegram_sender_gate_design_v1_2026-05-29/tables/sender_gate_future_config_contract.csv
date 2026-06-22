@@ -1,8 +1,8 @@
 field,type,default,meaning,fail_closed_rule
 telegram_enabled,bool,false,Global opt-in; must be manually set outside repo.,false blocks all real sends
 telegram_mode,enum,informational_only,Only informational messages allowed.,any other mode blocks
-telegram_token_source,enum,environment_only,Token read from external env/secret manager only.,repo storage forbidden
-telegram_chat_id_source,enum,environment_only,Chat id read from external env/secret manager only.,repo storage forbidden
+messaging_credential_source,enum,environment_only,Credential read from external env/secret manager only.,repo storage forbidden
+messaging_destination_source,enum,environment_only,Destination id read from external env/secret manager only.,repo storage forbidden
 allow_real_send,bool,false,Second kill switch.,false blocks all sends
 requires_cli_send_real_flag,bool,true,CLI explicit --send-real required.,missing flag blocks
 requires_manual_confirmation,bool,true,Operator confirms batch/message.,missing confirmation blocks

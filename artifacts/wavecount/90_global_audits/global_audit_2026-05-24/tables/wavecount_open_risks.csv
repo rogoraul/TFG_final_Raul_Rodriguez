@@ -1,8 +1,0 @@
-risk_id,severity,description,mitigation
-prominence_size,medium,conteos demasiado pequenos para timeframe,formalizar penalizacion blanda en 2.5.4
-ABC,medium_high,ABC aislado puede etiquetar impulsos como correcciones,usar solo con padre/contexto; redisenar correcciones mas adelante
-partial_123,medium,parciales pueden ser ruido o 4-5 previa,mantener provisional y no usar como semilla operativa
-EWO,medium,momentum puede ayudar pero tambien confundir,contexto relativo; no umbrales absolutos ni SVM todavia
-EMA_HTF,medium,HTF puede llegar tarde o rescatar conteos malos,"filtro blando, no hard filter"
-live_readiness,high,muchas fases son diagnosticas retrospectivas,antes de live proteger causalidad y latencia
-scope_creep,high,riesgo de convertir WaveCount en estrategia,mantenerlo como lectura visual hasta validacion mucho mayor

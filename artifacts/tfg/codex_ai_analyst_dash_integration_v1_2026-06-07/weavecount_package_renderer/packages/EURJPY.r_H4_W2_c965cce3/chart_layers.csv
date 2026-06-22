@@ -1,8 +1,0 @@
-case_id,symbol,timeframe,layer_type,label,x,price,point_kind,sequence,is_operational,start_time,end_time,start_price,end_price,is_current
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,wavecount_point,origen,2026-05-29 08:00:00,185.183,pivot,0,False,,,,,
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,wavecount_point,W1,2026-06-02 12:00:00,186.2,pivot,1,False,,,,,
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,wavecount_point,W2?,2026-06-04 04:00:00,185.328,current,2,False,,,,,
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,wavecount_segment,W1 tramo,,,,0,False,2026-05-29 08:00:00,2026-06-02 12:00:00,185.183,186.2,False
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,wavecount_segment,W2? tramo,,,,1,False,2026-06-02 12:00:00,2026-06-04 04:00:00,186.2,185.328,True
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,activation_level,activacion,,186.2,,,False,,,,,
-weavecount_screener_h1_h4_v1|EURJPY.r|H4|W2?|2026-06-05 16:00:00,EURJPY.r,H4,invalidation_level,invalidacion,,185.183,,,False,,,,,

@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS live_context_snapshot_rows (
   generated_at DATETIME(6) NOT NULL,
   symbol VARCHAR(32) NOT NULL,
   market_group VARCHAR(64) NOT NULL DEFAULT 'not_available',
-  strategy VARCHAR(96) NOT NULL DEFAULT 'enbolsa:macd_breakout',
+  strategy VARCHAR(96) NOT NULL DEFAULT 'macd_breakout',
   timeframe_ltf VARCHAR(16) NOT NULL,
   timeframe_htf VARCHAR(16) NOT NULL,
   last_closed_bar_time DATETIME(6) NULL,

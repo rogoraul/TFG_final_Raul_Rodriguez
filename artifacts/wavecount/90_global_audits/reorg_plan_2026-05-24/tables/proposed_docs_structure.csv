@@ -1,9 +1,0 @@
-proposed_path,purpose,action
-docs/wavecount/INDEX.md,"single entry point, current status and review instructions",create first
-docs/wavecount/01_formalizacion,formalization and methodological overview,future
-docs/wavecount/02_pivots_and_swings,phase 1 to 1.6 docs,future
-docs/wavecount/03_counts_and_visual_review,phase 2 and 2.3 docs,future
-docs/wavecount/04_context_and_corrections,phase 2.4 docs,future
-docs/wavecount/05_guided_profile,phase 2.5 docs,future
-docs/wavecount/90_audits,global/reorg audits,future
-docs/wavecount/99_legacy,old docs kept for traceability,future

@@ -6,7 +6,7 @@
   "sender_gate_implemented": false,
   "telegram_connected": false,
   "telegram_real_messages_sent": 0,
-  "telegram_tokens_created": false,
+  "messaging_credentials_created": false,
   "telegram_bot_created": false,
   "sql_real_written": false,
   "ddl_executed": false,

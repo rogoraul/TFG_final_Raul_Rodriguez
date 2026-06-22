@@ -1,5 +1,5 @@
 check,status,value
-screener_artifact_exists,pass,C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv
+screener_artifact_exists,pass,artifacts\tfg\weavecount_screener_h1_h4_v1_2026-06-01\weavecount_screener.csv
 symbols_evaluated,pass,47
 symbol_timeframes_evaluated,pass,94
 active_count,observed,0

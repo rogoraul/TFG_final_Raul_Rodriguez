@@ -1,2 +1,0 @@
-issue_id,severity,status,description,mitigation
-MG-FC-01,none,closed_fail_closed,blocked_network_disabled,Keep allow_network_call false until explicit model-call phase.

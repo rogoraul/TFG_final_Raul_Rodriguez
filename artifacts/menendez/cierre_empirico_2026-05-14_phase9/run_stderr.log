@@ -1,2 +1,2 @@
-C:\Users\ralr1\Desktop\CD\TFG\TFG-Raul_Rodriguez\data\sql\sql_funcs.py:108: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+data\sql\sql_funcs.py:108: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
   df = pd.read_sql(query, connection)

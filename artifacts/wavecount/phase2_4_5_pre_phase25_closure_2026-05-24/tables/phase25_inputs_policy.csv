@@ -1,7 +1,0 @@
-input,policy,phase25_use,notes
-H4/D1,primary,Base timeframe stack for guided search prototype.,H4 count-only first; D1 only as soft context.
-H1/H4,auxiliary,Substructure and robustness checks.,Do not let it outweigh H4/D1.
-M30/H1,microstructure_auxiliary,Failure-bank and internal structure only.,Manual review showed more micro/lateral noise.
-intermediate,primary_degree,Default swing degree.,Best visual compromise from degree calibration.
-major,context_or_higher_degree,Context and optional higher-degree candidate.,"Can be operable as a higher degree, but not automatically superior."
-minor,substructure_only,Internal wave structure and diagnostics.,Not primary for main WaveCount state.

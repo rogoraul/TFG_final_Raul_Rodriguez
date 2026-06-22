@@ -1,5 +1,5 @@
 """
-Pipeline ENBOLSA MTF.
+Pipeline multi-timeframe para setups formalizados.
 
 Motor de backtest sin look-ahead para:
   - fib_limit
