@@ -73,41 +73,31 @@ sustituir los controles de riesgo descritos en la memoria.
 \phantomsection
 \addcontentsline{toc}{chapter}{Resumen}
 \begin{resumen}
-Este Trabajo de Fin de Grado desarrolla un sistema de Ciencia de Datos aplicado
-al an\'alisis de estrategias de trading. En este trabajo, el trading se entiende
-como el estudio de reglas de compra y venta sobre activos financieros a partir
-de datos de mercado. El
-objetivo es integrar, ordenar y evaluar esa informaci\'on de forma reproducible,
-transformando criterios t\'ecnicos originalmente visuales en reglas calculables y
-presentando los resultados en una plataforma interactiva de visualizaci\'on y
-revisi\'on. No se busca construir un bot de producci\'on, sino un flujo
-supervisado que ayude a agilizar la consulta, comparar reglas y conservar
-evidencias trazables.
+Este Trabajo de Fin de Grado desarrolla un sistema de Ciencia de Datos para
+analizar reglas de trading, entendido como el estudio de decisiones de compra y
+venta sobre activos financieros a partir de datos de mercado. El objetivo es
+ordenar la informaci\'on disponible, transformar criterios visuales en reglas
+calculables, compararlas de forma reproducible y mostrar la evidencia en una
+plataforma interactiva. No se busca construir un bot de producci\'on, sino un
+flujo supervisado que agilice la revisi\'on y conserve trazabilidad.
 
-La metodolog\'ia utiliza series de precios intradiarias y diarias para convertir
-criterios de an\'alisis t\'ecnico y de Ondas de Elliott en reglas calculables y
-revisables. Entre las referencias metodol\'ogicas utilizadas se incluye el
-enfoque de Men\'endez Larre, que resulta \'util para mostrar c\'omo una
-interpretaci\'on visual de ondas puede trasladarse a condiciones evaluables sobre
-datos. Las reglas se prueban mediante backtesting, una simulaci\'on con datos
-hist\'oricos bajo condiciones fijadas previamente. En ese proceso, cada
-decisi\'on se calcula utilizando solo la informaci\'on que habr\'ia estado
-disponible en ese momento. Adem\'as, WaveCount se plantea como la l\'inea de
-trabajo dedicada a representar conteos de ondas sobre los datos. WeaveCount es
-su integraci\'on visual dentro del dashboard para revisar esas hip\'otesis como
-contexto de an\'alisis, no como \'ordenes autom\'aticas.
+La metodolog\'ia utiliza series de precios intradiarias y diarias. Sobre ellas se
+formalizan reglas inspiradas en an\'alisis t\'ecnico y Ondas de Elliott, con apoyo
+del enfoque de Men\'endez Larre para trasladar lecturas visuales de ondas a
+condiciones evaluables sobre datos. Las reglas se prueban mediante backtesting,
+es decir, simulaciones con datos hist\'oricos, controlando que cada decisi\'on use
+solo informaci\'on disponible en ese momento. WaveCount representa conteos de
+ondas sobre datos; WeaveCount los integra visualmente en el dashboard como
+contexto de revisi\'on, no como \'ordenes autom\'aticas.
 
-El sistema resultante se materializa en el Trading Center Dashboard, la
-plataforma interactiva desde la que se revisan datos, candidatos de estudio,
-correlaciones, conteos de ondas, informes de apoyo y estado del bot. Esta
-revisi\'on puede conectarse, bajo condiciones expl\'icitas y controladas, con el
-MT5 Bot para pruebas controladas en entorno demo y con Telegram como canal
-informativo sobre el estado del sistema. En los resultados, la estrategia
-basada en rupturas de precio apoyadas por el MACD ofrece la lectura comparativa
-m\'as consistente dentro del bloque experimental principal. El MACD es un
-indicador que compara medias m\'oviles del precio, mientras que otros enfoques
-presentan mayor irregularidad o un valor principalmente metodol\'ogico. El c\'odigo y el
-material reproducible del proyecto se encuentran disponibles en
+El resultado principal es el Trading Center Dashboard, que re\'une datos,
+candidatos de estudio, correlaciones, conteos, informes de apoyo y estado del
+bot. El sistema se complementa con conexi\'on controlada a MetaTrader 5, Telegram
+informativo y AI Analyst como asistente de revisi\'on. Los resultados se\~nalan que
+la regla que formaliza una hip\'otesis de Elliott basada en impulso y correcci\'on,
+y que se activa mediante una ruptura de precio apoyada en medias m\'oviles,
+ofrece la lectura m\'as consistente del experimento principal. El c\'odigo y el
+material reproducible se encuentran en
 \url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}. La operaci\'on en
 real, la autonom\'ia operativa y la gesti\'on integral de cartera quedan fuera del
 alcance.
@@ -118,43 +108,34 @@ alcance.
 \addcontentsline{toc}{chapter}{Abstract}
 \begin{abstract}
 This Bachelor's Thesis develops a Data Science system for analysing trading
-strategies, understood as buy and sell rules over financial assets using market
-data. The aim is to integrate, organise and evaluate that information in a
-reproducible way, transforming originally visual technical criteria into
-computable rules and presenting the results through an interactive visualisation
-and review platform. The goal is not to build a production trading bot, but to
-provide a supervised workflow that makes market review faster, supports rule
-comparison and preserves traceable evidence.
+rules, understood as buy and sell decisions over financial assets using market
+data. The aim is to organise available information, transform visual criteria
+into computable rules, compare them reproducibly and present the evidence in an
+interactive platform. The goal is not to build a production trading bot, but to
+provide a supervised workflow that makes review faster and keeps the process
+traceable.
 
-The methodology uses intraday and daily price series to convert technical
-analysis and Elliott Wave criteria into computable and reviewable rules
-\cite{frost_prechter_1985_elliott}. Among the methodological references, the
-work includes Men\'endez Larre's approach, which helps illustrate how a visual
-wave interpretation can be translated into conditions that can be evaluated
-using data \cite{menendez_larre_2016_ondas}. The rules are evaluated through
-backtesting, understood as a historical simulation carried out under predefined
-conditions. In this process, each decision is computed using only the
-information that would have been available at that moment. WaveCount is
-introduced as the line of work devoted to representing wave counts over data,
-whereas WeaveCount is its visual integration within the dashboard, used to
-review those hypotheses as analytical context rather than as automatic trading
-orders.
+The methodology uses intraday and daily price series. On top of these data, the
+work formalises rules inspired by technical analysis and Elliott Wave theory
+\cite{frost_prechter_1985_elliott}. Men\'endez Larre's approach is used as one
+methodological reference for translating visual wave readings into conditions
+that can be evaluated on data \cite{menendez_larre_2016_ondas}. The rules are
+tested through backtesting, understood as historical simulation, while ensuring
+that each decision only uses information available at that point. WaveCount
+represents wave counts over data; WeaveCount integrates them visually into the
+dashboard as review context, not as automatic trading orders.
 
-The resulting system takes shape in the Trading Center Dashboard, the
-interactive platform from which data, study candidates, correlations, wave
-counts, supporting reports and bot status are reviewed. Under explicit and
-controlled conditions, this review can be connected to the MT5 Bot for
-controlled tests in a demo environment and to Telegram as an informational
-channel for reporting the state of the system. The results show that the
-strategy based on price breakouts supported by MACD provides the most consistent
-result within the main experimental comparison. MACD is an
-indicator that compares price moving averages. The remaining approaches show
-greater irregularity or mainly methodological value
+The main result is the Trading Center Dashboard, which brings together data,
+study candidates, correlations, wave counts, supporting reports and bot status.
+The system is complemented by a controlled connection to MetaTrader 5, Telegram
+as an informational channel and AI Analyst as a review assistant. The results
+indicate that the rule formalising an Elliott-based impulse-and-correction
+hypothesis, activated through a price breakout supported by moving averages,
+gives the most consistent reading in the main experiment
 \cite{pardo_2008_trading_strategies,bailey_etal_2017_backtest_overfitting}. The
-project code and reproducible material are available at
+code and reproducible material are available at
 \url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}. Real-money trading,
-autonomous operation and full portfolio management remain outside the scope of
-this work.
+autonomous operation and full portfolio management remain outside the scope.
 \end{abstract}
 \cleardoublepage
 
@@ -162,43 +143,34 @@ this work.
 \addcontentsline{toc}{chapter}{Resum}
 \begin{resum}
 \shorthandoff{'}
-Aquest Treball de Fi de Grau desenvolupa un sistema de Ci\`encia de Dades aplicat
-a l'an\`alisi d'estrat\`egies de trading. En aquest treball, el trading s'ent\'en
-com l'estudi de regles de compra i venda sobre actius financers a partir de
-dades de mercat. L'objectiu \'es
-integrar, ordenar i avaluar aquesta informaci\'o de manera reprodu\"ible,
-transformant criteris t\`ecnics originalment visuals en regles calculables i
-presentant els resultats en una plataforma interactiva de visualitzaci\'o i
-revisi\'o. No es busca construir un bot de producci\'o, sin\'o un flux supervisat
-que ajude a agilitzar la consulta, comparar regles i conservar evid\`encies
-tra\c{c}ables.
+Aquest Treball de Fi de Grau desenvolupa un sistema de Ci\`encia de Dades per a
+analitzar regles de trading, ent\'es com l'estudi de decisions de compra i venda
+sobre actius financers a partir de dades de mercat. L'objectiu \'es ordenar la
+informaci\'o disponible, transformar criteris visuals en regles calculables,
+comparar-les de manera reprodu\"ible i mostrar l'evid\`encia en una plataforma
+interactiva. No es busca construir un bot de producci\'o, sin\'o un flux supervisat
+que agilitze la revisi\'o i conserve tra\c{c}abilitat.
 
-La metodologia utilitza s\`eries de preus intradi\`aries i di\`aries per convertir
-criteris d'an\`alisi t\`ecnica i d'Ones d'Elliott en regles calculables i
-revisables. Entre les refer\`encies metodol\`ogiques utilitzades s'inclou
-l'enfocament de Men\'endez Larre, que resulta \'util per mostrar com una
-interpretaci\'o visual d'ones pot traslladar-se a condicions avaluables sobre
-dades. Les regles es proven mitjan\c{c}ant backtesting, una simulaci\'o amb dades
-hist\`oriques sota condicions fixades pr\`eviament. En aquest proc\'es, cada
-decisi\'o es calcula utilitzant nom\'es informaci\'o disponible en aquell moment.
-A m\'es, WaveCount es planteja com la l\'inia de treball dedicada a representar
-comptatges d'ones sobre les dades. WeaveCount \'es la seua integraci\'o visual
-dins del dashboard per revisar aquestes hip\`otesis com a context d'an\`alisi, no
-com a ordres autom\`atiques.
+La metodologia utilitza s\`eries de preus intradi\`aries i di\`aries. Sobre aquestes
+dades es formalitzen regles inspirades en l'an\`alisi t\`ecnica i les Ones
+d'Elliott, amb suport de l'enfocament de Men\'endez Larre per traslladar lectures
+visuals d'ones a condicions avaluables sobre dades. Les regles es proven
+mitjan\c{c}ant backtesting, \'es a dir, simulacions amb dades hist\`oriques,
+controlant que cada decisi\'o use nom\'es informaci\'o disponible en aquell moment.
+WaveCount representa comptatges d'ones sobre dades; WeaveCount els integra
+visualment en el dashboard com a context de revisi\'o, no com a ordres
+autom\`atiques.
 
-El sistema resultant es materialitza en el Trading Center Dashboard, la
-plataforma interactiva des de la qual es revisen dades, candidats d'estudi,
-correlacions, comptatges d'ones, informes de suport i estat del bot. Aquesta
-revisi\'o pot connectar-se, sota condicions expl\'icites i controlades, amb el MT5
-Bot per a proves controlades en entorn demo i amb Telegram com a canal informatiu
-sobre l'estat del sistema. En els resultats, l'estrat\`egia basada en ruptures de
-preu amb suport del MACD ofereix la lectura comparativa m\'es consistent dins del
-bloc experimental principal. El MACD \'es un indicador que compara mitjanes
-m\`obils del preu, mentre que altres enfocaments presenten m\'es irregularitat o un
-valor principalment metodol\`ogic. El codi i el material reprodu\"ible del projecte es
-troben disponibles en \url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}.
-L'operaci\'o en real, l'autonomia operativa i la gesti\'o integral de cartera
-queden fora de l'abast.
+El resultat principal \'es el Trading Center Dashboard, que reuneix dades,
+candidats d'estudi, correlacions, comptatges, informes de suport i estat del
+bot. El sistema es complementa amb connexi\'o controlada a MetaTrader 5, Telegram
+informatiu i AI Analyst com a assistent de revisi\'o. Els resultats indiquen que
+la regla que formalitza una hip\`otesi d'Elliott basada en impuls i correcci\'o, i
+que s'activa mitjan\c{c}ant una ruptura de preu amb suport de mitjanes m\`obils,
+ofereix la lectura m\'es consistent de l'experiment principal. El codi i el
+material reprodu\"ible es troben en
+\url{https://github.com/rogoraul/TFG_final_Raul_Rodriguez}. L'operaci\'o en real,
+l'autonomia operativa i la gesti\'o integral de cartera queden fora de l'abast.
 \shorthandon{'}
 \end{resum}
 \cleardoublepage

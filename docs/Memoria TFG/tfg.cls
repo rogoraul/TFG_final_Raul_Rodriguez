@@ -368,7 +368,7 @@ pdfauthor=\@author}
   %Información del capítulo en la parte exterior
   \fancyhead[EL,OR]{Capítulo \thechapter}
   % Información del número de página en la parte interior
-  \fancyhead[OL,ER]{Página \thepage}
+  \fancyhead[OL,ER]{\thepage}
   \renewcommand{\headrulewidth}{1pt}
   \fancyfoot{}
 }
@@ -377,7 +377,7 @@ pdfauthor=\@author}
   %Información del capítulo en la parte exterior
   \fancyhead[EL,OR]{Anexos}
   % Información del número de página en la parte interior
-  \fancyhead[OL,ER]{Página \thepage}
+  \fancyhead[OL,ER]{\thepage}
   \renewcommand{\headrulewidth}{1pt}
   \fancyfoot{}
 }
@@ -385,7 +385,7 @@ pdfauthor=\@author}
 
 \fancypagestyle{bibliography}{%
   \fancyhead[EL,OR]{Bibliograf\'ia}
-  \fancyhead[OL,ER]{P\'agina \thepage}
+  \fancyhead[OL,ER]{\thepage}
   \renewcommand{\headrulewidth}{1pt}
   \fancyfoot{}
 }
